@@ -94,7 +94,7 @@
       if (e.roomType && e.roomType.startsWith('2인')) add(BASE.room2, d, { unit: '일' });
     }
     S.where('orders', (o) => encIds.includes(o.encId) && !o.outside && !['NUR', 'DIET', 'CONSULT'].includes(o.cat)).forEach((o) => {
-      if (F.isOff(o)) return;
+      if (F.isOff(o) || (o.adj && o.adj.drop)) return;
       if (!done(o)) { pend.push(o); return; }
       const it = H.M.item(o.code); const price = it.price || 0;
       const qty = o.cat === 'MED' || o.cat === 'INJ' ? (o.qty || 1) : 1;
@@ -117,7 +117,9 @@
       const g = (groups[l.group] = groups[l.group] || { self: 0, ins: 0, non: 0, total: 0 });
       g.total += l.amount;
       if (!l.pay) { g.non += l.amount; non += l.amount; l.self = l.amount; l.ins = 0; return; }
-      const rate = l.meal ? r.meal : e.type === 'IPD' ? r.ipd : r.opd;
+      const fullConsult = l.group === '진찰료' && e.type === 'OPD' && String(p.ins || '').startsWith('건강') && !specialOf(p);
+      const rate = l.meal ? r.meal : e.type === 'IPD' ? r.ipd : fullConsult ? 1 : r.opd;
+      if (fullConsult && !r.notes.includes('상급종합 외래 진찰료 전액 본인부담')) r.notes.push('상급종합 외래 진찰료 전액 본인부담');
       l.self = floor10(l.amount * rate); l.ins = l.amount - l.self; l.rate = rate;
       g.self += l.self; g.ins += l.ins; pay += l.amount; self += l.self; ins += l.ins;
     });
@@ -163,6 +165,7 @@
     const seen = {};
     c.lines.filter((l) => l.orderId).forEach((l) => {
       const o = S.get('orders', l.orderId); const it = H.M.item(o.code); const day = H.t.d(o.at);
+      if (o.annot) return; // 주석(사용 사유)을 단 처방은 심사에서 인정되는 것으로 봄 (교육용)
       const k = o.code + day;
       if (o.cat === 'LAB' || o.cat === 'RAD') { if (seen[k]) res.push({ type: '삭감', code: 'C', name: l.name, orderId: o.id, cut: l.ins, reason: '같은 날 같은 검사 중복 청구' }); seen[k] = 1; }
       if (o.code === 'L1008' && !dx.some((d) => ['A41.9', 'R65.1'].includes(d))) res.push({ type: '삭감', code: 'A', name: l.name, orderId: o.id, cut: l.ins, reason: '프로칼시토닌 검사는 패혈증 등 중증 세균 감염이 의심될 때 인정 — 해당 상병 없음' });

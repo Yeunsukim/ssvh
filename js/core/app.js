@@ -34,6 +34,7 @@
       if (!user) id = 'login';
       else if (id === 'login') id = 'map';
       if (!H.mods[id]) id = 'map';
+      if (A.syncTab && id !== 'login') A.syncTab(id);
       if (A.st.mod !== id) { A.st.mod = id; const m = H.mods[id]; if (m.onEnter) m.onEnter(); }
       const m = H.mods[id];
       document.title = id === 'login' || id === 'map' ? 'SSV 병원 전산 실습' : `${m.title} · SSV 병원 전산 실습`;
@@ -44,8 +45,8 @@
         const list = m.layout === 'patient' ? A.listHtml(m) : '';
         const side = m.side ? m.side() : '';
         const wsCls = m.layout === 'patient' ? (side ? '' : 'no-side') : side ? 'full-side' : 'full';
-        root.innerHTML = `${A.topbar(m)}${m.layout === 'patient' ? A.banner() : ''}
-          ${m.layout === 'page' ? m.render() : `<div class="ws ${wsCls}">${list}<main class="main" id="main">${m.render()}</main>${side ? `<aside class="side">${side}</aside>` : ''}</div>`}
+        root.innerHTML = `${A.topbar(m)}<div class="shell ${A.shellCls ? A.shellCls() : ''}">${A.navHtml ? A.navHtml() : ''}${A.navMob ? '<div class="snav-back" data-act="nav.toggle"></div>' : ''}<div class="shell-main">${A.tabbarHtml ? A.tabbarHtml() : ''}${m.layout === 'patient' ? A.banner() : ''}
+          ${m.layout === 'page' ? m.render() : `<div class="ws ${wsCls}">${list}<main class="main" id="main">${m.render()}</main>${side ? `<aside class="side">${side}</aside>` : ''}</div>`}</div></div>
           ${A.statusbar()}`;
       }
       const lb = root.querySelector('.plist-body'); if (lb) lb.scrollTop = keep.list;
@@ -61,14 +62,16 @@
       const n = A.myNotifs().filter((x) => !x.read).length;
       const fs = S.prefs().fs || 'l';
       const dark = document.documentElement.dataset.theme === 'dark' || (!document.documentElement.dataset.theme && matchMedia('(prefers-color-scheme: dark)').matches);
+      const navOff = A.shellCls && A.shellCls().includes('nav-off');
       return `<header class="topbar">
+        <button class="tb-btn tb-menu" data-act="nav.toggle" aria-label="부서 메뉴 ${navOff ? '열기' : '닫기'}">${H.icon('menu')}<span>${navOff ? '메뉴 열기' : '메뉴 접기'}</span></button>
         <button class="logo" data-act="shell.home" style="background:none;border:0;color:inherit;cursor:pointer;padding:0" aria-label="부서 지도로">
           <span class="logo-mark">SSV</span><span>SSV 병원<small>병원 전산 실습</small></span></button>
-        ${m.id !== 'map' ? `<div class="dept-pill"><span class="k">지금 일하는 곳</span><span class="v">${esc(m.title)} · ${esc(m.actor || '')}</span></div>` : '<div class="dept-pill"><span class="k">지금</span><span class="v">일할 곳 고르기</span></div>'}
+        ${m.id !== 'map' ? `<div class="dept-pill"><span class="k">지금 일하는 곳</span><span class="v">${esc((A.groupName && A.groupName(A.st.tabKey, m.id)) || m.title)}</span></div>` : '<div class="dept-pill"><span class="k">지금</span><span class="v">일할 곳 고르기</span></div>'}
         <span class="spacer"></span>
         <span class="tb-user">${u.role === 'instructor' ? '교수자' : '학생'} <b>${esc(u.name)}</b>${u.sid ? ` · ${esc(u.sid)}` : ''}</span>
         ${m.id !== 'map' ? `<button class="tb-btn" data-act="shell.bell" aria-label="알림 ${n}건">${H.icon('bell')}<span>알림</span>${n ? `<span class="cnt">${n}</span>` : ''}</button>` : ''}
-        <button class="tb-btn" data-act="shell.home">${H.icon('swap')}<span>직군 바꾸기</span></button>
+        <button class="tb-btn" data-act="shell.home">${H.icon('home')}<span>부서 지도</span></button>
         <button class="tb-btn" data-act="shell.theme" aria-label="화면 밝기 바꾸기">${H.icon(dark ? 'sun' : 'moon')}<span>${dark ? '밝게' : '어둡게'}</span></button>
         <button class="tb-btn" data-act="shell.fs" aria-label="글씨 크기 바꾸기">${H.icon('text')}<span>글씨 ${{ m: '보통', l: '크게', xl: '아주 크게' }[fs]}</span></button>
         <button class="tb-btn" data-act="shell.logout">${H.icon('logout')}<span>나가기</span></button>
@@ -144,7 +147,7 @@
 
   // ── 공통 동작 ──
   const SHELL = {
-    'shell.home': () => A.go('map'),
+    'shell.home': () => { if (A.activate) A.activate('map'); A.go('map'); },
     'shell.pick': (el) => { A.selectPatient(el.dataset.pid, el.dataset.enc || null); const m = A.mod(); if (m.onPick) m.onPick(); },
     'shell.theme': () => {
       const root = document.documentElement;
@@ -165,7 +168,7 @@
       if (!(await UI.confirm({ title: '나가기', text: '로그아웃할까요?\n실습 기록은 이 브라우저에 그대로 남습니다.', ok: '로그아웃' }))) return;
       H.log('로그아웃');
       S.setSession({});
-      A.st = { mod: null, pid: null, encId: null };
+      A.st = { mod: null, pid: null, encId: null, tabKey: 'map' }; A.tabs = [];
       A.go('login');
     },
     'shell.bell': () => {
@@ -196,6 +199,7 @@
     const md = UI._modal;
     if (md && md.acts && md.acts[act]) return md.acts[act](el, data, e);
     if (SHELL[act]) return SHELL[act](el, data, e);
+    if (A.navActs && A.navActs[act]) return A.navActs[act](el, data, e);
     const m = A.mod();
     if (m && m.acts && m.acts[act]) return m.acts[act](el, data, e);
     if (H.common && H.common[act]) return H.common[act](el, data, e);
@@ -211,6 +215,8 @@
     S.load();
     const nav = S.session().nav;
     if (nav) { A.st.pid = nav.pid || null; A.st.encId = nav.encId || null; Object.assign(A.st, nav.mods || {}); }
+    if (A.loadTabs) A.loadTabs();
+    window.addEventListener('resize', () => { clearTimeout(A._rz); A._rz = setTimeout(() => { const n = matchMedia('(max-width: 1000px)').matches; if (n !== A._narrow) { A._narrow = n; A.navMob = false; A.render(); } }, 200); });
 
     document.addEventListener('click', (e) => {
       const pk = e.target.closest('[data-pickv]');

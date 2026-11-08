@@ -55,13 +55,13 @@
   // ── 부서 지도 ──
   // [행, 열, 이름, 종류, 갈 곳]  종류: his(주황) core(파랑) mgmt(초록) ext(회색) dash(점선)
   const NODES = [
-    [1, 1, '그룹웨어', 'ext', 'nadmin'], [1, 2, '통합인사', 'core', 'nadmin'], [1, 4, '경리회계', 'mgmt', 'billing'], [1, 5, '교육/안전', 'mgmt', 'nadmin'], [1, 6, '마약류신고', 'ext', 'pharmacy'], [1, 7, '물류/공급', 'core', 'supply'], [1, 8, '구매/재고', 'core', 'supply'], [1, 9, '시설/기타', 'core', 'qi'], [1, 10, '식약청신고', 'ext', 'pharmacy'],
-    [2, 1, 'SMS/알림톡', 'ext', 'appt'], [2, 2, '인사총무', 'mgmt', 'nadmin'], [2, 3, '교육수련', 'core', 'nadmin'], [2, 4, '예약/진료일정', 'core', 'appt'], [2, 5, '약/주사', 'core', 'pharmacy'], [2, 6, 'DUR/KIMS', 'ext', 'pharmacy'], [2, 7, '약무/조제', 'core', 'pharmacy'], [2, 8, '재활/물리', 'core', 'rehab'], [2, 9, '검수', 'core', 'supply'],
-    [3, 1, '홈페이지', 'ext', 'appt'], [3, 3, 'HIS Main', 'his', 'map'], [3, 4, '원무\n접수수납', 'core', 'reg'], [3, 5, '외래/간호', 'core', 'opdnurse'], [3, 6, '진료 OCS', 'his', 'ocs-opd'], [3, 7, '검사/채혈', 'core', 'phlebo'], [3, 8, '영상의학', 'core', 'radiology'], [3, 9, 'PACS', 'ext', 'radiology'],
-    [4, 1, '환자\n모바일', 'ext', 'appt'], [4, 2, '계약처\n청구/미수', 'core', 'billing'], [4, 3, '증명발급', 'core', 'billing'], [4, 6, '진료 EMR', 'his', 'ocs-ipd'], [4, 8, '진단검사\n/병리', 'core', 'lab'], [4, 9, 'CP', 'core', 'qi'], [4, 10, 'CI / QI', 'core', 'qi'],
-    [5, 1, '진료\n모바일', 'ext', 'ocs-ipd'], [5, 2, '진료협력\n/전원', 'core', 'referral'], [5, 4, '원무\n입퇴원', 'core', 'reg'], [5, 5, '입원/간호', 'core', 'ward'], [5, 6, '간호 EMR', 'his', 'ward'], [5, 7, 'ACK I/F', 'ext', 'lab'], [5, 8, '기능/기타', 'core', 'func'], [5, 9, '카디악', 'ext', 'cath'],
-    [6, 1, '자격조회', 'ext', 'billing'], [6, 2, '의뢰/회송', 'ext', 'referral'], [6, 3, '진단분석\n(KDRG)', 'core', 'mrd'], [6, 4, '심사\n사전/사후', 'core', 'review'], [6, 5, '응급/간호', 'core', 'ward-er'], [6, 6, '의료정보', 'core', 'mrd'], [6, 7, '영양/NST', 'core', 'nst'], [6, 8, '감염', 'core', 'infection'], [6, 9, '감염병신고', 'ext', 'infection'], [6, 10, '검진센터', 'dash', 'checkup'],
-    [7, 1, '심평원/\n행안부', 'ext', 'review'], [7, 2, '적정성평가', 'ext', 'qi'], [7, 3, '심결/삭감', 'core', 'review'], [7, 4, '청구/EDI', 'core', 'review'], [7, 5, 'NEDIS', 'ext', 'ocs-er'], [7, 6, '퇴원분석\n/미비', 'core', 'mrd'], [7, 7, '통계분석', 'core', 'mrd'], [7, 8, 'BI', 'ext', 'qi'], [7, 9, 'DA', 'ext', 'mrd'], [7, 10, '산업보건', 'dash', 'nadmin'],
+    [1, 1, '그룹웨어', 'ext', 'nadmin'], [1, 2, '통합인사', 'core', 'nadmin'], [1, 3, '고객관리\n(VOC·CRM)', 'core', 'cs-voc'], [1, 4, '경리회계', 'mgmt', 'billing'], [1, 5, '교육/안전', 'mgmt', 'nadmin'], [1, 6, '마약류신고', 'ext', 'pharmacy'], [1, 7, '물류/공급', 'core', 'supply'], [1, 8, '구매/재고', 'core', 'supply'], [1, 9, '시설/기타', 'core', 'qi'], [1, 10, '식약청신고', 'ext', 'pharmacy'],
+    [2, 1, 'SMS/알림톡', 'ext', 'appt'], [2, 2, '인사총무', 'mgmt', 'nadmin'], [2, 3, '교육수련', 'core', 'nadmin'], [2, 4, '예약/진료일정', 'core', 'resv'], [2, 5, '약/주사', 'core', 'pharmacy'], [2, 6, 'DUR/KIMS', 'ext', 'pharmacy'], [2, 7, '약무/조제', 'core', 'pharmacy'], [2, 8, '재활/물리', 'core', 'rehab'], [2, 9, '검수', 'core', 'supply'], [2, 10, '전화예약\n센터', 'core', 'callctr'],
+    [3, 1, '홈페이지', 'ext', 'resv'], [3, 3, 'HIS Main', 'his', 'map'], [3, 4, '원무\n접수수납', 'core', 'opdreg'], [3, 5, '외래/간호', 'core', 'opdnurse'], [3, 6, '진료 OCS', 'his', 'ocs-opd'], [3, 7, '검사/채혈', 'core', 'phlebo'], [3, 8, '영상의학', 'core', 'radiology'], [3, 9, 'PACS', 'ext', 'radiology'],
+    [4, 1, '환자\n모바일', 'ext', 'cs-pxe'], [4, 2, '계약처\n청구/미수', 'core', 'billing'], [4, 3, '증명발급', 'core', 'certdoc'], [4, 6, '진료 EMR', 'his', 'ocs-ipd'], [4, 8, '진단검사\n/병리', 'core', 'lab'], [4, 9, 'CP', 'core', 'qi'], [4, 10, 'CI / QI', 'core', 'qi'],
+    [5, 1, '진료\n모바일', 'ext', 'ocs-ipd'], [5, 2, '진료협력\n/전원', 'core', 'referral'], [5, 4, '원무\n입퇴원', 'core', 'admreg'], [5, 5, '입원/간호', 'core', 'ward'], [5, 6, '간호 EMR', 'his', 'ward'], [5, 7, 'ACK I/F', 'ext', 'lab'], [5, 8, '기능/기타', 'core', 'func'], [5, 9, '카디악', 'ext', 'cath'],
+    [6, 1, '자격조회', 'ext', 'opdreg'], [6, 2, '의뢰/회송', 'ext', 'cr-transfer'], [6, 3, '진단분석\n(KDRG)', 'core', 'mi-anal'], [6, 4, '심사\n사전/사후', 'core', 'dcreview'], [6, 5, '응급/간호', 'core', 'ward-er'], [6, 6, '의료정보', 'core', 'mrd'], [6, 7, '영양/NST', 'core', 'nst'], [6, 8, '감염', 'core', 'infection'], [6, 9, '감염병신고', 'ext', 'infection'], [6, 10, '검진센터', 'dash', 'checkup'],
+    [7, 1, '심평원/\n행안부', 'ext', 'review'], [7, 2, '적정성평가', 'ext', 'qi'], [7, 3, '심결/삭감', 'core', 'appeal'], [7, 4, '청구/EDI', 'core', 'review'], [7, 5, 'NEDIS', 'ext', 'ocs-er'], [7, 6, '퇴원분석\n/미비', 'core', 'mi-dc1'], [7, 7, '통계분석', 'core', 'cr-dash'], [7, 8, 'BI', 'ext', 'qi'], [7, 9, 'DA', 'ext', 'mrd'], [7, 10, '산업보건', 'dash', 'nadmin'],
   ];
   const LIVE = { includes: (t) => !!t && !/^s\d/.test(t) && t !== 'map' };
 
@@ -74,12 +74,14 @@
       ['cath', '심혈관센터', '응급 심근경색·조영술·스텐트'], ['endo', '내시경실', '장 정결·진정·조직검사·소독'], ['injection', '주사실', '외래 주사·이상반응·항암 주사'] ] },
     { t: '간호 — 전문 분야', d: '병동 밖에서 전문 간호사가 일하는 곳입니다.', list: [
       ['homecare', '가정간호', '방문 준비·방문 기록·욕창'], ['rehab', '재활', '근력·균형·일상생활 평가'], ['radonc', '방사선종양', '치료 회차·피부 부작용'], ['transplant', '장기이식 코디네이터', '대기자·뇌사 기증 9단계'],
-      ['infection', '감염관리', '격리·신고·감시·손위생'], ['nst', '영양집중지원 (NST)', '영양 평가·배식 집계'], ['checkup', '종합검진센터', '문진·동선·판정·상담'], ['func', '기능검사 (심전도 등)', '심전도 판독·폐기능'] ] },
+      ['infection', '감염관리', '격리·신고·감시·손위생'], ['nst', '영양집중지원 (NST)', '영양 평가·배식 집계'], ['checkup', '종합검진센터', '문진·동선·판정·상담'], ['func', '기능검사실', '심전도·심초음파·폐기능·신경생리'] ] },
     { t: '진료 지원', d: '처방을 받아 조제하고, 채혈·검사·촬영·판독하고, 멸균 기구를 공급합니다.', list: [
-      ['pharmacy', '약제부', '감사·조제·집계·불출'], ['phlebo', '채혈실', '라벨·채혈'], ['lab', '진단검사의학과', '접수·결과·위험값·혈액은행'], ['radiology', '영상의학과·PACS', '접수·촬영·판독'], ['pathology', '병리과', '접수·육안·슬라이드·판독'], ['csr', '중앙공급실', '세척·포장·멸균·불출'] ] },
-    { t: '원무 · 심사 · 의료정보', d: '접수에서 수납·보험 청구·기록 관리까지 병원 행정 업무입니다.', list: [
-      ['reg', '원무 접수·입원 수속', '등록·외래·응급·입원'], ['billing', '원무 수납·정산', '수납·영수증·자격·제증명'], ['review', '퇴원 심사·보험 청구', '심사·EDI·삭감·이의신청'], ['mrd', '의료정보', '퇴원분석·미비·코딩·사본'],
-      ['referral', '진료협력센터', '의뢰·전원·회송·회신'], ['appt', '예약센터', '예약·도착 접수·문자'] ] },
+      ['pharmacy', '약제부', '감사·조제·집계·불출'], ['phlebo', '채혈실', '라벨·채혈'], ['lab', '진단검사의학과', '자동화·혈액·요·미생물·분자·위탁·혈액은행·정도관리'], ['radiology', '영상의학과·PACS', '조영제실·일반·CT·MRI·투시·유방·골밀도·초음파·핵의학'], ['pathology', '병리과', '접수·육안·슬라이드·판독'], ['csr', '중앙공급실', '세척·포장·멸균·불출'] ] },
+    { t: '원무 · 심사 · 의료정보', d: '실제 병원 원무·심사 화면과 같은 배치로 접수부터 청구·이의신청까지 합니다.', list: [
+      ['opdreg', '외래 등록', '보험·할인·의뢰·진찰료'], ['opdpay', '외래 수납', '할인·감액·미수·카드·현금영수증'], ['admreg', '입원 등록', '병실·보증금·약정서·보증인'], ['ipdpay', '입원 정산 (퇴원 수납)', '중간정산·DRG 열외군·영수증'],
+      ['certdoc', '제증명', '진단서 등 21종 코드별 발급'], ['dcreview', '퇴원 심사 (DRG 심사)', '처방·상병·주석 심사'], ['postreview', '입원 사후 심사', '명세서·POA·심사 1·2차'], ['review', '청구·EDI', '명세서 송신·심사결과'],
+      ['reclaim', '재청구·이의신청', '반송 재생성·1·2차 이의신청'], ['mrd', '의료정보', '퇴원분석·미비·코딩·사본'], ['referral', '진료협력센터', '의뢰·전원·회송·회신'], ['appt', '예약센터', '예약·도착 접수·문자'],
+      ['reg', '원무 (간편 화면)', '처음 배우는 학생용'], ['billing', '원무 수납 (간편 화면)', '계산 원리 이해용'] ] },
     { t: '관리 · 행정', d: '병원이 안전하고 잘 돌아가게 하는 일입니다. 수간호사·QI 간호사·보건관리자가 맡습니다.', list: [
       ['qi', '질향상·환자안전', '사건 보고·지표·CP·적정성'], ['supply', '구매·재고 (물류)', '재고·청구·발주·검수'], ['nadmin', '간호행정·교육·보건', '근무표·필수 교육·직원 건강'] ] },
   ];
@@ -103,14 +105,14 @@
         return `<button class="node ${kind} ${live ? 'live' : ''}" style="grid-row:${r};grid-column:${c}" ${target(tt)} ${t ? '' : 'disabled'}>${esc(label).replace('\n', '<br>')}</button>`;
       }).join('');
       return `<div class="map-page">
-        <div class="map-head"><div class="grow"><h1>${esc(u.name)} 님, 오늘은 어디에서 일할까요?</h1><p>병원 전산 지도에서 부서를 누르거나, 아래 직무 목록에서 고르세요. "실습 가능" 표시가 있는 곳은 지금 바로 일할 수 있습니다.</p></div>
+        <div class="map-head"><div class="grow"><h1>${esc(u.name)} 님, 오늘은 어디에서 일할까요?</h1><p>병원 전산 지도에서 부서를 누르거나, 아래 직종별 부서에서 고르세요. "실습 가능" 표시가 있는 곳은 지금 바로 일할 수 있습니다.</p></div>
           ${u.role === 'instructor' ? UI.btn('교수자 화면', 'map.go', { kind: 'pri', size: 'lg', icon: 'clip', data: { v: 'instructor' } }) : UI.btn('내 실습 기록 보기', 'map.go', { size: 'lg', icon: 'list', data: { v: 'instructor' } })}</div>
         <div class="his-map-wrap"><div class="his-map">${zone(1)}${zone(4)}${zone(6)}${nodes}</div></div>
         <div class="legend"><span><i style="border-color:#E07A1F"></i>핵심 전산 (HIS·OCS·EMR)</span><span><i style="border-color:var(--t-sent)"></i>병원 업무</span><span><i style="border-color:#5E9E3A"></i>경영 지원</span><span><i style="border-color:var(--line-strong);background:var(--surface-3)"></i>외부 연계 기관·시스템</span><span><i style="border-color:var(--t-stat);border-style:dashed"></i>업무 구역 경계</span></div>
-        <div class="job-groups">${JOBS.map((g) => `<section class="job-group"><h3>${esc(g.t)}</h3><p>${esc(g.d)}</p><div class="job-list">${g.list.map(([t, name, sub]) => {
-          const soon = /^s\d/.test(t);
-          return `<button class="job ${soon ? 'soon' : ''}" ${target(t)}><b>${esc(name)}</b><span>${soon ? '준비 중 · ' : ''}${esc(sub)}</span></button>`;
-        }).join('')}</div></section>`).join('')}</div>
+        <div class="job-groups">${H.NAV.map((g) => { const ds = g.depts.filter((d) => d.items.some((it) => H.mods[it[1]])); if (!ds.length) return '';
+          return `<section class="job-group"><h3>${esc(g.g)}</h3><div class="job-list">${ds.map((d) => { const k = g.g + '/' + d.d; const on = A.st.mapOpen === k;
+            return `<button class="job ${on ? 'open' : ''}" data-act="map.dept" data-k="${esc(k)}" aria-expanded="${on}"><span class="arw">${on ? '▾' : '▸'}</span><b>${esc(d.d === '실습 관리' && u.role !== 'instructor' ? '실습 관리 (내 기록)' : d.d)}</b></button>${on ? `<div class="job-sub">${d.items.filter((it) => H.mods[it[1]]).map((it) => `<button class="job-i" data-act="nav.open" data-v="${it[1]}" data-unit="${it[2] || ''}" data-label="${esc(it[0])}"><span class="muted">${esc(g.g)} › ${esc(d.d)} ›</span> <b>${esc(it[0])}</b></button>`).join('')}</div>` : ''}`; }).join('')}</div></section>`; }).join('')}</div>
+        <p class="small muted" style="margin:0">부서를 누르면 그 아래에 메뉴가 펼쳐집니다 (한 번에 한 부서만). 메뉴를 누르면 위쪽 탭으로 열립니다.</p>
       </div>`;
     },
     acts: {
@@ -123,7 +125,13 @@
           A.st.ward.board = true;
         }
         H.log('직군 선택', el.textContent.trim().split('\n')[0]);
-        A.go(v);
+        if (A.open) A.open(v, v === 'ward' ? A.st.ward.unit : ''); else A.go(v);
+      },
+      'map.dept': (el) => {
+        const k = el.dataset.k; A.st.mapOpen = A.st.mapOpen === k ? null : k;
+        // 왼쪽 메뉴도 같은 곳만 펼침 (다른 곳은 닫음)
+        if (A.st.mapOpen) { const [g, d] = k.split('/'); const o = {}; H.NAV.forEach((x) => { o['g:' + x.g] = x.g === g; x.depts.forEach((y) => { o['d:' + x.g + '/' + y.d] = x.g === g && y.d === d; }); }); S.setPref('navOpen', o); }
+        A.render();
       },
       'map.soon': (el) => { A.st.soon = { phase: el.dataset.phase, name: el.dataset.name || el.querySelector('b')?.textContent || el.textContent.trim() }; A.go('soon'); },
     },

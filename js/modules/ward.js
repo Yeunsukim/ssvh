@@ -136,7 +136,7 @@
     const act = S.where('orders', (o) => o.patientId === p.id && o.encId === e.id && !F.isOff(o) && (!F.isDone(o) || ['MED', 'INJ', 'NUR', 'DIET'].includes(o.cat))).sort((a, b) => a.cat.localeCompare(b.cat));
     const draw = S.where('orders', (o) => o.patientId === p.id && o.cat === 'LAB' && o.status === '전송' && o.code !== 'L1026');
     const bst = S.where('orders', (o) => o.patientId === p.id && o.code === 'L1026' && o.status === '전송');
-    const proc = S.where('orders', (o) => o.patientId === p.id && o.cat === 'PROC' && o.status === '전송');
+    const proc = S.where('orders', (o) => o.patientId === p.id && o.cat === 'PROC' && o.status === '전송' && !(H.M.item(o.code) || {}).func);
     const nur = S.where('orders', (o) => o.patientId === p.id && o.cat === 'NUR' && !F.isOff(o));
     const ops = S.where('orders', (o) => o.patientId === p.id && o.cat === 'OP' && ['전송', '수술확정'].includes(o.status));
     const opPanel = ops.map((o) => { const op = o.op || {}; return `<div class="panel" style="border-color:var(--t-sent)"><div class="panel-h" style="background:var(--t-sent-soft)"><h3>수술 전 준비 — ${esc(o.name)}</h3>${F.chip(o)}</div><div class="panel-b">

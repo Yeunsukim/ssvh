@@ -193,6 +193,17 @@
         ${checks('e', ['열 38℃ 이상이면 바로 응급실 (호중구 감소 — 감염 위험)', '구토 약 집에서 먹는 법', '입안 염증 예방 — 부드러운 칫솔·가글', '탈모는 일시적, 머리 보호', '소변이 붉을 수 있음 (독소루비신 색)', `다음 회차: 3주 뒤 (${c.cycle + 1 <= c.of ? `${c.cycle + 1}/${c.of}회차` : '마지막'})`, '사용한 항암 물품은 전용 폐기통에'])}
         <div class="btn-row end">${UI.btn('항암 회차 완료', '', { type: 'submit', kind: 'pri', size: 'lg' })}</div></div></form></div>`;
   }
+  // 외래 처치실: 외래에서 낸 처치 처방(기능검사 제외)을 시행
+  const opdProcs = () => S.where('orders', (o) => o.encType === 'OPD' && o.cat === 'PROC' && !(H.M.item(o.code) || {}).func && o.status === '전송');
+  function iProc() {
+    const list = opdProcs(); const done = S.where('orders', (o) => o.encType === 'OPD' && o.cat === 'PROC' && !(H.M.item(o.code) || {}).func && o.status === '시행완료' && o.result && o.result.at >= T.startOfDay());
+    return `<div class="gap-m">${UI.note('외래 처치실: 외래 진료에서 낸 처치(상처 소독·도뇨·콧줄·분무 치료·부목 등)를 시행합니다. 환자 확인 → 설명·동의 → 손위생·무균술 → 시행 → 관찰 → 기록 순서입니다. 기록하면 처방이 "시행완료"가 되어 수납·청구로 이어집니다.', 'info')}
+      ${list.map((o) => { const p = H.pat(o.patientId); return `<form data-submit="ij.proc" class="box" style="background:var(--surface)"><input type="hidden" name="id" value="${o.id}"><div class="row between"><div><b>${esc(p.name)}</b> <span class="small muted">${H.sexAge(p)} · ${esc(p.mrn)}</span></div><b>${esc(o.name)}</b></div>${o.note ? `<p class="small muted" style="margin:.2rem 0">처방 메모: ${esc(o.note)}</p>` : ''}
+        ${checks('c', ['환자 확인 (이름·생년월일 두 가지)', '처치 목적·방법 설명, 동의 받음', '손위생·무균술 (멸균 장갑·소독)', '처치 후 통증·출혈·불편감 관찰'])}
+        ${UI.input('find', '시행 소견 (상처 상태·배출물·환자 반응)', '')}
+        <div class="btn-row end">${UI.btn('시행완료 기록', '', { type: 'submit', kind: 'pri' })}</div></form>`; }).join('') || UI.empty('외래 처치 대기가 없습니다', '외래 진료에서 처치 처방을 내면 여기에 나타납니다.')}
+      ${UI.sec('오늘 시행한 처치')}${UI.table([{ h: '시각' }, { h: '환자' }, { h: '처치' }, { h: '소견' }, { h: '시행자' }], done.map((o) => [`<span class="num">${T.hm(o.result.at)}</span>`, esc(H.pat(o.patientId).name), esc(o.name), esc(o.result.findings || '-'), esc(o.result.by)]), { empty: '<p class="muted small">없음</p>' })}</div>`;
+  }
   function iLog() {
     const today = S.where('mar', (m) => m.at >= T.startOfDay() && (S.get('orders', m.orderId) || {}).encType === 'OPD');
     return `<div class="gap-m"><div class="grid3"><div class="box"><div class="small muted">오늘 주사</div><div class="score-big">${today.length}건</div></div><div class="box"><div class="small muted">이상반응</div><div class="score-big">${S.where('recs', (r) => r.kind === 'adr' && r.at >= T.startOfDay()).length}건</div></div><div class="box"><div class="small muted">관찰 중</div><div class="score-big">${obsList().length}명</div></div></div>
@@ -205,10 +216,12 @@
     render() {
       const tab = ms('tab', 'queue');
       const tabs = [{ id: 'queue', label: '주사 대기·시행', icon: 'drop', cnt: injs().filter((o) => !H.M.item(o.code).chemo && !given(o) && o.status === '불출').length || '' }, { id: 'obs', label: '관찰·이상반응', icon: 'alert', cnt: obsList().length || '' }, { id: 'chemo', label: '항암 주사', icon: 'pill' }, { id: 'log', label: '주사실 일지', icon: 'list' }];
-      return `<div class="panel">${UI.tabs('ij.tab', tabs, tab)}<div class="panel-b">${{ queue: iQueue, obs: iObs, chemo: iChemo, log: iLog }[tab]()}</div></div>`;
+      tabs.splice(1, 0, { id: 'proc', label: '외래 처치실', cnt: opdProcs().length || '' });
+      return `<div class="panel">${UI.tabs('ij.tab', tabs, tab)}<div class="panel-b">${({ queue: iQueue, proc: iProc, obs: iObs, chemo: iChemo, log: iLog }[tab] || iQueue)()}</div></div>`;
     },
     acts: {
       'ij.tab': (el) => { set('tab', el.dataset.v); A.render(); },
+      'ij.proc': (f, d) => { const c = Array.isArray(d.c) ? d.c : []; if (c.length < 4) return UI.toast('네 가지를 모두 확인하세요', 'warn'); const o = S.get('orders', d.id); F.advance(o, '시행완료', { result: { at: Date.now(), by: H.who(), findings: d.find || '특이 소견 없음' } }); H.addRec('opdproc', o.patientId, { orderId: o.id, name: o.name, find: d.find }); UI.toast('처치 시행완료 — 수납 자료로 넘어갑니다', 'ok'); A.render(); },
       'ij.cp': (el) => { set('cp', el.dataset.v); A.render(); },
       'ij.give': (el) => {
         const o = S.get('orders', el.dataset.id); const p = H.pat(o.patientId); const iv = o.route === 'IV';
