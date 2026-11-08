@@ -1,0 +1,550 @@
+1001	Negative-pressure isolation
+1002	Integrated nursing care
+1003	Itemized fee (fee-for-service)
+1004	Bundled payment (# disease-group DRG)
+1005	New bundled payment
+1006	Appendectomy
+1007	Cesarean delivery
+1008	Uterus·adnexa surgery
+1009	Hernia surgery
+1010	Anal surgery
+1011	Tonsil surgery
+1012	Lens surgery
+1013	Not calculated
+1014	Charged from admission day
+1015	Reduction band
+1016	Ceiling band
+1017	No (booking only)
+1018	Consent
+1019	OPD transfer amount
+1020	Same-day OPD paid
+1021	Deposit (admission deposit)
+1022	Deposit·OPD transfer amount are deducted as "previously paid" at discharge settlement. Medical Aid·workers' comp usually have no deposit.
+1023	OPD·ER payment
+1024	M/#y · Workers' comp · Emergency Medicine
+1025	F/#y · NHI · Breast Surgery
+1026	M/#y · NHI · Internal Medicine
+1027	M/#y · NHI · Emergency Medicine
+1028	F/#y · NHI · Emergency Medicine
+1029	Amount
+1030	No matching patients
+1031	M/#y · NHI · # d
+1032	F/#y · NHI · # d
+1033	No interim receivable
+1034	Search
+1035	Select certificate
+1036	Certificate remarks
+1037	Copies
+1038	Reissue
+1039	Save draft
+1040	Patient diagnoses
+1041	EMR record lookup
+1042	Load
+1043	Physician ID
+1044	ER visit details
+1045	Write referral/back-referral request
+1046	Issue history
+1047	Onset date
+1048	No issue history
+1049	Injury certificate
+1050	Certified true copy
+1051	Issue no.
+1052	(assigned on issue)
+1053	Patient name
+1054	ICD code
+1055	Onset date
+1056	Diagnosis date
+1057	Treatment and
+1058	future treatment opinion
+1059	Inpatient·Outpatient
+1060	For insurer
+1061	Remarks
+1062	Diagnosed as above under Article # of the Medical Service Act. #
+1063	※ Educational virtual form · fee ₩# × # copies (within MOHW certificate fee cap)
+1064	Save changes
+1065	Issue (₩#)
+1066	Length of stay
+1067	View consent
+1068	Write consent
+1069	Sent/received documents
+1070	Unsent documents (#)
+1071	■ Patient info [consent not written]
+1072	Patient name
+1073	Age
+1074	Consent status
+1075	■ Transmission info
+1076	Document
+1077	Back-referral letter
+1078	Care summary
+1079	License no.
+1080	■ Receiving institution
+1081	Family Medicine
+1082	■ Diagnoses
+1083	Medications·Injections
+1084	Specimen tests
+1085	Surgery·Procedures
+1086	Allergy/Adverse reactions
+1087	Vaccination history
+1088	Vital signs
+1089	Smoking·Alcohol
+1090	Glucose/Blood type
+1091	Imaging reports
+1092	■ Booking info
+1093	■ Opinion and referral/back-referral reason
+1094	Opinion and precautions
+1095	Referral·back-referral reason
+1096	Past history
+1097	■ Referral/back-referral info (HIRA link)
+1098	Follow-up observation (back-referral)
+1099	■ Attachments
+1100	No attachments
+1101	Add (lab report)
+1102	Up to # files, total # MB
+1103	View document
+1104	Write document (save)
+1105	Write medical record
+1106	Fill example text
+1107	If this is your first time, fill the example and then edit it.
+1108	Chief complaint (CC)
+1109	Present illness (onset·course)
+1110	Past history·Medications·Allergies
+1111	Assessment (Dx)
+1112	View records (#)
+1113	Liver function (AST·ALT·bilirubin·albumin)
+1114	Result
+1115	Urinalysis
+1116	Time
+1117	Confirm
+1118	Total medical charges
+1119	Insurer share (NHIS etc.)
+1120	Patient share (to pay)
+1121	Copay ₩# + non-covered ₩#
+1122	Copay rate
+1123	Meals #%
+1124	Tertiary hospital rules (simplified for education): NHI OPD #%·inpatient #%·meals #% / Medical Aid type # OPD ₩#·inpatient #% / type # OPD #%·inpatient #% / workers' comp·auto insurance paid by insurer / special exemption cancer·heart·brain #%, dialysis·rare #%
+1125	NHIS share
+1126	View itemized calculation
+1127	Preview bill
+1128	Amount due
+1129	Payment method
+1130	Credit card
+1131	Bank transfer
+1132	Cash + cash receipt
+1133	Amount received (cash — change calculation)
+1134	Verify patient identity (ID card)
+1135	Explain the bill (copay·non-covered)
+1136	Eligibility lookup·change
+1137	At registration·payment, NHIS eligibility is checked. If eligibility changes (e.g. NHI → Medical Aid, workers' comp approved), the copay changes.
+1138	NHIS eligibility lookup (virtual)
+1139	Workers' comp approval no. / auto-insurance claim no. (if any)
+1140	Insurer·institution name (if any)
+1141	Save eligibility
+1142	Register special exemption
+1143	Special exemption: lowers the copay to #~#% for cancer·heart·cerebrovascular·rare disease·severe burn·dialysis patients. Apply to NHIS after the physician's diagnosis.
+1144	Exemption type
+1145	Unregister / none
+1146	V# Cancer special exemption (#%)
+1147	V# Cerebrovascular exemption (craniotomy etc.) (#%)
+1148	V# Cardiac exemption (PCI·open-heart surgery) (#%)
+1149	V# Hemodialysis exemption (#%)
+1150	V# Rare disease exemption (#%)
+1151	V# Severe burn exemption (#%)
+1152	Check physician's application·confirmatory test results
+1153	Save exemption
+1154	General medical certificate
+1155	Medical opinion
+1156	Admission·discharge certificate
+1157	Surgery certificate
+1158	Payment certificate (for tax)
+1159	Medical record copy
+1160	General medical certificate — fee ₩# · non-covered (within MOHW cap)
+1161	Onset date
+1162	Treatment·future opinion (written by physician)
+1163	Insurance claim
+1164	Verify applicant identity (privacy)
+1165	Issue log
+1166	No documents issued
+1167	Anesthesia fee
+1168	Content
+1169	Revenue type
+1170	Covered materials
+1171	Covered procedure fee
+1172	Hospital surcharge
+1173	Designated care
+1174	Coverage type
+1175	Paid?
+1176	Order type
+1177	Performed date
+1178	Order time
+1179	Fee applied
+1180	Blood unit no.
+1181	Bundled fee
+1182	Save entries
+1183	Send referral/back-referral
+1184	Search by order name·ingredient (e.g. ceftriaxone, glucose)
+1185	Admission note
+1186	Normal saline #L (#% NaCl)
+1187	Acetaminophen tab #mg
+1188	Received in lab
+1189	Specimen intake
+1190	Automation (chemistry·immunology)
+1191	Send-out tests
+1192	Verification·Report
+1193	Quality control
+1194	Contrast room
+1195	General radiography
+1196	Fluoroscopy·Angiography
+1197	Mammography·Bone densitometry
+1198	Performance record
+1199	Angina pectoris, unspecified
+1200	Gastrointestinal hemorrhage
+1201	None yet
+1202	No special exemption registered.
+1203	No transfusion history
+1204	Patient no.
+1205	Row
+1206	# / F
+1207	Composition
+1208	(assigned on sending)
+1209	Head of household
+1210	Suspected diagnosis code
+1211	Suspected diagnosis
+1212	Sub-specialty
+1213	Registered outpatients are shown in visit order.
+1214	No medical records
+1215	# (day #)
+1216	Discharge medication
+1217	#g · IV · # times/day × # d
+1218	Blood culture (# sets)
+1219	Shown in acuity (KTAS) order. Lower numbers are more urgent.
+1220	Morphine inj #mg
+1221	Applied
+1222	Dose
+1223	#A Medical ward board — Day shift (#–#)
+1224	Ward supply·safety check
+1225	Click a patient to open that patient's nursing screen. At shift start, begin with ① handoff.
+1226	Bed
+1227	COPD with acute exacerbation
+1228	Ward activity log (this shift)
+1229	NHIS (reviewed by HIRA)
+1230	#.All
+1231	Discharge dept
+1232	Yellow (SST)
+1233	Infection
+1234	S Situation
+1235	B Background
+1236	A Assessment
+1237	#mL · IV · continuous × # d
+1238	#mg · oral · # times/day × # d
+1239	Allergy
+1240	진말순
+1241	송태수
+1242	# (planned)
+1243	Sent
+1244	Not checked
+1245	Provisional discharge reason
+1246	OPD booking
+1247	Order date
+1248	Inpatient/Outpatient
+1249	No orders
+1250	Partial mastectomy + sentinel node biopsy
+1251	Total hip arthroplasty
+1252	Percutaneous coronary intervention (stent)
+1253	Category
+1254	Gross examination
+1255	Imaging fee
+1256	Procedure & surgery fee
+1257	Emergency management fee
+1258	Rehabilitation Medicine
+1259	Counseling log
+1260	Expiry
+1261	Surgery·Rounds
+1262	Imaging
+1263	Room charge (tertiary general ward, multi-bed)
+1264	Procedure
+1265	Deficiency registration
+1266	Measured
+1267	Diabetic diet #kcal
+1268	Discharge decision
+1269	Routine orders are dispensed in batch by pharmacy up to the next morning dose; additional orders are dispensed immediately. Before the discharge decision, prepare discharge medications (order type: discharge med) and the discharge summary.
+1270	Order type
+1271	Routine
+1272	Additional
+1273	Breast Surgery · General anesthesia · about # min — request goes to the OR
+1274	OB/GYN · Spinal anesthesia · about # min — request goes to the OR
+1275	Orthopedics · Spinal anesthesia · about # min — request goes to the OR
+1276	Cardiology · Local anesthesia · about # min — request goes to the OR
+1277	Neurosurgery · General anesthesia · about # min — request goes to the OR
+1278	Discharge summary
+1279	Treatment
+1280	Regular diet
+1281	#mg · oral · PRN
+1282	Medication
+1283	Continuous infusion
+1284	Fall risk (Morse)
+1285	Medication & dispensing fee
+1286	Cancer exemption V# (#%)
+1287	Discharge review
+1288	Patient safety event report
+1289	In procedure
+1290	Select an OPD·ER patient on the left
+1291	Annotation review
+1292	Special code
+1293	Reason
+1294	Save
+1295	Discharge analysis (I)
+1296	Yes
+1297	Discharge summary
+1298	Admitting dept
+1299	Order name
+1300	Negative
+1301	Patient accounts
+1302	Health information
+1303	Nurse
+1304	Central supply
+1305	Laboratory Medicine
+1306	Radiology
+1307	Function test lab
+1308	F/#y · #
+1309	F/#y · # · NHI
+1310	M/#y · #
+1311	Admission decision
+1312	R Recommendation
+1313	Shown by ward·room order.
+1314	Percutaneous coronary intervention (PCI·stent)
+1315	Rejected
+1316	Print labels
+1317	No records
+1318	X-ray
+1319	Specimen arrived
+1320	Slide preparation
+1321	Reading·Report
+1322	Inpatient #%
+1323	Check discharge meds·next OPD booking
+1324	Interim settlement payment
+1325	Single delivery by cesarean section
+1326	Deficient records
+1327	Disease·procedure coding
+1328	Critical
+1329	OR room #
+1330	Consumables
+1331	SMS
+1332	Cancel
+1333	Meals (regular diet, # meals)
+1334	Select an inpatient on the left
+1335	Planned discharge = physician's decision / provisional = before discharge review / final = discharge after payment
+1336	Medical
+1337	Surgical
+1338	Admitted # ~ still admitted
+1339	Search
+1340	Patient rights
+1341	Insurance class
+1342	Admitted
+1343	Monthly trend
+1344	Referral
+1345	Reaction
+1346	No known allergies
+1347	☑ Date-based search
+1348	Transfer referral search
+1349	Change referral
+1350	EMR view
+1351	Consult reply
+1352	Barcode scan
+1353	Referral/back-referral targets
+1354	Include replies
+1355	Form
+1356	Referral date
+1357	Shared notes
+1358	Other messages
+1359	Save memo
+1360	#.Referral letter
+1361	#.Medical Aid referral
+1362	#.NHI back-referral
+1363	#.NHI referral
+1364	#.Reply letter
+1365	Sent·Received list
+1366	Referral no.
+1367	Search start date
+1368	Operating room
+1369	Cardiovascular center
+1370	Endoscopy unit
+1371	Pathology
+1372	Patient accounts team
+1373	Booking center
+1374	Nutrition team
+1375	Evaluation
+1376	Low-salt diet (salt ≤ #g)
+1377	Echocardiography
+1378	#mL per hour
+1379	Urinalysis (U/A)
+1380	Urine culture
+1381	Packed RBC # units
+1382	Sputum culture·Gram stain
+1383	Cardiovascular
+1384	Immediate
+1385	Order review
+1386	Dispensing
+1387	Ward totals·Issue
+1388	Outside prescription
+1389	Narcotics control
+1390	Blood type (ABO/Rh)
+1391	Impression
+1392	View
+1393	No specimens waiting
+1394	Pathology orders from OPD·wards arrive here.
+1395	(Yellow (SST))
+1396	Capillary glucose before meals·bedtime (# times/day)
+1397	Fall precautions (side rails up)
+1398	Regular insulin (RI) injection
+1399	Losartan tab #mg
+1400	# times a day
+1401	Guardian
+1402	No (#)
+1403	Yes (#)
+1404	Score
+1405	Systolic BP
+1406	Diastolic BP
+1407	Pain (#~#)
+1408	Kind
+1409	Fall prevention
+1410	How to take medication
+1411	Life after discharge
+1412	Diabetes self-care (insulin·glucose check)
+1413	Pre-op preparation
+1414	Deep breathing·coughing exercise
+1415	Low-salt diet
+1416	Infection prevention (hand hygiene)
+1417	How to express pain
+1418	Anticoagulant precautions
+1419	Breastfeeding
+1420	Newborn care (bath·umbilicus·jaundice watch)
+1421	Postpartum care (uterine contraction·lochia)
+1422	Dialysis diet (potassium·phosphorus·fluid limits)
+1423	AV fistula care
+1424	Early ambulation·deep breathing after surgery
+1425	Memo
+1426	Intake·output (I/O) measurement
+1427	Outpatient #%
+1428	Prescription·next booking info
+1429	Payment completed
+1430	Claim statements
+1431	EDI send/receive
+1432	Cuts·returns·appeals
+1433	Claim statistics
+1434	Discharge analysis
+1435	Record copy·viewing
+1436	Isolation·MDRO
+1437	Notifiable disease report
+1438	HAI surveillance
+1439	Hand hygiene observation
+1440	Staff exposure (needlestick)
+1441	@ (ER)
+1442	@ (ICU)
+1443	ECG lab
+1444	Echocardiography lab
+1445	Pulmonary function lab
+1446	Neurophysiology lab
+1447	Item
+1448	Partner clinics
+1449	Quality indicators
+1450	Clinical pathway (CP)
+1451	Adequacy assessment
+1452	Facility·safety check
+1453	Met
+1454	Charge nurse
+1455	Pre-procedure prep
+1456	Post-procedure observation
+1457	Procedure completed
+1458	Injection queue·administration
+1459	Outpatient treatment room
+1460	Observation·Adverse reactions
+1461	Chemotherapy injection
+1462	Injection room log
+1463	# unperformed orders are excluded from this payment: #-lead ECG, percutaneous coronary intervention (PCI·stent)
+1464	# unperformed orders are excluded from this payment: #-lead ECG
+1465	OPD #
+1466	Main/Sub
+1467	Discharge time
+1468	Sub-type
+1469	@ · #~#
+1470	Review #
+1471	Close
+1472	# @
+1473	None
+1474	@ (self)
+1475	# Tertiary
+1476	Original request
+1477	Suspected
+1478	External cause of injury
+1479	Treatment result
+1480	Fixed rate
+1481	O# Cesarean
+1482	Compliment
+1483	Complaint
+1484	Nursing service
+1485	Physician service
+1486	Medication & treatment process
+1487	Hospital environment
+1488	Overall rating
+1489	Waiting # min
+1490	Answer call
+1491	Treatment result
+1492	Discharge type
+1493	Dx status
+1494	Stay status
+1495	Dept
+1496	Order lookup
+1497	☞ Patient basic info
+1498	Age/Sex
+1499	Specialist
+1500	Admission/Discharge date
+1501	Discharge analysis I
+1502	Discharge analysis II · Dx classification
+1503	Procedure classification
+1504	Info sheet (cancer registry)
+1505	Lab tests
+1506	Physician signature
+1507	■ A. Patient information
+1508	Referral/back-referral type
+1509	Information sharing consent
+1510	Insurance card no.
+1511	Name
+1512	Mobile no.
+1513	Guardian no.
+1514	■ C. Patient status and clinical opinion
+1515	Diagnosis code
+1516	Clinical opinion
+1517	■ D. Clinical information
+1518	Form name
+1519	Date
+1520	No clinical information with results
+1521	■ E. Imaging information
+1522	No images
+1523	Receiving institution
+1524	Urgent care reason
+1525	Data link check
+1526	Data rule table
+1527	Order flow rule table
+1528	For DB connection
+1529	Data protection
+1530	Every # h (Q#H)
+1531	Eligibility lookup
+1532	Claims review
+1533	Dialysis unit
+1534	Health checkup center
+1535	Customer relations office
+1536	Care coordination center
+1537	M/#y · # · NHI
+1538	No diagnosis yet
+1539	Tissue biopsy
+1540	Cytology (FNA)
+1541	Sputum cytology
+1542	Pap smear
+1543	Surgical resection specimen
+1544	Immunohistochemistry (additional)
+1545	Frozen section (intraoperative)
+1546	Essential (primary) hypertension
+1547	Past history
+1548	Chest X-ray (PA)
+1549	Abdominal ultrasound
+1550	Chest X-ray (portable AP)

@@ -1,0 +1,450 @@
+1	@
+2	@ (#)
+3	F/#y
+4	M/#y
+5	National Health Insurance
+6	Admission
+7	Admitted
+8	Outpatient
+9	MRN
+10	₩#
+11	F/#y · NHI
+12	Visit done
+13	Insurance
+14	Location
+15	Room # Bed #
+16	Diagnosis
+17	Blood type
+18	Waiting
+19	Internal Medicine @
+20	Ht·Wt
+21	Dept·Attending
+22	M/#y · NHI
+23	Queue #
+24	Room # Bed #
+25	Sent
+26	STAT
+27	Department
+28	Card payment
+29	Patient
+30	Reduction
+31	Receivable
+32	Certificates
+33	Discount
+34	Bank transfer
+35	Mobile [patient]
+36	Other [home]
+37	Vehicle no.
+38	Remarks
+39	Status
+40	Emergency Medicine @
+41	General
+42	Transfusion claim
+43	Prenatal support (Happy Card)
+44	Cash receipt
+45	M/#y · NHI · #A
+46	# items
+47	Dispensed
+48	Sub-reason
+49	Medical Aid Type #
+50	Date of birth
+51	F/#y · no active visit
+52	Cardiology @
+53	Select a patient on the left
+54	General Surgery
+55	Airborne precautions
+56	Blood precautions
+57	Enhanced contact precautions
+58	Contact precautions
+59	Droplet precautions
+60	Protective isolation
+61	Postal code
+62	Mobile [guardian]
+63	Address detail
+64	Name [English]
+65	Outside-Rx exception
+66	Other
+67	Internal Medicine #
+68	Pre-visit prep needed
+69	General Surgery @
+70	Consultation fee
+71	Payment
+72	Insurer code
+73	Lab
+74	M/#y · no active visit
+75	Insurance type
+76	Visit date
+77	Neurosurgery @
+78	Discount code
+79	ICU Surgical-#
+80	Type
+81	Done
+82	@ (MD)
+83	Total charges
+84	View results
+85	In consultation
+86	No diagnosis yet
+87	Obstetrics & Gynecology
+88	Covered amount
+89	Patient copay
+90	Insurer share
+91	Disability fund
+92	Advance payment
+93	Non-covered amount
+94	Designated-physician fee
+95	Total patient share
+96	Cash received
+97	Sub
+98	OPD registration
+99	ER registration
+100	Admission procedure
+101	Awaiting payment
+102	Physician
+103	# Not applicable
+104	Main/Sub
+105	Booked
+106	Not yet
+107	Workers' compensation
+108	OPD payment
+109	Ward
+110	Gastroenterology @
+111	Pre-procedure
+112	Main
+113	OB/GYN @
+114	Pediatrics @
+115	Fee-for-service revenue
+116	Billed orders
+117	Physician orders
+118	Transfusion claim
+119	Payment·Receipt (discount·reduction·card·receivable)
+120	Insurance # (full self-pay)
+121	Prepaid
+122	Rounding cut (under ₩#)
+123	Amount received
+124	Not issued
+125	Personal income deduction
+126	Business expense proof
+127	New patient registration
+128	Today's registrations
+129	LD Labor room-#
+130	Give injection
+131	Fee calculation
+132	Eligibility·Special exemption
+133	Contract billing·Receivables
+134	Schedule·Emergency call
+135	Pre-procedure prep
+136	Intra-procedure record
+137	Post-procedure observation
+138	Records·Indicators
+139	Booking·Pre-procedure education
+140	In procedure
+141	Recovery·Discharge home
+142	Cleaning·Disinfection
+143	Performs upper/lower endoscopy, ERCP and emergency hemostasis.
+144	Endoscopes touch mucosa inside the body, so they need "high-level disinfection". Record which scope was used on which patient so infections can be traced.
+145	Cleaning·Disinfection log
+146	Procedure used
+147	Wipe outside right after the procedure and suction detergent through the channel (bedside #st cleaning)
+148	Leak test
+149	Brush all channels with enzymatic detergent (manual cleaning)
+150	Rinse under running water
+151	Automated endoscope reprocessor — peracetic acid HLD (concentration test strip)
+152	Flush alcohol and air-dry
+153	Hang vertically in the scope storage cabinet
+154	Record disinfection done
+155	No disinfection records
+156	F/#y · NHI · #A
+157	M/#y · NHI · #B
+158	F/#y · NHI · Outpatient
+159	F/#y · NHI · LD
+160	Injection
+161	Completed procedures
+162	Mean door-to-balloon time
+163	Within # min rate
+164	No completed procedures
+165	Cardiovascular center quality indicator: the rate of "door-to-balloon within # min" for acute MI is part of the HIRA AMI quality assessment.
+166	Type
+167	Breast Surgery @
+168	Select a procedure patient on the left
+169	Performs coronary angiography·PCI (stent)·pacemaker procedures.
+170	# emergency patients
+171	Enter
+172	Form
+173	Transferred to ward
+174	Resident reg. no.
+175	Orders
+176	History
+177	None
+178	Covered
+179	M/#y · #A # (admitted)
+180	Time
+181	Open
+182	Internal Medicine
+183	Discount
+184	Select
+185	✓ Done
+186	Medical record
+187	Nurse notification·Consult
+188	ID verification
+189	Resident/Passport no.
+190	Name [Korean]
+191	# In-hospital dispensing (limited mobility)
+192	# Narcotics
+193	# Tuberculosis
+194	Same-day referral
+195	Insurance symbol
+196	New/Return
+197	Effective date
+198	ICU Medical-#
+199	High fall risk # pts
+200	Pressure ulcer risk # pts
+201	Acuity
+202	Cardiology
+203	Post-visit instructions
+204	Dept·Physician
+205	Neurology @
+206	#mg/m² · IV · once
+207	Hematology-Oncology @
+208	Referring hospital
+209	Find patient
+210	#-bed room (upgrade difference)
+211	Nursing notes
+212	Medication
+213	OR #
+214	Pre-visit prep
+215	Outpatient injection room
+216	#mg · IV · once
+217	Waiting for pharmacy
+218	Interim settlement
+219	@ # shift
+220	EMR view
+221	Insurer name
+222	Insurance card no.
+223	Insured person
+224	Insured reg. no.
+225	Relation to insured
+226	Self
+227	Spouse
+228	Child
+229	Parent
+230	Visit type
+231	Employee no.
+232	Employee name
+233	Department
+234	Relation
+235	Dispensing exception
+236	Employee discount
+237	Referring physician
+238	Auto insurance
+239	General (uninsured)
+240	Room
+241	Registration
+242	Patient name
+243	Pulse
+244	Temperature
+245	Order time
+246	Bundled
+247	● Connected
+248	SpO2
+249	NPO
+250	Blood pressure
+251	Respiration
+252	Proxy prescription confirmation
+253	Exception
+254	Emergency Medicine
+255	Email
+256	Referral letter
+257	Address
+258	Recent vital signs
+259	Settlement period
+260	Discharge bill
+261	Force order lookup
+262	Eligibility check
+263	Reissue receipt
+264	End date
+265	Grade
+266	DRG eligible
+267	Multi-bed room
+268	Low outlier
+269	Inlier
+270	Cost outlier
+271	High outlier
+272	# days or more
+273	Prenatal support balance ▶
+274	Diagnosis code ▶
+275	Still admitted — only interim settlement is possible before the discharge decision. For long stays, interim settlement every # weeks is recommended.
+276	Inpatient interim receivable
+277	Out-of-pocket ceiling: if the patient share paid in # year exceeds the income-based ceiling (e.g. ₩#~#0,000), NHIS refunds the excess — "ceiling advance" field (# won in practice).
+278	Designated care amount
+279	Ceiling advance
+280	Interim settlement ₩#
+281	Pulmonology @
+282	Total
+283	Payment method
+284	Cash
+285	All
+286	Nursing
+287	Injection fee
+288	Booking confirmed
+289	Consultation
+290	Lab fee
+291	Not performed
+292	NB Nursery-#
+293	Breast #
+294	Checkup #
+295	Hematology #
+296	GI #
+297	Cardio #
+298	Neuro #
+299	Surgery
+300	@ · General anesthesia
+301	F/#y · NHI · Internal Medicine
+302	Payment date
+303	No. #
+304	M/#y · Medical Aid Type # · #A
+305	M/#y · NHI · Outpatient
+306	F/#y · NHI · ER
+307	M/#y · NHI · ER
+308	M/#y · Workers' comp · ER
+309	M/#y · NHI · ICU
+310	F/#y · NHI · ICU
+311	M/day # · NHI · NB
+312	F/day # · NHI · NB
+313	F/#y · Medical Aid Type #
+314	M/#y · Auto insurance
+315	M/#y · Medical Aid Type #
+316	M/#y · Auto insurance · ICU
+317	Type sub
+318	Pharmacy
+319	Pain
+320	# pts
+321	AM
+322	Severe disease registration
+323	OPD Internal Medicine
+324	Consult request
+325	Complete blood count (CBC)
+326	Neurosurgery
+327	New visit
+328	Order check
+329	Nursing assessment
+330	# Booking
+331	Received
+332	Physician
+333	Via ER
+334	Admission route
+335	Day
+336	Laboratory
+337	Diet
+338	Handoff
+339	Previous shift nurse
+340	Shift schedule
+341	Medication (MAR)
+342	Vitals·I/O
+343	Communication (SBAR)
+344	Education·Rounding
+345	Emergency (Code Blue)
+346	Med no.
+347	Research fund #
+348	Change type
+349	HOLD/Non-cov
+350	Veterans benefit
+351	Fee calculation
+352	Split visit
+353	Force approve
+354	Dementia
+355	Receivable AlimTalk
+356	Recalculate
+357	Weekday
+358	Exemption Dx:
+359	Cancer severe
+360	Rare intractable
+361	Chronic disease
+362	Burn
+363	Eligibility info:
+364	Rare-disease support
+365	Rare-disease registered
+366	Near-poverty
+367	Refused (NTS self-issue)
+368	Paid ₩#
+369	Pneumonia, unspecified
+370	Unperformed orders #
+371	Return visit
+372	Acute pyelonephritis
+373	Not checked by nurse
+374	Before claim
+375	Pediatrics
+376	Congestive heart failure
+377	Cerebral infarction, unspecified
+378	Injection room
+379	Card
+380	No
+381	Gastroenterology
+382	# pts
+383	Breast Surgery
+384	Imaging
+385	Pathology
+386	Arrival route
+387	Function test
+388	Doxorubicin (chemo) #mg/m²
+389	Cyclophosphamide (chemo) #mg/m²
+390	Stage #
+391	Ondansetron inj #mg (chemo antiemetic)
+392	Iron inj (ferric carboxymaltose) #mg
+393	Vitamin B# IM #mg
+394	PM
+395	Uncoded
+396	Select a patient in the list on the left
+397	Dose·Method
+398	Result reported
+399	In progress
+400	#mg · IM · once
+401	Orthopedics @
+402	Nephrology @
+403	Information disclosure
+404	Contact
+405	F/#y · #A # (admitted)
+406	M/#y · #B # (admitted)
+407	F/#y · LD Labor room-# (admitted)
+408	Registration time
+409	ER Zone B-#
+410	ER Resuscitation-#
+411	ER Zone A-#
+412	Health Checkup @
+413	M/day #
+414	F/day #
+415	Rehabilitation Medicine @
+416	Walk-in
+417	Chief complaint
+418	#A Medical ward
+419	Multi-bed room (# beds, covered)
+420	Today's outpatients
+421	F/#y · Pneumonia, unspecified
+422	M/#y · Angina, unspecified
+423	F/#y · Acute pyelonephritis
+424	M/#y · Cerebral infarction, unspecified
+425	M/#y · Congestive heart failure
+426	M/#y · GI bleeding
+427	M/#y · COPD with acute exacerbation
+428	F/#y · Single spontaneous delivery
+429	Required
+430	Pre-dialysis
+431	This is a quick list. For detailed work (observation·adverse reactions·chemo) go to the department map's
+432	.
+433	F/#y · NHI · Neurology
+434	M/#y · NHI · Cardiology
+435	F/#y · NHI · Gastroenterology
+436	M/#y · NHI · Health Checkup
+437	F/#y · NHI · Hematology-Oncology
+438	Contract billing·Receivables: for workers' comp (KCOMWEL)·auto insurance (insurer)·company-contract patients, the hospital bills the payer directly and tracks the amount as a "receivable" until paid.
+439	Bill to
+440	Amount to bill
+441	Auto insurer (payment guarantee)
+442	Issue invoice
+443	Total receivables
+444	Room charge
+445	Visit #
+446	Visit planned
+447	Existing patient
+448	Sibling
+449	Eligibility verification
+450	Patient eligibility verification

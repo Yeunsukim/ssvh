@@ -1,0 +1,500 @@
+3201	F/day # · #kg
+3202	Nutrition team meal totals: count how many of each diet each ward needs per meal. Exclude NPO patients; therapeutic diets (diabetic·low-salt) are cooked separately.
+3203	Count
+3204	Diabetic diet (#kcal)
+3205	Soft diet
+3206	Small sips of water only
+3207	Breastfeeding (as needed)
+3208	Infection control nurse
+3209	MDRO detected: #
+3210	— contact isolation, #-bed room or cohort with same organism, dedicated stethoscope·BP cuff, gown·gloves
+3211	Organism
+3212	Current isolation
+3213	Sputum culture (preliminary)
+3214	Methicillin-resistant Staphylococcus aureus (MRSA)
+3215	Set·release isolation
+3216	Isolation type
+3217	Droplet isolation
+3218	Airborne isolation (negative-pressure room)
+3219	Protective isolation (immunocompromised)
+3220	Cause (organism·disease)
+3221	Save → notify ward
+3222	Patients currently isolated
+3223	Infectious Disease Control Act: report to the KDCA (local public health center) — class # immediately, classes #·# within # h, class # within # days.
+3224	Infectious disease
+3225	Tuberculosis — class # (report within # h)
+3226	Varicella — class # (report within # h)
+3227	Measles — class # (report immediately)
+3228	Carbapenem-resistant Enterobacteriaceae (CRE) — class # (report within # h)
+3229	Scrub typhus — class # (report within # h)
+3230	Influenza (sentinel surveillance) — class # (report within # days)
+3231	Coronavirus disease-# — class # (report within # days)
+3232	Severe fever with thrombocytopenia syndrome (SFTS) — class # (report within # h)
+3233	Suspected case
+3234	Pathogen carrier
+3235	Report to KDCA (virtual)
+3236	No report records
+3237	Healthcare-associated infection surveillance: compare infections per # device-days (rate = infections ÷ device-days × #). ICU standard.
+3238	Surveillance item
+3239	Device-days
+3240	Rate per # days
+3241	Infection type
+3242	Surgical site infection
+3243	Register infection case
+3244	(# observations)
+3245	Covertly observe and record the WHO # moments of hand hygiene. Hand hygiene is still required even when wearing gloves.
+3246	Observed job type
+3247	Nursing assistant
+3248	Transport staff
+3249	Therapist
+3250	#. Before touching a patient
+3251	#. Before aseptic procedure
+3252	#. After body fluid exposure risk
+3253	#. After touching a patient
+3254	#. After touching patient surroundings
+3255	Record observation
+3256	Function test staff (medical technologist)
+3257	Echocardiography lab: ultrasound of heart size·wall motion·valves·ejection fraction (EF, the proportion of blood pumped per beat). There are transthoracic (on the chest) and transesophageal (in the esophagus) exams.
+3258	Order memo: heart failure — check ejection fraction
+3259	Left ventricle
+3260	Right ventricle
+3261	Left atrium
+3262	Right atrium
+3263	Apical #-chamber view · EF #%
+3264	LV ejection fraction EF (%, normal ≥ #)
+3265	LV end-diastolic diameter (mm, ≤ #)
+3266	LV end-systolic diameter (mm)
+3267	RV systolic pressure (mmHg, ≤ #)
+3268	Wall motion
+3269	Anterior·septal hypokinesia
+3270	Global hypokinesia
+3271	Mitral valve
+3272	Mild regurgitation
+3273	Moderate regurgitation
+3274	Severe regurgitation
+3275	Aortic valve
+3276	Sclerosis (calcification)
+3277	Regurgitation
+3278	Pericardial effusion
+3279	Small
+3280	Moderate or more (suspect tamponade)
+3281	Left lateral decubitus (heart closer to chest wall)
+3282	Attach ECG electrodes
+3283	Tell the patient the gel may feel cold
+3284	Virtual echocardiogram #-chamber view
+3285	Pulmonary function lab: spirometry distinguishes obstructive (COPD·asthma, FEV#/FVC < #) from restrictive (fibrosis etc., reduced FVC). Results depend on patient effort, so encourage strongly.
+3286	Order memo: check bronchodilator response before discharge (when stable)
+3287	Spirometry: nose clipped, mouthpiece in, breathe in fully, then
+3288	as hard as possible, for more than # s
+3289	exhale. At least # trials; the best two must agree within #mL to be reliable. Predicted (height #cm·age·sex): FVC #L, FEV in # s (FEV#) #L.
+3290	Bronchodilator response: measure → inhale salbutamol # mcg → remeasure after # min. If FEV# rises ≥ #% and ≥ #mL it is "positive" (suggests asthma). Confirm inhalers were withheld before the test.
+3291	Flow (L/s)
+3292	Volume (L)
+3293	Dotted = predicted normal
+3294	Scooped concave shape (obstructive)
+3295	FVC measured (L)
+3296	FEV# measured (L)
+3297	Number of trials
+3298	Best two difference (mL)
+3299	Post-bronchodilator FEV# (L)
+3300	Measure height·weight (for predicted values)
+3301	Use nose clip
+3302	No smoking·heavy meal # h before test
+3303	Confirm inhaled bronchodilator withheld (short-acting # h)
+3304	Flow-volume curve
+3305	Neurophysiology lab: EEG (epilepsy·decreased consciousness), EMG·nerve conduction (numbness·weakness), polysomnography (sleep apnea).
+3306	Order memo: sleep-deprived EEG — include hyperventilation·photic stimulation
+3307	EEG: attach # electrodes by the international # system and record ≥ # min. Provoke abnormal waves with eye opening·closing, hyperventilation (# min) and photic stimulation. Wash hair the day before without oil·spray; arrive sleep-deprived if ordered.
+3308	Background
+3309	Normal (posterior alpha #~#Hz)
+3310	Generalized slowing
+3311	Focal slowing
+3312	Epileptiform discharges
+3313	Focal spikes
+3314	Generalized spike-wave
+3315	Activation procedures
+3316	Hyperventilation·photic both done
+3317	Could not hyperventilate (uncooperative)
+3318	Attach # electrodes·check impedance
+3319	Seizure precautions ready (suction·oxygen·side position)
+3320	Wipe off electrode paste after the test
+3321	EEG tracing
+3322	Health checkup nurse
+3323	Central supply nurse
+3324	Reusable instrument cycle: collect after use → clean (enzymatic·ultrasonic) → inspect·pack (with chemical indicator) → sterilize → read indicator → store (expiry) → issue
+3325	Returned after use #
+3326	Cleaning #
+3327	Packing #
+3328	Sterilizing #
+3329	Sterilized #
+3330	Issued #
+3331	Inspect·Pack
+3332	Open surgery set
+3333	Cesarean set
+3334	Pack
+3335	Suture set
+3336	Tracheostomy set
+3337	Load into sterilizer
+3338	Cesarean set SET-CS-#
+3339	Sterilization method
+3340	Steam autoclave #℃ # min (general metal instruments)
+3341	Steam autoclave #℃ # min
+3342	Ethylene oxide (EO) gas (heat-sensitive items, aeration # h)
+3343	Hydrogen peroxide plasma (endoscope parts)
+3344	Start sterilization
+3345	Purchasing·Inventory (logistics)
+3346	Logistics staff
+3347	# items below safety stock — order needed: Normal saline #L, IV catheter #G, surgical gloves size #, N# mask, foam dressing #×#
+3348	On hand
+3349	Safety stock
+3350	Pairs
+3351	Sets
+3352	Wound care
+3353	Sheets
+3354	Lab consumables
+3355	Box
+3356	Bottle
+3357	Wards request supplies electronically and logistics issues them from stock. Urgent items like PPE are sent first.
+3358	Request time
+3359	Ward (requester)
+3360	Add ward request
+3361	Order quantity
+3362	Vendor
+3363	Virtual Medical
+3364	Virtual Healthcare
+3365	Virtual Pharma
+3366	Place order
+3367	No purchase orders
+3368	Care coordination nurse
+3369	Referral: local clinics send patients who need higher-level care. The care coordination center receives the referral, books the visit, and after the visit sends a reply letter to the referring doctor (replies are the basis of future cooperation).
+3370	F/#y · Virtual Family Medicine Clinic → Neurology
+3371	First generalized seizure ×# — referral for EEG·MRI evaluation
+3372	Chest tightness on brisk walking for # months, on hypertension treatment — please evaluate for angina
+3373	F/#y · Virtual Orthopedic Clinic → Orthopedics
+3374	Progressive bilateral knee osteoarthritis, referral for joint replacement consultation
+3375	Chest discomfort on exertion for # weeks, ST changes on ECG — please evaluate for coronary artery disease
+3376	Emergency transfer
+3377	F/#y · Virtual Long-term Care Hospital → Pulmonology
+3378	Worsening pneumonia, SpO2 #% — emergency transfer request
+3379	Decline (no beds)
+3380	Accept transfer → ER
+3381	Back-referral: stable patients who finished tertiary care are sent to clinics near home for continued care (back-referral fee covered, reduces concentration at large hospitals).
+3382	@ → Virtual Surgical Clinic (near home)
+3383	Wound care·suture removal after laparoscopic appendectomy
+3384	@ →
+3385	Stable after COPD exacerbation — please continue inhalers·smoking cessation
+3386	@ (General Surgery)
+3387	@ (OB/GYN)
+3388	Back-referral institution
+3389	Add back-referral target
+3390	Agreement
+3391	Booking staff
+3392	When a booked patient arrives, click "Arrived → OPD registration" to put them on the clinic waiting list. A reminder SMS is sent the day before.
+3393	OPD # months after stent
+3394	Antihypertensive prescription
+3395	Today
+3396	Checkup result counseling (high glucose)
+3397	Arrived → OPD registration
+3398	Review stress test·perfusion scan results
+3399	Review biopsy results
+3400	Explain EEG·MRI results
+3401	Explain biopsy results
+3402	New·Return visit
+3403	Memo (pre-test fasting etc.)
+3404	Book + confirmation SMS
+3405	Mon
+3406	Tue
+3407	Wed
+3408	Thu
+3409	QI nurse
+3410	Patient Safety Act: reporters are not punished (non-punitive). Reports are gathered to find causes and fix systems so the same event does not recur. Near misses are reported too.
+3411	Event type
+3412	Pressure ulcer
+3413	Patient identification error
+3414	Transfusion error
+3415	Test·specimen error
+3416	Surgery-related
+3417	Violence·self-harm
+3418	Minor harm
+3419	Moderate harm
+3420	Severe harm
+3421	Death (sentinel event)
+3422	Related patient (optional)
+3423	What happened (facts only)
+3424	Causes (all that apply)
+3425	Poor communication
+3426	Procedure·policy not followed
+3427	Understaffing·workload
+3428	Equipment·supply problem
+3429	Environment (lighting·floor)
+3430	Patient factors (delirium·elderly)
+3431	Lack of education
+3432	Immediate action
+3433	Nearly slipped on the way to the bathroom but the guardian caught her
+3434	Review done
+3435	Keep night lights on, non-slip mats
+3436	Analgesic given # h late
+3437	Root cause analysis·improvement
+3438	Fall events reported
+3439	Target: reduce
+3440	Proportion of high fall-risk patients
+3441	Target: prevention applied to all
+3442	Proportion of pressure-ulcer-risk patients
+3443	Target: reposition every # h
+3444	Medication # rights compliance
+3445	Target: #%
+3446	Needs improvement
+3447	Target: ≥ #%
+3448	Deficient record rate of discharges
+3449	Target: < #%
+3450	Patient safety event reports (total)
+3451	Target: active reporting culture — more is better
+3452	Indicators are calculated automatically from records made in practice. Review them monthly and run improvement cycles (PDCA: plan-do-check-act).
+3453	Clinical pathway (CP): a day-by-day plan of tasks for patients with the same surgery·disease. Deviations from the plan are recorded as "variances" and analyzed. Example: laparoscopic cholecystectomy # nights # days CP
+3454	Applied patient:
+3455	(sent)
+3456	Day before surgery
+3457	Day before surgery: check blood·chest X-ray·ECG results
+3458	Day before surgery: surgery·anesthesia consent
+3459	Day before surgery: NPO from midnight
+3460	Day before surgery: pre-op education
+3461	Day of surgery
+3462	Day of surgery: prophylactic antibiotic (within # min before incision)
+3463	Day of surgery: post-op vitals (# min×#, # min×#)
+3464	Day of surgery: pain control
+3465	Day of surgery: deep breathing·coughing education
+3466	Post-op day #
+3467	Post-op day #: start water·gruel
+3468	Post-op day #: start ambulation
+3469	Post-op day #: reduce IV fluids
+3470	Post-op day #: check wound
+3471	Post-op day # (discharge)
+3472	Post-op day # (discharge): regular diet
+3473	Post-op day # (discharge): discharge education (wound·diet·activity)
+3474	Post-op day # (discharge): OPD booking
+3475	Post-op day # (discharge): discharge
+3476	Variance (what didn't go as planned and why)
+3477	Save CP record
+3478	Adequacy assessment: HIRA evaluates with indicators whether hospital care followed standards and publishes grades. Example: pneumonia adequacy assessment
+3479	Head nurse·Occupational health manager
+3480	Each click cycles Day (D) → Evening (E) → Night (N) → Off → blank. Rules: no Day·Evening right after Night, max # consecutive Nights, ≥ # days off per week, ≥ # staff per shift.
+3481	# (Sun)
+3482	# (Sat)
+3483	No rule violations
+3484	Auto fill (example)
+3485	Clear all
+3486	Hospital accreditation: all staff must complete infection control·CPR·patient safety·privacy training every year.
+3487	Infection control (#%)
+3488	CPR (BLS) (#%)
+3489	Patient safety (#%)
+3490	Privacy protection (#%)
+3491	Cardiovascular center nurse
+3492	ST-elevation MI — emergency PCI
+3493	ER arrival (door)
+3494	Elapsed
+3495	Target: to balloon inflation
+3496	# min remaining
+3497	The faster a blocked coronary artery is opened, the less heart muscle dies. Target door-to-balloon within # min from ER arrival. The cath team must arrive within # min of activation.
+3498	Activate cardiac emergency team (interventionist·nurse·radiographer)
+3499	Confirm procedure → to cath lab
+3500	Confirm the procedure schedule first
+3501	Do pre-procedure prep first
+3502	Record observation after the procedure
+3503	Endoscopy nurse
+3504	Injection room nurse
+3505	Outpatient injection room: check order → confirm drug issued from pharmacy to the injection room → verify patient (name·DOB, wristband or ID) → # rights → inject → observe #~# min.
+3506	#mg · IV · once · # min before chemo
+3507	#mg · IV · once · in normal saline #mL over ≥ # min
+3508	Outpatient treatment room: performs treatments ordered in OPD (wound dressing·catheterization·NG tube·nebulizer·splint etc.). Order: verify patient → explain·consent → hand hygiene·aseptic technique → perform → observe → record. Recording marks the order "Performed" and flows to payment·claims.
+3509	No outpatient treatments waiting
+3510	Appears here when a treatment is ordered in OPD.
+3511	Treatments performed today
+3512	Post-injection observation: first doses·antibiotics·iron·contrast·chemo often cause reactions. Anaphylaxis mostly occurs within # min.
+3513	No patients under observation
+3514	Adverse reaction records
+3515	AC (doxorubicin + cyclophosphamide)
+3516	# / cycle #
+3517	No injection·BP on left arm (lymph node dissection)
+3518	① Pre-administration check
+3519	Body surface area (Mosteller)
+3520	= √(height×weight÷#)
+3521	WBC·Platelets
+3522	OK to give (WBC ≥ #·platelets ≥ #0,000)
+3523	Cumulative doxorubicin
+3524	#mg/m² (lifetime limit #)
+3525	Check chemo consent
+3526	Give antiemetic (ondansetron) # min before
+3527	Confirm no possibility of pregnancy
+3528	Check last cycle's side effects (vomiting·fever·mouth sores)
+3529	Pre-administration check done
+3530	② # -person check·infusion
+3531	# nurses check patient·drug·dose·route·rate·expiry together
+3532	PPE: chemo double gloves·impermeable gown·goggles
+3533	New IV in a large right-arm vein — avoid hand dorsum·joints
+3534	First check blood return·free flow with normal saline
+3535	Give vesicants (doxorubicin) slowly via side port of running IV, check blood return every #~#mL
+3536	Record infusion start
+3537	Do ① pre-administration check first.
+3538	③ Extravasation watch — every #~# min
+3539	No pain·swelling·redness, good blood return
+3540	Stinging·slight swelling
+3541	Swelling·redness·no blood return (suspect extravasation)
+3542	④ Post-administration education·wrap-up
+3543	Fever ≥ #℃ → go to the ER at once (neutropenia — infection risk)
+3544	How to take antiemetics at home
+3545	Prevent mouth sores — soft toothbrush·mouthwash
+3546	Hair loss is temporary; protect the scalp
+3547	Urine may be red (doxorubicin color)
+3548	Next cycle: in # weeks (cycle #)
+3549	Dispose of used chemo supplies in the dedicated bin
+3550	Chemo cycle complete
+3551	Front desk (OPD registration)
+3552	No visit history
+3553	Front desk (OPD payment)
+3554	Inpatient settlement (discharge payment)
+3555	Deduct as transfusion claim if a blood donation card is presented
+3556	#mcg/kg/min · IV · continuous × # d
+3557	#mcg/hr · IV · continuous × # d
+3558	#g · IV · every # h × # d
+3559	Certificates (medical certificate issue)
+3560	Physician·Front desk
+3561	# Hanbit-ro, Gasang-gu, Seoul (tel #xx)
+3562	# Saebom-gil, Gasang-si, Gyeonggi (tel #xx)
+3563	# Cardiology admission
+3564	# Neulbom-ro, Gasang-gu, Seoul (tel #xx)
+3565	Institution: SSV Hospital · Physician @ (Cardiology)
+3566	# Pureunsup-gil, Gasang-gu, Seoul (tel #xx)
+3567	# Bada-ro, Gasang-gu, Incheon (tel #xx)
+3568	# Haeoreum-ro, Gasang-gu, Seoul (tel #xx)
+3569	# Byeolbit-ro, Gasang-si, Gyeonggi (tel #xx)
+3570	# Breast Surgery OPD
+3571	# Eunhasu-gil, Gasang-gu, Seoul (tel #xx)
+3572	Institution: SSV Hospital · Physician @ (Breast Surgery)
+3573	# Somang-ro, Gasang-gu, Seoul (tel #xx)
+3574	Institution: SSV Hospital · Physician - (-)
+3575	# Deulkkot-gil, Gasang-gu, Seoul (tel #xx)
+3576	# Garam-ro, Gasang-si, Gyeonggi (tel #xx)
+3577	# Baram-gil, Gasang-gu, Seoul (tel #xx)
+3578	# Pulmonology admission
+3579	# Saebyeok-ro, Gasang-gu, Seoul (tel #xx)
+3580	# Neurosurgery admission
+3581	# Kkot-gil, Gasang-si, Gyeonggi (tel #xx)
+3582	Institution: SSV Hospital · Physician @ (Neurosurgery)
+3583	Discharge review (DRG review)
+3584	#.Oral drugs
+3585	#.Injections
+3586	#.Lab
+3587	#.Imaging
+3588	#.Surgery·Anesthesia
+3589	#.Procedures
+3590	#.Transfusion
+3591	Click a row to choose approve·adjust·annotate.
+3592	= expected cut
+3593	Group
+3594	Single name
+3595	Dose given
+3596	Calculated amount
+3597	Hospital surcharge
+3598	Fee points
+3599	Charged points
+3600	Index (conversion)
+3601	CT exam
+3602	Annotation review: orders exceeding criteria (e.g. albumin·expensive tests) must carry an "annotation (reason for use)" on the statement to be approved.
+3603	Expected cut reason
+3604	Annotation
+3605	Add annotation
+3606	Expected amount
+3607	Cut
+3608	Post-discharge inpatient review (statement)
+3609	#.Unreviewable (returned)
+3610	#.Supplementary claim
+3611	#.Additional claim
+3612	Select all
+3613	Deselect all
+3614	Regenerate
+3615	Generated
+3616	Row/Pack
+3617	Bundle
+3618	Notice date
+3619	Adjustment
+3620	Re-claim amount
+3621	Detail
+3622	Round to generate
+3623	No returned·unreviewable items
+3624	Re-claim reason
+3625	Appeal (#.Cut adjustment)
+3626	#.Cut adjustment
+3627	#.All fields
+3628	#.Apply procedure surcharge
+3629	Physician name
+3630	Bundle no.
+3631	Diagnosis
+3632	Line no.
+3633	EDI code
+3634	# days' supply
+3635	Standard name
+3636	Cut amount
+3637	Drug request
+3638	Drug approved
+3639	Claim date
+3640	Recovery date
+3641	No cuts — they appear after EDI claim → review result receipt in the claims screen
+3642	Appeal round #: apply to HIRA within # days with evidence → if rejected, round #: petition to the Health Insurance Dispute Mediation Committee (within # days). Approved amounts are repaid at the next payment (recovery date); re-claims resend returned·unreviewable items after correction.
+3643	Customer relations agent
+3644	Listen to the customer to the end without interrupting, empathize, and record facts only. Do not carelessly name staff; explain the process and reply date.
+3645	Intake channel
+3646	Visit (customer counseling office)
+3647	VOC box (postcard)
+3648	National petition·public health center referral
+3649	Patient (if registered)
+3650	— Not a patient / unknown —
+3651	Customer name (relation if guardian)
+3652	Inquiry
+3653	Content (when·where·what·how)
+3654	Urgent — patient safety·legal issue·possible media report (handle within # h)
+3655	Load example
+3656	Total #
+3657	In progress #
+3658	Avg handling # days
+3659	On-time rate #%
+3660	By type
+3661	By area
+3662	By department (transferred)
+3663	VOC statistics are reported monthly to the customer satisfaction committee; repeated complaints in the same area become improvement (QI) tasks.
+3664	Voice of Employee: gather staff discomforts·suggestions from the field to improve hospital operations. Protect anonymity and always share results so more suggestions come.
+3665	Title
+3666	Work process·Efficiency
+3667	IT (HIS)
+3668	Work environment·Safety
+3669	Welfare·Compensation
+3670	Education·Growth
+3671	Communication·Culture
+3672	Content (current problem → improvement idea → expected effect)
+3673	Submit anonymously
+3674	Example
+3675	Submit
+3676	Staff satisfaction survey (#-point scale, virtual) — customer satisfaction starts with staff satisfaction. Low-scoring areas become improvement tasks.
+3677	This year
+3678	Last year
+3679	Change
+3680	Job satisfaction
+3681	Appropriate workload
+3682	Supervisor·coworker relations
+3683	Pay·Welfare
+3684	Education·growth opportunities
+3685	Pride in hospital
+3686	Safe work environment
+3687	Customer (patient) lookup
+3688	F/#y · # · #xx
+3689	Regular customer
+3690	Preferred contact method
+3691	AlimTalk
+3692	Via guardian
+3693	Best time to contact
+3694	Consent to care-related SMS
+3695	Consent to health info·event messages (optional)
+3696	Customer notes (for service)
+3697	Save customer info
+3698	Visit history # times
+3699	# # · Admission Internal Medicine · Admitted
+3700	Bookings #

@@ -1,0 +1,500 @@
+4801	Cardiovascular procedure confirmed:
+4802	— prepare NPO·IV line·consent
+4803	Procedure confirmed — ward notified
+4804	Check pre-procedure items (# or more)
+4805	Record the Allen test (or distal pulse)
+4806	Check all time-out items together
+4807	Puncture — arterial sheath inserted
+4808	Reperfusion! Door-to-balloon
+4809	Save angiographic findings
+4810	Ventricular fibrillation! Defibrillate now — record as an intra-procedure event
+4811	Save angiographic findings first
+4812	Procedure ended — sheath removed, compression hemostasis
+4813	Choose puncture site and distal status
+4814	Post-procedure abnormality:
+4815	Check education items (# or more)
+4816	Admission needed:
+4817	(after cardiovascular procedure
+4818	Arrived after cardiovascular procedure:
+4819	— receive the handoff
+4820	Procedure completed — handed off
+4821	In # weeks
+4822	Sedated endoscopy
+4823	Non-sedated
+4824	Endoscopy booking:
+4825	— prepare NPO·IV line
+4826	Confirm booking
+4827	Record pre-procedure education
+4828	Check pre-procedure items (# or more)
+4829	Choose ASA class
+4830	Choose bowel prep score
+4831	Exam started — endoscope
+4832	Desaturation·oversedation — jaw thrust, increase oxygen, flumazenil if it keeps dropping
+4833	Biopsy sent to pathology (check specimen label·formalin)
+4834	Save findings·conclusion
+4835	Choose all five discharge score items
+4836	Discharge score
+4837	pts — observe until # or more
+4838	Check discharge education
+4839	Endoscopy result:
+4840	Return after endoscopy:
+4841	. Confirm with physician when NPO ends; watch vitals·bleeding
+4842	Recovery complete
+4843	Check all # cleaning·disinfection steps
+4844	High-level disinfection done — stored
+4845	Check all four
+4846	Treatment performed — passed to payment data
+4847	# min (iron·antibiotics·first-time drugs)
+4848	Do all # medication checks
+4849	The left arm had lymph node dissection — do not inject there
+4850	Injection done —
+4851	min observation
+4852	Before observation time
+4853	min left. Discharge anyway? (practice)
+4854	No problems — discharge instructions
+4855	Adverse drug reaction
+4856	Choose symptoms
+4857	For anaphylaxis, IM epinephrine comes first
+4858	Adverse drug reaction:
+4859	ADR report:
+4860	(reportable to the drug safety agency)
+4861	Recorded — reported to physician·pharmacy, added to allergy list
+4862	Do all # pre-administration checks
+4863	Do the # -person check·PPE·vein check
+4864	Chemo infusion started — check the site every #~# min
+4865	Choose injection site status
+4866	Suspected chemo extravasation:
+4867	Chemo extravasation management
+4868	Record injection site
+4869	Check education items
+4870	A chemo administration record must exist first
+4871	Chemo cycle complete — book next cycle in # weeks
+4872	Enter the wasted amount and witness nurse
+4873	Waste recorded — reflected in the narcotics ledger
+4874	Order review —
+4875	Approve (claim as is)
+4876	Adjust — remove from claim (order error·duplicate)
+4877	Add annotation (explain reason for use)
+4878	Enter the annotation
+4879	Approved
+4880	Review applied — charges are recalculated
+4881	No diagnosis — reason for return!
+4882	No orders need annotation
+4883	Pre-check found no problems
+4884	Review started — check orders·diagnoses·annotations in turn
+4885	No diagnosis — add it in diagnosis review
+4886	Unperformed orders
+4887	— resolve them first
+4888	Ward discharge prep not done yet (recording a provisional discharge reason is recommended)
+4889	Discharge review complete:
+4890	— discharge payment possible (completion SMS sent)
+4891	, the discharge bill is ready. Please pay at the front desk. Charges
+4892	Review complete — completion SMS sent to the front desk·patient
+4893	Review completion canceled — review again
+4894	Diagnosis added by claims team:
+4895	— please confirm
+4896	Diagnosis added — confirmation requested from physician
+4897	Eligibility lookup:
+4898	Maintained
+4899	Completion SMS is sent automatically at review completion (F#)
+4900	No diagnosis — reason for return
+4901	Merge: combines statements split from the same admission (interim claims) into one — # statement in this practice
+4902	Fee codes (itemized calculation)
+4903	Review round # — click expected-cut rows (!) to adjust or annotate
+4904	Do review # first
+4905	Review round # (senior reviewer) complete
+4906	Approval request: high-cost drugs·pre-approval items need a HIRA pre-approval number
+4907	Do review # (F#) first
+4908	Post-discharge review complete — statement saved
+4909	Re-claim·Appeal
+4910	Select items to re-claim
+4911	Items still without diagnosis:
+4912	— complete diagnoses in discharge review
+4913	Generated·sent — receive the acknowledgment in the EDI tab of the claims screen
+4914	Print re-claim list (preview omitted)
+4915	Write the reason specifically
+4916	-round appeal submitted
+4917	Result:
+4918	Patient eligibility verification:
+4919	Eligibility maintained (virtual NHIS lookup)
+4920	Identity verified (ID check) — NHI identity verification is mandatory
+4921	Personal data collection·use consent saved
+4922	Check the agent and supporting documents
+4923	Proxy prescription confirmation saved
+4924	No previous OPD visit to copy
+4925	Previous visit information loaded
+4926	Fee calculated — consultation fee calculated in the right-hand amount fields (tertiary OPD consultation fee is full self-pay even with NHI)
+4927	Covered referral: a referral letter from a phase # (clinic·hospital) is needed for NHI coverage at a tertiary hospital (exceptions: emergency·delivery·dental·rehab·family medicine etc.)
+4928	There is already an active visit (register the second dept same day as sub)
+4929	Without a referral letter, NHI may not apply at a tertiary hospital
+4930	OPD registration:
+4931	OPD registration —
+4932	No patients decided for admission
+4933	Admission agreement
+4934	Save signed admission agreement
+4935	Save guarantor
+4936	Inpatient information sheet
+4937	Admission confirmed No — only the admission booking was saved
+4938	No empty beds. Change the ward
+4939	Admission agreement not signed
+4940	New admission:
+4941	) — check orders·initial nursing assessment
+4942	Admission complete:
+4943	— admission orders
+4944	Admission registration —
+4945	no.${dep ?
+4946	Card·bank amounts exceed the amount received
+4947	— may leave
+4948	Receivable created:
+4949	— receivable AlimTalk target
+4950	Done — ${b.refund ?
+4951	Payment during visit
+4952	The visit is not finished yet. Collect payment for orders so far? (prepayment)
+4953	Fee calculation done
+4954	Veteran eligibility check — national merit recipients get reductions when treated by contract at veterans hospitals (educational note)
+4955	Split visit: separates payment for two departments seen on the same day (main/sub)
+4956	Force approval: proceed with supervisor approval when eligibility lookup fails — reason must be recorded
+4957	Dementia special exemption (V# series) check — severe dementia copay #%
+4958	[SSV Hospital] Outstanding balance
+4959	is due. Please pay at your next visit.
+4960	Discharge bill (preview)
+4961	Certificate list
+4962	Draft saved — you can continue later
+4963	No previous document to load
+4964	Previous document content loaded
+4965	Reissue —
+4966	Reissue — reprint with the same issue number (fee charged again)
+4967	Select a visit
+4968	Workers' comp patient — check whether workers' comp documents (care benefit opinion) are also needed
+4969	copies issued${ct[#] ?
+4970	Check all five
+4971	Holter attached — # h, no showering, please help with the symptom diary
+4972	Holter attached — # h recording
+4973	Recorder collected — analyze
+4974	Click "Calculate interpretation from values" or write a conclusion
+4975	Enter results —
+4976	Received →
+4977	All received — sorted by section
+4978	Enter all items
+4979	Today's QC is "Reject" — results cannot be received until the analyzer is fixed and QC passes again
+4980	Today's QC not done yet — by rule do it first in the QC tab
+4981	Analyzer results
+4982	received${warn ?
+4983	Enter all dipstick items
+4984	Urinalysis results saved
+4985	Culture started
+4986	Final report — to verification
+4987	Identified:
+4988	MDRO detected:
+4989	(contact isolation required)
+4990	Susceptibility saved — to verification·report
+4991	Check all three
+4992	Respiratory virus positive:
+4993	— consider droplet isolation
+4994	Molecular results saved
+4995	Do the # dispatch checks
+4996	Sent out — results in #~# days
+4997	Results received — to verification·report
+4998	Enter measured values
+4999	QC:
+5000	Imaging intake —
+5001	Imaging scheduled:
+5002	Received —
+5003	moved to the queue
+5004	Do all five pre-exam checks
+5005	Contrast allergy patient — be sure to ask the physician about premedication
+5006	— consult the attending·radiologist before iodinated contrast (IV hydration or non-contrast study)
+5007	: contrast exam — hold metformin # h, resume after renal check (attending confirms)
+5008	Contrast prep done — can be scanned in CT
+5009	Contrast reaction:
+5010	Anaphylaxis emergency treatment
+5011	Imaging —
+5012	Patient identification is mandatory
+5013	Women of childbearing age must be asked about pregnancy
+5014	MRI safety screening "Yes":
+5015	— cannot enter without radiologist confirmation
+5016	Check the safety screening confirmation box
+5017	mGy — above the reference level (
+5018	). Check the scan settings
+5019	Angiography done:
+5020	puncture. Compression hemostasis·bed rest, check puncture-site bleeding·pedal pulses every # min
+5021	Imaging done — sent to PACS
+5022	Do all five pre-injection checks
+5023	— above # makes PET images inaccurate. Consult the attending to control glucose and rebook
+5024	Measured dose differs from ordered (
+5025	mCi) by more than #% — measure again
+5026	Injection recorded —
+5027	min wait then scan
+5028	In progress
+5029	Urgent VOC received:
+5030	Received — due
+5031	VOC transfer
+5032	— please reply with fact-check·improvement plan
+5033	transferred
+5034	Inquiry answered immediately
+5035	Write both the fact-check and improvement action
+5036	Department reply registered — reply to the customer
+5037	[SSV Hospital Customer Relations]
+5038	Reply recorded
+5039	Closed — reflected in statistics
+5040	Enter the complimented staff
+5041	Compliment VOC
+5042	Compliment passed to the department
+5043	Enter title and content
+5044	Suggestion received — review result within # weeks
+5045	Review result:
+5046	Enter the implementation result
+5047	Implemented — result shared
+5048	All customers consenting to marketing — hospital news
+5049	[SSV Hospital] Here is this month's health news. To opt out: # (virtual)
+5050	Promotional messages cannot be sent between # PM and # AM
+5051	No targets
+5052	people messaged (virtual)
+5053	Happy call:
+5054	(after discharge) reports getting worse —
+5055	No improvement tasks
+5056	Select a survey target
+5057	Survey saved — reflected in results
+5058	Enter the improvement activity
+5059	Prof.
+5060	To change # (virtual)
+5061	No patients to contact
+5062	Incoming call
+5063	For an agent, explain booking details only after confirming patient consent (delegation)
+5064	recommended
+5065	Choose an open time
+5066	Enter the new patient's name and DOB
+5067	— confirmation SMS sent
+5068	No open time within # days
+5069	changed — SMS sent
+5070	Booking canceled — SMS sent
+5071	Closure registered:
+5072	) — call booked patients to reschedule
+5073	Closure registered — new bookings that day are blocked
+5074	We called because you missed your booking. To rebook: # (virtual)
+5075	Unreachable — guidance SMS sent
+5076	Call ended — counseling record saved
+5077	No no-shows
+5078	No requests
+5079	Booking —
+5080	Already full
+5081	There is already a booking in the same department on the same day
+5082	Booked — confirmation SMS sent
+5083	Test schedule —
+5084	Test booked — guidance SMS sent
+5085	No remaining schedule
+5086	schedule: ${l.map((x) =>
+5087	Integrated schedule SMS sent (virtual)
+5088	Recorded
+5089	[SSV Hospital] Your booking request has been processed. Details will be sent by SMS.
+5090	Request processed
+5091	[Integrated booking center]
+5092	booking status: bookings
+5093	, no-shows
+5094	(
+5095	%), avg booking wait
+5096	days — please review clinic schedules
+5097	reported
+5098	Confirm specimen arrival
+5099	Pathology accession
+5100	All three must be checked to accept
+5101	Enter the pathology diagnosis
+5102	Pathology result reported:
+5103	Frozen section result:
+5104	Approve review
+5105	Approve all orders for this patient
+5106	Order rejected —
+5107	Pharmacy rejection:
+5108	) — please recheck the order
+5109	Rejected — ordering physician notified
+5110	# -person check
+5111	. Did you check drug name·dose·patient with another pharmacist?
+5112	Checked by # people
+5113	Dispensing done
+5114	dispensed
+5115	From pharmacy:
+5116	items arrived — confirm receipt then administer
+5117	From pharmacy to injection room:
+5118	issued
+5119	to
+5120	Exam intake
+5121	PACS image list
+5122	Exam intake —
+5123	Contrast exams require checking allergy·renal function·consent
+5124	Exam received — ward notified of time
+5125	Imaging done — images saved to PACS
+5126	Write both findings and impression
+5127	Imaging reading done:
+5128	Reading reported
+5129	bed
+5130	Name and date of birth are required
+5131	registered — MRN
+5132	ER registration:
+5133	New ER patient:
+5134	ER registration done (
+5135	No empty beds. Choose another ward
+5136	) — room guidance·order check·initial nursing assessment needed
+5137	— please write admission orders
+5138	bed admission completed
+5139	Claims team request for completion:
+5140	Completion requested from physician
+5141	— discharge payment possible
+5142	Discharge review done — passed to payment
+5143	Medical benefit cost statement
+5144	Select statements to claim
+5145	Acknowledgment received — received
+5146	items${c.returns.length ?
+5147	Review results received — cut
+5148	No diagnosis yet — ask the physician to add a diagnosis
+5149	Completed — claim again in the statement tab
+5150	Accept cut
+5151	Appeal —
+5152	Appeal submitted
+5153	Appeal result:
+5154	ICU flowsheet
+5155	Ventilator
+5156	Drips
+5157	Lines·Delirium
+5158	Triage (KTAS)
+5159	Blood pressure and pulse are required
+5160	Save ventilator record
+5161	Enter the dose
+5162	→ infusion rate
+5163	mL/h — did you check the calculation·pump setting with another nurse?
+5164	mL/h recorded
+5165	Line care record
+5166	Choose the sedation score (RASS) first
+5167	Choose ② and ③
+5168	— needs immediate care
+5169	triaged as level
+5170	Boy
+5171	Girl
+5172	Partograph
+5173	Fetal heart monitoring
+5174	Delivery record
+5175	Postpartum observation
+5176	in progress
+5177	Newborn assessment
+5178	Feeding·Elimination
+5179	Jaundice
+5180	Vaccination·Screening
+5181	Choose variability and decelerations
+5182	Fetal heart rate
+5183	category:
+5184	category (
+5185	Choose all Apgar # min·# min scores
+5186	New baby:
+5187	g, Apgar
+5188	Delivery record saved — the baby was admitted to
+5189	admitted
+5190	Suspected postpartum hemorrhage:
+5191	— uterus
+5192	, lochia
+5193	Bilious vomiting:
+5194	— suspect bowel obstruction
+5195	Feeding record
+5196	Enter the value
+5197	mg/dL (age
+5198	h) — above phototherapy threshold:
+5199	Hearing screening
+5200	Hearing screening recorded
+5201	NICU event:
+5202	NICU record
+5203	Infusion started
+5204	First dose
+5205	#A Medical
+5206	#B Surgical
+5207	Sign order check
+5208	All new orders checked
+5209	Ward blood draw
+5210	blood draw • Verified with two identifiers (name·DOB)? • Drawn from the arm opposite the IV? • Labels attached in front of the patient?
+5211	All checked — draw done
+5212	Ward specimens
+5213	Draw done — sent to lab (
+5214	items)
+5215	Enter the glucose value
+5216	Check discharge education items (# or more)
+5217	Discharge education —
+5218	Ward discharge prep done:
+5219	— please do discharge review
+5220	Discharge prep done — claims team notified
+5221	All pre-op prep items must be checked
+5222	Pre-op prep done:
+5223	— ready for OR entry
+5224	Pre-op prep done — OR notified
+5225	Treatment performed record
+5226	Medication —
+5227	Check all # medication rights
+5228	High-alert·narcotic drugs require # people to check
+5229	Write the reason for the PRN dose
+5230	Write the reason for not giving
+5231	Transfusion started —
+5232	All pre-transfusion items must be checked
+5233	Transfusion started — recheck vitals in # min
+5234	Transfusion ended
+5235	Transfusion reaction:
+5236	pts —
+5237	. Notify in the Communication (SBAR) tab
+5238	Enter the amount
+5239	I/O recorded
+5240	Initial nursing assessment saved — next assess fall·pressure ulcer risk
+5241	Answer all items
+5242	High fall risk — do fall prevention (side rails·call bell·education)
+5243	Pain ≥ # — give analgesic after checking the order, reassess after #~# min
+5244	pts (
+5245	) saved
+5246	Focus and Data (D) are required
+5247	Nursing note saved (e-signed)
+5248	S (Situation) and R (Recommendation) are required
+5249	Nurse notification:
+5250	Notification sent. Wait for the physician's reply·orders
+5251	DNR patient
+5252	This patient has a DNR consent. Start the record anyway? (practice)
+5253	Start record
+5254	Code Blue announced·CPR started
+5255	🚨 Code Blue:
+5256	— come immediately
+5257	End:
+5258	[CPR record]
+5259	started,
+5260	min elapsed. ${code.events.map((e) =>
+5261	Moved to ICU (transfer)
+5262	CPR record saved
+5263	to
+5264	Mark the items you checked
+5265	Mark whether you checked together at the bedside
+5266	Receipt confirmed — you are now responsible for this patient
+5267	Automatic draft created. Read and edit it
+5268	S and R are required
+5269	Handoff complete — the next shift will confirm receipt
+5270	Large
+5271	Extra large
+5272	Log out? Practice records stay in this browser.
+5273	Log out
+5274	Notifications —
+5275	new — order check needed
+5276	[Allergy]
+5277	has
+5278	allergy →
+5279	[Cross-reaction caution] cephalosporin for a penicillin-allergic patient →
+5280	(rare cross-hypersensitivity)
+5281	[Duplicate order] a drug with the same ingredient already exists:
+5282	[Max dose exceeded]
+5283	per day
+5284	> max
+5285	[High-alert drug]
+5286	— # nurses must double-check at administration
+5287	— controlled narcotic (prescribing·issue·use must be recorded)
+5288	[Contrast allergy]
+5289	— history of contrast hypersensitivity; consider premedication or another test
+5290	[Renal caution] recent creatinine
+5291	— risk of contrast nephropathy
+5292	STAT?
+5293	Total
+5294	This screen does not exist yet
+5295	Too many tabs — closed the oldest tab "
+5296	"
+5297	Could not save — storage is full or this is a private window. Back up with "Copy my records"
+5298	Order progress history —
+5299	PACS image view —
+5300	Pathology report

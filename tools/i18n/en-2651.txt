@@ -1,0 +1,550 @@
+2651	Principal procedure
+2652	Other procedures and treatments
+2653	Resident signature
+2654	Specialist signature
+2655	ER record
+2656	BP/Pulse/Respiration
+2657	Level of consciousness
+2658	ER arrival·departure time
+2659	Emergency triage (KTAS)
+2660	Nurse signature
+2661	Presumptive diagnosis
+2662	Principal and other diagnoses
+2663	Chief complaint and physical findings
+2664	Onset
+2665	Lab and radiology findings
+2666	Treatment and outcome
+2667	Follow-up plan
+2668	Post-discharge emergency plan
+2669	Attending signature
+2670	Treatment plan
+2671	Discharge plan
+2672	Transfer-out note
+2673	Transfer-in note
+2674	Pre-op evaluation
+2675	Operative summary
+2676	Post-op care plan
+2677	Death note
+2678	Signature
+2679	Discharge note
+2680	Referring physician signature
+2681	Referral content
+2682	Consultant signature
+2683	Reply date
+2684	Surgery/Test name
+2685	Patient (guardian) signature
+2686	Explanation of procedure
+2687	Complications
+2688	Consent date
+2689	Surgery date
+2690	Surgeon
+2691	Anesthesia method
+2692	Pre-op diagnosis
+2693	Post-op diagnosis
+2694	Procedure name
+2695	Findings
+2696	Procedure steps
+2697	Attending signature
+2698	Admission order
+2699	Discharge order
+2700	Pre-anesthesia questionnaire
+2701	Intra-op nursing record
+2702	Immediate pre-anesthesia evaluation
+2703	Post-anesthesia SpO2 management
+2704	Time-out checklist
+2705	Pneumonia quality indicator checklist
+2706	Acute MI quality indicator checklist
+2707	Reason for therapeutic antibiotics
+2708	Acute stroke
+2709	Delivery diagnosis
+2710	Delivery signature
+2711	Newborn record
+2712	Newborn checklist
+2713	Reply/Back-referral/Referral summary
+2714	📊 Reply/Back-referral/Referral summary
+2715	📊 Reply/Back-referral/Referral status
+2716	Back-referrals
+2717	Referrals
+2718	📊 Reply summary
+2719	📊 Back-referral summary
+2720	📊 Referral summary
+2721	📊 Referred patients (referrals·replies·reply rate)
+2722	Referred patients
+2723	Period reply rate
+2724	— Reply rate is a tertiary hospital care coordination indicator.
+2725	📊 Referred patients inpatient·outpatient
+2726	📊 Referred patients new·return
+2727	📊 Referred patients by department
+2728	Care coordination nurse·physician
+2729	Overdue
+2730	Write referral·back-referral letter
+2731	No matching orders
+2732	Influenza (virtual record)
+2733	Non-smoker
+2734	Transfer patient management
+2735	■ B. Reply basic info
+2736	Reply content
+2737	Medical Aid class
+2738	Type #
+2739	Institution to receive back-referral
+2740	Acute care completed
+2741	Follow-up observation
+2742	Chronic disease management
+2743	Rehabilitation
+2744	Patient request
+2745	For DB connection: copy the text below and give it to the hospital DB administrator. "Table DDL" is SQL generated automatically from the data rule table. "All data" is the entire practice dataset (JSON); collection names equal table names, so it can be loaded as is.
+2746	Table DDL (SQL)
+2747	Data rule table (JSON)
+2748	All data (JSON)
+2749	Copy all
+2750	Collection
+2751	Encounter (visit·admission)
+2752	Pharmacy — order review
+2753	Pharmacy — dispensing
+2754	Specimen drawn
+2755	Result entered
+2756	Imaged
+2757	Specimen checked
+2758	Accessioned
+2759	Slides made
+2760	Performed
+2761	Crossmatched
+2762	Replied
+2763	Recovery
+2764	Exam done
+2765	Version #
+2766	OK (verified by re-reading after save)
+2767	#KB / about #KB
+2768	Copy my records (for assignment submission)
+2769	Click "Copy" below and paste into the assignment board or email. The instructor can open it as is with "Load records".
+2770	Copy records
+2771	Current storage #KB
+2772	Load records
+2773	Loading will replace
+2774	all practice records in this browser.
+2775	Copy them first if needed.
+2776	Load from file (.json, .txt)
+2777	Or paste copied records here
+2778	Load pasted records
+2779	Communication
+2780	Support
+2781	Booking·Arrival check-in
+2782	Department menu
+2783	Diagnosis·annotation review screen (search discharged patients)
+2784	Glucose
+2785	Gray (NaF)
+2786	New
+2787	Green (heparin)
+2788	Sterile sputum cup
+2789	Send-out
+2790	Angiography
+2791	Coming soon
+2792	— coming soon
+2793	This department is
+2794	included. Currently you can practice phase # (orders → pharmacy·lab·imaging·pathology → ward nursing) and phase # (OR·ICU·delivery room·nursery·dialysis·OPD nursing·ER triage).
+2795	Back to department map
+2796	Go to ward nursing
+2797	Front desk registration
+2798	M/#y · # · Medical Aid Type #
+2799	This patient already has an active visit: OPD Breast Surgery (waiting)
+2800	This patient already has an active visit: ER Zone A-# (in consultation)
+2801	This patient already has an active visit: ER Resuscitation-# (in consultation)
+2802	This patient already has an active visit: ER Zone B-# (waiting)
+2803	M/#y · # · Workers' comp
+2804	This patient already has an active visit: ICU Medical-# (admitted)
+2805	This patient already has an active visit: ICU Surgical-# (admitted)
+2806	Heartburn, acid regurgitation (# weeks)
+2807	Palpable left breast lump (# months)
+2808	S (Subjective)
+2809	Cough slightly decreased but sputum persists. Says she couldn't sleep well at night.
+2810	O (Objective)
+2811	Temp #℃, pulse #, SpO2 #% (room air). Decreased crackles in right lower lung field.
+2812	A (Assessment)
+2813	Pneumonia improving. Glucose high at #~#.
+2814	P (Plan)
+2815	Continue antibiotics. Follow-up labs tomorrow morning. Continue diabetic diet and insulin scale.
+2816	Cough, yellow sputum, fever for # days
+2817	#-year-old woman with cough, sputum and #℃ fever for # days, admitted via OPD. Mild dyspnea.
+2818	Type # DM for # yr, hypertension for # yr. Penicillin allergy (hives).
+2819	Crackles heard in right lower lung field. Alert.
+2820	## Community-acquired pneumonia (RLL) ## Type # DM — poor glycemic control ## Hypertension
+2821	IV ceftriaxone (cephalosporin chosen due to penicillin allergy; watch for cross-reaction). Glucose # times/day + insulin sliding scale. Follow-up chest X-ray, labs in # d
+2822	Acute calculous cholecystitis. General anesthesia. Surgery today or tomorrow preferred
+2823	Right upper quadrant pain
+2824	#-year-old man admitted via ER with RUQ pain and vomiting after a fatty meal.
+2825	None. Smoking # pack-years.
+2826	RUQ tenderness, Murphy's sign positive.
+2827	## Acute calculous cholecystitis
+2828	NPO, IV fluids, antibiotics. Laparoscopic cholecystectomy planned (phase # surgery practice).
+2829	# units, # units each over # h
+2830	Increasing sputum — organism ID·susceptibility
+2831	Crushing chest pain for # h, radiating to left arm, cold sweat
+2832	Acute anterior STEMI — emergency PCI (door-to-balloon target # min). Contrast allergy present
+2833	Chest pain — within # min
+2834	Right-sided weakness, slurred speech (last known well # min ago)
+2835	Last known well # (# min ago)
+2836	Stroke — check for atrial fibrillation
+2837	Twisted right ankle on stairs at work, swollen and painful
+2838	Walk-in · arrived #
+2839	Start visit
+2840	No function tests
+2841	Pharmacist
+2842	Pharmacy today
+2843	Orders received today
+2844	Awaiting review
+2845	STAT orders
+2846	Issued
+2847	Pharmacy workflow
+2848	Order review (pharmacist)
+2849	Dispensing (prepare drugs)
+2850	Check ward totals
+2851	Issue (send to wards)
+2852	Ward nurse confirms receipt → administers
+2853	Order review: the pharmacist reviews orders, checking allergy·duplication·dose·interactions, and rejects if there is a problem.
+2854	F/#y · Outpatient injection room
+2855	Check result
+2856	[High-alert drug] Doxorubicin (chemo) #mg/m² — # nurses must double-check at administration
+2857	[High-alert drug] Cyclophosphamide (chemo) #mg/m² — # nurses must double-check at administration
+2858	BSA #m² × #mg/m² — strong vesicant (watch for extravasation); dilute in normal saline and give slowly IV
+2859	BSA #m² × #mg/m² — in normal saline #mL over ≥ # min
+2860	F/#y · #A #
+2861	No problems found
+2862	No orders to dispense
+2863	Orders approved in review come here.
+2864	Outpatients' oral drugs are dispensed at community pharmacies (separation of prescribing and dispensing). The hospital only issues an outside prescription.
+2865	No outside prescriptions issued today
+2866	Narcotics: prescribing·dispensing·issuing·administration·waste of remaining amounts are all recorded and reported to the MFDS narcotics system.
+2867	Administration record
+2868	MFDS report
+2869	Psychotropic
+2870	Phlebotomist
+2871	Awaiting blood draw
+2872	Draw steps: ① print labels → ② verify patient (name·DOB) → ③ draw → ④ attach labels → ⑤ mark drawn → send to lab. Draw tests for the same patient grouped by tube color.
+2873	Complete blood count (CBC) · Inflammation marker (CRP)
+2874	Urine cup · # items
+2875	Sterile urine cup · # items
+2876	Culture bottles (aerobic·anaerobic) · # items
+2877	CBC · CRP · Urinalysis (U/A) · Urine culture · Blood culture (# sets) · Renal function (BUN·creatinine)
+2878	Electrolytes (Na·K·Cl) · Renal function (BUN·creatinine)
+2879	Drawn today
+2880	Progress
+2881	Inflammation marker (CRP), Renal function (BUN·creatinine)
+2882	Electrolytes (Na·K·Cl), Renal function (BUN·creatinine)
+2883	Medical technologist
+2884	Specimen intake: scanning the barcode routes the test to its section (automation·hematology·microbiology etc.). Hemolyzed·clotted·insufficient·mislabeled specimens are rejected.
+2885	No specimens arrived
+2886	Automation (clinical chemistry·immunology): serum is centrifuged and loaded on chemistry·immunoassay analyzers. Results flow in automatically through the analyzer interface. Hemolysis falsely raises potassium.
+2887	Chemistry analyzer QC not done
+2888	Immunoassay analyzer QC not done
+2889	Automation ·
+2890	Chemistry analyzer (virtual C-#)
+2891	Hematology: CBC on the hematology analyzer, PT·aPTT on the coagulation analyzer. If the analyzer flags abnormal cells or values are far off, make a peripheral smear and check under the microscope.
+2892	Hematology analyzer QC not done
+2893	Coagulation analyzer QC not done
+2894	Urinalysis: ① dipstick for specific gravity·pH·protein·blood·leukocytes·nitrite ② count RBC·WBC·bacteria per high-power field (HPF) in centrifuged sediment under the microscope.
+2895	No urinalysis waiting
+2896	Microbiology steps: culture → Gram stain preliminary report → organism ID → antibiotic susceptibility → final report.
+2897	Positive blood culture
+2898	is reported immediately to the physician·nurse like a critical value (to adjust antibiotics).
+2899	M/#y · ICU Medical-#
+2900	Incubating
+2901	Preliminary report
+2902	ID·Susceptibility
+2903	Final report
+2904	Media·culture method
+2905	Blood agar
+2906	Chocolate agar
+2907	MacConkey agar
+2908	Start culture (#℃ incubator)
+2909	Molecular diagnostics: extract nucleic acid (DNA·RNA), amplify by real-time PCR and read the cycle at which fluorescence appears (Ct value). Ct < # is positive; lower means more virus·bacteria. Work is split into zones to prevent contamination.
+2910	Nucleic acid extraction
+2911	Gene amplification (PCR)
+2912	Work in pre-analytical zone (prevent contamination)
+2913	Load automated extractor
+2914	Add internal control
+2915	Extraction done
+2916	Send-out tests: special tests not done in-house are sent to a reference lab. Keep storage conditions (refrigerated·frozen) and record dispatch·receipt. Results usually arrive electronically in #~# days.
+2917	F/#y · Outpatient
+2918	Not sent
+2919	Send out
+2920	Verification·Report: the laboratory physician verifies results.
+2921	Delta check
+2922	flags results that differ more than #% from the previous result, suggesting a specimen mix-up·error. Critical values: call and record read-back.
+2923	No results to verify
+2924	Quality control (QC): every day before patient testing, control materials of known concentration are measured to check analyzer accuracy. Judged with Levey-Jennings charts and Westgard rules (#s warning, #s·#s reject); on reject, patient results are not reported until the cause is fixed and QC passes.
+2925	Chemistry analyzer
+2926	Immunoassay analyzer
+2927	Hematology analyzer
+2928	Coagulation analyzer
+2929	Glucose low level — mean #, SD #
+2930	Glucose high level — mean #, SD #
+2931	Glucose low level (mean #)
+2932	Glucose high level (mean #)
+2933	Load measured values
+2934	Judge QC
+2935	No QC records today
+2936	Section
+2937	Abnormal items
+2938	pH #
+2939	· pO2 #
+2940	· Bicarbonate #
+2941	· SpO2 #
+2942	Lactate #
+2943	· Platelets #
+2944	Sodium #
+2945	· Potassium #
+2946	ABO type O
+2947	· Total bilirubin #
+2948	Radiographer·Radiologist
+2949	Imaging intake: assign room and time by exam type and notify wards·OPD of prep (fasting·renal function·safety screening).
+2950	MRI safety screening
+2951	Childbearing age
+2952	Contrast room: before contrast exams ① check allergy·renal function (eGFR)·diabetes drug (metformin) ② secure IV access (large-bore, antecubital) ③ consent. After the exam,
+2953	observe # min
+2954	(hives·dyspnea·hypotension) and encourage plenty of fluids. If the injection site swells and hurts, suspect extravasation.
+2955	Pre-exam prep #
+2956	Estimated GFR (eGFR)
+2957	mL/min/#㎡
+2958	Usable
+2959	Metformin (diabetes drug)
+2960	Taking — hold for # h after exam, restart after renal check
+2961	Contrast allergy
+2962	Iohexol # (nonionic iodinated)
+2963	Iopromide #
+2964	Iodixanol # (iso-osmolar — for low renal function)
+2965	Volume (mL, usually weight×#~#)
+2966	IV access
+2967	#G right antecubital
+2968	#G left antecubital
+2969	Existing central line (confirm power-injectable)
+2970	Contrast allergy screening (hives·dyspnea at previous exams)
+2971	Check renal function (eGFR)
+2972	Contrast consent
+2973	Confirm NPO #~# h
+2974	Flush line with normal saline — patent
+2975	Ready → to exam room
+2976	Post-exam observation #
+2977	No patients to observe
+2978	General radiography: set the projection (PA·AP·lateral) and shield gonads outside the field with lead. Chest films are taken at full inspiration with breath held. # principles of radiation: short time, long distance, shielding (lead).
+2979	CT: contrast exams can be scanned only after contrast room prep. Set the contrast phase (arterial·portal·delayed) and record the dose (CTDIvol·DLP) shown by the scanner, comparing with reference levels.
+2980	Room·Time
+2981	Prep
+2982	Contrast room prep first
+2983	MRI: safety screening before entry (pacemaker·cochlear implant·aneurysm clip·metal fragments etc.). Never bring ferromagnetic items like oxygen tanks·wheelchairs into the scanner room. Use gadolinium with caution if eGFR < #.
+2984	Fluoroscopy: real-time X-ray while drinking barium (watch for constipation afterwards). Angiography: a catheter in the femoral·radial artery delivers contrast. Afterwards hand off puncture-site compression, bed rest, and distal pulse·color checks to the ward.
+2985	Mammography: each breast compressed in # views, craniocaudal (CC) and mediolateral oblique (MLO). Bone densitometry: DXA of lumbar spine·femoral neck, judged by T-score.
+2986	Ultrasound: no radiation, safe in pregnancy. Abdomen needs # h fasting (so the gallbladder doesn't contract); pelvis needs a full bladder.
+2987	Nuclear medicine: inject a radioisotope-labeled drug (radiopharmaceutical) and image with a gamma camera·PET after it distributes. ① verify dose with the dose calibrator ② record injection·time ③ required uptake wait ④ scan. Syringes·swabs go to radioactive waste and are stored until decayed. Staff wear dosimeters (badges) and use shielded syringes.
+2988	M/#y · # · Outpatient
+2989	Radiopharmaceutical
+2990	Measured dose (mCi, ordered #)
+2991	Left arm vein
+2992	Right arm vein
+2993	Two patient identifiers
+2994	Verify dose with calibrator
+2995	Check pregnancy·breastfeeding
+2996	Use shielded syringe
+2997	Syringe·swab into radioactive waste after injection
+2998	Record injection
+2999	Today's radiopharmaceutical log
+3000	M/#y · # · ER Zone B
+3001	No fracture
+3002	Histotechnologist·Pathologist
+3003	When specimens arrive from procedure rooms·OR·OPD, check label·request form·fixative (#% formalin). Do not accept if fixative is missing or labels differ.
+3004	On accession a pathology number (e.g. S#) is assigned. All blocks·slides are tracked by this number.
+3005	Gross examination: the pathologist records the specimen's size·color·shape and cuts needed parts into cassettes.
+3006	Tissue is embedded in paraffin (block), cut thin, mounted on glass slides and stained (H&E). Add immunohistochemistry if needed.
+3007	Reported results can be viewed in the order screen under Results → Pathology.
+3008	Ward nursing
+3009	Pneumonia, unspecified, Type # diabetes mellitus without complications, Essential (primary) hypertension
+3010	Type # DM for # yr (oral drugs), hypertension for # yr, right cataract surgery in #
+3011	(generalized hives (#))
+3012	Son 홍민수 #xx
+3013	# @ (F/#) admitted day # for RLL pneumonia·diabetes.
+3014	Penicillin allergy (hives) — on ceftriaxone, no cross-reaction symptoms. Diabetic diet, insulin sliding scale.
+3015	Overnight max temp #℃. Poor sleep due to cough. Glucose # (bedtime, # units insulin given). High fall risk # pts.
+3016	CBC·CRP draw pending this morning — please check. Always accompany to the bathroom.
+3017	Mild risk
+3018	Infusing
+3019	Started # #
+3020	IV change record
+3021	#mg · oral · PRN · when temp ≥ #℃
+3022	#unit · SC · PRN · Glucose #~#: # units / #~#: # units / ≥ #: # units then notify physician
+3023	Narrative
+3024	Woke #~# times overnight from coughing. Side rails up, call bell within reach. Re-educated to call the nurse when going to the bathroom.
+3025	Focus
+3026	D Data
+3027	Temp #℃, complains of chills, flushed face
+3028	A Action
+3029	Acetaminophen #mg PO given. Tepid sponge. Encouraged fluid intake.
+3030	R Response
+3031	After # h temp #℃, chills resolved.
+3032	Tests in progress #: Complete blood count (CBC) (sent), Inflammation marker (CRP) (sent)
+3033	No growth on day # (final pending)
+3034	Draw: Electrolytes (Na·K·Cl)
+3035	Congestive heart failure, Chronic kidney disease stage #
+3036	Heart failure (EF #%), CKD stage #, MI in # (stent)
+3037	Daughter 윤하나 #xx
+3038	# @ (M/#) heart failure·CKD, DNR consent on file.
+3039	On diuretic·spironolactone, fluid restriction #mL/day, Medical Aid type #.
+3040	Yesterday potassium # → reported to attending; recheck this morning (draw pending). SpO2 #% on # L O2. Leg edema #+.
+3041	Morning weight, accurate I/O. Report to attending immediately if potassium ≥ #!
+3042	Moderate risk
+3043	Nursing process
+3044	Nursing diagnosis
+3045	Edema decreases, no weight gain
+3046	Interventions
+3047	Measure I/O · daily weight · fluid restriction education
+3048	# h intake #mL / output #mL. Leg edema #+ → #+ decreased.
+3049	Tests in progress #: Electrolytes (Na·K·Cl) (sent), Renal function (BUN·creatinine) (sent)
+3050	@ (Cardiology attending)
+3051	Previous shift nurse → @ (Cardiology)
+3052	✓ No handoff to receive
+3053	New orders #
+3054	Nursing note needed
+3055	Check new order: Ceftriaxone inj #g
+3056	Check new order: Normal saline #L (#% NaCl)
+3057	Check new order: Acetaminophen tab #mg
+3058	Check new order: Complete blood count (CBC)
+3059	Check new order: Inflammation marker (CRP)
+3060	Check new order: Urinalysis (U/A)
+3061	Check new order: Urine culture
+3062	Check new order: Blood culture (# sets)
+3063	Check new order: Renal function (BUN·creatinine)
+3064	Check new order: Vital signs every # h
+3065	Check new order: Regular diet
+3066	Collect: Urinalysis (U/A)
+3067	Collect: Urine culture
+3068	Draw: Blood culture (# sets)
+3069	No significant past history
+3070	Mother 박선희 #xx
+3071	No handoff to receive
+3072	New admission or no handoff from the previous shift.
+3073	New orders — nurse check needed (#)
+3074	Confirm all
+3075	When a physician order arrives, the nurse checks (patient·drug·dose·route·time) and signs. If anything is odd, ask the physician before carrying it out. Verbal orders must be confirmed and signed.
+3076	· Urinalysis (U/A)
+3077	(Urine cup)
+3078	· Urine culture
+3079	(Sterile urine cup)
+3080	· Blood culture (# sets)
+3081	(Culture bottles (aerobic·anaerobic))
+3082	No assessment records
+3083	First dose not arrived
+3084	#mg · oral · PRN · temp ≥ #℃
+3085	Not yet sent up from pharmacy
+3086	At least # vital sign records are needed to draw a chart
+3087	ER nurse
+3088	No nursing notes
+3089	Tests in progress #: CBC (sent), CRP (sent), Urinalysis (U/A) (sent), Urine culture (sent), Blood culture (# sets) (sent), Renal function (BUN·creatinine) (sent)
+3090	OR nurse
+3091	Dialysis nurse
+3092	Outpatient nurse
+3093	Recheck allergies — recorded: NSAID (ibuprofen)
+3094	Patient accounts payment·settlement
+3095	# orders not yet performed (CBC, CRP) — excluded from the bill. Perform or cancel before discharge.
+3096	# orders not yet performed (laparoscopic cholecystectomy) — excluded from the bill. Perform or cancel before discharge.
+3097	# orders not yet performed (Electrolytes (Na·K·Cl), Renal function (BUN·creatinine), Echocardiography) — excluded from the bill. Perform or cancel before discharge.
+3098	City·county Medical Aid (HIRA review)
+3099	# orders not yet performed (Ceftriaxone inj #g, Normal saline #L (#% NaCl), Acetaminophen tab #mg, CBC …) — excluded from the bill. Perform or cancel before discharge.
+3100	# orders not yet performed (Packed RBC # units) — excluded from the bill. Perform or cancel before discharge.
+3101	Currently registered:
+3102	# orders not yet performed (#-lead ECG, PCI·stent) — excluded from the bill. Perform or cancel before discharge.
+3103	# orders not yet performed (#-lead ECG) — excluded from the bill. Perform or cancel before discharge.
+3104	KCOMWEL (workers' comp)
+3105	Craniotomy patient — cerebrovascular special exemption (V#) registration required (eligibility tab)
+3106	Insurance review·claims
+3107	Discharge review: before discharge, check that charges follow the rules and no records·orders are missing. Catching problems here reduces later cuts·returns.
+3108	No patients for discharge review
+3109	Appears when a physician makes a "discharge decision" in inpatient care.
+3110	From paid NHI·Medical Aid visits, create "medical benefit cost statements" and claim to HIRA. Workers' comp·auto insurance are billed separately in "contract billing".
+3111	Care period
+3112	Claimed amount
+3113	Claim selected statements by EDI (send to HIRA)
+3114	Cut: HIRA reduced payment as not meeting criteria (A: medical appropriateness, B: billing rules, C: duplication, D: missing diagnosis). Return: not even received due to format error. If a cut is unjustified, you may appeal with evidence within # days.
+3115	No cuts·returns
+3116	Total claimed
+3117	Cut amount (after appeals)
+3118	Cut rate
+3119	Returned ₩#
+3120	Cuts by reason
+3121	Health information manager·HIM nurse
+3122	Discharge analysis: check that the discharged patient's medical record is complete and signed. Missing records are registered as "deficiencies" and requested from the physician·nurse (usually completed within # days after discharge).
+3123	✓ Progress notes (LOS # d — min # notes)
+3124	✓ Discharge summary
+3125	M/#y · General Surgery
+3126	✗ Progress notes (LOS # d — min # notes)
+3127	✗ Discharge summary
+3128	Register # deficiencies → request completion
+3129	Deficient record management: records not completed # days after discharge become "long-term deficiencies" and are penalized in hospital accreditation. When the physician writes the record, click "Confirm done". In practice you can write it yourself as the physician.
+3130	No deficient records
+3131	Disease·procedure coding: read the discharge record and code principal·secondary diagnoses with KCD and procedures with procedure codes. This data drives KDRG patient classification, statistics, research and insurance claims.
+3132	Diagnoses found in physician notes
+3133	Principal diagnosis (main reason for admission)
+3134	Secondary diagnoses (comorbidities·complications)
+3135	Surgery·Procedures
+3136	Cesarean section · Spinal anesthesia
+3137	Discharge type
+3138	Treatment result
+3139	Improved
+3140	Unchanged
+3141	Worsened
+3142	Patient classification (approx. KDRG):
+3143	Pregnancy·delivery surgery — cesarean section, severity level #
+3144	# disease-group bundled payment (DRG): cesarean delivery — fixed amount regardless of length of stay
+3145	Save coding
+3146	Medical record copy·viewing request
+3147	Medical Service Act Article #: only the patient or persons defined by law (family·agent) may view records or receive copies. Cannot issue if documents are missing.
+3148	Applicant
+3149	Patient
+3150	Family (spouse·lineal relatives·spouse's lineal ascendants)
+3151	Agent (designated by patient)
+3152	Documents received
+3153	Applicant ID
+3154	Family relation certificate
+3155	Patient's consent (handwritten signature)
+3156	Copy of patient ID
+3157	Power of attorney
+3158	Scope
+3159	Operative record
+3160	Imaging report
+3161	Method
+3162	Copy (paper)
+3163	Copy (CD·electronic)
+3164	View only
+3165	Pages
+3166	Issue·viewing log
+3167	Home health nurse specialist
+3168	Rehabilitation therapy
+3169	Rehab nurse·therapist
+3170	Radiation Oncology
+3171	Radiation oncology nurse
+3172	Transplant coordinator
+3173	Transplant candidates are registered with the national organ transplant agency and ordered by blood type·waiting time·urgency (MELD score for liver; waiting time·histocompatibility for kidney).
+3174	Candidates
+3175	Organ
+3176	Kidney
+3177	PRA #%
+3178	Liver
+3179	M/#y · Blood type A+ · ICU Surgical
+3180	Step # in progress
+3181	Report potential brain-dead donor
+3182	Donation counseling·family meeting
+3183	Family consent
+3184	#st brain death examination
+3185	#nd brain death examination + EEG
+3186	Brain death determination committee
+3187	Organ allocation
+3188	Organ procurement surgery
+3189	Donor honoring·bereaved family support
+3190	#. Report potential brain-dead donor
+3191	Confirmed GCS #·no spontaneous breathing in ICU
+3192	Reported to KODA (virtual)
+3193	Medical suitability check # (infection·cancer history)
+3194	Complete this step
+3195	Brain-dead donor management: keep SBP ≥ #, urine output #~#mL/kg/h (watch for diabetes insipidus), temp ≥ #℃, SpO2 ≥ #%
+3196	Nutrition support team (NST)
+3197	Nutrition support nurse
+3198	Nutrition support team (physician·nurse·pharmacist·dietitian): finds nutrition-risk patients, calculates energy and protein needs, and recommends the right route (oral·tube·IV).
+3199	Risk reason
+3200	F/#y · #kg

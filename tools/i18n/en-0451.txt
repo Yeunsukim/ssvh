@@ -1,0 +1,550 @@
+451	Employee (non-covered #%)
+452	Employee family (non-covered #%)
+453	Partner institution (non-covered #%)
+454	Social welfare reduction
+455	Walk-in registration
+456	Booked registration
+457	Main/Sub type
+458	General (designated care abolished in #)
+459	Near-poverty type #
+460	Severe disease registered
+461	Rare disease support
+462	Pregnant woman
+463	New·Return visit
+464	Test type
+465	Employee
+466	Employee family
+467	Tentative booking date
+468	Reason for visit
+469	Referred patient visit info
+470	Provider code
+471	Referral letter
+472	Inpatient memo
+473	Dept·Staff
+474	Room·Bed
+475	Room class
+476	Room type
+477	DRG eligible
+478	Outlier type
+479	Admission confirmed
+480	Born here
+481	Information sharing
+482	Deposit type
+483	Outpatient payment
+484	Convert to card
+485	Convert to cash
+486	Deposit
+487	Itemized fee
+488	Cash deposit
+489	Settlement
+490	Visits
+491	#y M
+492	Not written
+493	# Deulpan-gil, Gasang-gu, Seoul
+494	No. #
+495	# (Care Coordination Center)
+496	Receiving hospital
+497	Booking date
+498	Booking time
+499	Booking memo
+500	Referral status
+501	Referral detail reason
+502	Insurance eligibility
+503	Find order
+504	Cesarean section
+505	Purpose
+506	For employer
+507	For school
+508	For government office
+509	Personal copy
+510	# d
+511	Neurology
+512	Insurance #
+513	Pack
+514	Name
+515	Blood
+516	Non-covered
+517	Orthopedics
+518	Not consented
+519	Order name
+520	Frequency
+521	Laparoscopic cholecystectomy
+522	Laparoscopic sigmoidectomy
+523	Laparoscopic appendectomy
+524	Craniotomy (hemorrhage evacuation)
+525	# times
+526	Reported
+527	New order
+528	Hematology-Oncology
+529	Emergency room
+530	General Surgery · General anesthesia · about # min — request goes to the OR
+531	Stop
+532	Awaiting intake
+533	Virtual Orthopedic Clinic
+534	Virtual Long-term Care Hospital
+535	Phone
+536	Nurse notifications (SBAR)
+537	No consult requests
+538	Nephrology
+539	Discharge date
+540	Virtual Internal Medicine Clinic (Director 김가상)
+541	Acute cholecystitis
+542	Malignant neoplasm of sigmoid colon
+543	Chest pain, unspecified
+544	Septic shock (with organ failure)
+545	Contact isolation (MRSA)
+546	Intracerebral hemorrhage, unspecified
+547	Select an outpatient on the left
+548	Meals
+549	구봉례
+550	Diagnosis name
+551	Cancer special exemption (copay #%)
+552	J# Pneumonia, unspecified
+553	N# Acute pyelonephritis
+554	I# Congestive heart failure
+555	K# Acute cholecystitis
+556	C# Malignant neoplasm of sigmoid colon
+557	I# Intracerebral hemorrhage, unspecified
+558	O# Single spontaneous delivery
+559	R# Septic shock (with organ failure)
+560	Endoscopy
+561	No nurse notifications
+562	Acute appendicitis
+563	Tertiary hospital OPD consultation fee: full self-pay
+564	Virtual Family Medicine Clinic
+565	Intensive care unit
+566	Allergy: Penicillin
+567	Do-not-resuscitate (DNR)
+568	Allergy: NSAID (ibuprofen)
+569	OPD Breast Surgery
+570	No visit
+571	ER Zone A-#
+572	Allergy: Contrast media
+573	ER Resuscitation-#
+574	ER Zone B-#
+575	E# Type # diabetes mellitus without complications
+576	I# Essential (primary) hypertension
+577	F# Delirium, unspecified
+578	E# Hyperkalemia
+579	D# Anemia, unspecified
+580	O# Single delivery by cesarean section
+581	Automated chemistry
+582	Procedure confirmed
+583	Admission time
+584	Order code
+585	LD Postpartum recovery
+586	Resident registration no.
+587	Anesthesiology & Pain Medicine
+588	Discharge
+589	Virtual Surgical Clinic (near home)
+590	Virtual General Hospital (secondary #)
+591	Public Health Center (Gasang-gu)
+592	Diagnostic referral
+593	Test referral
+594	Surgical referral
+595	Procedure & drug therapy referral
+596	Home health care
+597	K# Gastritis, unspecified
+598	I# Acute subendocardial MI
+599	I# Acute myocardial infarction, unspecified
+600	I# Cerebral infarction, unspecified
+601	G# Transient ischemic attack
+602	N# Urinary tract infection, site not specified
+603	N# Chronic kidney disease stage #
+604	K# Gallstone without cholecystitis
+605	C# Malignant neoplasm of breast
+606	N# Unspecified lump in breast
+607	R# Chest pain, unspecified
+608	R# Fever, unspecified
+609	A# Sepsis, unspecified
+610	J# COPD with acute exacerbation
+611	K# Acute appendicitis
+612	S# Sprain and strain of ankle
+613	S# Fracture of lateral malleolus
+614	E# Hypokalemia
+615	R# Abdominal pain, other and unspecified
+616	J# Acute upper respiratory infection
+617	K# Gastrointestinal hemorrhage
+618	R# Syncope and collapse
+619	E# Hyperlipidemia
+620	M# Gonarthrosis (knee)
+621	R# Headache
+622	K# Gastro-esophageal reflux disease
+623	Z# Singleton born in hospital
+624	P# Other preterm infant (# weeks)
+625	S# Diffuse brain injury
+626	I# Angina pectoris, unspecified
+627	I# Acute anterior wall MI
+628	K# Gastric ulcer
+629	K# Polyp of colon
+630	D# Iron deficiency anemia
+631	Z# Chemotherapy session
+632	K# Liver cirrhosis
+633	Z# General health examination
+634	L# Pressure ulcer stage #
+635	P# Neonatal jaundice
+636	N# CKD stage # (dialysis)
+637	Pathology
+638	Set as main Dx
+639	Remove Dx
+640	Vital signs every # h
+641	Reading
+642	Admission date
+643	Payment date·time
+644	Receipt no.
+645	Bank account
+646	Receivable
+647	No payment history
+648	Workers' comp
+649	Diagnosis code
+650	Vital signs
+651	Every # h
+652	High↑
+653	Pulmonology
+654	Staff nurse
+655	Delivery
+656	Never
+657	Sometimes
+658	Usually
+659	Always
+660	Provisional coding
+661	Confirmed
+662	Re-review
+663	Unknown
+664	Height (cm)
+665	Weight (kg)
+666	Reason for visit (chief complaint)
+667	Delivery room
+668	Oral medication
+669	Treatment·Procedure
+670	Cardiovascular procedure
+671	Imaging (PACS)
+672	Nursing orders
+673	Renal function (BUN·creatinine)
+674	Ceftriaxone inj #g
+675	Newborn
+676	Referral reason
+677	Physician's judgment
+678	Patient request
+679	Sex
+680	Sign and save
+681	Admission date
+682	Transfusion
+683	Inflammation marker (CRP)
+684	Nuclear medicine
+685	Surgery confirmed
+686	In OR
+687	In surgery
+688	Recovery room
+689	Item
+690	Patient copay
+691	Booked
+692	Awaiting discharge-referral letter
+693	New patient
+694	Admission registration
+695	# doses
+696	Days
+697	Disease name
+698	Patient name
+699	Reply letter
+700	Back-referral
+701	Penicillin
+702	Contrast media
+703	Internal Medicine — @
+704	Cardiology — @
+705	General Surgery — @
+706	Neurology — @
+707	Breast Surgery — @
+708	Orthopedics — @
+709	OB/GYN — @
+710	Neurosurgery — @
+711	Pediatrics — @
+712	Nephrology — @
+713	Anesthesiology — @
+714	Gastroenterology — @
+715	Hematology-Oncology — @
+716	Diagnosis (ICD)
+717	Main diagnosis is marked ★. Diagnoses are used on prescriptions and insurance claims.
+718	Add diagnosis
+719	Orders being written (#)
+720	No orders being written
+721	Click an order above to add it.
+722	Send orders
+723	Sent orders
+724	Today·In progress
+725	Choose diagnosis
+726	Physical exam
+727	Plan
+728	Progress status
+729	Read completed
+730	Oral drug
+731	Ordering physician
+732	Microbiology
+733	Blood bank
+734	Blood product
+735	Normal
+736	Ultrasound
+737	Statistics
+738	Test results
+739	Isolation
+740	Unit price
+741	Claim
+742	# y or older
+743	Health checkup
+744	Issued (blood)
+745	Inpatient settlement
+746	Treating dept
+747	Persons
+748	General Surgery OPD in # weeks
+749	Re
+750	# yr
+751	Institution code
+752	Notifiable infectious disease
+753	Patient not found. Register in "New patient registration".
+754	F/#y · OPD Internal Medicine (waiting)
+755	M/#y · OPD Internal Medicine (waiting)
+756	F/#y · OPD Breast Surgery (waiting)
+757	F/#y · ER Zone A-# (in consultation)
+758	M/#y · ER Resuscitation-# (in consultation)
+759	M/#y · ER Zone B-# (waiting)
+760	M/#y · ICU Medical-# (admitted)
+761	F/#y · ICU Surgical-# (admitted)
+762	M/day # · NB Nursery-# (admitted)
+763	F/day # · NB NICU-# (admitted)
+764	M/#y · ICU Surgical-# (admitted)
+765	Registering a first-visit patient creates an MRN (unique patient number). The MRN never changes.
+766	Male
+767	Female
+768	Allergy type
+769	Cephalosporin
+770	NSAID
+771	Opioid analgesic
+772	Sulfonamide
+773	Allergic reaction (e.g. hives)
+774	Guardian (relation·name·phone)
+775	Past history
+776	Register patient
+777	Department · Physician
+778	Internal Medicine — Prof. @
+779	Cardiology — Prof. @
+780	General Surgery — Prof. @
+781	Neurology — Prof. @
+782	Breast Surgery — Prof. @
+783	Orthopedics — Prof. @
+784	OB/GYN — Prof. @
+785	Neurosurgery — Prof. @
+786	Pediatrics — Prof. @
+787	Nephrology — Prof. @
+788	Anesthesiology — Prof. @
+789	Gastroenterology — Prof. @
+790	Hematology-Oncology — Prof. @
+791	New · Return
+792	Check insurance eligibility
+793	NHIS eligibility check done (virtual)
+794	Arrival mode
+795	# Ambulance (119)
+796	Private ambulance
+797	Transfer from another hospital
+798	Triage (KTAS) — set by triage nurse
+799	# Resuscitation — immediate
+800	# Emergent — within # min
+801	# Urgent — within # min
+802	# Less urgent — within # h
+803	# Non-urgent — within # h
+804	Cardiac arrest, unconscious, apnea ·
+805	Chest pain (suspected MI), stroke symptoms, severe dyspnea ·
+806	Moderate dyspnea, abdominal pain with fever ·
+807	Sprain, minor laceration, UTI symptoms ·
+808	Cold symptoms, prescription request
+809	ER zone
+810	Resuscitation room
+811	Zone A
+812	Zone B
+813	Observation room
+814	Patients decided for admission (by physician)
+815	No patients decided for admission
+816	Appears here when a physician makes an "admission decision" in OPD or ER.
+817	Department · Attending
+818	Emergency Medicine — @
+819	#B Surgical ward
+820	Empty beds (#)
+821	Room type
+822	Admission note
+823	Complete admission
+824	No outpatients. Register an OPD visit at the front desk.
+825	F/#y · Headache, home BP # (# weeks)
+826	M/#y · Heartburn, acid regurgitation (# weeks)
+827	F/#y · Palpable left breast lump (# months)
+828	M/#y · Checkup endoscopy
+829	F/#y · Chemo cycle # — injection room
+830	F/#y · Epigastric pain — gastroscopy
+831	M/#y · Chest tightness on exertion
+832	F/#y · First-onset seizure
+833	F/#y · Iron injection
+834	No record
+835	Inpatients
+836	M/#y · Malignant neoplasm of sigmoid colon
+837	M/#y · Acute cholecystitis
+838	M/#y · Septic shock (with organ failure)
+839	F/#y · Intracerebral hemorrhage, unspecified
+840	M/#y · Diffuse brain injury
+841	M/day # · Singleton born in hospital
+842	F/day # · Other preterm infant (# weeks)
+843	Order details
+844	Progress note
+845	Electrolytes (Na·K·Cl)
+846	ER patient board
+847	No ER patients
+848	Zone A #
+849	F/#y · arrived # min · crushing chest pain for # h, radiating to left arm, cold sweat
+850	Resus #
+851	M/#y · arrived # min · right-sided weakness, slurred speech (last known well # min ago)
+852	Zone B #
+853	M/#y · arrived # min · twisted right ankle on stairs at work, swollen and painful
+854	#-lead ECG
+855	Molecular diagnostics
+856	Low↓
+857	No patients in this ward
+858	Alert #
+859	Receive handoff
+860	Early warning score
+861	Surgical patients
+862	No surgery requests. Order "Surgery" in inpatient orders.
+863	TBD
+864	M/#y · Laparoscopic cholecystectomy
+865	OR status board
+866	Surgery flow:
+867	Request (sent)
+868	(OR assigns schedule·room) → ward pre-op prep →
+869	(pre-anesthesia check) →
+870	(incision after time-out) →
+871	OR
+872	Scheduled
+873	Surgeon·Anesthesia
+874	Ward prep
+875	- · General anesthesia
+876	@ · Spinal anesthesia
+877	Hemodialysis patients
+878	Mon·Wed·Fri
+879	M/#y · Left arm AV fistula · dry weight #kg
+880	Tue·Thu·Sat
+881	F/#y · Right IJ dialysis catheter · dry weight #kg
+882	Select a dialysis patient on the left
+883	Hemodialysis is usually # times a week, # h each.
+884	No outpatients today
+885	M/#y · @ · Checkup endoscopy
+886	F/#y · @ · Chemo cycle # — injection room
+887	F/#y · @ · Epigastric pain — gastroscopy
+888	M/#y · @ · Chest tightness on exertion
+889	F/#y · @ · First-onset seizure
+890	F/#y · @ · Iron injection
+891	F/#y · @ · Headache, home BP # (# weeks)
+892	M/#y · @ · Heartburn, acid regurgitation (# weeks)
+893	F/#y · @ · Palpable left breast lump (# months)
+894	Payment patients
+895	No patients awaiting payment. They appear after OPD visit completion·ER discharge·discharge review.
+896	Today's payments
+897	Payments
+898	Amount received
+899	Discharge payment steps
+900	Physician discharge decision
+901	Ward discharge prep·education
+902	Insurance review (discharge review)
+903	Billing calculation·Payment
+904	Discharge → Claim (EDI)
+905	Issue certificates
+906	Diagnosis date
+907	Issue
+908	Today's visits
+909	F/#y · # Golmok-gil, Gasang-gu, Seoul (#F)
+910	M/#y · # Eondeok-ro, Gasang-gu, Seoul (house)
+911	Home health care: a nurse visits patients who need treatment at home after discharge (physician's home-care order required).
+912	Rehab patients
+913	No rehab referrals (request a Rehabilitation Medicine consult from inpatient orders)
+914	M/#y · left cerebral infarction # weeks ago → right hemiplegia, dysarthria
+915	Evaluates and trains function so patients after stroke·fracture·surgery can walk and do daily activities again.
+916	Radiotherapy patients
+917	F/#y · Whole left breast + tumor bed boost
+918	Delivers a prescribed radiation dose to cancer patients in many fractions. Nurses monitor side effects (dermatitis·fatigue) and educate.
+919	@ (#A)
+920	Today's examinees
+921	M/#y · Basic + gastroscopy + abdominal US
+922	F/#y · Basic + Pap smear
+923	M/#y · Basic + gastroscopy + colonoscopy
+924	Select an examinee on the left
+925	A checkup healthy people take to find disease early. Guiding the route·judging results·counseling are nursing tasks.
+926	Actual
+927	Hartmann's solution #L
+928	✗ Incomplete
+929	Cardiovascular procedure patients
+930	No cardiovascular procedure orders (Orders → Cardiovascular procedure)
+931	F/#y · Percutaneous coronary intervention (PCI·stent)
+932	M/#y · Coronary angiography (CAG)
+933	Endoscopy patients
+934	No endoscopy orders (Orders → Endoscopy)
+935	M/#y · Emergency endoscopic hemostasis
+936	M/#y · Gastroscopy (upper GI)
+937	M/#y · Colonoscopy
+938	F/#y · Gastroscopy (upper GI)
+939	Info consent
+940	Identity not verified — ID check is required for NHI care (mandatory since #/#).
+941	OPD insurance history
+942	Discount history
+943	※ Payment for phone·online·return-visit bookings is handled in OPD payment.
+944	Covered referral letter
+945	Fee calculation
+946	Save (register)
+947	Flu vaccination (staff)
+948	General IM + main
+949	Chart copy (copy last visit)
+950	Clinic hours
+951	Visit form
+952	Main (primary dept)
+953	Sub (second dept same day)
+954	Designated·General
+955	V# Cancer
+956	V# Cerebrovascular
+957	V# Cardiac
+958	V# Dialysis
+959	V# Rare disease
+960	YES (charged)
+961	NO (same-day revisit·tests only)
+962	Under # y
+963	Vaccination
+964	# In-hospital dispensing
+965	# Disabled
+966	Tests only
+967	ER visit info
+968	Discharge date (ER)
+969	Discharge time (ER)
+970	Documents received
+971	Electronic referral
+972	Information disclosure not consented
+973	Long-term care admission + special exemption
+974	Previously paid
+975	Rounding cut
+976	OPD visit history
+977	Privacy consent
+978	Admission agreement
+979	Enter guarantor
+980	Information sheet
+981	Inpatient management
+982	Integrated nursing care service admission
+983	Upgraded room period
+984	Room not disclosed
+985	Mother's no.
+986	Mother's name
+987	Delivery date
+988	Same-day OPD visit history
+989	Diagnosis lookup
+990	Admission booking lookup
+991	Cancel force approval
+992	Insurance details
+993	Discount details
+994	Admission registration details
+995	Transfer to another hospital
+996	Wheelchair
+997	Stretcher
+998	Ambulance
+999	Isolation room (covered)
+1000	Sub

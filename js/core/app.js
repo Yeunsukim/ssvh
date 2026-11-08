@@ -72,6 +72,7 @@
         <span class="tb-user">${u.role === 'instructor' ? '교수자' : '학생'} <b>${esc(u.name)}</b>${u.sid ? ` · ${esc(u.sid)}` : ''}</span>
         ${m.id !== 'map' ? `<button class="tb-btn" data-act="shell.bell" aria-label="알림 ${n}건">${H.icon('bell')}<span>알림</span>${n ? `<span class="cnt">${n}</span>` : ''}</button>` : ''}
         <button class="tb-btn" data-act="shell.home">${H.icon('home')}<span>부서 지도</span></button>
+        <span class="lang-seg no-tr" role="group" aria-label="화면 언어 Language"><button type="button" class="${H.i18n && H.i18n.on ? '' : 'on'}" data-act="shell.lang" data-v="ko">한글로</button><button type="button" class="${H.i18n && H.i18n.on ? 'on' : ''}" data-act="shell.lang" data-v="en">영어로</button></span>
         <button class="tb-btn" data-act="shell.theme" aria-label="화면 밝기 바꾸기">${H.icon(dark ? 'sun' : 'moon')}<span>${dark ? '밝게' : '어둡게'}</span></button>
         <button class="tb-btn" data-act="shell.fs" aria-label="글씨 크기 바꾸기">${H.icon('text')}<span>글씨 ${{ m: '보통', l: '크게', xl: '아주 크게' }[fs]}</span></button>
         <button class="tb-btn" data-act="shell.logout">${H.icon('logout')}<span>나가기</span></button>
@@ -147,6 +148,7 @@
 
   // ── 공통 동작 ──
   const SHELL = {
+    'shell.lang': (el) => { if (H.i18n) H.i18n.set(el.dataset.v); },
     'shell.home': () => { if (A.activate) A.activate('map'); A.go('map'); },
     'shell.pick': (el) => { A.selectPatient(el.dataset.pid, el.dataset.enc || null); const m = A.mod(); if (m.onPick) m.onPick(); },
     'shell.theme': () => {
@@ -216,6 +218,7 @@
     const nav = S.session().nav;
     if (nav) { A.st.pid = nav.pid || null; A.st.encId = nav.encId || null; Object.assign(A.st, nav.mods || {}); }
     if (A.loadTabs) A.loadTabs();
+    if (H.i18n) H.i18n.init();
     window.addEventListener('resize', () => { clearTimeout(A._rz); A._rz = setTimeout(() => { const n = matchMedia('(max-width: 1000px)').matches; if (n !== A._narrow) { A._narrow = n; A.navMob = false; A.render(); } }, 200); });
 
     document.addEventListener('click', (e) => {

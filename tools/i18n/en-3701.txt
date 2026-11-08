@@ -1,0 +1,550 @@
+3701	VOC #
+3702	Happy calls #
+3703	Campaign: select target customers by conditions and send guidance SMS. Marketing (events·health info) messages can only go to
+3704	customers who consented
+3705	(Personal Information Protection Act), and are not sent between # PM and # AM.
+3706	Chronic patients not seen for over # months
+3707	Discharged within # days
+3708	All customers who consented to marketing
+3709	Chronic patients not seen for over # months (revisit reminder)
+3710	Targets #: @, @, @
+3711	Message text
+3712	Send to # people
+3713	No campaigns sent
+3714	Customer relations officer (QI)
+3715	Patient experience assessment (HIRA): adult patients hospitalized more than # days are surveyed by phone #~# days after discharge. Here the hospital runs its own mock survey. Scores: never # · sometimes # · usually # · always #.
+3716	Survey target (recent discharges)
+3717	@ — General Surgery
+3718	@ — OB/GYN
+3719	Nurses treated me with respect and courtesy
+3720	Nurses listened carefully to me
+3721	Nurses explained hospital life (tests·meals·precautions) well
+3722	Nurses tried to help when I needed help
+3723	Doctors treated me with respect and courtesy
+3724	Doctors listened carefully to me
+3725	I had opportunities to talk with a doctor
+3726	I was told when I could see the doctor (e.g. rounds)
+3727	The purpose and side effects of new medicines were explained clearly
+3728	The reason and method were explained before tests·treatments
+3729	Staff tried to reduce my pain
+3730	The process and risks were explained before surgery·procedures
+3731	The room was clean
+3732	The hospital environment was safe (falls·infection etc.)
+3733	Care was taken so I did not feel embarrassed (body exposure etc.)
+3734	My opinion was reflected in treatment decisions
+3735	I was told how to make a complaint
+3736	I was treated fairly regardless of sex·age·income
+3737	How would you rate this hospital stay from # to #?
+3738	Would you recommend this hospital to family·friends? (#~#)
+3739	Save survey
+3740	Improvement area
+3741	Responsible department
+3742	Target indicator
+3743	Register improvement task
+3744	Activity
+3745	Owner
+3746	Hand out a "how to raise complaints·grievances" sheet with verbal explanation at admission
+3747	Nursing department·Customer relations
+3748	Item score # → #
+3749	Booking agent
+3750	Outbound calls (hospital calls the patient): ① when bookings must move due to a physician's closure (conference·surgery) ② to rebook no-show patients.
+3751	Register physician closure
+3752	Closure date
+3753	View booked patients
+3754	Register closure
+3755	Prof. @ # booked patients: #
+3756	No bookings on this day
+3757	No-show follow-up #
+3758	Missed booking
+3759	# # Cardiology
+3760	# # Internal Medicine
+3761	Call
+3762	Knee pain → referred to Orthopedics
+3763	# s
+3764	Calls today #
+3765	Answered #
+3766	Abandoned #
+3767	Answer rate #%
+3768	Avg wait # s
+3769	By call type
+3770	Clinic booking
+3771	Change·cancel booking
+3772	Test booking inquiry
+3773	Other inquiry
+3774	Call center targets (example): answer rate ≥ #%, ≥ #% answered within # s, abandonment < #%.
+3775	Integrated booking staff
+3776	Weekly schedule: one cell = # min, capacity #. Numbers show bookings/capacity. Click an empty cell to book immediately. Gray means no clinic (surgery·rounds·closure).
+3777	Prof. @
+3778	Feedback: ① contact no-show patients, rebook and record reasons ② handle change requests from phone·website ③ report booking status (no-show rate·waiting days) to departments so they adjust clinic schedules.
+3779	No-shows #
+3780	Booking date
+3781	Contact result
+3782	Requests #
+3783	Request time
+3784	Patient·Phone
+3785	Request to schedule bone densitometry and the OPD visit on the same day
+3786	Done (reply SMS)
+3787	Department booking status report
+3788	No-show rate
+3789	Avg booking wait (days)
+3790	# (all) - # (neonatology) - # (day ward) = # pts
+3791	Discharge analysis (II)
+3792	Discharge analysis (III)
+3793	Cancer registry
+3794	☞ Patient basic information
+3795	Age
+3796	Foreigner
+3797	Office worker
+3798	Service worker
+3799	Agriculture
+3800	Unemployed
+3801	Protestant
+3802	Catholic
+3803	Buddhist
+3804	Height
+3805	Weight
+3806	☞ Admission·discharge information
+3807	Admitting dept *
+3808	Discharge dept *
+3809	Admitting physician *
+3810	Discharging physician *
+3811	Admitting ward *
+3812	Admitting room *
+3813	Admission count
+3814	Readmission
+3815	Pre-op days
+3816	#·Direct visit
+3817	Clinic referral
+3818	Other hospital referral
+3819	Cured
+3820	Not improved
+3821	No treatment
+3822	Diagnosis only
+3823	Discharged on order
+3824	Absconded
+3825	Other hospital
+3826	Care facility
+3827	☞ Detail information
+3828	Designation
+3829	Date of death
+3830	Within # h
+3831	After # h
+3832	Intraoperative death
+3833	Singleton
+3834	Twins or more
+3835	Clean
+3836	Clean-contaminated
+3837	Contaminated
+3838	Dirty
+3839	Transfusion volume
+3840	Poisoning
+3841	Reoperation
+3842	Unplanned readmission
+3843	Unplanned reoperation
+3844	Communicable disease
+3845	Total operations
+3846	Gray calculated fields are pulled automatically from order·nursing·surgery records.
+3847	First entry -
+3848	From discharge date
+3849	Clinical coding analysis
+3850	Health information manager (coding)
+3851	Diagnosis coding: read the discharge summary·progress notes and choose # principal diagnosis and secondary diagnoses using KCD. POA (present on admission): Y present · N developed after admission (complication) · U unknown. Confirming passes the data to the claims team.
+3852	— Select —
+3853	Patient classification (KDRG)
+3854	Secondary Dx code
+3855	Physician-written Dx: O# Single delivery by cesarean section
+3856	Save provisional coding
+3857	Request re-review (to physician)
+3858	Confirm coding
+3859	Procedure classification: code surgeries·procedures·major treatments with international procedure codes (approx. ICD-#-CM). The principal procedure is the # most related to the reason for admission.
+3860	Performed date
+3861	Procedure code
+3862	Procedure name
+3863	Surgeon
+3864	Cesarean section (lower uterine segment)
+3865	Spinal anesthesia
+3866	Procedure classification done
+3867	Principal procedure
+3868	Cancer registry (info sheet): cancer patients are registered with the national cancer registry by primary site·histology·stage·diagnostic method. Pathology results are the basis.
+3869	This patient has no cancer diagnosis — not subject to registration.
+3870	Biopsy
+3871	Cytology
+3872	Clinical
+3873	Pathology result
+3874	Abnormal results
+3875	Health information manager·Attending
+3876	Discharge type
+3877	Discharged+provisional+planned
+3878	By status
+3879	First draft
+3880	Reviewed discharge record
+3881	☞ Patient information
+3882	Attending
+3883	Favorite diagnoses
+3884	Department diagnoses
+3885	All diagnoses
+3886	Template note
+3887	Save summary
+3888	Review discharge record
+3889	☞ Discharge diagnosis information
+3890	Dx code
+3891	Entered by
+3892	Date·Time
+3893	☞ Discharge summary — unreviewed discharge record
+3894	Hospital course
+3895	Condition at discharge
+3896	OPD follow-up
+3897	Save summary = saved and signed as the discharge summary in the physician record (EMR). Diagnoses flow to coding·claims.
+3898	Record status
+3899	Incomplete
+3900	@Discharge date
+3901	(# days elapsed)
+3902	Create intern deficiencies
+3903	Deficient physician *
+3904	Professor *
+3905	Department *
+3906	Not registered
+3907	@ (attending)
+3908	OB/GYN resident
+3909	LD ward nurse
+3910	Automatic check (compared with records): no missing records
+3911	Admission·discharge record
+3912	ER record
+3913	Progress notes
+3914	Consult request
+3915	Consent forms
+3916	Physician orders
+3917	Anesthesia/nursing records
+3918	Clinical quality indicator check
+3919	Delivery·newborn records
+3920	Entered by - · Entered at -
+3921	Register deficiencies → request from owners
+3922	📊 Reply/Back-referral/Referral reply analysis
+3923	📊 Reply monthly trend
+3924	Reply OPD
+3925	Reply inpatient
+3926	📊 Reply monthly table
+3927	📊 Reply/Back-referral/Referral back-referral analysis
+3928	📊 Back-referral monthly trend
+3929	Back-referral OPD
+3930	Back-referral inpatient
+3931	📊 Back-referral monthly table
+3932	📊 Reply/Back-referral/Referral referral analysis
+3933	📊 Referral monthly trend
+3934	Referral OPD
+3935	Referral inpatient
+3936	📊 Referral monthly table
+3937	📊 Referrals by department
+3938	Ratio
+3939	Urology
+3940	View scanned referral
+3941	Patient name
+3942	New/Return
+3943	Awaiting reply
+3944	No clinic booking yet — book first in Care coordination (receive referrals).
+3945	C-reactive protein #
+3946	Vaccination date
+3947	Vaccine type
+3948	Vaccine name
+3949	Dose number
+3950	Smoking
+3951	Alcohol
+3952	Recent glucose
+3953	Imaging date
+3954	Impression
+3955	Care coordination nurse
+3956	Medical Aid referral
+3957	#ry Medical Aid institution confirmed
+3958	NHI back-referral letter
+3959	■ B. Back-referral basic info
+3960	Back-referral reason
+3961	NHI referral letter
+3962	Sent
+3963	#:Before intake
+3964	#:Intake done
+3965	#:All
+3966	Process intake
+3967	Print (view)
+3968	Satisfaction
+3969	Sending institution
+3970	M
+3971	OPD initial/progress notes
+3972	Lab reports
+3973	Other clinical info
+3974	Imaging DICOM
+3975	Imaging non-DICOM
+3976	Booking info
+3977	No discharge summary
+3978	Intake status
+3979	Data check
+3980	IT administrator·Instructor
+3981	Data link check: inspects all data according to the data rule table. It checks ① required fields ② whether keys pointing to other data actually exist (broken links) ③ allowed values ④ whether order steps match results ⑤ same bed·duplicate admissions ⑥ missing steps in the order flow rule table. Auto-fix never deletes data; it only corrects.
+3982	Checked # #
+3983	Errors #
+3984	Warnings #
+3985	Auto-fixable #
+3986	Data # rows · #KB
+3987	Check again
+3988	Error
+3989	All data are correctly linked. No broken links·missing fields·inconsistent states.
+3990	Level
+3991	Auto-fix
+3992	No problems
+3993	Data rule table: lists, for each collection (table) of practice data, its fields, required fields and keys (FK) pointing to other collections. When connecting to a hospital DB, this table is the table design document. New fields·collections must be recorded here first when building new screens.
+3994	Table name
+3995	Rows
+3996	Intake·Output
+3997	Medication record (MAR)
+3998	Nursing notes
+3999	Nursing assessment (scores)
+4000	SBAR reports
+4001	CPR records
+4002	Nursing activities
+4003	Notifications
+4004	Activity log (audit)
+4005	Admission requests
+4006	Specimens
+4007	Department work records
+4008	Payment receipts
+4009	Insurance claims
+4010	Supplies·Inventory·Sterilization
+4011	Care coordination (referral·back-referral·reply)
+4012	Field
+4013	Description
+4014	Required
+4015	References (FK)
+4016	Allowed values
+4017	FK encounter
+4018	FK patient
+4019	Encounter type
+4020	FK order item (master)
+4021	Order item master
+4022	Unit
+4023	Total quantity
+4024	PRN
+4025	Outside prescription
+4026	Ordered by
+4027	FK physician
+4028	Physician list
+4029	JSON step history
+4030	JSON result
+4031	Imaging time
+4032	Ward arrival time
+4033	JSON surgery
+4034	JSON cardiovascular procedure
+4035	JSON endoscopy
+4036	JSON review adjustment
+4037	Referenced by:
+4038	Medication record (MAR).orderId, Specimens.orderIds, Department work records.orderId, Bookings.orderId
+4039	Order flow rule table: summarizes, by category, which steps orders from OCS go through and which department screen handles each. Every step must have a handling screen so orders are never cut off. The check tab verifies this table automatically.
+4040	Step (status)
+4041	Responsible dept·screen
+4042	Screen id
+4043	Link
+4044	Pharmacy — ward totals·issue / OPD dispensing window
+4045	Ward medication (MAR) · OPD: handed to patient
+4046	Pharmacy — issue
+4047	Ward medication (MAR) · OPD injection room
+4048	Phlebotomy (OPD) · ward blood draw
+4049	Laboratory — specimen intake
+4050	Laboratory — section testing
+4051	Laboratory — verification·report
+4052	Order screen result view · ward check
+4053	Radiology — intake
+4054	Radiology — room-specific imaging (incl. contrast room)
+4055	Radiology — reading
+4056	PACS view (order screen)
+4057	Pathology — specimen arrival
+4058	Pathology — accession
+4059	Pathology — gross exam
+4060	Pathology — slides
+4061	Pathology — reading
+4062	Order screen result view
+4063	Function test lab (function tests) · ward (inpatient·ER treatments) · injection room OPD treatment room (OPD treatments)
+4064	Order screen result view · payment
+4065	Ward — order check → perform
+4066	Ward — nursing performance record
+4067	Ward — order check → nutrition team applies
+4068	Nutrition team meal totals
+4069	Blood bank — crossmatch
+4070	Blood bank — issue
+4071	Ward·OR — transfuse after # -person check
+4072	Consultant — reply in the order screen consult tab
+4073	Requesting physician confirms
+4074	OR — schedule·room assignment
+4075	Ward pre-op prep → OR entry
+4076	OR — time-out
+4077	OR — operative record
+4078	Recovery room — discharge criteria
+4079	Ward — post-op nursing
+4080	Cardiovascular center — schedule
+4081	Cardiovascular center — pre-procedure prep
+4082	Cardiovascular center — intra-procedure
+4083	Cardiovascular center — post-procedure observation
+4084	Cardiovascular center — completion
+4085	Ward — puncture site observation
+4086	Endoscopy — booking·education
+4087	Endoscopy — pre-procedure
+4088	Endoscopy — in procedure
+4089	Endoscopy — recovery
+4090	Endoscopy — discharge·completion
+4091	Order screen result view · pathology (biopsy)
+4092	Payment·claims link: completed orders (excluding nursing orders·diet·consults) → fee calculation → patient accounts payment (OPD payment·inpatient settlement) → discharge review·coding → claims·EDI → re-claim·appeal
+4093	Data protection: practice data are stored in this computer's browser storage. Each save is re-read immediately to confirm it was stored correctly. A backup copy is kept every # min. If stored data are corrupted, they are restored automatically from the backup. Changes made in another window (tab) are reflected here immediately, so old data never overwrite new data.
+4094	Data format version
+4095	Last saved
+4096	Save status
+4097	Backup copy
+4098	Storage used
+4099	Restore history
+4100	Make backup now
+4101	Restore from backup
+4102	Instructor screen
+4103	Instructor
+4104	Completed items
+4105	Judged automatically from recorded data. Have one student practice at a time in the same browser, or load records submitted by students to check.
+4106	Task
+4107	Wrote and sent orders
+4108	Issued an outside prescription (OPD)
+4109	Pharmacy
+4110	Did order review·dispensing·issue
+4111	Did blood draw → result entry → result report
+4112	Reported a critical value with read-back (@ potassium etc.)
+4113	Imaging·reading → PACS view
+4114	Microbiology culture → Gram stain → ID → susceptibility report
+4115	Molecular PCR (Ct value) reading
+4116	Send-out test dispatch·result receipt
+4117	QC judgment (Levey-Jennings·Westgard rules)
+4118	Contrast room: renal function (eGFR) check·post-exam reaction observation
+4119	Imaging after MRI safety screening
+4120	Nuclear medicine dose measurement·injection record
+4121	PFT interpretation (FEV#/FVC·GOLD stage)
+4122	Room-specific test reports (stress test·echo·EEG etc.)
+4123	VOC intake → department transfer → reply → close
+4124	Happy call to discharged patient
+4125	Patient experience mock survey·improvement task
+4126	Phone counseling: booking·change·cancel after ID verification
+4127	Integrated booking: test scheduling·no-show rebooking
+4128	Coding: principal·secondary diagnoses confirmed
+4129	Deficiency registration (check items → request)
+4130	Reply letter written·sent
+4131	Referral·back-referral letter sent (consent checked)
+4132	Pathology from specimen intake to reading
+4133	Confirmed receipt of previous shift handoff
+4134	Signed new orders after checking
+4135	@ initial admission nursing assessment
+4136	Risk assessment for falls·pressure ulcer·pain
+4137	Medication given after # rights check
+4138	High-alert drug given with # -person check
+4139	Transfusion started after pre-transfusion check (@)
+4140	Vital signs measured·recorded
+4141	Focus-DAR or nursing process note
+4142	Notified physician by SBAR
+4143	Signed verbal order after read-back
+4144	Patient education recorded
+4145	CPR record written
+4146	SBAR handoff written
+4147	Surgery schedule confirmed
+4148	Ward pre-op checklist
+4149	Incision after time-out
+4150	Out after gauze·instrument count matched (sign out)
+4151	Aldrete score recorded in recovery
+4152	ICU flowsheet hourly records
+4153	Ventilator·VAP bundle record
+4154	Drip rate calculation (# -person check)
+4155	CAM-ICU delirium assessment
+4156	ER triage (KTAS)
+4157	Partograph recorded
+4158	Fetal heart rate monitoring interpretation
+4159	Delivery record·Apgar score
+4160	Postpartum observation (fundus·lochia)
+4161	Newborn assessment·physical exam
+4162	Feeding·jaundice records
+4163	Vaccination·screening records
+4164	Dialysis
+4165	Pre-dialysis assessment → intra-dialysis observation → end
+4166	OPD pre-visit prep·post-visit instructions
+4167	OPD·ER·discharge payment (receipt issued)
+4168	Eligibility change·special exemption registration
+4169	Medical certificate·document issue
+4170	Physician discharge decision → ward discharge education
+4171	Discharge review (pre-check)
+4172	EDI claim sent
+4173	Appeal of cuts
+4174	Discharge analysis·deficiency registration
+4175	Home health visit record
+4176	Rehab function assessment·therapy
+4177	Radiotherapy·side effect observation
+4178	Brain-death organ donation procedure
+4179	NST nutrition assessment
+4180	Isolation·hand hygiene·infectious disease report
+4181	Function test (ECG etc.) reading
+4182	Central supply sterilization·indicator reading
+4183	Health checkup judgment·counseling
+4184	Care coordination referral·back-referral
+4185	Done
+4186	Supply request·purchase order·receiving
+4187	Emergency MI — door-to-balloon record
+4188	Pre-procedure prep (Allen test·contrast allergy)
+4189	Post-procedure puncture site·distal observation
+4190	Pre-procedure (bowel prep score·sedative dose)
+4191	Biopsy pathology request·recovery discharge score
+4192	Endoscope cleaning·disinfection record
+4193	OPD injection·observation
+4194	Adverse drug reaction management
+4195	Chemo injection (BSA·# -person check·extravasation watch)
+4196	#-shift roster written
+4197	No activity records
+4198	SSV Hospital IT Practice
+4199	Collapse menu
+4200	SSV Hospital
+4201	Hospital IT practice
+4202	Now
+4203	Choose where to work
+4204	김간호
+4205	Dark
+4206	Large text
+4207	Log out
+4208	Auto-saved
+4209	Storage #KB
+4210	Data links OK
+4211	· Evening (#–#)
+4212	Educational virtual data — do not use for real care
+4213	try { H.boot(); } catch (e) { console.error(e); document.getElementById('app').innerHTML = '<div style="padding:#rem;font-family:sans-serif"><h#>A problem occurred while opening the program</h#><p>' + String(e.message).replace(/</g, '&lt;') + '</p></div>'; }
+4214	Close department menu
+4215	To department map
+4216	Change screen brightness
+4217	Change text size
+4218	Close menu
+4219	Open screens
+4220	Close discharge review tab
+4221	Ibuprofen tab #mg
+4222	Aspirin #mg (chewable)
+4223	Clopidogrel tab #mg
+4224	Amlodipine tab #mg
+4225	Metformin tab #mg
+4226	Atorvastatin tab #mg
+4227	Pantoprazole tab #mg
+4228	Rebamipide tab #mg
+4229	Mosapride tab #mg
+4230	Amoxicillin·clavulanate tab #mg
+4231	Cefaclor cap #mg
+4232	Levofloxacin tab #mg
+4233	Furosemide tab #mg
+4234	Warfarin tab #mg
+4235	Lorazepam tab #mg
+4236	Zolpidem tab #mg
+4237	Tramadol cap #mg
+4238	Magnesium oxide tab #mg
+4239	Potassium chloride SR tab #mg
+4240	Nitroglycerin SL tab #mg
+4241	Prednisolone tab #mg
+4242	Cetirizine tab #mg
+4243	Salbutamol inhaler #mcg
+4244	Calcium polystyrene sulfonate #g (Kalimate)
+4245	Vancomycin inj #g
+4246	Ketorolac inj #mg
+4247	Metoclopramide inj #mg
+4248	Dexamethasone inj #mg
+4249	Epinephrine inj #mg
+4250	Atropine inj #mg

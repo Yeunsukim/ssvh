@@ -1,0 +1,550 @@
+2101	# Death
+2102	# Discharge (to OPD)
+2103	# Discharge (closed)
+2104	Night·Holiday
+2105	Total care days
+2106	Order count
+2107	Fixed rate·Flat
+2108	Care period
+2109	DRG code
+2110	Approval no.
+2111	Accident seq.
+2112	Care start date
+2113	Item (basic·materials / procedure fee)
+2114	Basic·Materials
+2115	Procedure fee
+2116	Radiology report
+2117	Clinical report
+2118	Drug lookup
+2119	Print copy
+2120	CT total
+2121	MRI/PET total
+2122	Subtotal
+2123	Surcharge rate (tertiary)
+2124	Advance/Outlier/Ceiling
+2125	Disability/TB support
+2126	Insurer (NHIS) share
+2127	Selective coverage total
+2128	Fee-for-service total charges
+2129	Insurance #% copay
+2130	Fee name
+2131	Selective
+2132	Charged
+2133	Non-covered
+2134	Compensation
+2135	Calculate
+2136	Anesthesia fee (spinal)
+2137	Albumin infusion is covered when serum albumin < # etc. — pre-infusion albumin #
+2138	Select statement
+2139	Re-claim
+2140	#A Medical ward
+2141	Facilities team
+2142	Care·Explanation
+2143	Facilities·Environment
+2144	Meals
+2145	Discharge analysis (I) done
+2146	Anesthesia
+2147	Cancer patient flag
+2148	Year-month
+2149	Reply letter
+2150	Before intake
+2151	■ B. Referral basic info
+2152	Referring institution type
+2153	Re-referral of back-referred patient (fast track)
+2154	Referral to another institution
+2155	Referral detail reason
+2156	Urgent care needed
+2157	Light blue (citrate)
+2158	김간호, where will you work today?
+2159	Click a department on the hospital IT map, or choose from the departments by job type below. Places marked "Available" can be used right now.
+2160	View my practice records
+2161	Groupware
+2162	HR system
+2163	Customer relations
+2164	Accounting
+2165	Education/Safety
+2166	Narcotics reporting
+2167	Logistics/Supply
+2168	Purchasing/Inventory
+2169	Facilities/Other
+2170	MFDS reporting
+2171	SMS/AlimTalk
+2172	HR·General affairs
+2173	Education·Training
+2174	Booking/Clinic schedule
+2175	Drugs/Injections
+2176	Pharmacy/Dispensing
+2177	Rehab/Physical therapy
+2178	Receiving
+2179	Phone booking
+2180	Center
+2181	Registration·Payment
+2182	Outpatient/Nursing
+2183	Clinical OCS
+2184	Lab/Blood draw
+2185	Radiology
+2186	Contract payers
+2187	Claims/Receivables
+2188	Certificates
+2189	Clinical EMR
+2190	/Pathology
+2191	/Transfer
+2192	Admission·Discharge
+2193	Inpatient/Nursing
+2194	Nursing EMR
+2195	Function/Other
+2196	Cardiac
+2197	Referral/Back-referral
+2198	Dx analysis
+2199	Pre/Post
+2200	Emergency/Nursing
+2201	Nutrition/NST
+2202	Infectious disease report
+2203	Checkup center
+2204	HIRA/
+2205	MOIS
+2206	Adequacy assessment
+2207	Review decisions/Cuts
+2208	Claims/EDI
+2209	Discharge analysis
+2210	/Deficiency
+2211	Statistics
+2212	Occupational health
+2213	Core IT (HIS·OCS·EMR)
+2214	Hospital operations
+2215	Management support
+2216	External institutions·systems
+2217	Work zone boundary
+2218	Practice management (my records)
+2219	Click a department to expand its menus below (one at a time). Click a menu to open it in a top tab.
+2220	Patient accounts staff
+2221	This patient already has an active visit: #B # (admitted)
+2222	This patient already has an active visit: OPD Internal Medicine (waiting)
+2223	Outpatient care
+2224	Headache, home BP # (# weeks)
+2225	Inpatient care
+2226	Right lower lobe pneumonia, small pleural effusion
+2227	Gallstone without cholecystitis
+2228	Acute calculous cholecystitis
+2229	→ @ (Cardiology)
+2230	Physician reply
+2231	@ (MD) · # #
+2232	Chronic kidney disease stage #
+2233	Heart failure — check ejection fraction
+2234	Findings of pulmonary edema due to heart failure
+2235	Emergency care
+2236	# Ambulance · arrived #
+2237	No medications to issue
+2238	Prepared medications are grouped by ward.
+2239	Approve all for this patient
+2240	Phlebotomy
+2241	Purple (EDTA) · # items
+2242	Draw time
+2243	Blood bank: ① blood type (ABO·Rh) test → ② when a transfusion order arrives, crossmatch (patient blood vs. product) → ③ issue. The ward transfuses after # people verify the issued blood.
+2244	No blood type tests waiting
+2245	Transfusion orders
+2246	M/#y · #B #
+2247	Type A positive(+)
+2248	Crossmatch done
+2249	Section·Analyzer
+2250	Receive all analyzer results (interface)
+2251	Hematology ·
+2252	Hematology analyzer (virtual H-#)
+2253	Mean
+2254	Levey-Jennings chart
+2255	Report
+2256	· Hematocrit #
+2257	Albumin #
+2258	BUN #
+2259	· Creatinine #
+2260	Abnormal
+2261	No images to read
+2262	Images that have been taken gather here.
+2263	Room
+2264	Caution
+2265	F/#y · # · Outpatient
+2266	Brain MRI (diffusion-weighted)
+2267	Bone densitometry (BMD·DXA)
+2268	Bone densitometry
+2269	Exam
+2270	Myocardial perfusion scan (SPECT)
+2271	Injection site
+2272	M/#y · # · #B #
+2273	Ankle X-ray (# views)
+2274	The pathologist examines under the microscope and makes the diagnosis. A cancer diagnosis is the most important result for deciding treatment.
+2275	No reported results
+2276	Glucose #~#: # units / #~#: # units / ≥ #: # units then notify physician
+2277	When temperature ≥ #℃
+2278	Confirm previous shift's handoff
+2279	✓ All confirmed
+2280	Measurement needed
+2281	Draw: Complete blood count (CBC)
+2282	Draw: Inflammation marker (CRP)
+2283	@ (previous shift nurse)
+2284	Questions (check together at bedside)
+2285	Checked together at the bedside (IV·lines·skin·safety)
+2286	Confirm receipt
+2287	e.g. What time was the early-morning analgesic given?
+2288	Tool
+2289	#mL · IV · continuous × # d · #mL/h
+2290	PRN medication
+2291	Temperature (left scale)
+2292	Pulse (right scale)
+2293	BP systolic·diastolic (dotted)
+2294	Fever zone ≥ #℃
+2295	Vital sign chart
+2296	Test item
+2297	Reference range
+2298	Hemoglobin
+2299	Hematocrit
+2300	Platelets
+2301	C-reactive protein
+2302	No growth for # days
+2303	@ (Internal Medicine attending)
+2304	No notifications exchanged
+2305	This patient has a do-not-resuscitate (DNR) consent.
+2306	Check the scope of the consent; do not perform CPR in cardiac arrest. Inform the attending and family.
+2307	Initial admission nursing assessment (within # h)
+2308	Draw: Renal function (BUN·creatinine)
+2309	· Renal function (BUN·creatinine)
+2310	Goal
+2311	Medication not arrived
+2312	Operating room·Recovery room
+2313	Recheck allergies — recorded: none
+2314	EDI (electronic data interchange): the hospital billing program sends statements to HIRA electronically. ① send → ② receive acknowledgment (format errors are "returned" here) → ③ receive review results (approved·cut) → ④ NHIS pays the hospital.
+2315	No claims sent
+2316	Average length of stay
+2317	Discharges with deficient records
+2318	Admissions by department (admitted+discharged)
+2319	Most common principal diagnoses
+2320	F/#y · OB/GYN
+2321	Discharged # · Attending @
+2322	✓ Admission note
+2323	✓ Operative note
+2324	✓ Surgery·anesthesia consent
+2325	✓ Nursing notes
+2326	✓ Diagnosis (code)
+2327	✓ All physician notes e-signed
+2328	Analysis done
+2329	Long-term care hospital
+2330	Discharge against advice
+2331	After transplant: take immunosuppressants for life to prevent rejection, keep blood levels in range, and prevent infection.
+2332	No transplant allocations·post-transplant patients
+2333	After brain-death donation step # (organ allocation), a blood-type-matched candidate is assigned.
+2334	Register
+2335	Waiting
+2336	Update tests
+2337	M/#y · #kg
+2338	ICU Medical
+2339	ICU Surgical
+2340	Tube feeding (expressed breast milk)
+2341	For needlestick·blood exposure: ① wash immediately with running water and soap ② report right away to infection control·occupational health ③ test the source patient (HBV·HCV, HIV) ④ test staff and give prophylaxis if needed (HIV within # h recommended) ⑤ file workers' comp
+2342	Exposed staff
+2343	Source patient
+2344	Exposure route
+2345	Stuck by a used needle
+2346	Cut by a scalpel
+2347	Blood splash to eye·mouth
+2348	Blood on broken skin
+2349	Exposure time
+2350	Washed immediately
+2351	Reported to infection control
+2352	Source patient tested
+2353	Staff baseline blood tests
+2354	Prophylaxis counseling
+2355	Incident report written
+2356	Report exposure
+2357	No reports
+2358	Contact isolation
+2359	Central line-associated bloodstream infection
+2360	Catheter-associated urinary tract infection
+2361	Ventilator-associated pneumonia
+2362	Hand hygiene compliance
+2363	ECG lab: #-lead ECG (# min), # h Holter, exercise (treadmill) testing. An emergency ECG (chest pain) is taken within # min and shown to the physician at once.
+2364	Order memo: chest pain — within # min
+2365	Lead II · #mm/s · #mm/mV
+2366	Heart rate (/min)
+2367	PR interval (ms, #~#)
+2368	QRS width (ms, < #)
+2369	Corrected QT (QTc, ms)
+2370	Rhythm
+2371	Normal sinus rhythm
+2372	Sinus tachycardia
+2373	Atrial fibrillation
+2374	Premature ventricular contraction
+2375	ST segment
+2376	No change
+2377	ST elevation (V#~V#)
+2378	ST depression
+2379	Chest leads V#~V# position (V#·V# #th intercostal space)
+2380	# limb leads
+2381	Ask not to move or talk
+2382	ECG rhythm strip
+2383	M/#y · Ht #cm · Wt #kg
+2384	Stenosis
+2385	Issue: only send sets that are sterilized·within expiry. If the pack is wet or torn, treat as contaminated and resterilize.
+2386	Basic laparoscopy set SET-LAP-#
+2387	Open surgery set SET-OPN-#
+2388	Dressing set SET-DRS-#
+2389	Suture set SET-SUT-#
+2390	Tracheostomy set SET-TRC-#
+2391	Destination
+2392	Check pack condition·indicator·expiry
+2393	No.
+2394	Returned after use
+2395	Stored in central supply
+2396	Dressing set
+2397	Expired items are not used; discard·return them. Use first in, first out (FIFO).
+2398	Lot
+2399	Days left
+2400	Return·Discard
+2401	IV fluid
+2402	Bag
+2403	Pack
+2404	Monthly care coordination results are reported to hospital management and the MOHW referral program evaluation.
+2405	Write reply after visit
+2406	Within # weeks
+2407	M/#y · Virtual Internal Medicine Clinic (Director 김가상) → Cardiology
+2408	Intake·Visit booking
+2409	Write back-referral letter
+2410	Virtual Internal Medicine Clinic
+2411	Virtual Surgical Clinic
+2412	Virtual Pediatric Clinic
+2413	No messages sent
+2414	Inspection area
+2415	Fire (extinguishers·exits)
+2416	Medical gas (oxygen·suction pressure)
+2417	Electrical (emergency generator)
+2418	Elevators
+2419	Room environment (bed wheels·rails)
+2420	All checklist items checked
+2421	No problems
+2422	Request facility repair if a problem is found
+2423	Post inspection results
+2424	Notes
+2425	Inspection records
+2426	Fall
+2427	Medication error
+2428	Degree of harm
+2429	Near miss (no harm)
+2430	No harm
+2431	Report date
+2432	@ — Pneumonia
+2433	Assessment indicators
+2434	SpO2 measured within # h of admission
+2435	Blood culture before first antibiotic
+2436	Sputum test done
+2437	Not met
+2438	Antibiotic after admission
+2439	Nursing administration·Education·Health
+2440	Occupational health nurse: staff health checkups, hepatitis B antibody·influenza vaccination, TB screening, needlestick follow-up.
+2441	Hepatitis B antibody (#%)
+2442	Influenza (#%)
+2443	TB screening (#%)
+2444	# (Mon)
+2445	# (Tue)
+2446	# (Wed)
+2447	# (Thu)
+2448	# (Fri)
+2449	# min
+2450	Today's injections
+2451	Adverse reactions
+2452	Under observation
+2453	No injection records today
+2454	Narcotic·psychotropic waste (# persons)
+2455	Morphine injection
+2456	Midazolam injection
+2457	Fentanyl injection
+2458	Wasted amount (mg)
+2459	Witness nurse
+2460	Waste record
+2461	Doxorubicin
+2462	Ordered #mg / calculated #mg
+2463	Match
+2464	Cyclophosphamide
+2465	Waiting for pharmacy preparation
+2466	Outpatient registration
+2467	Admissions office
+2468	V# Special exemption
+2469	Meals (therapeutic diet, # meals)
+2470	#mg · IV · PRN
+2471	#mg · SC · # times/day × # d
+2472	Wound dressing # times/day
+2473	Reposition every # h
+2474	#mg/hr · IV · continuous × # d
+2475	ICU room charge
+2476	Neurological assessment (GCS·pupils) every # h
+2477	# Internal Medicine admission
+2478	# Surgery admission
+2479	Institution: SSV Hospital · Physician @ (General Surgery)
+2480	# Internal Medicine OPD
+2481	Add diagnosis (after physician confirmation)
+2482	Add diagnosis
+2483	#.Claim year-month round
+2484	Print
+2485	Process
+2486	Claim year-month
+2487	Review round
+2488	Appeal
+2489	Cut#
+2490	Appeal#
+2491	Approved amount#
+2492	Voice of Customer (VOC)
+2493	In progress #
+2494	조은비 (patient's daughter)
+2495	Kindness·Attitude · # · My father vomited blood and I was scared, but the endoscopy nurse…
+2496	Anonymous
+2497	Parking · # · The outpatient parking lot is full by # AM. With clinic bookings…
+2498	조은숙 (patient's wife)
+2499	Nursing · # · In the isolation room the nurse came in with gloves and talked about another…
+2500	Waiting time · # · In the ER I had a fever of #° and waited more than # h, …
+2501	Due # #
+2502	Reply to customer
+2503	조은비 (patient's daughter) · #xx
+2504	Channel·Area
+2505	VOC postcard · Kindness·Attitude
+2506	My father vomited blood and I was scared, but the endoscopy nurse held his hand and explained each step, which put my mind at ease. Thank you.
+2507	Complimented staff (dept·name)
+2508	Department
+2509	#B Surgical ward
+2510	Clinical dept (physician)
+2511	Pass the compliment to the department head
+2512	Nominate for staff kindness award of the month
+2513	Send thanks to the customer
+2514	Pass compliment → close
+2515	Processing history #
+2516	Step
+2517	Handled by
+2518	Phone
+2519	Voice of Employee (VOE)
+2520	Customer relations officer
+2521	IT (HIS) · ER nurse 한지원
+2522	No shuttle bus after night shift
+2523	Work environment·Safety · Anonymous
+2524	Please make discharge education materials in large print
+2525	Work process·Efficiency · #A nurse 최은정
+2526	Implemented
+2527	Allergies show only in small text and can be missed. Please display them in a large red band.
+2528	Start review (request opinions from related departments)
+2529	Customer relationship management (CRM)
+2530	Happy call: call within #~# days after discharge to check health·medications·OPD booking and hear concerns. If the patient is worse, notify the care team at once; register concerns as VOC.
+2531	General Surgery · discharged # #
+2532	OB/GYN · discharged # #
+2533	F/#y · #xx · OB/GYN discharge
+2534	"Hello, this is SSV Hospital Customer Relations. We are calling to ask how @ has been since discharge."
+2535	Call result
+2536	Reached
+2537	No answer
+2538	Wrong number
+2539	Condition after discharge
+2540	Better
+2541	Same
+2542	Worse
+2543	Medication adherence
+2544	Taking well
+2545	Unsure how (connect to pharmacist)
+2546	Not taking
+2547	Knows booking
+2548	Didn't know → informed of booking
+2549	No booking → helped to book
+2550	Comments (compliments·concerns)
+2551	Register concerns as VOC
+2552	Record happy call
+2553	Patient experience assessment
+2554	Based on # responses (virtual). Compare domain scores with the national average (virtual) and set low domains as improvement tasks.
+2555	Bar = our hospital, vertical line = national average. Orange bars are below the national average.
+2556	Our hospital
+2557	National average
+2558	Difference
+2559	Patient experience scores by domain
+2560	Phone booking center
+2561	Calls waiting: #
+2562	ARS: change·cancel booking
+2563	ARS: clinic booking
+2564	ARS: test booking inquiry
+2565	Practice: make a new call come in
+2566	Not on a call
+2567	Click "Answer call" on the left. Answer the longest-waiting call first.
+2568	Call → rebook
+2569	Department·physician guidance
+2570	Integrated booking center
+2571	Patient lookup
+2572	M/#y · #xx
+2573	Book a visit for this patient
+2574	Instructions
+2575	Booked
+2576	Contrast — NPO #~# h
+2577	Change
+2578	Not scheduled
+2579	Schedule test
+2580	Send full schedule SMS
+2581	Not contacted
+2582	Forgot
+2583	Symptoms improved
+2584	Seen at another hospital
+2585	Transport·schedule problem
+2586	Record + rebook
+2587	No-show reason
+2588	Health information manager
+2589	Deficiency
+2590	Deficiency check done
+2591	#y
+2592	Occupation
+2593	Student
+2594	Religion
+2595	# Achim-gil, Gasang-gu, Seoul
+2596	Postpartum recovery-#
+2597	Within # d
+2598	Transfer
+2599	Intern
+2600	Radiation
+2601	Anatomic pathology
+2602	Death type
+2603	Birth type
+2604	Wound class
+2605	Blood wasted
+2606	Hospital-acquired complication
+2607	Cancer
+2608	Admitting physician
+2609	Discharging physician
+2610	Readmission within # d
+2611	☞ Department transfers
+2612	Physician
+2613	Start date
+2614	End date
+2615	Transfer reason
+2616	☞ Transfer status
+2617	Transfer requested by
+2618	(#) Not applicable
+2619	(#) Patient
+2620	(#) Guardian
+2621	(#) Specialist transfer
+2622	(#) Long-term care transfer
+2623	(#) Back-referral
+2624	Transfer reason
+2625	☞ Post-discharge care plan
+2626	Care plan
+2627	(#) Not applicable
+2628	(#) OPD follow-up planned
+2629	(#) Readmission planned
+2630	Principal diagnosis
+2631	Principal Dx POA
+2632	Diagnosis
+2633	Urinary tract infection, site not specified
+2634	Hyperkalemia
+2635	Primary site
+2636	Histology (morphology)
+2637	Stage
+2638	Diagnostic method
+2639	First diagnosis date
+2640	Discharge diagnosis management
+2641	Not entered
+2642	Unreviewed discharge record
+2643	@ F/#y
+2644	Delete
+2645	Notes
+2646	Deficient physician
+2647	Not checked
+2648	Written date
+2649	Principal diagnosis
+2650	Other diagnoses

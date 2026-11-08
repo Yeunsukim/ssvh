@@ -24,6 +24,12 @@ function wrap(body) {
 }
 
 http.createServer((req, res) => {
+  // 개발용: 화면에서 모은 글자 목록을 tools/_work/에 저장 (POST /__dump?name=파일이름)
+  if (req.method === 'POST' && req.url.startsWith('/__dump')) {
+    const name = (new URL(req.url, 'http://x').searchParams.get('name') || 'dump').replace(/[^\w.-]/g, '_');
+    let body = ''; req.on('data', (c) => { body += c; }); req.on('end', () => { const dir = path.join(__dirname, '_work'); fs.mkdirSync(dir, { recursive: true }); fs.writeFileSync(path.join(dir, name), body, 'utf8'); res.writeHead(200); res.end('ok'); });
+    return;
+  }
   let p = decodeURIComponent(req.url.split('?')[0]);
   if (p === '/') p = '/index.html';
   const file = path.join(ROOT, p);

@@ -1,0 +1,17 @@
+@ 님, 오늘은 어디에서 일할까요?	@, where will you work today?
+@ 님	@
+한글로	한글로
+영어로	영어로
+지금 일하는 곳	Working now
+알림	Notifications
+학생	Student
+실습 가능	Available
+점	pts
+다른 탭 모두 닫기	Close other tabs
+현황판	board
+병동 간호로 가기	Go to ward nursing
+재원 중	Admitted
+가퇴원	Provisional discharge
+정퇴원	Final discharge
+내 실습 기록	My practice records
+아기	Baby

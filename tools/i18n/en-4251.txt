@@ -1,0 +1,550 @@
+4251	Amiodarone inj #mg
+4252	#% Dextrose #L (#DW)
+4253	Fluid with KCl #mEq
+4254	Alteplase (thrombolytic) inj
+4255	Heparin inj # units
+4256	Calcium gluconate inj #%
+4257	#% Dextrose inj #mL
+4258	Cefazolin inj #g
+4259	Oxytocin drip (labor induction)
+4260	Vitamin K# inj #mg (newborn)
+4261	Hepatitis B vaccine #mL (newborn)
+4262	Erythromycin eye ointment (newborn)
+4263	Oxaliplatin (chemo) #mg/m²
+4264	Midazolam inj (endoscopy sedation) #mg
+4265	Flumazenil inj #mg (sedation reversal)
+4266	Ticagrelor #mg (loading dose)
+4267	Epinephrine #mg IM for anaphylaxis
+4268	Total bilirubin
+4269	Albumin
+4270	Glucose (fasting·random)
+4271	Glycated hemoglobin (HbA#c)
+4272	HbA1c
+4273	Procalcitonin
+4274	Prothrombin time
+4275	Coagulation (aPTT)
+4276	Activated partial thromboplastin time
+4277	Cardiac enzyme (troponin I)
+4278	Troponin I
+4279	Cardiac enzyme (CK-MB)
+4280	Lactate
+4281	pH
+4282	pCO2
+4283	pO2
+4284	Bicarbonate
+4285	Heparinized syringe (arterial)
+4286	Thrombosis marker (D-dimer)
+4287	Thyroid (TSH)
+4288	Thyroid-stimulating hormone
+4289	Lipid panel (cholesterol)
+4290	Total cholesterol
+4291	Triglycerides
+4292	Specific gravity
+4293	pH
+4294	Protein
+4295	Nitrite
+4296	RBC
+4297	Urine cup
+4298	Culture bottles (aerobic·anaerobic)
+4299	No growth
+4300	Sterile urine cup
+4301	Gram stain
+4302	No specific organisms
+4303	Normal flora
+4304	ABO type
+4305	Rh type
+4306	Positive(+)
+4307	Amylase
+4308	Lipase
+4309	Minerals (Ca·P·Mg)
+4310	Calcium
+4311	Magnesium
+4312	Capillary glucose (BST, ward)
+4313	Fingerstick
+4314	Point-of-care test
+4315	COVID-#
+4316	Influenza A/B
+4317	Nasopharyngeal swab (viral transport medium)
+4318	TB PCR
+4319	Mycobacterium tuberculosis DNA
+4320	#-hydroxy vitamin D
+4321	Breast cancer tumor marker CA# (send-out)
+4322	Peripheral smear findings
+4323	Normal RBC·WBC·platelet morphology
+4324	Abdominal X-ray (supine)
+4325	Brain CT (non-contrast)
+4326	Mammography
+4327	Mammography
+4328	Breast ultrasound
+4329	Coronary angiography (cardiac intervention)
+4330	Upper GI series (barium fluoroscopy)
+4331	Fluoroscopy
+4332	Cerebral angiography
+4333	Bone scan (nuclear)
+4334	PET-CT (FDG nuclear)
+4335	Thyroid scan (nuclear)
+4336	Knee MRI
+4337	Abdominal CT (non-contrast)
+4338	Foley catheter insertion
+4339	Nasogastric tube insertion
+4340	Peripheral IV insertion
+4341	Wound dressing (medium)
+4342	Chest compression·CPR
+4343	Nebulizer therapy
+4344	Splint (ankle)
+4345	Pulmonary function test (PFT)
+4346	# h Holter ECG
+4347	EMG·nerve conduction study
+4348	Rehab therapy (physical·occupational)
+4349	Transesophageal echocardiography
+4350	Polysomnography
+4351	Strict bed rest
+4352	Foley catheter care
+4353	Porridge (soft)
+4354	Low-potassium diet
+4355	Fresh frozen plasma (FFP) # units
+4356	Platelet concentrate (PC) # units
+4357	Internal Medicine consult
+4358	Cardiology consult
+4359	Pulmonology consult
+4360	Nephrology consult
+4361	General Surgery consult
+4362	Breast Surgery consult
+4363	Neurology consult
+4364	Neurosurgery consult
+4365	Orthopedics consult
+4366	Emergency Medicine consult
+4367	Rehabilitation Medicine consult
+4368	OB/GYN consult
+4369	Pediatrics consult
+4370	Radiology consult
+4371	Coronary angiography (CAG)
+4372	Temporary pacemaker insertion
+4373	Permanent pacemaker insertion
+4374	Peripheral angiography·balloon angioplasty
+4375	Gastroscopy (upper GI)
+4376	Colonoscopy
+4377	Endoscopic retrograde cholangiopancreatography (ERCP)
+4378	Emergency endoscopic hemostasis
+4379	Colon polypectomy
+4380	Consult
+4381	Department concerned
+4382	Gastritis, unspecified
+4383	Acute subendocardial MI
+4384	Acute myocardial infarction, unspecified
+4385	Transient ischemic attack
+4386	Malignant neoplasm of breast
+4387	Unspecified lump in breast
+4388	Fever, unspecified
+4389	Sepsis, unspecified
+4390	COPD with acute exacerbation
+4391	Sprain and strain of ankle
+4392	Fracture of lateral malleolus
+4393	Delirium, unspecified
+4394	Hypokalemia
+4395	Abdominal pain, other and unspecified
+4396	Acute upper respiratory infection
+4397	Syncope and collapse
+4398	Hyperlipidemia
+4399	Gonarthrosis (knee)
+4400	Headache
+4401	Gastro-esophageal reflux disease
+4402	Single spontaneous delivery
+4403	Singleton born in hospital
+4404	Other preterm infant (# weeks)
+4405	Diffuse brain injury
+4406	Acute anterior wall MI
+4407	Gastric ulcer
+4408	Polyp of colon
+4409	Iron deficiency anemia
+4410	Chemotherapy session
+4411	Liver cirrhosis
+4412	General health examination
+4413	Pressure ulcer stage #
+4414	Neonatal jaundice
+4415	CKD stage # (dialysis)
+4416	Order stopped
+4417	Medical ward (#A)
+4418	Surgical ward (#B)
+4419	ER nursing
+4420	ICU nursing
+4421	Nursery
+4422	Infection control
+4423	Organ transplant
+4424	Radiation oncology nursing
+4425	Radiology·PACS
+4426	Rehab therapy
+4427	Patient accounts (simple)
+4428	Patient payment (simple)
+4429	Post-discharge inpatient review
+4430	Claims·EDI
+4431	Clinical coding
+4432	Health information (integrated·copies·statistics)
+4433	Care coordination (receive referrals·booking)
+4434	Purchasing·Inventory
+4435	Nutrition support (NST)
+4436	Practice management
+4437	Instructor screen · Practice records
+4438	Data check (data links·DB)
+4439	# times a day (QD)
+4440	# times a day (BID)
+4441	# times a day (TID)
+4442	# times a day (QID)
+4443	At bedtime (HS)
+4444	As needed (PRN)
+4445	Once (ONCE)
+4446	Immediately (STAT) admitted
+4447	Itemized medical charges
+4448	Medical bill·receipt — preview
+4449	Medical bill·receipt
+4450	Verify identity and explain the bill
+4451	Discharge payment completed:
+4452	— the patient may leave
+4453	Discharge:
+4454	— subject to discharge analysis
+4455	Payment completed:
+4456	) — subject to claim
+4457	Done —
+4458	NHIS eligibility lookup:
+4459	Eligibility confirmed (virtual)
+4460	Eligibility saved:
+4461	Check the exemption application·confirmatory results
+4462	Verify the applicant's identity
+4463	Issue${c.price ?
+4464	— print preview
+4465	invoice sent to
+4466	Payment confirmed — receivable cleared
+4467	# h # min
+4468	# h
+4469	No observation records
+4470	Pre-dialysis assessment
+4471	Dialysis prescription·observation
+4472	Post-dialysis
+4473	Records·Adequacy
+4474	Weight and blood pressure are required
+4475	Check vascular access status
+4476	Pre-dialysis abnormality:
+4477	Check all pre-start items
+4478	Dialysis started — observe every # min
+4479	Enter blood pressure
+4480	Intradialytic hypotension:
+4481	High venous pressure — check needle position·circuit kinks·access stenosis
+4482	Enter post-dialysis weight
+4483	Dialysis ended — actual removal
+4484	Enter pre·post-dialysis BUN
+4485	Urea reduction ratio
+4486	Measure and enter blood pressure
+4487	Recheck allergies
+4488	Ready for visit:
+4489	— BP
+4490	, BMI
+4491	Pre-visit prep done (BMI
+4492	OPD post-visit instructions —
+4493	, next OPD
+4494	Post-visit instructions done
+4495	Injection —
+4496	Check all items
+4497	OPD injection record
+4498	Log in
+4499	Enter your name
+4500	Practice case management
+4501	Add condition change
+4502	Performance checklist
+4503	Export·import records
+4504	Reset to initial state
+4505	All practice records will be erased. This cannot be undone. Really reset?
+4506	Reset
+4507	Reset to initial state
+4508	New practice case:
+4509	case added
+4510	Select a patient first
+4511	Condition change:
+4512	situation added. It appears in student notifications
+4513	Records copied. Paste them to submit
+4514	Automatic copy is blocked. The text below is selected; copy it
+4515	All current records will be replaced. Load?
+4516	Records loaded
+4517	No pasted records
+4518	Invalid record format
+4519	Specimen labels — print preview
+4520	Blood draw —
+4521	Two patient identifiers (name·DOB) are mandatory
+4522	expected to arrive
+4523	Draw done —
+4524	sent to lab
+4525	Receive all
+4526	Rejected specimen
+4527	Redraw request:
+4528	Redraw requested
+4529	Enter results for all items
+4530	Results saved — report from the verification·report tab
+4531	Lab result reported:
+4532	Results reported — viewable in the order screen and ward
+4533	Critical value report
+4534	Read-back confirmation is required
+4535	⚠ Critical value:
+4536	— report to the attending immediately
+4537	Critical value reported
+4538	No blood type result. A blood type (ABO/Rh) test is needed first
+4539	Crossmatch compatible
+4540	Blood issued:
+4541	(unit no.
+4542	) — start transfusion after # people verify
+4543	) — sent to the OR
+4544	Blood issued — ward notified
+4545	, severity
+4546	Deficient record request:
+4547	registered — requested from owners
+4548	Discharge analysis done
+4549	No record yet — remind the owner or wait for completion
+4550	Deficiency resolved
+4551	Deficient record reminder (
+4552	times):
+4553	Reminder sent
+4554	Write (as physician)
+4555	Written — deficiency resolved
+4556	Missing documents:
+4557	— cannot issue
+4558	Done${pages ?
+4559	items added
+4560	Order safety warning
+4561	There are
+4562	red warnings.
+4563	Send anyway? (In a real hospital you must state a reason)
+4564	Send after confirming reason
+4565	sent — delivered to each department
+4566	Order stopped —
+4567	Order stopped
+4568	Diagnosis already exists
+4569	Enter a diagnosis first (needed for prescriptions·claims)
+4570	Finish the visit? The patient pays at the front desk (payment·settlement), then takes the outside prescription to a pharmacy.
+4571	OPD visit done — awaiting payment
+4572	Admission decision:
+4573	preferred) — admission procedure needed
+4574	Admission decided — passed to the admissions office
+4575	Tomorrow
+4576	Discharge decision:
+4577	) — please do discharge prep·education
+4578	Planned discharge:
+4579	— subject to discharge review
+4580	Discharge decided — ward prep → discharge review → payment, in that order
+4581	Discharge home decision
+4582	Discharge home? Discharge education and payment are needed before leaving.
+4583	Discharge home decided — leave after discharge education
+4584	Transfer decided — prepare referral letter·imaging CD (phase # care coordination)
+4585	Enter content
+4586	Save (e-signed)
+4587	Enter a reply
+4588	Physician reply:
+4589	Write the verbal order in the Orders tab
+4590	No emergency orders
+4591	None yet
+4592	Original ward
+4593	Surgery schedule
+4594	Entry·pre-anesthesia check
+4595	Intra-op record
+4596	Operative record
+4597	Surgery confirmed:
+4598	. Please do pre-op prep
+4599	Surgery confirmed — ward notified for pre-op prep
+4600	All pre-anesthesia items must be checked
+4601	In OR — now do the time-out
+4602	Incision is allowed only after all time-out items are checked together
+4603	Incision started
+4604	Save intra-op nursing record
+4605	Frozen section sent to pathology
+4606	Transfusion requested from blood bank
+4607	Gauze·needle·instrument final counts must match before leaving (save in intra-op nursing record)
+4608	Check all items before leaving the OR
+4609	Surgery ended — move to recovery room
+4610	Choose all five Aldrete items
+4611	Aldrete
+4612	pts recorded
+4613	Post-op arrival:
+4614	) — receive the recovery room handoff
+4615	transferred — handed off to ward
+4616	Save operative record
+4617	Education: the inpatient/outpatient filter is display-only
+4618	Visit type
+4619	Information disclosure consent
+4620	Clinical course
+4621	Future treatment opinion
+4622	Referral letter date
+4623	Attached results
+4624	Delay reason
+4625	Reply status
+4626	Reason not needed
+4627	Opinion present
+4628	Referral date
+4629	Reply sent date
+4630	Sent?
+4631	No referred patients
+4632	Save the reply letter (regular save) first
+4633	Reply content cannot be sent without information disclosure consent
+4634	Sent via referral relay system (
+4635	A sent reply letter cannot be deleted
+4636	Referral letter (received)
+4637	Referring institution
+4638	Requested department
+4639	Urgency
+4640	Referral reason
+4641	Orders —
+4642	No patient
+4643	No reading results
+4644	Unsent documents (
+4645	No diagnoses
+4646	Clinical information sharing consent
+4647	Unsent documents
+4648	No unsent documents
+4649	Document written (unsent) — press Send to transmit
+4650	No patient consent to share clinical information — do "Write consent" first
+4651	Enter the referral·back-referral reason
+4652	[SSV Hospital]
+4653	,
+4654	visit booked. The referral·back-referral letter was sent electronically.
+4655	Sent — relay system no.
+4656	Sending institution
+4657	Receiving institution
+4658	Relay no.
+4659	No documents
+4660	Open a form tab
+4661	No patient information sharing consent — obtain consent in the referral·back-referral screen
+4662	Sent to the HIRA referral relay system —
+4663	Already received
+4664	Referral received:
+4665	) — book in the care coordination center
+4666	Intake processed — book in Care coordination (referral·back-referral)
+4667	Receiving institution confirmed intake (virtual)
+4668	Unregistered patient — change after intake
+4669	Barcode scan (virtual): reads the barcode on paper referrals to find the referral number
+4670	Image download is display-only in practice — click PACS view
+4671	No discharges in the period
+4672	EMR view —
+4673	No surgery·procedure orders (medical admission)
+4674	Choose the principal diagnosis
+4675	Coding confirmed:
+4676	) — ready to claim
+4677	Diagnosis re-review request (health information):
+4678	— discharge summary diagnosis does not match the record
+4679	No diagnoses — add from favorite·all diagnoses
+4680	— click to add
+4681	Write the hospital course or click "Template note"
+4682	Enter at least one discharge diagnosis
+4683	Discharge summary saved·signed — any discharge summary deficiency was completed
+4684	No discharge summary yet
+4685	Deficient record request (health information):
+4686	# intern deficiencies created
+4687	Check done
+4688	Only missing history·times·keys are corrected without deleting data. Fix?
+4689	Fix
+4690	items corrected
+4691	Copied
+4692	Backup created
+4693	Replace current data with the last backup. Practice done after it will be lost. Restore?
+4694	Restored from backup
+4695	No backup
+4696	Inventory count —
+4697	Stock is low — place an order
+4698	Supplies issued:
+4699	Request registered
+4700	Purchase order sent to vendor
+4701	Receiving —
+4702	Check receiving items
+4703	Stocked —
+4704	Returned·discarded — stock #, order needed
+4705	Clinic booking —
+4706	— referring institution notified
+4707	Transfer patient arriving:
+4708	Transfer accepted:
+4709	Transfer accepted — ER notified
+4710	Declined — helping connect to another hospital
+4711	Reply letter —
+4712	Reply letter sent to referring institution
+4713	Back-referral letter —
+4714	Confirm patient consent
+4715	Back-referral letter sent
+4716	Select a discharged patient
+4717	Select a patient
+4718	— confirmation SMS sent
+4719	AlimTalk sent (virtual)
+4720	There is already an active visit
+4721	Booked patient arrived:
+4722	no.)
+4723	— pre-visit prep
+4724	OPD registered — waiting
+4725	Prof.
+4726	To change: # (virtual)
+4727	Describe what happened
+4728	Sentinel event report:
+4729	— immediate root cause analysis
+4730	Report received — thank you, reporting makes safety
+4731	Root cause analysis·improvement —
+4732	Safety inspection record
+4733	Example roster filled — find and fix rule violations
+4734	Visit prep
+4735	Visit record
+4736	Visit record list
+4737	Home health report:
+4738	, exudate
+4739	Save visit record
+4740	Function assessment
+4741	Therapy record
+4742	Progress
+4743	No therapy records
+4744	Choose strength for all four limbs
+4745	Balance score < # — notify the ward of high fall risk
+4746	Save assessment
+4747	Dizziness during rehab:
+4748	— therapy stopped
+4749	Treatment plan
+4750	Today's treatment
+4751	Side effect observation·education
+4752	# No change
+4753	# Faint erythema·dry desquamation
+4754	# Bright erythema·patchy moist desquamation
+4755	# Confluent moist desquamation
+4756	# Ulceration·bleeding
+4757	Patient ID·skin marks·position must be checked
+4758	fraction delivered (cumulative
+4759	Choose skin grade
+4760	Radiation dermatitis
+4761	grade:
+4762	— decide whether to stop treatment
+4763	Candidate test update recorded
+4764	Check all items for this step
+4765	Post-transplant care —
+4766	Nutrition assessment —
+4767	NST recommendation:
+4768	kcal·protein
+4769	NST recommendation sent to attending
+4770	No resistant organisms detected
+4771	Infection control:
+4772	Reported (virtual KDCA)
+4773	Select at least one observed moment
+4774	Hand hygiene observation recorded
+4775	Enter the staff name
+4776	Staff blood exposure:
+4777	Exposure reported — proceed with tests·counseling now
+4778	Verify the patient
+4779	Write the conclusion
+4780	Function test result:
+4781	Registration·Questionnaire
+4782	Exam route
+4783	Result judgment
+4784	Report·Counseling
+4785	Save judgment
+4786	Check all cleaning steps
+4787	Cleaning done
+4788	Check all packing steps
+4789	Packing done — load into the sterilizer in the sterilization tab
+4790	Select a set
+4791	Load
+4792	Sterilization started — read indicators when done
+4793	Read all three indicators
+4794	Sterilization failed load
+4795	— recall sets from the same load
+4796	Check pack condition
+4797	ICU (intensive MI observation)
+4798	Cardiac emergency team activated — arrive within # min
+4799	Emergency PCI:
+4800	— prepare to move directly to the cath lab

@@ -1,0 +1,550 @@
+1551	Tube feeding (NG feeding)
+1552	Arterial blood gas (ABGA)
+1553	Lactate
+1554	Approved
+1555	Reported (virtual)
+1556	Chest CT (with contrast)
+1557	No imaging waiting
+1558	Abdomen·pelvis CT (with contrast)
+1559	Pressure ulcer risk (Braden)
+1560	Route
+1561	Tube feeding
+1562	Hyperthermia
+1563	Excess fluid volume
+1564	Physician notes
+1565	Cardiac arrest — Code Blue
+1566	If the patient is unresponsive and not breathing: ① call for help (Code Blue ☎ in-hospital emergency number) ② start chest compressions now ③ bring the crash cart·defibrillator. Pressing the button below starts the record and logs times automatically.
+1567	Start Code Blue (start CPR record)
+1568	Call Rapid Response Team (RRT)
+1569	Call the RRT when warning signs appear before arrest (early warning score ≥ #, sudden decreased consciousness, SpO2 < #%, etc.).
+1570	Call RRT
+1571	Past emergency records
+1572	No emergency records
+1573	Furosemide inj #mg
+1574	#mg · IV · # times/day × # d
+1575	Spironolactone tab #mg
+1576	Aspirin EC tab #mg
+1577	Utilization review nurse
+1578	Statement
+1579	Home
+1580	Hand hygiene done
+1581	Not applicable
+1582	Waiting #
+1583	Patient ID (name·DOB)
+1584	Findings
+1585	Calculate interpretation from values
+1586	Report result
+1587	Pulmonary function test with bronchodilator response
+1588	Sterilized
+1589	Inventory status
+1590	Ward requests·issue
+1591	Purchase order·receiving
+1592	Normal saline #L
+1593	Receive referrals
+1594	Send back-referrals
+1595	Statistics report
+1596	Partner hospital agreements
+1597	Booking status
+1598	New booking
+1599	Physician clinic schedule
+1600	SMS·AlimTalk
+1601	Under review
+1602	No same-day visit history
+1603	Pantoprazole inj #mg
+1604	Enoxaparin inj #mg
+1605	Institution: SSV Hospital · Physician @ (Internal Medicine)
+1606	Admission status
+1607	Y.Planned discharge
+1608	J.Admitted
+1609	T.Discharged
+1610	Field/Dept
+1611	Medical Aid
+1612	Auto
+1613	DRG review
+1614	Start review
+1615	Review done
+1616	Cancel done
+1617	End
+1618	Admission time
+1619	Arrived on ward
+1620	Pre-review
+1621	Final settlement
+1622	Discharge time
+1623	Procedure calc
+1624	Final claim
+1625	Ward·Room
+1626	Deceased
+1627	Completion SMS
+1628	Eligibility limited
+1629	Retroactive
+1630	Final review
+1631	Final calc
+1632	Radiology results
+1633	Clinical (lab) results
+1634	Drug lookup
+1635	Eligibility lookup
+1636	Chemotherapy drugs
+1637	Completion SMS
+1638	Print orders
+1639	Save data
+1640	Order review (#)
+1641	Diagnosis review
+1642	Pre-check (#)
+1643	Select review patient (#)
+1644	Review status
+1645	Wrap-up time
+1646	Completion time
+1647	Quick
+1648	History start
+1649	History end
+1650	CP applied
+1651	Sub-dept
+1652	OB/GYN OPD in # weeks
+1653	Procalcitonin (PCT)
+1654	Patient
+1655	Claim no.
+1656	Receipt no.
+1657	Customer
+1658	Domain
+1659	Improvement activities
+1660	Incoming calls
+1661	Outgoing calls (closures·no-shows)
+1662	Send to department
+1663	Direct visit
+1664	Improved
+1665	Home
+1666	Stage #
+1667	Overall summary
+1668	Reply analysis
+1669	Back-referral analysis
+1670	Referral analysis
+1671	Period
+1672	This month (in progress): referrals # · replies # · back-referrals #
+1673	Up to last month: care coordination statistics (virtual); this month adds referrals·replies·back-referrals processed in practice in real time.
+1674	Reply
+1675	Specialty nursing
+1676	Administration
+1677	Purple (EDTA)
+1678	Immunology
+1679	Department map
+1680	Website
+1681	Mobile
+1682	Care coordination
+1683	Infection control office
+1684	Organ transplant center
+1685	Medical technicians
+1686	Administrative staff
+1687	Claims review team
+1688	Health information team
+1689	Reason for visit:
+1690	Start visit (call patient)
+1691	Visit done
+1692	Tissue (formalin-fixed)
+1693	Cytology smear slide
+1694	Sputum
+1695	Liquid-based cytology
+1696	Surgical tissue (formalin-fixed)
+1697	Paraffin block
+1698	Fresh tissue (unfixed)
+1699	Type # diabetes mellitus without complications
+1700	Present illness
+1701	Temperature ≥ #℃
+1702	No imaging studies
+1703	Rice gruel (liquid diet)
+1704	Transfer to another hospital
+1705	Quantity
+1706	Narcotic
+1707	Midazolam drip (#mg/#mL)
+1708	Fentanyl drip (#mcg/#mL)
+1709	M/#y · # · #A #
+1710	M/#y · #A #
+1711	Hemoglobin #
+1712	Pancreatic enzymes (amylase·lipase)
+1713	Coagulation (PT/INR)
+1714	Creatinine
+1715	Ward blood draw (#)
+1716	Draw done → to lab
+1717	Perform nursing orders
+1718	Done this shift
+1719	Active orders (Kardex)
+1720	Handoff
+1721	Initial admission nursing assessment
+1722	Record
+1723	Acute pain
+1724	Risk for falls
+1725	Risk for impaired skin integrity (pressure ulcer)
+1726	Ineffective breathing pattern
+1727	Risk for infection
+1728	Risk for unstable blood glucose
+1729	Anxiety
+1730	Deficient knowledge
+1731	Impaired physical mobility
+1732	Imbalanced nutrition: less than body requirements
+1733	Culture result
+1734	Target
+1735	Low — enhanced observation
+1736	Daily weight
+1737	Fluid restriction #mL/day
+1738	O2 nasal cannula #L/min
+1739	Heart failure marker (BNP)
+1740	Outpatient nursing
+1741	Education
+1742	Awaiting payment: OPD visit done · ER discharge · planned discharge
+1743	Death
+1744	Transplant waitlist
+1745	Brain-death organ donation
+1746	Post-transplant care
+1747	Nutrition risk patients
+1748	Diet orders·meal totals
+1749	NST assessment
+1750	@ (#B)
+1751	@ (LD)
+1752	@ (NB)
+1753	Instrument set flow
+1754	Sterilization·indicator reading
+1755	Set
+1756	ea
+1757	N# mask
+1758	Foam dressing #×#
+1759	Date
+1760	Place
+1761	#-shift roster
+1762	Mandatory staff education
+1763	Staff health (occupational)
+1764	Staff
+1765	#A · # yr
+1766	#B · # yr
+1767	Request
+1768	No data
+1769	Group code
+1770	Single code
+1771	Standard code
+1772	Applied unit price
+1773	Procedure &
+1774	Operative record
+1775	Cefazolin inj #g (pre-op prophylactic antibiotic)
+1776	#% Albumin #mL
+1777	Discharge date
+1778	Handle VOC
+1779	New VOC intake
+1780	Closed
+1781	Suggestion
+1782	Transferred to dept
+1783	Dept reply
+1784	Area
+1785	Kindness·Attitude
+1786	Waiting time
+1787	Payment·Cost
+1788	Parking
+1789	Safety (falls·infection etc.)
+1790	Process suggestions
+1791	New suggestion
+1792	Staff satisfaction
+1793	Show allergies bigger on the order screen
+1794	Adopted
+1795	Happy call (post-discharge call)
+1796	Customer 360 view
+1797	Campaign SMS
+1798	OPD booking
+1799	Evaluation results
+1800	Mock survey (phone)
+1801	Unreachable
+1802	Integrated view by patient
+1803	Weekly schedule · Booking
+1804	Feedback (no-shows·requests·reports)
+1805	F
+1806	Visit path
+1807	Destination
+1808	Applicable
+1809	No
+1810	(#) Other
+1811	No beds
+1812	No ICU beds
+1813	Cannot do emergency surgery·procedure
+1814	Transfer to #·#ry institution
+1815	Transfer to #ry institution
+1816	Transfer to long-term facility
+1817	Radiotherapy
+1818	Acute care
+1819	After acute care
+1820	Patient circumstances
+1821	Continuing care needs
+1822	Institution transferred to
+1823	No booking
+1824	Replies
+1825	Institution to receive reply
+1826	Reviewed
+1827	Dispensed (prepared)
+1828	My task checklist
+1829	My activity log
+1830	Copy my records
+1831	Clinical (OCS·EMR)
+1832	Delivery room·Nursery
+1833	Radiation oncology
+1834	Nursing administration
+1835	Rehabilitation therapy
+1836	Quality management team (QI)
+1837	Purchasing·Logistics team
+1838	This patient already has an active visit: #A # (admitted)
+1839	Initial visit note
+1840	Return visit note
+1841	No test results
+1842	Reading summary
+1843	View PACS
+1844	Prescribed
+1845	Reporting @ potassium # (high).
+1846	Taking a diuretic and spironolactone for heart failure·CKD.
+1847	No ECG changes. No symptoms.
+1848	Please confirm whether to continue spironolactone.
+1849	Keep for today; recheck electrolytes tomorrow morning. Notify me right away if ≥ #.
+1850	Anemia, unspecified
+1851	Pending — function test lab
+1852	Chief complaint:
+1853	Disposition decision
+1854	Discharged home
+1855	Order sets
+1856	Chest pain order set
+1857	Suspected acute MI · # items
+1858	Stroke order set
+1859	Hemiplegia·slurred speech (check last known well) · # items
+1860	Sepsis order set
+1861	Within # h (Hour-# bundle) · # items
+1862	Basic trauma set
+1863	Suspected fracture·sprain · # items
+1864	Hyperkalemia emergency treatment
+1865	Potassium ≥ # · # items
+1866	ER initial note
+1867	F/#y · # · #A #
+1868	Draw blood
+1869	Yellow (SST) · # items
+1870	Vitamin D (send-out)
+1871	Peripheral blood smear (microscopy)
+1872	Respiratory virus PCR
+1873	Enter results
+1874	WBC #
+1875	CT room # #
+1876	All newly received orders checked.
+1877	(Purple (EDTA))
+1878	· Inflammation marker (CRP)
+1879	#unit · SC · PRN
+1880	This shift's records
+1881	Assessment
+1882	Day shift (#–#)
+1883	Click a shift step to go to that screen
+1884	Day
+1885	Evening
+1886	Night
+1887	Rounding·assessment needed
+1888	Medication·Treatment
+1889	✓ # meds due
+1890	Vitals·Records
+1891	Communication·Education
+1892	Notification·Education·Rounding
+1893	Write at end of shift
+1894	Tasks for this patient
+1895	Patient summary
+1896	Early warning score
+1897	Receive — handoff from previous shift
+1898	Handoff — to next shift
+1899	An automatic draft can be made from this shift's records (vitals·labs·meds·nursing notes). Always read and edit the draft.
+1900	R Requests·To-do
+1901	Make automatic draft
+1902	Handoff complete
+1903	Pain (numeric scale NRS)
+1904	Pain (nonverbal FLACC)
+1905	Consciousness (GCS)
+1906	Nutrition screening
+1907	Activities of daily living (short Barthel)
+1908	Fall within # months
+1909	# or more diagnoses
+1910	No (#)
+1911	Yes (#)
+1912	Ambulatory aid
+1913	None·bed rest·nurse assist (#)
+1914	Crutches·cane·walker (#)
+1915	Furniture walking (#)
+1916	IV·heparin lock
+1917	Gait
+1918	Normal·bed rest·wheelchair (#)
+1919	Weak (#)
+1920	Impaired (#)
+1921	Mental status
+1922	Oriented to own ability (#)
+1923	Overestimates or forgets limitations (#)
+1924	Save assessment
+1925	Assessment records
+1926	Interpretation
+1927	High risk
+1928	Medication # rights: right
+1929	. Before giving, scan the patient wristband and drug barcode. Give within ±# h of the scheduled time.
+1930	Medication record (MAR) — #
+1931	Drug · Dose
+1932	Today's times
+1933	# today
+1934	Measure vital signs
+1935	Latest early warning score
+1936	Pulse (/min)
+1937	Respiration (/min)
+1938	Temperature (℃)
+1939	SpO2 (%)
+1940	Glucose (optional)
+1941	Consciousness (AVPU)
+1942	Alert (A)
+1943	Responds to voice (V)
+1944	Responds to pain only (P)
+1945	Unresponsive (U)
+1946	On oxygen
+1947	Load from monitor (case values)
+1948	Save vital signs
+1949	Intake·Output (I/O)
+1950	Intake (in)
+1951	Output (out)
+1952	Oral fluids·food
+1953	IV fluids·injections
+1954	Urine
+1955	Stool
+1956	Vomit
+1957	Drain
+1958	Bleeding
+1959	Amount (mL)
+1960	Shift intake
+1961	Shift output
+1962	# h intake
+1963	# h balance
+1964	Vital sign flowsheet (last # days)
+1965	Record list
+1966	Oxygen
+1967	Recorded by
+1968	Write nursing note
+1969	Nursing process (Dx-intervention-evaluation)
+1970	Narrative note
+1971	Nursing diagnosis (NANDA)
+1972	Goal (expected outcome)
+1973	Nursing interventions (check what was done)
+1974	Pain assessment (location·quality·intensity)
+1975	Reassess # min after giving ordered analgesic
+1976	Maintain comfortable position
+1977	Teach relaxation techniques
+1978	Nursing note list
+1979	WBC
+1980	Sodium
+1981	Potassium
+1982	Chloride
+1983	BUN
+1984	Notify physician (SBAR)
+1985	Situation (what is happening) →
+1986	Background (relevant history·treatment) →
+1987	Assessment (my judgment) →
+1988	Recommendation (what you want). Short and precise!
+1989	Recipient
+1990	On-call resident
+1991	Rapid response team (RRT)
+1992	Urgent (please come and see now)
+1993	Fill from current data
+1994	Send notification
+1995	Notification log
+1996	Patient education
+1997	Education topic
+1998	Patient·Guardian
+1999	Method
+2000	Verbal explanation
+2001	Handout
+2002	Demonstration·return demo
+2003	Video
+2004	Understanding (teach-back)
+2005	Understands well
+2006	Partly understands
+2007	Needs re-education
+2008	Education record
+2009	Hourly rounding
+2010	Round every #~# h and check # things.
+2011	Pain check (Pain)
+2012	Toileting need (Potty)
+2013	Position (Position)
+2014	Call bell·items within reach (Possession)
+2015	Side rails·wheel locks
+2016	IV·line status
+2017	Rounding record
+2018	Activity log
+2019	Before the visit: measure vitals·height·weight, check reason for visit·current meds·allergies and pass to the physician.
+2020	Current medications
+2021	Pre-visit prep done → notify the exam room
+2022	Still in consultation. After the visit, instruct according to the physician's orders.
+2023	Today's orders and instructions
+2024	Next OPD booking
+2025	Directions to the payment desk
+2026	Pre-test fasting instructions
+2027	Instruct to come to the ER if abnormal symptoms occur
+2028	Confirm understanding by teach-back
+2029	Instructions done
+2030	ER payment
+2031	Principal diagnosis
+2032	Discharged patients
+2033	Exercise stress ECG (treadmill)
+2034	F/#y · Ht #cm · Wt #kg
+2035	Electroencephalography (EEG)
+2036	Ward #A
+2037	Ward #B
+2038	Basic laparoscopy set
+2039	Cleaning
+2040	Syringe #mL
+2041	IV catheter #G
+2042	Sterile gauze #×#
+2043	Surgical gloves size #
+2044	Infection PPE
+2045	Disposable gown
+2046	Foley catheter set #Fr
+2047	NG tube #Fr
+2048	Glucose test strips
+2049	Hand sanitizer #mL
+2050	ECG electrodes
+2051	Referrals received
+2052	Reply rate
+2053	Back-referrals sent
+2054	No-show
+2055	First OPD after discharge — PFT results
+2056	Fri
+2057	Quality improvement·Patient safety
+2058	Target met
+2059	Seq.
+2060	Initial consultation fee (tertiary)
+2061	Emergency management fee (regional emergency center)
+2062	ER consultation fee
+2063	Anesthesia fee (general)
+2064	Norepinephrine drip (#mg/#mL)
+2065	Piperacillin·tazobactam inj #g
+2066	Nicardipine inj (continuous)
+2067	# Emergency Medicine emergency
+2068	Institution: SSV Hospital · Physician @ (Emergency Medicine)
+2069	Order category
+2070	Procalcitonin is covered only when severe bacterial infection such as sepsis is suspected — no matching diagnosis
+2071	Materials
+2072	Diagnosis code
+2073	Merge (combine split claims)
+2074	Fee code
+2075	Request approval
+2076	Clinical field
+2077	Work injury (public)
+2078	Insured
+2079	Anesthesiologist
+2080	Class
+2081	Statement no.
+2082	Statement seq.
+2083	Claim type
+2084	Sub-dept
+2085	Main/Sub explanation
+2086	Disability
+2087	Claim category
+2088	Reason code
+2089	Pending review
+2090	Diagnoses (POA = present on admission?)
+2091	Diagnosis name and details
+2092	Care start date
+2093	Main)
+2094	Y Present on admission
+2095	N Developed after admission
+2096	U Insufficient documentation
+2097	W Clinically undetermined
+2098	# Continuing
+2099	# Transfer
+2100	# Back-referral
