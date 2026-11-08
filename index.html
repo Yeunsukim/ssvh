@@ -1,0 +1,53 @@
+<title>SSV 병원 전산 실습</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="간호학생을 위한 병원 전산(OCS·EMR·ENR) 실습 프로그램 — 교육용 가상 데이터">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/app.css">
+
+<div id="app"><div style="padding:2rem;font-family:sans-serif">SSV 병원 전산 실습을 불러오는 중입니다…</div></div>
+<div id="modal-root"></div>
+
+<script src="js/core/util.js"></script>
+<script src="js/core/store.js"></script>
+<script src="js/core/ui.js"></script>
+<script src="js/data/master.js"></script>
+<script src="js/core/flow.js"></script>
+<script src="js/data/sim.js"></script>
+<script src="js/data/seed.js"></script>
+<script src="js/data/seed2.js"></script>
+<script src="js/data/seed3.js"></script>
+<script src="js/data/seed4.js"></script>
+<script src="js/data/seed5.js"></script>
+<script src="js/core/app.js"></script>
+<script src="js/core/views.js"></script>
+<script src="js/core/fee.js"></script>
+<script src="js/modules/home.js"></script>
+<script src="js/modules/reg.js"></script>
+<script src="js/modules/ocs.js"></script>
+<script src="js/modules/pharmacy.js"></script>
+<script src="js/modules/lab.js"></script>
+<script src="js/modules/radiology.js"></script>
+<script src="js/modules/pathology.js"></script>
+<script src="js/modules/ward.js"></script>
+<script src="js/modules/ward-icu.js"></script>
+<script src="js/modules/ward-ob.js"></script>
+<script src="js/modules/or.js"></script>
+<script src="js/modules/dialysis.js"></script>
+<script src="js/modules/billing.js"></script>
+<script src="js/modules/review.js"></script>
+<script src="js/modules/mrd.js"></script>
+<script src="js/modules/p4-nursing.js"></script>
+<script src="js/modules/p4-support.js"></script>
+<script src="js/modules/p4-admin.js"></script>
+<script src="js/modules/p5-cath.js"></script>
+<script src="js/modules/p5-endo-inj.js"></script>
+<script src="js/modules/instructor.js"></script>
+<script>
+  try { H.boot(); }
+  catch (e) {
+    console.error(e);
+    document.getElementById('app').innerHTML = '<div style="padding:2rem;font-family:sans-serif"><h2>프로그램을 여는 중 문제가 생겼습니다</h2><p>' + String(e.message).replace(/</g, '&lt;') + '</p></div>';
+  }
+</script>
