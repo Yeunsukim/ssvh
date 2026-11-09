@@ -1,0 +1,211 @@
+T|mi-dxmgr	역아로 제왕절개 후 회복 순조
+T|mi-dxmgr	상처 깨끗, 수유 중
+T|mi-dxmgr	진통제 5일분
+T|mi-dxmgr	1주 뒤 외래
+T|ipdpay/doc/팝업	(수납 전)
+T|ipdpay/doc/팝업	공단(보험자) 부담금
+T|ipdpay/doc/팝업	환자 부담 총액
+T|ipdpay/doc/팝업	이미 낸 금액
+T|ipdpay/doc/팝업	이번에 낸 금액
+T|ipdpay/doc/팝업	보험자 청구처
+T|ipdpay/doc/팝업	납부 방법
+T|ipdpay/doc/팝업	SSV 병원 (상급종합병원)
+T|ipdpay/doc/팝업	※ 교육용 가상 영수증이며 금액은 근사치입니다. 실제 수가와 다릅니다.
+T|ipdpay/doc/팝업	코드
+T|ipdpay/doc/팝업	명칭
+T|ipdpay/doc/팝업	9끼
+T|certdoc	(최종) 폐렴, 상세불명 (임상적 추정) 2형 당뇨병, 합병증 없음 (임상적 추정) 본태성(원발성) 고혈압
+T|certdoc	상기 환자는 위 병명으로 2026-11-07부터 입원 치료 중이며, 향후 약 2주간의 안정 가료를 요할 것으로 사료됨.
+T|dcreview/rx/팝업	12끼
+T|cr-send	가상내과의원 (김가상 원장)
+T|cr-send	급성 충수염 치료함.
+T|cr-send	복강경 충수절제술 후 상처 관리·실밥 제거
+T|cr-send	없음
+V|cr-send	진료의뢰서
+V|cr-send	진료회송서
+V|cr-send	진료회신서
+V|cr-send	진료요약지
+V|cr-send	의사판단
+V|cr-send	환자요청
+O|cr-send	Virtual Internal Medicine Clinic (Director 김가상)
+T|certdoc	(최종) 급성 담낭염 (임상적 추정) 담낭결석 (담낭염 없음)
+T|certdoc	상기 환자는 위 병명으로 2026-11-08부터 입원 치료 중이며, 향후 약 2주간의 안정 가료를 요할 것으로 사료됨.
+T|certdoc	(최종) 울혈성 심부전 (임상적 추정) 만성 콩팥병 3기
+T|certdoc	상기 환자는 위 병명으로 2026-11-06부터 입원 치료 중이며, 향후 약 2주간의 안정 가료를 요할 것으로 사료됨.
+T|ipdpay/doc/팝업	3끼
+T|certdoc	(최종) 급성 신우신염
+T|certdoc	상기 환자는 위 병명으로 2026-11-09부터 입원 치료 중이며, 향후 약 2주간의 안정 가료를 요할 것으로 사료됨.
+T|ipdpay/doc/팝업	18끼
+T|certdoc	(최종) 구불결장의 악성 신생물 (임상적 추정) 빈혈, 상세불명
+T|certdoc	상기 환자는 위 병명으로 2026-11-04부터 입원 치료 중이며, 향후 약 2주간의 안정 가료를 요할 것으로 사료됨.
+V|opdnurse/pre	두통, 집에서 잰 혈압 160/100 (2주간)
+V|opdnurse/post	수납 창구 위치 안내 (원무과)
+V|opdnurse/post	검사 전 금식 안내
+V|opdnurse/post	이상 증상 생기면 응급실로 오도록 안내
+V|opdnurse/post	이해했는지 되묻기로 확인
+T|certdoc	상기 환자는 위 병명으로 외래 치료 중이며, 향후 약 2주간의 안정 가료를 요할 것으로 사료됨.
+V|opdnurse/pre	속쓰림, 신물 올라옴 (3주)
+V|opdnurse/pre	왼쪽 유방에 만져지는 멍울 (1개월)
+T|certdoc	(최종) 흉통, 상세불명
+T|certdoc	(최종) 뇌경색증, 상세불명
+T|certdoc	(최종) 패혈성 쇼크 (기관 부전 동반) (임상적 추정) 폐렴, 상세불명
+T|certdoc	(최종) 뇌내출혈, 상세불명 (임상적 추정) 본태성(원발성) 고혈압
+T|ipdpay	진통실
+T|ipdpay/doc/팝업	LD 진통실
+T|certdoc	(최종) 단일 자연분만
+T|ocs-ipd/order	2mU/분으로 시작, 30분마다 2mU씩 올림 (최대 20). 과다 수축이면 중단
+T|ipdpay	신생아 입원 본인부담 면제
+T|certdoc	(최종) 병원에서 출생한 단태아
+T|certdoc	(최종) 기타 미숙아 (임신 33주)
+T|certdoc	(최종) 급성 충수염
+T|certdoc	상기 환자는 위 병명으로 2026-11-03부터 입원 치료 중이며, 향후 약 2주간의 안정 가료를 요할 것으로 사료됨.
+V|injection/chemo	항암 동의서 확인
+V|injection/chemo	구토 예방 약(온단세트론) 30분 전 투여
+V|injection/chemo	임신 가능성 없음 확인
+V|injection/chemo	지난 회차 부작용 (구토·열·입안 염증) 확인
+V|injection/chemo	간호사 2명이 환자·약·용량·경로·주입 속도·유효기간 함께 확인
+V|injection/chemo	보호구: 항암용 이중 장갑·방수 가운·보안경
+V|injection/chemo	오른팔 굵은 정맥에 새로 혈관 확보 — 손등·관절 피함
+V|injection/chemo	생리식염수로 혈액 역류·잘 들어가는지 먼저 확인
+V|injection/chemo	자극성 강한 약(독소루비신)은 수액 옆 관으로 천천히, 2~3mL마다 역류 확인
+V|injection/chemo	열 38℃ 이상이면 바로 응급실 (호중구 감소 — 감염 위험)
+V|injection/chemo	구토 약 집에서 먹는 법
+V|injection/chemo	입안 염증 예방 — 부드러운 칫솔·가글
+V|injection/chemo	탈모는 일시적, 머리 보호
+V|injection/chemo	소변이 붉을 수 있음 (독소루비신 색)
+V|injection/chemo	다음 회차: 3주 뒤 (4/4회차)
+V|injection/chemo	사용한 항암 물품은 전용 폐기통에
+V|endo	검사 직후 겉면 닦고 흡인 채널에 세제 흡인 (침상 옆 1차 세척)
+V|endo	누수 검사
+V|endo	효소 세제로 모든 채널 솔질 (수동 세척)
+V|endo	흐르는 물로 헹굼
+V|endo	자동 세척소독기 — 과아세트산 고수준 소독 (농도 확인 스트립)
+V|endo	알코올 흘려 넣고 공기로 건조
+V|endo	내시경 보관장에 수직으로 걸어 보관
+V|infection	즉시 씻음
+V|infection	감염관리실 보고
+V|infection	노출원 환자 검사 의뢰
+V|infection	직원 기초 혈액검사
+V|infection	예방 조치 상담
+V|infection	사고 경위서 작성
+V|transplant/donor	중환자실에서 GCS 3·자발 호흡 없음 확인
+V|transplant/donor	한국장기조직기증원(가상)에 신고
+V|transplant/donor	의학적 적합성 1차 확인 (감염·암 병력)
+V|lab/micro	혈액 한천배지
+V|lab/micro	초콜릿 배지
+V|lab/micro	맥콘키 배지
+V|lab/mol	검체 전처리 구역에서 작업 (오염 방지)
+V|lab/mol	자동 핵산 추출기 장착
+V|lab/mol	내부 대조 물질 넣음
+T|pathology/done/팝업	육안 소견
+T|pathology/done/팝업	받은 검체는 회백색의 작은 조직 조각들로, 모두 포매함.
+T|pathology/done/팝업	염증 세포 침윤이 약간 있는 정상 조직 구조. 악성 세포 없음.
+T|pathology/done/팝업	판독: 병리과 전문의 민서경 · 2026-07-30 13:55
+T|pathology/done/팝업	판독: 병리과 전문의 민서경 · 2026-08-17 12:43
+T|pathology/done/팝업	판독: 병리과 전문의 민서경 · 2026-08-21 12:41
+T|pathology/done/팝업	판독: 병리과 전문의 민서경 · 2026-08-27 14:08
+T|pathology/done/팝업	판독: 병리과 전문의 민서경 · 2026-09-06 13:02
+T|pathology/done/팝업	판독: 병리과 전문의 민서경 · 2026-10-17 15:08
+V|radiology/cm	조영제 알레르기 문진 (이전 검사 때 두드러기·호흡곤란)
+V|radiology/cm	신장 기능 확인 (eGFR)
+V|radiology/cm	조영제 사용 동의서
+V|radiology/cm	금식 4~6시간 확인
+V|radiology/cm	주사 경로 생리식염수로 막힘 없음 확인
+V|radiology/nm	Tc-99m 세스타미비
+V|radiology/nm	환자 두 가지 확인
+V|radiology/nm	용량 측정기로 양 확인
+V|radiology/nm	임신·수유 여부 확인
+V|radiology/nm	차폐 주사기 사용
+V|radiology/nm	주사 후 주사기·솜 방사성 폐기물통
+V|func/ecg	환자 확인 (이름·생년월일)
+V|func/ecg	가슴 전극 V1~V6 위치 (V1·V2 4번째 갈비사이)
+V|func/ecg	팔다리 전극 4개
+V|func/ecg	움직이거나 말하지 않게 안내
+V|func/echo	왼쪽으로 눕게 함 (심장이 가슴벽에 가까워짐)
+V|func/echo	심전도 전극 연결
+V|func/echo	젤이 차가울 수 있다고 안내
+V|func/pft	키·몸무게 측정 (예측치 계산)
+V|func/pft	코 집게 사용
+V|func/pft	검사 전 1시간 금연·과식 피함
+V|func/pft	흡입 기관지 확장제 중단 확인 (짧은 것 6시간)
+V|func/neuro	전극 21개 부착·저항 확인
+V|func/neuro	경련 시 대처 준비 (흡인기·산소·옆으로 눕히기)
+V|func/neuro	검사 후 전극 풀 닦아 드림
+V|opdreg	국민건강보험공단
+T|reg/adm	입원 생활 안내문 전달, 보호자 1인 상주 가능, 입원 약정서 서명 받음
+V|billing/pay	환자 본인 확인 (신분증)
+V|billing/pay	계산서 내용 설명 (본인부담·비급여)
+V|billing/pay	퇴원 약·다음 외래 예약 확인
+T|billing/cert	상기 환자는 위 병명으로 입원 치료 중이며, 향후 약 2주간 안정 가료가 필요할 것으로 사료됨.
+T|postreview/note/팝업	역아 하부 자궁 횡절개로 여아 분만 (3,050g) 출혈 600mL, 합병증 없음
+T|postreview/note/팝업	건강보험 · 124542445 · 자격 유지
+T|postreview/note/팝업	수술 후 부종
+V|mrd/copy	신청인 신분증
+V|mrd/copy	가족관계증명서
+V|mrd/copy	환자의 동의서 (자필 서명)
+V|mrd/copy	환자 신분증 사본
+V|mrd/copy	위임장
+V|mrd/copy	입원기록
+V|mrd/copy	경과기록
+V|mrd/copy	수술기록
+V|mrd/copy	퇴원요약
+V|mrd/copy	검사 결과
+V|mrd/copy	영상 판독
+V|mrd/copy	간호기록
+V|callctr/out	학회 참석
+T|cs-voc/list	조은비 (환자 딸)
+T|cs-voc/list	조은숙 (환자 아내)
+T|cs-voc/list	조은비 (환자 딸) · 010-7720-11xx
+V|cs-voc/list	부서장에게 칭찬 내용 전달
+V|cs-voc/list	이달의 친절 직원 후보 추천
+V|cs-voc/list	고객에게 감사 회신
+T|cs-voe/list	전산 (HIS) · 응급실 간호사 한지원
+T|cs-voe/list	업무 절차·효율 · 7A 간호사 최은정
+T|cs-voe/list	보류
+T|cs-voe/list	불채택
+T|cs-voe/list	검토 의견
+T|cs-voe/list	검토 결과 등록
+T|cs-crm	[SSV병원] 마지막 진료 후 6개월이 지났습니다. 꾸준한 관리가 중요합니다. 예약: 1588-0000 (가상)
+V|cs-crm/360	오후
+V|cs-pxe	간호부
+T|referral/in	남/54세 · 가상내과의원 (김가상 원장) → 순환기내과
+T|referral/in	남/66세 · 가상내과의원 (김가상 원장) → 순환기내과
+V|cr-transfer	수신
+V|cr-transfer	송신
+V|cr-transfer/80	호흡기내과
+V|cr-transfer/80	회송환자 재의뢰 (패스트트랙)
+V|cr-transfer/80	타기관 의뢰
+V|cr-transfer/80	폐렴 악화, 산소포화도 88% — 응급 전원 요청
+T|cr-transfer/list/팝업	SSV 병원 (상급종합, 가상)
+T|cr-transfer/list/팝업	미전송
+V|qi	점검표 항목 모두 확인
+V|qi	이상 없음
+V|qi	이상 발견 시 시설팀 수리 요청
+V|qi	점검 결과 게시
+V|qi/event	의사소통 부족
+V|qi/event	절차·규정 안 지킴
+V|qi/event	인력 부족·업무 과다
+V|qi/event	장비·물품 문제
+V|qi/event	환경 (조명·바닥)
+V|qi/event	환자 요인 (섬망·고령)
+V|qi/event	교육 부족
+T|qi/event/팝업	왜 그랬나 (5번 왜? — 근본 원인)
+T|qi/event/팝업	개선 활동 (시스템을 어떻게 바꿀지)
+V|qi/cp	수술 전날: 혈액·흉부 X선·심전도 결과 확인
+V|qi/cp	수술 전날: 수술·마취 동의서
+V|qi/cp	수술 전날: 자정부터 금식
+V|qi/cp	수술 전날: 수술 전 교육
+V|qi/cp	수술 당일: 예방적 항생제 (절개 60분 안)
+V|qi/cp	수술 당일: 수술 후 활력징후 (15분×4, 30분×2)
+V|qi/cp	수술 당일: 통증 조절
+V|qi/cp	수술 당일: 심호흡·기침 교육
+V|qi/cp	수술 후 1일: 물·미음 시작
+V|qi/cp	수술 후 1일: 보행 시작
+V|qi/cp	수술 후 1일: 수액 줄이기
+V|qi/cp	수술 후 1일: 상처 확인
+V|qi/cp	수술 후 2일 (퇴원): 일반식
+V|qi/cp	수술 후 2일 (퇴원): 퇴원 교육 (상처·식사·활동)
+V|qi/cp	수술 후 2일 (퇴원): 외래 예약
+V|qi/cp	수술 후 2일 (퇴원): 퇴원
+T|instructor/check	3교대 근무표 작성 (한 달 자동 짜기·확정)
+T|datacheck/db	-- SSV 병원 전산 실습 — 자료 규칙표에서 자동으로 만든 테이블 생성문 (PostgreSQL 기준) -- 실습 기록(JSON)의 각 묶음이 아래 테이블 한 개와 1:1로 대응합니다. CREATE TABLE doctors (id VARCHAR(40) PRIMARY KEY, name TEXT NOT NULL, dept TEXT); -- 의사 명단 (마스터) CREATE TABLE master_items (code VARCHAR(40) PRIMARY KEY, cat VARCHAR(20) NOT NULL, name TEXT NOT NULL, price NUMERIC, detail JSON); -- 처방 항목 마스터 CREATE TABLE patients ( -- 환자 "id" VARCHAR(40) PRIMARY KEY, -- PK "mrn" VARCHAR(40) NOT NULL UNIQUE, -- 등록번호(고유) "name" TEXT NOT NULL, -- 이름 "sex" TEXT NOT NULL, -- 성별 M/F "birth" TEXT NOT NULL, -- 생년월일 YYYY-MM-DD "blood" TEXT, -- 혈액형 "height" NUMERIC, -- 키 cm "weight" NUMERIC, -- 몸무게 kg "ins" NUMERIC, -- 보험 종류 "phone" TEXT, -- 휴대전화 "address" TEXT, -- 주소 "guardian" TEXT, -- 보호자 "allergies" JSON, -- JSON 알레르기 목록 "flags" JSON, -- JSON 경고(격리·DNR 등) "hx" TEXT, -- 과거력 "erp" JSON, -- JSON 원무 정보 "crm" JSON, -- JSON 고객관리 정보 "refConsent" JSON, -- JSON 진료정보 제공 동의 "scenario" JSON, -- JSON 실습 사례값 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE encounters ( -- 진료(내원·입원) "id" VARCHAR(40) PRIMARY KEY, -- PK "patientId" VARCHAR(40) NOT NULL REFERENCES patients("id"), -- FK 환자 "type" VARCHAR(40) NOT NULL, -- 외래 OPD/입원 IPD/응급 ER "dept" TEXT NOT NULL, -- 진료과 "doctorId" VARCHAR(40) NOT NULL REFERENCES doctors(id), -- FK 의사 "status" VARCHAR(40) NOT NULL, -- 상태 "at" BIGINT NOT NULL, -- 시작 시각 "endAt" BIGINT, -- 종료(퇴원) 시각 "ward" TEXT, -- 병동 "room" TEXT, -- 병실 "bed" TEXT, -- 침상 "ktas" TEXT, -- 응급 중증도 "cc" TEXT, -- 주호소 "dx" JSON, -- JSON 진단 목록(KCD) "diet" TEXT, -- 식이 "dc" JSON, -- JSON 퇴원 정보 "coding" JSON, -- JSON 코딩(의료정보) "mi" JSON, -- JSON 퇴원분석 "moves" JSON, -- JSON 전동 이력 "billed" TEXT, -- 수납 완료 여부 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE orders ( -- 처방 "id" VARCHAR(40) PRIMARY KEY, -- PK "encId" VARCHAR(40) NOT NULL REFERENCES encounters("id"), -- FK 진료 "patientId" VARCHAR(40) NOT NULL REFERENCES patients("id"), -- FK 환자 "encType" TEXT, -- 진료 구분 "cat" VARCHAR(40) NOT NULL, -- 처방 분류 "code" VARCHAR(40) NOT NULL REFERENCES master_items(code), -- FK 처방 항목(마스터) "name" TEXT NOT NULL, -- 처방명 "dose" NUMERIC, -- 용량 "unit" TEXT, -- 단위 "route" TEXT, -- 경로 "freq" TEXT, -- 횟수 "days" NUMERIC, -- 일수 "qty" NUMERIC, -- 총량 "prn" TEXT, -- 필요시 "stat" TEXT, -- 응급 "outside" TEXT, -- 원외처방 "status" VARCHAR(40) NOT NULL, -- 진행 상태 "at" BIGINT NOT NULL, -- 처방 시각 "by" TEXT, -- 처방자 "doctorId" VARCHAR(40) REFERENCES doctors(id), -- FK 의사 "ward" TEXT, -- 병동 "hist" JSON, -- JSON 단계 이력 "result" JSON, -- JSON 결과 "specimenAt" BIGINT, -- 채혈 시각 "shotAt" BIGINT, -- 촬영 시각 "arrivedAt" BIGINT, -- 병동 도착 시각 "op" JSON, -- JSON 수술 "cv" JSON, -- JSON 심혈관 시술 "en" JSON, -- JSON 내시경 "adj" JSON, -- JSON 심사 조정 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE notes ( -- 의사 기록 "id" VARCHAR(40) PRIMARY KEY, -- PK "encId" VARCHAR(40) NOT NULL REFERENCES encounters("id"), -- FK 진료 "patientId" VARCHAR(40) NOT NULL REFERENCES patients("id"), -- FK 환자 "type" VARCHAR(40) NOT NULL, -- 기록 종류 "at" BIGINT NOT NULL, -- 작성 시각 "by" TEXT, -- 작성자 "signed" TEXT, -- 전자서명 "content" JSON, -- JSON 내용 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE vitals ( -- 활력징후 "id" VARCHAR(40) PRIMARY KEY, -- PK "patientId" VARCHAR(40) NOT NULL REFERENCES patients("id"), -- FK 환자 "encId" VARCHAR(40) REFERENCES encounters("id"), -- FK 진료 "at" BIGINT NOT NULL, -- 측정 시각 "sbp" NUMERIC, -- 수축기 "dbp" NUMERIC, -- 이완기 "hr" NUMERIC, -- 맥박 "rr" NUMERIC, -- 호흡 "bt" TEXT, -- 체온 "spo2" NUMERIC, -- 산소포화도 "pain" NUMERIC, -- 통증 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE io ( -- 섭취·배설 "id" VARCHAR(40) PRIMARY KEY, -- PK "patientId" VARCHAR(40) NOT NULL REFERENCES patients("id"), -- FK 환자 "at" BIGINT NOT NULL, -- 시각 "kind" VARCHAR(40), -- 섭취/배설 "type" VARCHAR(40), -- 종류 "amount" NUMERIC, -- 양 mL "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE mar ( -- 투약 기록(MAR) "id" VARCHAR(40) PRIMARY KEY, -- PK "orderId" VARCHAR(40) NOT NULL REFERENCES orders("id"), -- FK 처방 "patientId" VARCHAR(40) NOT NULL REFERENCES patients("id"), -- FK 환자 "slot" TEXT, -- 투약 시간대 "status" VARCHAR(40) NOT NULL, -- 투약/보류/거부 "at" BIGINT NOT NULL, -- 시각 "by" TEXT, -- 간호사 "checks" JSON, -- JSON 5원칙 확인 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE nnotes ( -- 간호 기록 "id" VARCHAR(40) PRIMARY KEY, -- PK "patientId" VARCHAR(40) NOT NULL REFERENCES patients("id"), -- FK 환자 "encId" VARCHAR(40) REFERENCES encounters("id"), -- FK 진료 "at" BIGINT NOT NULL, -- 시각 "format" TEXT, -- 서술/Focus "text" TEXT, -- 내용 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE assess ( -- 간호 사정(점수) "id" VARCHAR(40) PRIMARY KEY, -- PK "patientId" VARCHAR(40) NOT NULL REFERENCES patients("id"), -- FK 환자 "kind" VARCHAR(40) NOT NULL, -- 도구(Morse·Braden 등) "score" NUMERIC, -- 점수 "level" TEXT, -- 등급 "answers" JSON, -- JSON 문항 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE handoffs ( -- 인수인계 "id" VARCHAR(40) PRIMARY KEY, -- PK "patientId" VARCHAR(40) NOT NULL REFERENCES patients("id"), -- FK 환자 "ward" TEXT, -- 병동 "S" TEXT, -- 상황 "B" TEXT, -- 배경 "A" TEXT, -- 사정 "R" TEXT, -- 요청 "status" VARCHAR(40), -- 상태 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE comms ( -- SBAR 보고 "id" VARCHAR(40) PRIMARY KEY, -- PK "patientId" VARCHAR(40) NOT NULL REFERENCES patients("id"), -- FK 환자 "S" TEXT, -- 상황 "B" TEXT, -- 배경 "A" TEXT, -- 사정 "R" TEXT, -- 요청 "reply" TEXT, -- 의사 답변 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE codes ( -- 심폐소생술 기록 "id" VARCHAR(40) PRIMARY KEY, -- PK "patientId" VARCHAR(40) REFERENCES patients("id"), -- FK 환자 "events" JSON, -- JSON 경과 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE acts ( -- 간호 활동 "id" VARCHAR(40) PRIMARY KEY, -- PK "patientId" VARCHAR(40) REFERENCES patients("id"), -- FK 환자 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE notifs ( -- 알림 "id" VARCHAR(40) PRIMARY KEY, -- PK "to" TEXT NOT NULL, -- 받는 부서 통로 "text" TEXT NOT NULL, -- 내용 "patientId" VARCHAR(40) REFERENCES patients("id"), -- FK 환자 "level" TEXT, -- 응급 여부 "read" TEXT, -- 읽음 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE audit ( -- 활동 기록(감사) "id" VARCHAR(40) PRIMARY KEY, -- PK "at" BIGINT NOT NULL, -- 시각 "user" TEXT, -- 사용자 "sid" TEXT, -- 학번 "dept" TEXT, -- 부서 "action" TEXT NOT NULL, -- 행동 "detail" TEXT, -- 내용 "patientId" VARCHAR(40) REFERENCES patients("id"), -- FK 환자 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE admreq ( -- 입원 요청 "id" VARCHAR(40) PRIMARY KEY, -- PK "patientId" VARCHAR(40) NOT NULL REFERENCES patients("id"), -- FK 환자 "fromEnc" TEXT REFERENCES encounters("id"), -- FK 진료(외래·응급) "dept" TEXT, -- 진료과 "ward" TEXT, -- 희망 병동 "status" VARCHAR(40), -- 상태 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE specimens ( -- 검체 "id" VARCHAR(40) PRIMARY KEY, -- PK "patientId" VARCHAR(40) NOT NULL REFERENCES patients("id"), -- FK 환자 "orderIds" JSON, -- JSON FK 처방 목록 "at" BIGINT, -- 채혈 시각 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE recs ( -- 부서별 업무 기록 "id" VARCHAR(40) PRIMARY KEY, -- PK "kind" VARCHAR(40) NOT NULL, -- 기록 종류(qc·voc·call·happy 등) "patientId" VARCHAR(40) REFERENCES patients("id"), -- FK 환자 "encId" VARCHAR(40) REFERENCES encounters("id"), -- FK 진료 "orderId" VARCHAR(40) REFERENCES orders("id"), -- FK 처방 "at" BIGINT NOT NULL, -- 시각 "by" TEXT, -- 기록자 "data" JSON, -- JSON 나머지 칸 -- kind별 나머지 칸은 data(JSON)에 저장 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE bills ( -- 수납 영수증 "id" VARCHAR(40) PRIMARY KEY, -- PK "no" VARCHAR(40), -- 영수증 번호 "encId" VARCHAR(40) NOT NULL REFERENCES encounters("id"), -- FK 진료 "patientId" VARCHAR(40) NOT NULL REFERENCES patients("id"), -- FK 환자 "kind" VARCHAR(40), -- 구분 "total" NUMERIC, -- 총액 "ins" NUMERIC, -- 공단부담 "self" NUMERIC, -- 본인부담 "non" NUMERIC, -- 비급여 "paid" NUMERIC, -- 받은 돈 "method" TEXT, -- 결제 수단 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE claims ( -- 보험 청구 "id" VARCHAR(40) PRIMARY KEY, -- PK "no" VARCHAR(40) NOT NULL, -- 청구 번호 "encIds" JSON, -- JSON FK 진료 목록 "amount" NUMERIC, -- 청구액 "status" VARCHAR(40), -- 상태 "results" JSON, -- JSON 심사 결과 "returns" JSON, -- JSON 반송 진료 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE defs ( -- 미비 기록 "id" VARCHAR(40) PRIMARY KEY, -- PK "encId" VARCHAR(40) NOT NULL REFERENCES encounters("id"), -- FK 진료 "patientId" VARCHAR(40) NOT NULL REFERENCES patients("id"), -- FK 환자 "item" TEXT NOT NULL, -- 빠진 기록 "to" TEXT, -- 담당자 "status" VARCHAR(40) NOT NULL, -- 요청/완료 "doneAt" BIGINT, -- 완료 시각 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE certs ( -- 제증명 발급 "id" VARCHAR(40) PRIMARY KEY, -- PK "patientId" VARCHAR(40) REFERENCES patients("id"), -- FK 환자 "encId" VARCHAR(40) REFERENCES encounters("id"), -- FK 진료 "type" VARCHAR(40), -- 종류 "price" NUMERIC, -- 수수료 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE items ( -- 물품·재고·멸균 "id" VARCHAR(40) PRIMARY KEY, -- PK "kind" VARCHAR(40) NOT NULL, -- 종류 "name" TEXT, -- 물품명 "qty" NUMERIC, -- 수량 "lot" TEXT, -- 로트 "status" VARCHAR(40), -- 상태 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE refs ( -- 진료협력(의뢰·회송·회신) "id" VARCHAR(40) PRIMARY KEY, -- PK "dir" VARCHAR(40) NOT NULL, -- 받음 in/보냄 out "pid" VARCHAR(40) REFERENCES patients("id"), -- FK 환자 "pname" TEXT NOT NULL, -- 환자 이름 "from" TEXT, -- 의뢰 기관 "to" TEXT, -- 받는 기관 "dept" TEXT, -- 진료과 "reason" TEXT, -- 사유 "status" VARCHAR(40) NOT NULL, -- 상태 "reply" TEXT, -- 회신 내용 "docType" TEXT, -- 문서 종류 "ediNo" TEXT, -- 중계 번호 "form" JSON, -- JSON 서식 "forms" JSON, -- JSON 요양급여 서식 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE appts ( -- 예약 "id" VARCHAR(40) PRIMARY KEY, -- PK "pid" VARCHAR(40) NOT NULL REFERENCES patients("id"), -- FK 환자 "dept" TEXT NOT NULL, -- 진료과 "doctorId" VARCHAR(40) REFERENCES doctors(id), -- FK 의사 "date" VARCHAR(40) NOT NULL, -- 날짜 "time" VARCHAR(40) NOT NULL, -- 시각 "status" VARCHAR(40) NOT NULL, -- 상태 "kind" VARCHAR(40), -- 진료/검사 "orderId" VARCHAR(40) REFERENCES orders("id"), -- FK 처방(검사 예약) "via" TEXT, -- 예약 경로 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE qi ( -- 질향상·환자안전 "id" VARCHAR(40) PRIMARY KEY, -- PK "kind" VARCHAR(40) NOT NULL, -- 종류 "type" VARCHAR(40), -- 사건 유형 "grade" TEXT, -- 위해 정도 "what" TEXT, -- 내용 "status" VARCHAR(40), -- 상태 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE staff ( -- 직원 "id" VARCHAR(40) PRIMARY KEY, -- PK "name" TEXT NOT NULL, -- 이름 "ward" TEXT, -- 부서 "role" TEXT, -- 직책 "career" TEXT, -- 경력(년) "sched" JSON, -- JSON 날짜별 근무 코드(D·E·N·OFF·AL·EDU·SL·FL·PL·HL·ML) "edu" JSON, -- JSON 필수 교육 "health" JSON, -- JSON 건강 관리 "extra" JSON -- 규칙표에 없는 추가 칸 ); -- 자주 찾는 열쇠에 색인 CREATE INDEX ix_enc_pat ON encounters("patientId"); CREATE INDEX ix_ord_enc ON orders("encId"); CREATE INDEX ix_ord_pat_status ON orders("patientId", "status"); CREATE INDEX ix_mar_ord ON mar("orderId"); CREATE INDEX ix_notif_to ON notifs("to", "read");

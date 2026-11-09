@@ -12,6 +12,15 @@ for (const f of fs.readdirSync(dir).filter((x) => /^en-.*\.txt$/.test(x)).sort()
     dict[k] = v; n++;
   }
 }
+// 기록 내용 번역 (tools/i18n/pairs-*.txt: "한글<TAB>영어", 숫자는 #, 이름은 @ — 개수가 같아야 함)
+for (const f of fs.readdirSync(dir).filter((x) => /^pairs-.*\.txt$/.test(x)).sort()) {
+  for (const line of fs.readFileSync(path.join(dir, f), 'utf8').split('\n')) {
+    const i = line.indexOf('\t'); if (i < 1) continue; const k = line.slice(0, i).trim(); const v = line.slice(i + 1).trim(); if (!k || !v || (k + v).includes('�')) { bad++; continue; }
+    const c = (s, ch) => (s.match(new RegExp(ch, 'g')) || []).length;
+    if (c(k, '#') !== c(v, '#') || c(k, '@') !== c(v, '@')) { bad++; console.log('자리표 수가 다름', f, k, '→', v); continue; }
+    dict[k] = v; n++;
+  }
+}
 // 사람이 따로 적은 용어 (tools/i18n/terms.txt: "한글<TAB>영어")
 if (fs.existsSync(path.join(dir, 'terms.txt'))) for (const line of fs.readFileSync(path.join(dir, 'terms.txt'), 'utf8').split('\n')) { const [k, v] = line.split('\t'); if (k && v && !dict[k.trim()]) { dict[k.trim()] = v.trim(); n++; } }
 fs.writeFileSync('js/i18n/dict-en.js', `// 영어 사전 — tools/i18n-build.js로 자동 생성 (직접 고치지 말고 tools/i18n/*.txt를 고친 뒤 다시 만듦)\nwindow.H.I18N_EN = ${JSON.stringify(dict)};\n`);

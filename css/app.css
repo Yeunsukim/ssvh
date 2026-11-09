@@ -679,3 +679,28 @@ html[lang="en"] .node.live::after { content: "Available"; }
   html[lang="en"] .btn, html[lang="en"] .erp-bar .btn, html[lang="en"] .job, html[lang="en"] .job-i { white-space: normal; height: auto; text-align: center; }
   html[lang="en"] #app { overflow-wrap: anywhere; }
 }
+
+/* ── 간호행정 3교대 근무표 (p12-duty.js) ── */
+.duty-top{display:flex;flex-wrap:wrap;gap:.8rem 1.4rem;align-items:flex-end}
+.duty-top .fld{margin:0}
+.duty-ym{font-size:1.15rem;min-width:7.5rem;text-align:center}
+.duty-b{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;min-width:4.4rem;min-height:var(--btn-h);padding:.2rem .5rem;border:2px solid var(--line);border-radius:.5rem;font-weight:700;cursor:pointer;color:var(--fg);background:var(--surface);font:inherit}
+.duty-b .small{font-weight:400}
+.duty-b.on{outline:3px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
+.duty-wrap{max-height:72vh;overflow:auto}
+.tbl.duty th,.tbl.duty td{padding:.15rem .2rem;text-align:center;vertical-align:middle}
+.tbl.duty .duty-name{text-align:left;position:sticky;left:0;background:var(--surface);z-index:1;min-width:7rem;white-space:nowrap}
+.tbl.duty thead th{position:sticky;top:0;background:var(--surface-2);z-index:2}
+.tbl.duty thead th.duty-name{z-index:3}
+.duty-h{min-width:2.6rem}
+.duty-h.rest{color:var(--t-stat)}
+.duty-h.sat{color:var(--t-sent)}
+.duty-h.other{opacity:.45}
+.duty-c{min-width:2.6rem;min-height:2.4rem;border:1px solid var(--line);border-radius:.4rem;font-weight:700;font-size:.82rem;background:var(--surface);cursor:pointer;color:var(--fg);font-family:inherit}
+.duty-c.big{min-width:5.8rem;min-height:3.4rem;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.1rem}
+.duty-c.big .small{font-weight:400;font-size:.72rem}
+.duty-sum td{font-size:.8rem;background:var(--surface-2)}
+.duty-sum td.bad{background:var(--t-stat-soft);color:var(--t-stat);font-weight:700}
+.tbl.duty.wk .duty-sum td{vertical-align:top}
+.duty-leg{display:flex;flex-wrap:wrap;gap:.3rem 1rem}
+.duty-dot{display:inline-block;min-width:2.4rem;padding:0 .3rem;border-radius:.3rem;text-align:center;font-weight:700}

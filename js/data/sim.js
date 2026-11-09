@@ -43,7 +43,7 @@
   function radReport(p, order) {
     const it = H.M.item(order.code);
     const sc = (p && p.scenario && p.scenario.rad && p.scenario.rad[it.kind]) || null;
-    const n = RAD_NORMAL[it.kind] || { f: '특이 소견 없음.', i: '특이 소견 없음' };
+    const n = it.nf || RAD_NORMAL[it.kind] ||{ f: '특이 소견 없음.', i: '특이 소견 없음' };
     return { findings: sc ? sc.f : n.f, impression: sc ? sc.i : n.i, lesion: sc ? sc.lesion : null };
   }
 

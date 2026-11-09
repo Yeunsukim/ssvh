@@ -42,11 +42,14 @@
       const keep = { y: window.scrollY, list: (root.querySelector('.plist-body') || {}).scrollTop || 0, main: (root.querySelector('[data-keep-scroll]') || {}).scrollTop || 0 };
       if (m.layout === 'bare') { root.innerHTML = m.render(); }
       else {
+        // 화면을 그리다 오류가 나면(저장된 탭 값이 이상할 때 등) 그 화면 상태를 처음으로 되돌리고 한 번 더 그림
+        const safe = (fn) => { try { return fn(); } catch (err) { console.error('화면 그리기 오류 — 화면 상태를 되돌립니다', err); A.st[m.id] = {}; try { return fn(); } catch (err2) { console.error(err2); return `<div class="panel"><div class="panel-b">${H.ui.empty('이 화면을 그리지 못했습니다', '다른 환자를 고르거나 부서 지도에서 다시 열어 주세요.')}</div></div>`; } } };
+        const body = safe(() => m.render());
         const list = m.layout === 'patient' ? A.listHtml(m) : '';
         const side = m.side ? m.side() : '';
         const wsCls = m.layout === 'patient' ? (side ? '' : 'no-side') : side ? 'full-side' : 'full';
         root.innerHTML = `${A.topbar(m)}<div class="shell ${A.shellCls ? A.shellCls() : ''}">${A.navHtml ? A.navHtml() : ''}${A.navMob ? '<div class="snav-back" data-act="nav.toggle"></div>' : ''}<div class="shell-main">${A.tabbarHtml ? A.tabbarHtml() : ''}${m.layout === 'patient' ? A.banner() : ''}
-          ${m.layout === 'page' ? m.render() : `<div class="ws ${wsCls}">${list}<main class="main" id="main">${m.render()}</main>${side ? `<aside class="side">${side}</aside>` : ''}</div>`}</div></div>
+          ${m.layout === 'page' ? body : `<div class="ws ${wsCls}">${list}<main class="main" id="main">${body}</main>${side ? `<aside class="side">${side}</aside>` : ''}</div>`}</div></div>
           ${A.statusbar()}`;
       }
       const lb = root.querySelector('.plist-body'); if (lb) lb.scrollTop = keep.list;

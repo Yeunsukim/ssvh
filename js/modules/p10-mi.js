@@ -156,7 +156,7 @@
         <div class="box gap-s"><div class="row"><b class="small">구분</b>${['전체', '재원', '퇴원'].map((k) => `<button type="button" class="btn sm ${k === kind ? 'pri' : ''}" data-act="mi.kind" data-v="${k}">${k}</button>`).join('')}</div>
           <div class="row"><b class="small">진료과</b><select data-chg="mi.dept" aria-label="진료과"><option value="">전체</option>${[...new Set(ipds().map((e) => e.dept))].map((d) => `<option ${d === dept ? 'selected' : ''}>${esc(d)}</option>`).join('')}</select></div>
           <div class="row"><b class="small">진단상태</b>${['전체'].concat(STATES).map((k) => `<button type="button" class="btn sm ${k === st ? 'pri' : ''}" data-act="mi.st" data-v="${k}">${k}</button>`).join('')}</div></div>
-        ${E().grid([{ h: 'No.' }, { h: '재원상태' }, { h: '등록번호' }, { h: '이름' }, { h: '과' }, { h: 'DRG' }, { h: '진단' }], list.map((e, k) => ({ cells: [k + 1, e.status === '입원중' ? '재원' : '퇴원', H.pat(e.patientId).mrn, esc(H.pat(e.patientId).name), esc(e.dept.slice(0, 4)), drgOf(e), esc((e.coding || {}).state || '미코딩')], on: cur && e.id === cur.id, act: 'mi.sel', data: { id: e.id } })), { h: '34rem' })}</div>
+        ${E().grid([{ h: 'No.' }, { h: '재원상태' }, { h: '등록번호' }, { h: '이름' }, { h: '과' }, { h: 'DRG' }, { h: '진단' }], list.map((e, k) => ({ cells: [k + 1, e.status === '입원중' ? '재원' : '퇴원', H.pat(e.patientId).mrn, esc(H.pat(e.patientId).name), esc(e.dept), drgOf(e), esc((e.coding || {}).state || '미코딩')], on: cur && e.id === cur.id, act: 'mi.sel', data: { id: e.id } })), { h: '34rem' })}</div>
         <div>${body}</div></div></div>`;
     },
     acts: Object.assign({}, common, {

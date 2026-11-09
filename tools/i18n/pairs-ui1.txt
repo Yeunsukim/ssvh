@@ -1,0 +1,399 @@
+# 명료·차분	# Alert & calm
+# 미만	< #
+#% 넘게 차이 (#)	Differs by more than #% (#)
+#MHz 깊이 #cm	# MHz depth # cm
+#km/시 · 경사 #%	# km/h · grade #%
+#mg/hr 시작, #분마다 #씩 (최대 #)	Start # mg/hr, increase by # every # min (max #)
+#s (연속 #번 같은 쪽 #표준편차 넘음)	#s (# in a row beyond # SD on the same side)
+#s (평균에서 #표준편차 넘음)	#s (beyond # SD from the mean)
+#~#시간 뒤 배지에 자란 집락(콜로니)을 봅니다.	After #–# h, read the colonies grown on the plates.
+#~#시간마다 자세 바꾸기	Reposition every #–# h
+#번방 (응급)	OR # (emergency)
+#분 뒤 통증 재사정 예정	Pain reassessment in # min
+#분마다 관찰	Observe every # min
+#시간 뒤 체온 재측정 예정	Recheck temperature in # h
+#시간 수유량	#-h feeding volume
+#시간마다 aPTT	aPTT every # h
+#시간마다 혈당 측정	Check glucose every # h
+#초 넘는 멈춤 — 심박조율기 검토	Pause over # s — consider pacemaker
+(#세 이상이라 줄임)	(reduced for age ≥ #)
+(가장 낮은 T-점수	(lowest T-score
+(뇌 기능 저하)	(cerebral dysfunction)
+(뇌전증 시사)	(suggests epilepsy)
+(미숙아라 더 낮게 봄)	(lower threshold for preterm)
+(빠름)	(fast)
+(완전 막힘)	(total occlusion)
+(집도의 대신)	(on behalf of the surgeon)
+B군 연쇄상구균	Group B streptococcus
+B형간염 항원	Hepatitis B antigen
+CAM-ICU 섬망	CAM-ICU delirium
+CC (위아래)	CC (craniocaudal)
+CT #실 (응급)	CT room # (emergency)
+L (예측치	L (predicted
+MLO (비스듬히)	MLO (oblique)
+PD 관상면	PD coronal
+PET 대기실에서 조용히 누워 쉬기 (말하거나 움직이면 근육에 약이 모임)	Rest quietly lying down in the PET waiting room (talking or moving makes tracer collect in muscles)
+PET는 #시간 금식·혈당 # 이하, 주사 후 대기 시간 있음	PET: # h fast, glucose ≤ #, waiting time after injection
+SBAR 노티	SBAR notification
+SSV 내시경 · 교육용 가상 사진	SSV endoscopy · virtual image for education
+SSV 심혈관조영 · 교육용 모식도	SSV angiography · schematic for education
+T# 시상면	T# sagittal
+g 아프가	g Apgar
+kg (지난 투석 후보다	kg (vs. after last dialysis
+kg · 실제 제거	kg · actual removal
+kg → 최소 소변	kg → minimum urine
+kg 늘어남), 제거 목표	kg gained), removal goal
+kg 증가 (#% 넘음) — 수분 제한 교육	kg gained (over #%) — fluid restriction education
+m/초, 감각 전도	m/s, sensory conduction
+m/초, 바늘 근전도	m/s, needle EMG
+mg (내시경 진정)	mg (endoscopic sedation)
+mg/m² (평생 한도 #)	mg/m² (lifetime limit #)
+ms) — QT 연장 약 확인	ms) — check QT-prolonging drugs
+ms, 운동 전도	ms, motor conduction
+• 라벨을 환자 앞에서 붙였나요?	• Did you label at the bedside?
+• 수액 맞는 팔 반대편에서 채혈했나요?	• Did you draw from the arm opposite the IV?
+• 환자 이름·생년월일 두 가지로 확인했나요?	• Did you confirm two identifiers (name & DOB)?
+② 의식 상태가 평소와 갑자기 달라졌거나 하루 중 오르내림	② Acute change or fluctuating course of mental status
+③ 수술실 퇴실 전 확인 (Sign out)	③ Before leaving the OR (Sign out)
+④ 생각이 엉킴 — 간단한 질문 #개 중 #개 이상 틀림	④ Disorganized thinking — # or more errors out of # simple questions
+가구를 붙잡고 걸음	Walks holding furniture
+가끔 걸음	Walks occasionally
+가끔 젖음	Occasionally moist
+가끔 찡그림	Occasional grimace
+가돌리늄 주의 (# 미만)	Gadolinium caution (< #)
+가로 대장	Transverse colon
+가상수탁검사센터 (서울)	Virtual Reference Lab (Seoul)
+가상의학연구소	Virtual Medical Laboratory
+가상임상검사재단	Virtual Clinical Lab Foundation
+가속 (#회 이상 #초 이상 올라감)	Accelerations (≥ # bpm for ≥ # s)
+가슴 통증 다시 생기면 즉시 #·응급실	If chest pain recurs, call # or go to the ER at once
+간, 담낭, 췌장, 비장, 양측 신장 정상. 복수 없음. 림프절 비대 없음.	Liver, gallbladder, pancreas, spleen and both kidneys normal. No ascites. No lymphadenopathy.
+감각 인지	Sensory perception
+갑상선 섭취 (앞)	Thyroid uptake (anterior)
+개 · 슬라이드	· slides
+개, 가장 긴 멈춤	, longest pause
+개인 물품·귀중품 돌려드림	Personal belongings & valuables returned
+거의 같음 (#)	Nearly equal (#)
+거의 없음 (#)	Almost none (#)
+거의 젖지 않음	Rarely moist
+거즈·바늘·기구 개수 일치 확인	Sponge, needle and instrument counts correct
+검사 전	Before the test
+검사 전 #~#시간 금식 안내	Instruct # –# h fast before the test
+검사 전 칼슘약 #시간 중단, 최근 바륨·조영 검사 확인	Hold calcium # h before; check recent barium/contrast studies
+검사 진행 순서	Test workflow
+검사가 끝나면 회복을 관찰합니다	Observe recovery after the procedure
+검사가 끝났습니다. 회복 탭으로 가세요.	Procedure finished. Go to the Recovery tab.
+검증 → 결과 보고	Verify → report results
+검증 완료 → 결과 보고	Verified → report results
+검체 라벨 (환자 이름 포함) 확인	Check specimen label (with patient name)
+검체 접수 (적합성 확인)	Specimen receipt (check adequacy)
+겨드랑이 데오드란트·파우더 바르지 않기	No deodorant or powder on the armpits
+결과 저장 — 검증·보고로	Save results — to verification/reporting
+결핵 예방접종(BCG) 안내 — 생후 #주 안	BCG vaccination guidance — within # wk of birth
+경계선 (시간당 #cm)	Alert line (# cm per hour)
+경계성 수축 기능 저하	Borderline reduced systolic function
+경도 통증	Mild pain
+경동맥 앞면	Carotid AP
+경동맥 옆면	Carotid lateral
+경미 (두드러기·가려움·구역)	Mild (hives, itching, nausea)
+계속 관찰	Continue observation
+계속 울음·비명	Constant crying/screaming
+고름·삼출물	Pus/exudate
+고위험 약물	High-alert medication
+고혈압·당뇨 여부, 복용 약, 알레르기 확인	Check hypertension/diabetes, current meds, allergies
+골 이상 없음	No bone abnormality
+골감소증	Osteopenia
+골밀도실	Bone densitometry room
+골절이나 탈구 소견 없음. 관절 간격 유지됨.	No fracture or dislocation. Joint spaces preserved.
+공기 온도 조절	Air temperature control
+공식: mcg/kg/분 → 용량 × 몸무게 × # ÷ 농도 / mg·단위/시간 → 용량 ÷ 농도	Formula: mcg/kg/min → dose × weight × # ÷ concentration / mg·units/h → dose ÷ concentration
+과다 수축	Tachysystole
+관(라인) 관리 — 감염 예방	Line management — infection prevention
+관상동맥에 의미 있는 협착 없음.	No significant coronary stenosis.
+관찰 기록이 #번 이상 있어야 합니다.	At least # observation records are required.
+관찰 시간 끝	Observation time over
+광선치료 중 간호	Nursing during phototherapy
+구두처방 냄	Verbal order given
+구두처방 취소	Verbal order cancelled
+구두처방 확인 서명	Sign verbal order
+균 자람	Growth
+그람 양성 쌍알균	Gram-positive diplococci
+그람 양성 알균 (포도송이 모양)	Gram-positive cocci (clusters)
+그람 염색 (현미경)	Gram stain (microscopy)
+그람 음성 막대균	Gram-negative rods
+그래도 기록을 시작할까요? (실습용)	Start recording anyway? (for practice)
+근육 긴장	Muscle tension
+금속·체내 기기 안전 문진 필수, 검사 시간 #~#분	Metal/implant safety screening required, scan time #–# min
+금식 확인 (수술 전 #시간)	NPO confirmed (# h before surgery)
+금식, 동의서, 응고검사, 천자 부위 털 제거	NPO, consent, coagulation tests, hair removal at the puncture site
+금연·저염식·약 복용·심장 재활 안내	Smoking cessation, low-salt diet, medications, cardiac rehab education
+급성 뇌경색 없음	No acute infarction
+급성 두개 내 출혈 없음	No acute intracranial hemorrhage
+급성 전벽 ST 분절 상승 심근경색 의심 — 즉시 순환기내과 보고	Suspected acute anterior STEMI — notify cardiology immediately
+기관 내 삽관	Endotracheal intubation
+기구 멸균 확인 (멸균 표시기)	Instrument sterility confirmed (indicator)
+기다리는 중	Waiting
+기도 확보 (앰부 백 환기)	Airway (bag-valve-mask ventilation)
+기도 확보 어려움·흡인 위험 평가	Assess difficult airway & aspiration risk
+기저귀만 입히고 피부 최대한 노출	Diaper only, maximize skin exposure
+깊은 진정 (통증에만 반응)	Deep sedation (responds only to pain)
+깊은 호흡·기침 가능	Able to breathe deeply and cough
+깨어 있음 (말로 반응)	Awake (responds to voice)
+끝 맥박·색·온도·감각	Distal pulse, color, temperature, sensation
+나와 보고드립니다	; reporting
+낙상 위험	Fall risk
+네 팔다리 움직임	Moves 4 extremities
+노티 답변	Reply to notification
+높음 — 신속대응팀 호출	High — call the rapid response team
+뇌혈관 협착·동맥류 없음.	No cerebrovascular stenosis or aneurysm.
+누운 자세	Supine
+눈 가리개 씌움	Eye shield applied
+눈 뜨기 (E)	Eye opening (E)
+능력을 과대평가하거나 잊음	Overestimates ability or forgets limits
+늦은 반응(#주일 안 발진) 안내	Explain delayed reactions (rash within # week)
+님 채혈	— blood draw
+님을 귀가시킬까요?	— discharge home?
+다른 간호사와 계산·펌프 설정을 함께 확인했습니까?	Did another nurse double-check the calculation and pump settings?
+다른 과 협진 예약 안내	Guide consult appointments with other departments
+다시 계산	Recalculate
+다시 입력	Re-enter
+다음 외래 날짜·검사 안내	Explain next visit date and tests
+단계 (FEV# 예측치	stage (FEV# predicted
+단축 단면	Short-axis view
+단축 단면 — 부하 / 휴식	Short-axis — stress / rest
+달래기 어려움	Difficult to console
+담낭 단축	Gallbladder short axis
+담낭 장축	Gallbladder long axis
+대기 동안 물 #리터 이상 마시게 하기 (뼈에 붙지 않은 약 배출)	Have the patient drink ≥ # L of water while waiting (to clear unbound tracer)
+대장균 (E. coli)	Escherichia coli
+도관 감염 의심 — 혈액배양·의사 보고	Suspected catheter infection — blood cultures, notify physician
+동공 변화	Pupil change
+동정맥루 막힘 의심 — 투석하지 말고 의사에게 보고	Suspected AV fistula occlusion — do not dialyze, notify physician
+되읽기 후 서명	Read back and sign
+두 팔다리 움직임	Moves 2 extremities
+두개 내 출혈 없음. 뇌실 크기 정상. 정중선 이동 없음. 급성 경색 소견 뚜렷하지 않음.	No intracranial hemorrhage. Normal ventricles. No midline shift. No definite acute infarction.
+라운딩·교육을 해 보세요.	Try rounding and patient education.
+로 떨어져 보고드립니다	— reporting a drop
+마약류 잔량 폐기	Waste remaining controlled drug
+마지막 기록	Last record
+마찰·밀림	Friction & shear
+마취 기록 (#분마다)	Anesthesia record (every # min)
+마취기·약품 점검 완료	Anesthesia machine & drugs checked
+마치고 회복실에서 올라갑니다. 알드레테	completed; coming up from PACU. Aldrete
+만성 염증, 악성 소견 없음	Chronic inflammation, no malignancy
+많음 (#)	Large (#)
+매우 나쁨	Very poor
+매우 높은 위험	Very high risk
+매우 제한	Very limited
+맥박 확인 (#분마다)	Pulse check (every # min)
+맥콘키 배지 (그람 음성 선택)	MacConkey agar (gram-negative selective)
+메모 (지시사항)	Notes (instructions)
+모두 확인함	All checked
+모든 문항을 고르면 판정이 나옵니다	Select all items to see the result
+모든 문항을 고르세요	Select all items
+목발·지팡이·보행기	Crutches, cane, walker
+목표 심박 미도달 — 판정 불충분 (약물 부하 검사 고려)	Target HR not reached — nondiagnostic (consider pharmacologic stress test)
+목표 제거	Removal goal
+몸은 분홍·손발 파랑	Body pink, extremities blue
+몸을 비틂	Squirming
+몸이 활처럼 휨·경직	Arched, rigid
+못 움직임	Cannot move
+무호흡 #초 미만 — 저절로 회복	Apnea < # s — self-resolved
+무호흡 — 가벼운 자극으로 회복	Apnea — resolved with gentle stimulation
+무호흡·서맥 사건	Apnea/bradycardia event
+문제 없음	No problem
+문제 있음	Problem found
+물 많이 마시도록 안내 (조영제 배출)	Encourage fluids (to clear contrast)
+바륨이 식도·위·십이지장을 잘 통과함. 점막 이상·궤양·막힘 없음.	Barium passes well through the esophagus, stomach and duodenum. No mucosal abnormality, ulcer or obstruction.
+반월상 연골·십자인대 정상. 관절액 소량.	Normal menisci and cruciate ligaments. Small joint effusion.
+받을 인계 없음	No handoff to receive
+발차기·다리 들어올림	Kicking or legs drawn up
+밤사이 __ 했다고 함.	Reports __ overnight.
+방사성의약품 주사 먼저	Inject the radiopharmaceutical first
+변이 (심박이 오르내리는 폭)	Variability (amplitude of FHR fluctuation)
+병동 도착 후 바로 활력징후 측정, 이후 #분마다 #번·#분마다 #번. 통증 조절, 심호흡·조기 보행 교육, 첫 배뇨 확인.	Vital signs on arrival, then every # min x# and every # min x#. Pain control, deep breathing & early ambulation teaching, confirm first void.
+병동 복귀	Return to ward
+병동 점검	Ward check
+병동 준비 중	Ward preparing
+병상 옆 (중환자실)	Bedside (ICU)
+보호자에게 연락	Contact caregiver
+보호자와 귀가	Home with caregiver
+복부는 #시간 금식, 골반은 소변을 참아 방광을 채움	Abdomen: # h fast; pelvis: hold urine to fill the bladder
+부르면 깸	Wakes to voice
+부분 의존	Partially dependent
+부적절한 단어	Inappropriate words
+부족할 수 있음	Possibly inadequate
+부축하면 걸음 (#)	Walks with assistance (#)
+부하·휴식 영상 모두 심근 관류 결손 없음.	No perfusion defects on stress or rest images.
+분 — 내시경실로 신청	min — requested to the endoscopy unit
+분 — 수술실로 신청됩니다	min — requested to the OR
+분 — 심혈관센터로 신청	min — requested to the cardiovascular center
+분 남음	min left
+분 진행.	min performed.
+분, 최대 심박	min, max HR
+분, 출혈	min, bleeding
+분만 진행표 (파토그램)	Labor progress chart (partogram)
+분만 후 누적 출혈	Cumulative postpartum blood loss
+불안·긴장	Anxious/tense
+비정상 — 색이 늦게 돌아옴 (대퇴동맥으로 바꿈)	Abnormal — delayed color return (switched to femoral)
+비정상 포도당 대사 증가 병변 없음.	No lesion with abnormal increased glucose metabolism.
+비정상적인 방사성 동위원소 섭취 증가 없음.	No abnormal increased radiotracer uptake.
+빨갛게 부음	Red and swollen
+뼈 전이 소견 없음	No bone metastasis
+사정 불가 (깊은 진정·혼수)	Unable to assess (deep sedation/coma)
+사정 저장 — 제거 목표	Save assessment — removal goal
+사진 촬영 (병변 기록)	Photograph (lesion documentation)
+산소 줘도 #% 미만	< #% even on oxygen
+산소포화도 측정기 부착·작동	Pulse oximeter attached and working
+산소포화도가 떨어지거나 설정을 바꾼 뒤 #분이 지나면 동맥혈가스를 다시 봅니다 (처방 필요).	Recheck ABG if SpO2 drops or # min after a setting change (order required).
+산후 관찰 (첫 #시간 #분마다, 다음 #시간 #분마다)	Postpartum monitoring (every # min for the first # h, then every # min for # h)
+산후출혈 의심 — 자궁저부 마사지, 방광 비우기, 의사에게 알렸습니다	Suspected PPH — fundal massage, emptied bladder, physician notified
+상처·배액관 관리 교육	Wound and drain care education
+상태 보고드립니다	Reporting status
+서맥 (# 미만) + 산소포화도 저하 — 산소 공급	Bradycardia (< #) + desaturation — give oxygen
+선천성 대사이상 검사 (생후 #~#시간 발뒤꿈치 채혈)	Newborn metabolic screening (heel stick at #–# h of life)
+섬망 사정 (CAM-ICU)	Delirium assessment (CAM-ICU)
+섬망 양성	Delirium positive
+섬망 음성	Delirium negative
+소견·시술	Findings & procedure
+속도·경사 (#분씩)	Speed & grade (# min each)
+손등 정맥	Dorsal hand vein
+손목굴 증후군 (정중신경 손목 부위 압박) 소견	Findings of carpal tunnel syndrome (median nerve compression at the wrist)
+손위생·무균술 (멸균 장갑·소독)	Hand hygiene & aseptic technique (sterile gloves, antisepsis)
+수기 검사	Manual test
+수술 간호 기록 · 계수	Intraoperative nursing record · counts
+수술 부위·좌우 표시 확인	Surgical site & side marking confirmed
+수술 일정을 먼저 확정하세요	Confirm the surgery schedule first
+수술 전 검사 결과 확인 (혈액·흉부 X선·심전도)	Check pre-op results (blood, chest X-ray, ECG)
+수술 전 진단	Pre-operative diagnosis
+수술 전 투약 확인	Pre-op medication confirmed
+수술 중 응급 처방·결과	Intra-op stat orders & results
+수술 후 진단	Post-operative diagnosis
+수술방·순서	OR & order
+수술복으로 갈아입고 배뇨함	Changed into a gown and voided
+수술이 끝나면 회복실 기록을 씁니다	Write the PACU record after surgery
+수술이 끝났습니다. 회복실 탭으로 가세요.	Surgery finished. Go to the PACU tab.
+수술팀 모두 이름·역할 소개	All team members introduce name and role
+수유 늘리기 (탈수 예방)	Increase feeds (prevent dehydration)
+수혈 부작용 — 의사에게 알렸습니다. 수혈 중단·혈액은행 보고!	Transfusion reaction — physician notified. Stop transfusion and report to blood bank!
+수혈 시작	Start transfusion
+순환 (수술 전 혈압 대비)	Circulation (vs. pre-op BP)
+습도 (%)	Humidity (%)
+시간별 흐름표 (최근 #시간 · 왼쪽이 최신)	Hourly flowsheet (last # h · newest on the left)
+시술 완료 → 인계	Procedure complete → handoff
+시술이 끝났습니다. 시술 후 관찰 탭으로 가세요.	Procedure finished. Go to the Post-procedure tab.
+시술한 팔·다리로 #주간 무거운 것 들지 않기	No heavy lifting with the accessed limb for # weeks
+시약·보정 확인 후 재측정	Check reagents/calibration and remeasure
+시작 개수	Initial count
+시행 소견 (상처 상태·배출물·환자 반응)	Findings (wound, drainage, patient response)
+시험지 판독 불러오기	Load dipstick reading
+신기능 저하 — 조영제 신병증 주의, 수액	Reduced renal function — beware contrast nephropathy, hydrate
+신음·훌쩍임	Moaning/whimpering
+실내 공기로 #% 이상	≥ #% on room air
+실시간 PCR 기기 시작 (약 #분)	Start real-time PCR (about # min)
+심근 허혈 소견 없음	No myocardial ischemia
+심방세동 (빠른 심실 반응) — 항응고 치료 검토	Atrial fibrillation with RVR — consider anticoagulation
+심사 중	Under review
+심실 조기 수축 많음 — 심장 기능 확인	Frequent PVCs — evaluate cardiac function
+심실세동	Ventricular fibrillation
+심장 수축력 증가	Increased contractility
+심전도 리듬: 무수축	ECG rhythm: asystole
+심전도 리듬: 심실세동 (VF)	ECG rhythm: ventricular fibrillation (VF)
+심첨부 #방 단면 · 박출률	Apical #-chamber view · EF
+심한 통증	Severe pain
+심함 (#)	Severe (#)
+심혈관 응급팀 호출	Activate cardiac emergency team
+심혈관 중재실	Cardiac cath lab
+아나필락시스 (중증)	Anaphylaxis (severe)
+아주 좋음	Excellent
+악성 의심 병변 없음	No suspicious malignant lesion
+안 들림	Absent
+안아 주면 달래짐	Consolable when held
+안전 문진	Safety screening
+앨런 검사 비정상 — 대퇴동맥으로 바꿨습니다	Abnormal Allen test — switched to femoral
+앰부 백 환기 필요 (즉시 보고)	Needs bag-mask ventilation (report immediately)
+약 도착	Medication arrived
+약 유지, __주 뒤 외래	Continue meds, clinic in __ wk
+약간 제한	Slightly limited
+약하게 만져짐 — 표시함	Weakly palpable — marked
+약하게 울음·불규칙	Weak, irregular cry
+약함·높은 음	Weak or high-pitched
+양성·음성 대조 함께 돌림	Run positive and negative controls together
+양쪽 갑상선 섭취 고르고 정상 범위.	Homogeneous bilateral thyroid uptake within normal range.
+양쪽 잘 만져짐 — 표시함	Both well palpable — marked
+양측 유방 불균질 치밀유방. 의심스러운 종괴나 미세석회화 없음.	Heterogeneously dense breasts. No suspicious mass or microcalcification.
+양측 유방에 의심스러운 고형 종괴 없음.	No suspicious solid mass in either breast.
+얕은 호흡·호흡곤란	Shallow breathing/dyspnea
+어지러움	Dizziness
+어지러워 못 걸음 (#)	Too dizzy to walk (#)
+얼굴 찡그림	Grimacing
+없음 (막힘 의심)	Absent (suspect occlusion)
+없음·침상 안정·간호사 도움	None / bed rest / nurse assist
+엉덩이 앞쪽 (복측둔부) — 권장	Ventrogluteal — recommended
+엉덩이 위바깥 (배측둔부)	Dorsogluteal
+영양 위험 — 영양팀 상담 의뢰	Nutrition risk — refer to the nutrition team
+영양 위험 없음	No nutrition risk
+예방적 항생제를 절개 전 #분 안에 투여	Give prophylactic antibiotic within # min before incision
+예비 보고 — 의사·병동에 알렸습니다 (경험적 항생제 확인)	Preliminary report — physician & ward notified (check empiric antibiotics)
+예상 시간	Expected time
+예상되는 중요 상황 공유 (집도의·마취과·간호사)	Share anticipated critical events (surgeon, anesthesia, nursing)
+예약을 먼저 확정하세요	Confirm the booking first
+오늘 투석 전 사정 완료 — 체중	Pre-dialysis assessment done today — weight
+오늘 투석이 끝났습니다.	Today's dialysis is finished.
+오로 (질 분비물) 양	Lochia amount
+오른쪽 대장	Right colon
+오른쪽 대퇴동맥 (사타구니)	Right femoral artery (groin)
+오른쪽 요골동맥 (손목)	Right radial artery (wrist)
+오심·구토	Nausea/vomiting
+온도 조절 방식	Temperature control mode
+온몸 분홍	Completely pink
+온몸 파랗거나 창백	Blue or pale all over
+옷 입기	Dressing
+완전 제한	Completely limited
+완전히 깸	Fully awake
+외래 진료 전 준비	Pre-visit preparation
+외래 진료 후 안내	Post-visit guidance
+왼쪽 대장	Left colon
+요추 #~#번 T-점수 -#, 대퇴골 목 T-점수 -#	Lumbar spine L#–L# T-score -#, femoral neck T-score -#
+요추 #~#번 관심 영역	Lumbar spine L#–L# region of interest
+요추 T	Lumbar T
+요추(L#~L#) T-점수	Lumbar (L#–L#) T-score
+용량 조절 기록	Titration record
+우관상동맥	Right coronary artery
+운동부하 검사 양성 — 허혈 의심, 관상동맥 검사 권고	Positive stress test — suspected ischemia, coronary evaluation recommended
+운동부하 검사 음성	Negative stress test
+울거나 기침·재채기	Crying or coughing/sneezing
+울지 않음	Not crying
+움직임 (M)	Motor (M)
+위 비스듬히	Stomach oblique
+위 앞면	Stomach AP
+위관 영양	Gavage feeding
+위장 조영은 #시간 금식	Upper GI series: # h fast
+위팔 삼각근 — #mL 이하만	Deltoid — # mL or less only
+위험값 보고	Critical value report
+위험값 보고 후 결과 보고	Report results after critical value call
+위험값은 정해진 시간(보통 #분) 안에 처방 의사나 담당 간호사에게 직접 전화로 알리고, 받은 사람이 값을 다시 읽어 확인(되읽기)해야 합니다.	Critical values must be phoned directly to the ordering physician or nurse within the set time (usually # min), and the receiver must read the value back.
+위험값은 즉시 전화 보고	Phone critical values immediately
+유방촬영실	Mammography room
+으로 결과 회신	— results returned
+응급실 현황 — 재실 시간	ER status — length of stay
+의미 있는 부정맥 없음	No significant arrhythmia
+의미 있는 협착 없음	No significant stenosis
+의사 답변 기다리는 중 — 처방 화면(간호사 노티 탭)에서 의사 역할로 답할 수 있습니다.	Waiting for the physician — you can reply as the physician in the orders screen (Nurse notification tab).
+의식 명료, 수술 부위	Alert; surgical site
+의자에 앉을 수 있음	Can sit in a chair
+의치·장신구·콘택트렌즈·매니큐어 제거	Dentures, jewelry, contact lenses, nail polish removed
+이동식 촬영	Portable imaging
+이번 근무 사정함	Assessed this shift
+이번 시간 기록 저장	Save this hour's record
+이상 굴곡	Abnormal flexion
+이상 소견 — 천자 부위를 손으로 강하게 누르고 의사에게 알렸습니다	Abnormal — applied firm manual pressure to the puncture site and notified the physician
+이상 신전	Abnormal extension
+이상 증상 생기면 연락할 곳 안내 (응급실)	Tell whom to contact if symptoms occur (ER)
+이상 체중	Ideal weight
+이상반응 발생	Adverse reaction occurred
+이상반응 보고 — 의사에게 알렸습니다	Adverse reaction reported — physician notified
+이전 결과	Previous results
+이중 항혈소판제(아스피린+티카그렐러)를 마음대로 끊지 않기 — 스텐트가 막힐 수 있음	Do not stop dual antiplatelet therapy (aspirin + ticagrelor) on your own — the stent may clot
+이해 못 할 소리	Incomprehensible sounds
+이해했다고 말함, 화장실 갈 때 호출함	Verbalized understanding; calls for help to the bathroom

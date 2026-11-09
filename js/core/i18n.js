@@ -11,11 +11,18 @@
   function names() {
     const me = (S.session().user || {}).name;
     const refN = S.db ? [...S.all('refs').map((r) => r.pname), ...S.all('recs').filter((r) => r.kind === 'voc' && r.name).map((r) => String(r.name).split(' ')[0]).filter((n) => /^[가-힣]{2,4}$/.test(n) && n !== '익명')] : [];
-    const l = [...new Set([me, ...refN, ...(S.db ? S.all('patients').map((p) => p.name) : []), ...(H.M.DOCTORS || []).map((d) => d.name), ...(S.db ? S.all('staff').map((s) => s.name) : [])].filter((n) => n && n.length >= 2))].sort((a, b) => b.length - a.length);
+    // 주소도 이름처럼 한글 그대로 (사용자 요청: 이름·주소는 한글로 읽음)
+    const addr = S.db ? S.all('patients').map((p) => p.address).filter((a) => a && /[가-힣]/.test(a)) : [];
+    const doc2 = ['정다온', '민서경', '김가상']; // 판독의·병리 전문의·의뢰 의원 원장 (가상 인물)
+    // 직원의 소리 작성자 이름 (예: "7A 간호사 최은정"의 마지막 낱말)
+    if (S.db) S.all('recs').filter((r) => r.kind === 'voe' && r.by).forEach((r) => { const w = String(r.by).split(' ').pop(); if (/^[가-힣]{2,4}$/.test(w) && w !== '직원') doc2.push(w); });
+    const l = [...new Set([me, ...refN, ...addr, ...doc2, ...(S.db ? S.all('patients').map((p) => p.name) : []), ...(H.M.DOCTORS || []).map((d) => d.name), ...(S.db ? S.all('staff').map((s) => s.name) : [])].filter((n) => n && n.length >= 2))].sort((a, b) => b.length - a.length);
     nameSet = new Set(l); nameRe = l.length ? new RegExp(l.map(escRe).join('|'), 'g') : null;
   }
   function build() {
-    dict = H.I18N_EN || {};
+    dict = Object.assign({}, H.I18N_EN || {});
+    // 자료 파일(master2·seed9 등)이 [한글, 영어]로 함께 적어 둔 문구
+    (H.I18N_PAIRS || []).forEach(([k, v]) => { if (!(k in dict)) dict[k] = v; });
     // 문구 일부만 맞을 때 쓰는 용어 사전 (자리표 없는 것, 2글자 이상, 긴 것부터)
     const keys = Object.keys(dict).filter((k) => !/[#@]/.test(k) && k.length >= 2 && KO.test(k)).sort((a, b) => b.length - a.length);
     termMap = new Map(keys.map((k) => [k, dict[k]]));
@@ -44,7 +51,7 @@
   const RULES = [
     [/(남|여)\/생후 (\d+)일/g, (m, s, d) => `${s === '남' ? 'M' : 'F'}/day ${d}`],
     [/(남|여)\/(\d+)세/g, (m, s, a) => `${s === '남' ? 'M' : 'F'}/${a}y`],
-    [/생후 (\d+)일/g, 'day $1'],
+    [/생후 (\d+)일/g, 'day $1'], [/임신 (\d+)주/g, 'GA $1 wk'],
     [new RegExp(N + '원', 'g'), '₩$1'], [new RegExp(N + '개월', 'g'), '$1 mo'], [new RegExp(N + '시간', 'g'), '$1 h'],
     [new RegExp(N + '건', 'g'), '$1 items'], [new RegExp(N + '명', 'g'), '$1 pts'], [new RegExp(N + '일', 'g'), '$1 d'], [new RegExp(N + '분', 'g'), '$1 min'],
     [new RegExp(N + '회', 'g'), '$1 times'], [new RegExp(N + '시(?!간)', 'g'), '$1h'], [new RegExp(N + '세', 'g'), '$1y'], [new RegExp(N + '점', 'g'), '$1 pts'], [new RegExp(N + '주', 'g'), '$1 wk'],
@@ -70,7 +77,11 @@
         const keep = [];
         out = nameRe ? t.replace(nameRe, (m) => { keep.push(m); return `\u0001${keep.length - 1}\u0001`; }) : t;
         RULES.forEach(([re, to]) => { out = out.replace(re, to); });
-        if (termRe && t.length <= 60) out = out.replace(termRe, (m) => ` ${termMap.get(m)} `);
+        if (termRe) {
+          // 짧은 글은 아는 낱말만 바꿔도 씀. 긴 글은 사전 조각만으로 한글이 하나도 안 남을 때만 씀 (반쯤 섞인 글 방지)
+          const o2 = out.replace(termRe, (m) => ` ${termMap.get(m)} `);
+          if (t.length <= 60 || !KO.test(o2.replace(/\u0001\d+\u0001/g, ''))) out = o2;
+        }
         out = out.replace(/\u0001(\d+)\u0001/g, (m, i) => keep[Number(i)]);
         out = out.replace(/\s{2,}/g, ' ').replace(/ ([,.:)\]·/])/g, '$1').replace(/([([]) /g, '$1').trim();
       }
@@ -93,10 +104,27 @@
     if (root.nodeType !== 1 || skipEl(root)) return;
     const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: (n) => (KO.test(n.nodeValue) && !skipEl(n.parentElement) ? 1 : 2) });
     const list = []; let n; while ((n = w.nextNode())) list.push(n); list.forEach(applyText);
+    // 입력칸에 미리 채워진 글(진단서·회송서 문구 등): 한 줄씩 번역해서 끝까지 영어가 될 때만 바꿈. 지금 입력 중인 칸·이미 바꾼 칸은 그대로
+    const fields = root.querySelectorAll ? [...(root.matches && root.matches('textarea,input[type=text]') ? [root] : []), ...root.querySelectorAll('textarea, input[type=text]')] : [];
+    fields.forEach((el) => {
+      if (el.__trv || el === document.activeElement || (el.closest && el.closest('.no-tr'))) return; const v = el.value; if (!v || !KO.test(v)) return; el.__trv = true;
+      const o = v.split('\n').map((line) => tr(line)).join('\n'); const rest = nameRe ? o.replace(nameRe, '') : o;
+      if (o !== v && !KO.test(rest)) { el.value = o; if (el.tagName === 'TEXTAREA') el.defaultValue = o; }
+    });
     const els = root.querySelectorAll ? root.querySelectorAll('[placeholder],[aria-label],[title]') : [];
     [root, ...els].forEach((el) => { if (!el.getAttribute || skipEl(el) && el !== root) return; ATTR.forEach((a) => { const v = el.getAttribute(a); if (v && KO.test(v)) el.setAttribute(a, tr(v)); }); });
   }
   I.apply = apply;
+  // 버튼(예: "예시 글 채우기")이 입력칸에 글을 바로 넣은 경우: 누른 직후 입력칸을 다시 번역 (끝까지 영어가 될 때만)
+  I.fields = (root) => {
+    if (!I.on || !root || !root.querySelectorAll) return;
+    root.querySelectorAll('textarea, input[type=text]').forEach((el) => {
+      if (el === document.activeElement || el.closest('.no-tr')) return; const v = el.value; if (!v || !KO.test(v)) return;
+      const o = v.split('\n').map((line) => tr(line)).join('\n'); const rest = nameRe ? o.replace(nameRe, '') : o;
+      if (o !== v && !KO.test(rest)) el.value = o;
+    });
+  };
+  document.addEventListener('click', () => { if (I.on) queueMicrotask(() => I.fields(document.body)); });
   let mo = null, busy = false;
   // 창 제목: 이미 바꾼 제목은 다시 바꾸지 않음 (제목 태그가 본문 안에 있으면 무한 반복될 수 있음)
   let titleOut = null;

@@ -199,30 +199,14 @@
   });
 
   // ───────── 간호행정·교육·보건 ─────────
-  const CYCLE = ['', 'D', 'E', 'N', 'OFF'];
-  const days7 = () => [...Array(7)].map((_, i) => T.d(Date.now() + i * DAY));
-  function rosterWarn() {
-    const out = []; const ds = days7(); const staff = S.all('staff');
-    staff.forEach((s) => {
-      const seq = ds.map((d) => s.sched[d] || '');
-      for (let i = 0; i < 6; i++) if (seq[i] === 'N' && (seq[i + 1] === 'D' || seq[i + 1] === 'E')) out.push(`${s.name}: ${T.md(new Date(ds[i]).getTime())} 밤번 다음 날 ${seq[i + 1] === 'D' ? '낮번' : '초번'} — 휴식 부족`);
-      let run = 0; seq.forEach((x) => { run = x === 'N' ? run + 1 : 0; if (run === 4) out.push(`${s.name}: 밤번 4번 연속 — 3번까지만`); });
-      if (seq.filter((x) => x === 'OFF').length < 2 && seq.every((x) => x)) out.push(`${s.name}: 일주일에 쉬는 날 2일 미만`);
-    });
-    ['7A', '8B'].forEach((w) => ds.forEach((d) => ['D', 'E', 'N'].forEach((sh) => { const n = staff.filter((s) => s.ward === w && s.sched[d] === sh).length; const filled = staff.filter((s) => s.ward === w && s.sched[d]).length; if (filled && n === 0) out.push(`${w} ${T.md(new Date(d).getTime())} ${{ D: '낮번', E: '초번', N: '밤번' }[sh]} 간호사 없음`); })));
-    return out;
-  }
+  // 3교대 근무표는 js/modules/p12-duty.js (H.duty)에서 그림
   H.reg({
     id: 'nadmin', title: '간호행정·교육·보건', actor: '수간호사·보건관리자', layout: 'full', channels: () => ['nadmin'],
     render() {
       const { tab, html } = tabsOf('na.tab', [{ id: 'roster', label: '3교대 근무표', icon: 'clock' }, { id: 'edu', label: '직원 필수 교육', icon: 'clip' }, { id: 'health', label: '직원 건강 (보건관리)', icon: 'heart' }], 'roster');
       const staff = S.all('staff');
       let body;
-      if (tab === 'roster') { const ds = days7(); const w = rosterWarn(); body = `${UI.note('칸을 한 번 누를 때마다 낮번(D) → 초번(E) → 밤번(N) → 쉼(OFF) → 빈칸으로 바뀝니다. 규칙: 밤번 다음 날 낮·초번 금지, 밤번 연속 3번까지, 주 2일 이상 쉼, 근무조마다 1명 이상.', 'info')}
-        <div class="tbl-wrap"><table class="tbl"><thead><tr><th>간호사</th>${ds.map((d) => `<th style="text-align:center">${T.md(new Date(d).getTime())} (${['일', '월', '화', '수', '목', '금', '토'][new Date(d).getDay()]})</th>`).join('')}</tr></thead><tbody>
-          ${staff.map((s) => `<tr><td><b>${esc(s.name)}</b> <span class="small muted">${esc(s.ward)} · ${s.career}년</span></td>${ds.map((d) => { const v = s.sched[d] || ''; return `<td style="text-align:center;padding:.2rem"><button class="btn sm" style="min-width:3.4rem;${v === 'N' ? 'background:var(--t-purple-soft);color:var(--t-purple)' : v === 'OFF' ? 'background:var(--surface-3)' : v ? 'background:var(--accent-soft)' : ''}" data-act="na.cell" data-id="${s.id}" data-d="${d}" aria-label="${esc(s.name)} ${d} 근무">${v || '·'}</button></td>`; }).join('')}</tr>`).join('')}</tbody></table></div>
-        ${w.length ? UI.note(`<b>규칙 위반 ${w.length}건</b><ul style="margin:.3rem 0 0;padding-left:1.2rem">${w.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>`, 'warn') : UI.note('규칙 위반 없음', 'ok')}
-        <div class="btn-row end">${UI.btn('자동 채우기 (예시)', 'na.auto', { icon: 'refresh' })}${UI.btn('모두 지우기', 'na.clear')}</div>`; }
+      if (tab === 'roster') { body = H.duty ? H.duty.body() : ''; }
       else { const key = tab === 'edu' ? 'edu' : 'health'; const items = Object.keys(staff[0] ? staff[0][key] : {}); const rate = (it) => Math.round((staff.filter((s) => s[key][it]).length / Math.max(1, staff.length)) * 100);
         body = `${UI.note(tab === 'edu' ? '의료기관 인증평가: 모든 직원은 감염관리·심폐소생술·환자안전·개인정보보호 교육을 해마다 받아야 합니다.' : '보건관리자(간호사): 직원 건강검진, B형간염 항체·인플루엔자 예방접종, 결핵 검진, 주사침 자상 사후관리를 맡습니다.', 'info')}
           ${UI.table([{ h: '직원' }, ...items.map((i) => ({ h: `${i} (${rate(i)}%)` }))], staff.map((s) => [`<b>${esc(s.name)}</b> <span class="small muted">${esc(s.role)}</span>`, ...items.map((i) => `<button class="btn sm" data-act="na.toggle" data-id="${s.id}" data-k="${key}" data-i="${esc(i)}" style="${s[key][i] ? 'border-color:var(--t-done);color:var(--t-done)' : 'border-color:var(--t-stat);color:var(--t-stat)'}">${s[key][i] ? '✓ 완료' : '✗ 미완료'}</button>`)]))}`; }
@@ -230,9 +214,6 @@
     },
     acts: {
       'na.tab': (el) => { A.set('tab', el.dataset.v); A.render(); },
-      'na.cell': (el) => { const s = S.get('staff', el.dataset.id); const v = s.sched[el.dataset.d] || ''; s.sched[el.dataset.d] = CYCLE[(CYCLE.indexOf(v) + 1) % CYCLE.length]; S.save(); A.render(); },
-      'na.auto': () => { const ds = days7(); const pat = ['D', 'D', 'E', 'E', 'N', 'OFF', 'OFF']; S.all('staff').forEach((s, i) => ds.forEach((d, j) => { s.sched[d] = pat[(j + i * 2) % 7]; })); S.save(); UI.toast('예시 근무표를 채웠습니다 — 규칙 위반을 확인하고 고쳐 보세요', ''); A.render(); },
-      'na.clear': () => { S.all('staff').forEach((s) => { s.sched = {}; }); S.save(); A.render(); },
       'na.toggle': (el) => { const s = S.get('staff', el.dataset.id); s[el.dataset.k][el.dataset.i] = !s[el.dataset.k][el.dataset.i]; S.save(); A.render(); },
     },
   });

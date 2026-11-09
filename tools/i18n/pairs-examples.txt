@@ -1,0 +1,15 @@
+#형 당뇨병 #년 (먹는 약 복용), 고혈압 #년, #년 오른쪽 백내장 수술 / 알레르기: 페니실린	Type # diabetes for # yr (oral meds), hypertension for # yr, right cataract surgery in # / Allergy: penicillin
+김보호 (환자 딸)	김보호 (patient daughter)
+어제 오후 #시 내과 외래 예약이었는데 #시간 #분을 기다렸습니다. 늦어진다는 안내도 없었고, 물어보니 "기다리세요"라고만 해서 기분이 상했습니다.	My internal medicine appointment was at # PM yesterday, but I waited # h # min. Nobody told me about the delay, and when I asked I was only told "please wait", which upset me.
+투약 기록 화면에서 바코드 확인 후 저장 버튼이 너무 멀어요	On the MAR screen the save button is too far from the barcode check
+현재: 바코드 확인 뒤 화면을 내려야 저장 버튼이 있어 바쁜 시간에 저장을 빠뜨립니다.	Now: after the barcode check you must scroll down to find save, so saving gets missed at busy times.
+개선: 확인이 끝나면 저장 버튼을 바로 옆에 크게 표시.	Improvement: show a large save button right next to it once checks are done.
+기대 효과: 투약 기록 누락 감소.	Expected effect: fewer missed MAR entries.
+__분 전부터 __ 증상으로 __ 타고 내원.	Arrived by __ with __ symptoms that started __ min ago.
+묶음처방 시행, 결과 확인 후 __	Order set given; after reviewing results, __
+__세 __ 환자로 __ 전부터 __ 증상 있어 내원함.	__-year-old __ patient presenting with __ symptoms since __.
+활력징후: __. 의식 명료. 흉부 청진 __.	Vital signs: __. Alert. Chest auscultation __.
+검사:	Tests:
+처방:	Orders:
+교육:	Education:
+다음 외래:	Next visit:

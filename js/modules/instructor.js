@@ -137,7 +137,7 @@
       ['주사실', '외래 주사·관찰', has('recs', (r) => r.kind === 'injobs')],
       ['주사실', '약물 이상반응 대처', has('recs', (r) => r.kind === 'adr')],
       ['주사실', '항암 주사 (체표면적·2인 확인·일혈 감시)', has('recs', (r) => r.kind === 'chemowatch')],
-      ['행정', '3교대 근무표 작성', S.all('staff').some((s) => Object.keys(s.sched || {}).length) ? 1 : 0],
+      ['행정', '3교대 근무표 작성 (한 달 자동 짜기·확정)', S.where('audit', (a) => a.action === '근무표 작성' && mine(a.user)).length],
     ];
     return items;
   }

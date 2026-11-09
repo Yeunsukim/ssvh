@@ -39,7 +39,7 @@
     refs: { t: '진료협력(의뢰·회송·회신)', req: ['id', 'dir', 'pname', 'status', 'at'], fk: { pid: 'patients', doctorId: '@doctors' }, null: ['pid', 'doctorId'], enum: { dir: ['in', 'out'] }, cols: { id: 'PK', dir: '받음 in/보냄 out', pid: 'FK 환자', pname: '환자 이름', from: '의뢰 기관', to: '받는 기관', dept: '진료과', reason: '사유', status: '상태', reply: '회신 내용', docType: '문서 종류', ediNo: '중계 번호', form: 'JSON 서식', forms: 'JSON 요양급여 서식' } },
     appts: { t: '예약', req: ['id', 'pid', 'dept', 'date', 'time', 'status'], fk: { pid: 'patients', doctorId: '@doctors', orderId: 'orders' }, null: ['orderId', 'doctorId'], enum: { status: ['예약', '도착', '취소', '부도', '변경'] }, cols: { id: 'PK', pid: 'FK 환자', dept: '진료과', doctorId: 'FK 의사', date: '날짜', time: '시각', status: '상태', kind: '진료/검사', orderId: 'FK 처방(검사 예약)', via: '예약 경로' } },
     qi: { t: '질향상·환자안전', req: ['id', 'kind'], cols: { id: 'PK', kind: '종류', type: '사건 유형', grade: '위해 정도', what: '내용', status: '상태' } },
-    staff: { t: '직원', req: ['id', 'name'], cols: { id: 'PK', name: '이름', ward: '부서', role: '직책' } },
+    staff: { t: '직원', req: ['id', 'name'], cols: { id: 'PK', name: '이름', ward: '부서', role: '직책', career: '경력(년)', sched: 'JSON 날짜별 근무 코드(D·E·N·OFF·AL·EDU·SL·FL·PL·HL·ML)', edu: 'JSON 필수 교육', health: 'JSON 건강 관리' } },
   };
 
   // ── 처방 흐름 규칙표: 처방 분류 → 단계 → 담당 부서 화면 ──
@@ -95,6 +95,8 @@
       else if (o.hist[o.hist.length - 1].s !== o.status) add('주의', 'orders', o, `마지막 이력(${o.hist[o.hist.length - 1].s})과 현재 상태(${o.status})가 다릅니다`, 'hist');
       if (o.cat === 'LAB' && ['결과입력', '결과보고'].includes(o.status) && !(o.result && Array.isArray(o.result.items) && o.result.items.length)) add('오류', 'orders', o, '검사 결과 단계인데 결과값이 없습니다', '');
       if (o.cat === 'RAD' && o.status === '판독완료' && !(o.result && o.result.impression)) add('오류', 'orders', o, '판독완료인데 판독 결론이 없습니다', '');
+      if (o.cat === 'PATH' && o.status === '판독완료' && !(o.result && o.result.dx)) add('오류', 'orders', o, '병리 판독완료인데 병리 진단이 없습니다', '');
+      if (o.cat === 'PATH' && ['병리접수', '육안검사', '슬라이드제작', '판독완료'].includes(o.status) && !o.pathNo) add('주의', 'orders', o, '병리 접수 뒤인데 병리번호가 없습니다', 'pathNo');
       if (['MED', 'INJ', 'BLOOD'].includes(o.cat) && ['불출', '출고'].includes(o.status) && !o.arrivedAt) add('주의', 'orders', o, '불출(출고)했는데 도착 시각이 없습니다', 'arrived');
       if (H.M.item(o.code) && !(H.M.item(o.code).price > 0) && !['NUR', 'DIET', 'CONSULT'].includes(o.cat)) add('주의', 'orders', o, `처방 항목 ${o.code}에 수가(가격)가 없어 청구되지 않습니다`, '');
     });
@@ -106,6 +108,9 @@
       if (['퇴원', '귀가'].includes(e.status)) { const open = (db.orders || []).filter((o) => o.encId === e.id && !H.flow.isDone(o) && !['NUR', 'DIET'].includes(o.cat)); if (open.length) add('주의', 'encounters', e, `퇴원·귀가했는데 끝나지 않은 처방 ${open.length}건 (${open.slice(0, 3).map((o) => o.name).join(', ')})`, ''); }
     });
     Object.entries(activeIpd).forEach(([pid, l]) => { if (l.length > 1) add('오류', 'encounters', l[1], `한 환자(${(idx.patients.get(pid) || {}).name})가 동시에 입원 ${l.length}건`, ''); });
+    // 근무표 코드 점검
+    const DUTY = new Set(H.duty ? H.duty.CODES.map((c) => c.v) : ['D', 'E', 'N', 'OFF']);
+    (db.staff || []).forEach((s) => { Object.entries(s.sched || {}).forEach(([d, v]) => { if (!/^\d{4}-\d{2}-\d{2}$/.test(d) || (v && !DUTY.has(v))) add('주의', 'staff', s, `근무표 ${d}의 값 "${v}"이 정해진 근무 코드가 아닙니다`, ''); }); });
     (db.mar || []).forEach((m) => { const o = idx.orders.get(m.orderId); if (o && o.patientId !== m.patientId) add('오류', 'mar', m, '투약 기록의 환자와 처방의 환자가 다릅니다', 'marPat'); });
     const today = H.t.d(Date.now()); (db.appts || []).forEach((a) => { if (a.status === '예약' && a.date < today) add('주의', 'appts', a, `지난 예약(${a.date})이 "예약" 상태 — 부도 처리 필요`, 'noShow'); });
     // 흐름 규칙 자체 점검
@@ -124,7 +129,8 @@
       if (e && fixes.has('orderPat') && o.patientId !== e.patientId) { o.patientId = e.patientId; n++; }
       if (e && fixes.has('orderType') && o.encType !== e.type) { o.encType = e.type; n++; }
       if (fixes.has('hist') && (!Array.isArray(o.hist) || !o.hist.length || o.hist[o.hist.length - 1].s !== o.status)) { o.hist = Array.isArray(o.hist) ? o.hist : []; o.hist.push({ s: o.status, at: o.at, by: '자료 점검 (이력 보완)' }); n++; }
-      if (fixes.has('arrived') && ['불출', '출고'].includes(o.status) && !o.arrivedAt) { o.arrivedAt = (o.hist && o.hist.length ? o.hist[o.hist.length - 1].at : o.at); n++; } });
+      if (fixes.has('pathNo') && o.cat === 'PATH' && ['병리접수', '육안검사', '슬라이드제작', '판독완료'].includes(o.status) && !o.pathNo) { o.pathNo = `S${String(new Date(o.at).getFullYear()).slice(2)}-${String(db.orders.filter((x) => x.pathNo).length + 12).padStart(5, '0')}`; n++; }
+      if (fixes.has('arrived') &&['불출', '출고'].includes(o.status) && !o.arrivedAt) { o.arrivedAt = (o.hist && o.hist.length ? o.hist[o.hist.length - 1].at : o.at); n++; } });
     if (fixes.has('nullFk')) Object.entries(SCHEMA).forEach(([c, sc]) => (sc.null || []).forEach((k) => { const to = (sc.fk || {})[k]; if (!to || Array.isArray(to)) return; db[c].forEach((r) => { if (r[k] && (to === '@doctors' ? !doctors().has(r[k]) : to === '@master' ? !H.M.item(r[k]) : !S.get(to, r[k]))) { r[k] = null; n++; } }); }));
     if (fixes.has('endAt')) db.encounters.forEach((e) => { if (e.type === 'IPD' && e.status === '퇴원' && !e.endAt) { const last = db.orders.filter((o) => o.encId === e.id).reduce((m, o) => Math.max(m, ...(o.hist || []).map((h) => h.at)), e.at); e.endAt = last; n++; } });
     if (fixes.has('marPat')) db.mar.forEach((m) => { const o = S.get('orders', m.orderId); if (o && o.patientId !== m.patientId) { m.patientId = o.patientId; n++; } });

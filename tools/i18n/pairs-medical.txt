@@ -1,0 +1,180 @@
+(최종)	(Final)
+(임상적 추정)	(Clinical impression)
+2형 당뇨병, 합병증 없음	Type 2 diabetes mellitus without complications
+만성 콩팥병 3기	Chronic kidney disease, stage 3
+만성 콩팥병 5기 (투석)	Chronic kidney disease, stage 5 (dialysis)
+기타 미숙아 (임신 33주)	Other preterm infant (33 weeks)
+욕창 3단계	Pressure injury, stage 3
+# @ (남/#) 구불결장암 수술 후 #일째.	# @ (M/#) Post-op day # after sigmoid colon cancer surgery.
+# @ (남/#) 급성 담낭염, 금식 중.	# @ (M/#) Acute cholecystitis, NPO.
+# 순환기내과 @	# Cardiology @
+# 신경과 @	# Neurology @
+#mU/분으로 시작, #분마다 #mU씩 올림 (최대 #). 과다 수축이면 중단	Start at # mU/min, increase by # mU every # min (max #). Stop if tachysystole
+#mm, 입술 기준 #cm	# mm, # cm at the lip
+#s (#표준편차 넘음 — 다른 규칙 확인)	#s (beyond # SD — check other rules)
+#교대 근무표 작성 (한 달 자동 짜기·확정)	#-shift roster (monthly auto-build & posting)
+#끼	# meals
+#분 후 통증 #점으로 감소, 호흡수 #회 안정.	After # min pain decreased to #/10, RR # stable.
+#일 전부터 기침, 가래, 열 (#℃)	Cough, sputum and fever (#℃) for # days
+#주	# wk
+#주 #일	# wk # d
+#주 뒤 외래	Clinic follow-up in # wk
+#주 전 왼쪽 뇌경색 → 오른쪽 편마비, 말 어눌함	Left cerebral infarction # wk ago → right hemiparesis, dysarthria
+#회 임신 #회 출산 (#년 자연분만). 임신 #주 #일. 임신성 당뇨 없음	G# P# (vaginal delivery in #). Gestation # wk # d. No gestational diabetes
+(수납 전)	(Before payment)
+@ (순환기내과)	@ (Cardiology)
+@ KTAS # 뇌졸중 의심 — 뇌졸중 알림 발령	@ KTAS # suspected stroke — stroke alert activated
+@ KTAS # 흉통 — #분 안에 심전도	@ KTAS # chest pain — ECG within # min
+@ 노르에피네프린 # 진행 중 — 평균동맥압 확인	@ norepinephrine # running — check MAP
+@ 새 입원 (#) — 처방 확인과 입원 초기 간호사정이 필요합니다	@ new admission (#) — order verification and initial nursing assessment needed
+@ 새 입원 처방	@ new admission orders
+@ 생후 #시간 — 선천성 대사이상 검사·황달 측정	@ # h old — newborn metabolic screening & jaundice check
+@ 수혈 처방 (농축적혈구 #단위) — 처방 확인 필요	@ transfusion order (PRBC # units) — order verification needed
+@ 수혈 처방 — 교차시험 필요	@ transfusion order — crossmatch needed
+@ 옥시토신 유도분만 중 — 태아 심박 감시 확인	@ oxytocin induction in progress — check fetal heart monitoring
+BI-RADS #C (악성 가능성 높음) — 조직검사 권고	BI-RADS #C (high suspicion of malignancy) — biopsy recommended
+BI-RADS #C — 초음파 유도 조직검사 권고	BI-RADS #C — US-guided biopsy recommended
+B형간염 #차 접종	Hepatitis B vaccine dose #
+B형간염에 의한 간경변, 복수	Hepatitis B cirrhosis with ascites
+COPD (만성 폐쇄성 폐질환) #년, 흡연 #갑년, 당뇨 (메트포르민 복용). #일 전부터 숨참·누런 가래, 기침	COPD for # yr, smoking # pack-years, diabetes (on metformin). Dyspnea, yellow sputum and cough for # days
+LD 진통실	LD labor room
+SSV 병원 (상급종합, 가상)	SSV Hospital (tertiary, virtual)
+SSV 병원 (상급종합병원)	SSV Hospital (tertiary hospital)
+Tc-#m 세스타미비	Tc-#m sestamibi
+[SSV병원] 마지막 진료 후 #개월이 지났습니다. 꾸준한 관리가 중요합니다. 예약: # (가상)	[SSV Hospital] It has been # months since your last visit. Regular follow-up matters. Booking: # (virtual)
+※ 교육용 가상 영수증이며 금액은 근사치입니다. 실제 수가와 다릅니다.	※ Virtual receipt for education; amounts are approximate and differ from actual fees.
+간 실질 에코 정상. 담낭벽 두께 정상, 담석 없음. 총담관 확장 없음.	Normal liver parenchymal echo. Normal gallbladder wall, no stones. No CBD dilatation.
+간호부	Nursing department
+간호부 교육위원회에서 다음 달까지 제작	Nursing education committee to produce by next month
+간호사 A	Nurse A
+갑자기 심한 두통 후 의식 저하	Sudden severe headache followed by decreased consciousness
+강함	Strong
+개선 활동 (시스템을 어떻게 바꿀지)	Improvement actions (how to change the system)
+건강보험 · # · 자격 유지	National Health Insurance · # · eligibility active
+검은 변, 어지러움	Black stools, dizziness
+검진 수검자	Check-up examinee
+검토 결과 등록	Register review result
+검토 의견	Review comments
+격리실에 있는데 간호사가 장갑을 끼고 와서 다른 환자 얘기를 하며 웃었습니다. 남편이 병균 취급받는 것 같다며 속상해합니다. 격리가 왜 필요한지 제대로 설명도 못 들었습니다.	In the isolation room a nurse came in wearing gloves and laughed while talking about another patient. My husband is upset, feeling treated like a germ. Nobody properly explained why isolation is needed.
+경고	Warning
+고객의 소리 (엽서)	Voice of customer (postcard)
+고압증기 #℃	Steam autoclave #℃
+고열, 숨참, 혈압 저하	High fever, dyspnea, hypotension
+고혈압 (약 불규칙 복용)	Hypertension (irregular medication use)
+고혈압, 고지혈증	Hypertension, dyslipidemia
+고혈압, 만성폐쇄성폐질환. 사흘 전 폐렴으로 응급실 내원 후 패혈성 쇼크로 기관 삽관	Hypertension, COPD. Came to the ER with pneumonia 3 days ago, intubated for septic shock
+고혈압, 심방세동 (약 끊음)	Hypertension, atrial fibrillation (stopped medication)
+고혈압, 협심증 의심 — 빨리 걸으면 가슴 조임 #개월	Hypertension, suspected angina — chest tightness on brisk walking for # months
+고혈압·고지혈증, 계단 오를 때 가슴 조임 #개월 (운동부하검사 양성)	Hypertension & dyslipidemia, chest tightness climbing stairs for # months (positive stress test)
+고혈압성 콩팥병, #년 투석 시작. 동정맥루 수술 후 성숙 기다리는 중	Hypertensive kidney disease, dialysis since #. Awaiting AV fistula maturation
+골밀도 검사와 함께	Together with bone density test
+골절 없음 — 발목 염좌 의심	No fracture — suspected ankle sprain
+골절 없음, 연부조직 부종	No fracture, soft-tissue swelling
+공단(보험자) 부담금	Insurer (NHIS) share
+관상 선종, 저등급 이형성, 절제 경계 깨끗함	Tubular adenoma, low-grade dysplasia, margins clear
+관절염으로 소염진통제 오래 복용, 어제부터 검은 변·어지러움	Long-term NSAID use for arthritis; black stools and dizziness since yesterday
+교통사고 후 오른쪽 발목 통증	Right ankle pain after a traffic accident
+교통사고 후 의식 없음	Unconscious after a traffic accident
+구강 간호 (클로르헥시딘)	Oral care (chlorhexidine)
+구불결장 #cm 줄기 있는 용종 #개 — 올가미로 절제	Sigmoid colon # cm pedunculated polyp x# — snare polypectomy
+구불결장 용종: 관상 선종 (저등급), 완전 절제	Sigmoid polyp: tubular adenoma (low grade), completely excised
+구불결장암 진단 (#주 전), #일 전 복강경 구불결장 절제술	Sigmoid colon cancer diagnosed (# wk ago), laparoscopic sigmoidectomy # days ago
+구토, 두드러기 (#년 CT 검사 때)	Vomiting, hives (during CT in #)
+국민건강보험공단	National Health Insurance Service
+규칙적인 진통 (#분 간격)	Regular contractions (every # min)
+그람 양성 알균	Gram-positive cocci
+금식 유지, 수술 전 교육 필요. 통증 재사정.	Keep NPO, pre-op education needed. Reassess pain.
+금식 확인	NPO confirmed
+급성 뇌경색 (왼쪽 중대뇌동맥)	Acute cerebral infarction (left MCA)
+급성 출혈 없음 — 혈전용해제 금기 소견 없음. 왼쪽 중대뇌동맥 경색 의심	No acute hemorrhage — no contraindication to thrombolysis. Suspected left MCA infarction
+급성 충수염 치료함.	Treated for acute appendicitis.
+급성 흉부 이상 없음	No acute chest abnormality
+기본 + 위내시경 + 대장내시경	Basic + EGD + colonoscopy
+기본 + 위내시경 + 복부초음파	Basic + EGD + abdominal ultrasound
+기본 + 자궁경부 세포검사	Basic + Pap smear
+납부 방법	Payment method
+내시경실 #	Endoscopy room #
+노르에피 #	Norepi #
+높은 위험	High risk
+뇌경색 후 재활	Rehabilitation after cerebral infarction
+뇌경색 후유증으로 누워 지냄 (#년), 천골부 욕창 #단계, 유치도뇨관·콧줄 영양	Bedridden from stroke sequelae (# yr), sacral pressure injury stage #, Foley catheter & NG feeding
+니카르디핀 #mg/hr	Nicardipine # mg/hr
+담낭벽이 #mm로 두꺼워져 있고, 담낭 경부에 #cm 담석이 끼어 있음. 담낭 주위 액체 고임. 초음파 머피 징후 양성.	Gallbladder wall thickened to # mm with a # cm stone impacted in the neck. Pericholecystic fluid. Positive sonographic Murphy sign.
+당뇨병성 콩팥병으로 #년부터 혈액투석	Hemodialysis since # for diabetic kidney disease
+당일 중증 환자(심정지 #명)가 몰려 경증 환자 대기가 평균 #시간이었고, 대기 중 재평가·안내를 하지 못했습니다.	A surge of critical patients that day (# cardiac arrests) made minor-case waits average # h, and reassessment/updates during the wait were missed.
+대기 #시간마다 활력징후 재측정과 예상 대기 시간 안내를 하겠습니다.	We will recheck vital signs and update expected wait times every # h of waiting.
+대장 용종 — 절제 후 조직검사	Colon polyp — biopsy after excision
+대장균 (E. coli) #⁵ 이상 — 세프트리악손 감수성	E. coli ≥ #⁵ — ceftriaxone-sensitive
+대장암 수술 위해 입원	Admitted for colon cancer surgery
+대학생 — 수업 시간 피해 오후 연락	University student — call in the afternoon, avoiding class hours
+도뇨관 유지 필요성 평가함	Assessed need to keep urinary catheter
+두개 내 출혈 없음. 왼쪽 중대뇌동맥 영역에 초기 허혈 변화(회백질 경계 소실) 의심.	No intracranial hemorrhage. Suspected early ischemic change (loss of gray-white differentiation) in the left MCA territory.
+드레싱 깨끗함, 크기 변화 없음	Dressing clean, no change in size
+만성 활동성 위염, 궤양 가장자리, 헬리코박터균 관찰. 이형성·악성 없음	Chronic active gastritis, ulcer margin, H. pylori seen. No dysplasia or malignancy
+만성폐쇄성폐질환 — 집에서 산소 #L, #형 당뇨 (인슐린)	COPD — home oxygen # L, type # diabetes (insulin)
+만족	Satisfied
+많음 (#+)	Large (#+)
+매일 체중 측정	Daily weight
+맥버니 압통·반발통	McBurney point tenderness & rebound
+면역분석기 (가상 I-#)	Immunoassay analyzer (virtual I-#)
+명치 통증 #개월, 아스피린 복용 중 (심혈관 예방)	Epigastric pain for # months, on aspirin (cardiovascular prevention)
+명치 통증 — 위내시경	Epigastric pain — EGD
+명칭	Name
+모르핀 #mg 정맥주사 (의사 처방). 무릎 굽힌 편한 자세 도움.	Morphine # mg IV (physician order). Helped into a comfortable knees-flexed position.
+모유 직접	Direct breastfeeding
+무균 처치 전	Before aseptic procedure
+무호흡 #초 #회 — 가벼운 자극으로 회복	Apnea # sec x# — recovered with gentle stimulation
+미숙아	Preterm infant
+미전송	Not sent
+받은 검체는 회백색의 작은 조직 조각들로, 모두 포매함.	Received as small gray-white tissue fragments, entirely embedded.
+배뇨 정상, 변비 경향	Normal voiding, tendency to constipation
+보류	On hold
+보조 조절 환기 (AC/VC)	Assist-control ventilation (AC/VC)
+보행·모유 수유 교육	Ambulation & breastfeeding education
+보험자 청구처	Insurer billed
+보호자 체위 변경·영양 교육	Caregiver education on repositioning & nutrition
+보호자(아내)에게 먼저 연락 — 격리 관련 불만 처리 중	Contact the caregiver (wife) first — isolation complaint in progress
+복강경 담낭절제술 예정 (일정 확인 중). 흡연력 #갑년.	Laparoscopic cholecystectomy planned (schedule pending). Smoking # pack-years.
+복강경으로 부은 충수를 절제함. 천공 없음.	Swollen appendix removed laparoscopically. No perforation.
+분유	Formula
+불규칙한 관 구조와 세포 덩어리로 기질을 파고드는 이형성 상피세포. 핵 다형성 중등도, 유사분열 증가.	Atypical epithelial cells in irregular ducts and nests invading the stroma. Moderate nuclear pleomorphism, increased mitoses.
+불채택	Not adopted
+불편감 적음	Minimal discomfort
+브루스 방법, 목표 심박 #%	Bruce protocol, target HR #%
+비위관 #주마다 교체	Change NG tube every # wk
+비타민 K 근육주사	Vitamin K IM
+사실 확인·격리 설명 개선 요청	Fact-check & request better explanation of isolation
+산후회복	Postpartum recovery
+상기 환자는 위 병명으로 #부터 입원 치료 중이며, 향후 약 #주간의 안정 가료를 요할 것으로 사료됨.	The above patient has been hospitalized for the above diagnosis since # and is expected to require about # weeks of rest and treatment.
+상기 환자는 위 병명으로 외래 치료 중이며, 향후 약 #주간의 안정 가료를 요할 것으로 사료됨.	The above patient is under outpatient treatment for the above diagnosis and is expected to require about # weeks of rest and treatment.
+상기 환자는 위 병명으로 입원 치료 중이며, 향후 약 #주간 안정 가료가 필요할 것으로 사료됨.	The above patient is hospitalized for the above diagnosis and is expected to need about # weeks of rest and treatment.
+상처 깨끗, 수유 중	Wound clean, breastfeeding
+상처 통증 #점	Incision pain #/10
+생리식염수 #mL에 섞어 #분 이상 정맥 주입	Mix in # mL normal saline and infuse IV over ≥ # min
+섭취·배설량 측정	Intake & output monitoring
+손위생	Hand hygiene
+수면 내시경, 조직검사 가능	Sedated endoscopy, biopsy possible
+수면 박탈 뇌파 — 과호흡·광자극 포함	Sleep-deprived EEG — with hyperventilation & photic stimulation
+수면 장애 (기침으로)	Sleep disturbance (due to cough)
+수분 제한 교육	Fluid restriction education
+수술 부위 드레싱 깨끗함, 삼출물 없음. 어지러움 호소, 혈색소 #로 의사에게 알림 → 농축적혈구 #단위 처방 받음. 수혈 동의서 받음.	Surgical dressing clean, no drainage. Complained of dizziness; Hb # reported to physician → PRBC # units ordered. Transfusion consent obtained.
+수술 부위 표시	Surgical site marked
+수술 상처가 잘 아물었고 간호사들이 친절했다고 함	Says the surgical wound healed well and the nurses were kind
+수술 신청: @ 복강경 담낭절제술 — 수술 일정 확정 필요	Surgery request: @ laparoscopic cholecystectomy — schedule must be confirmed
+수술 전·후: 급성 충수염	Pre/post-op diagnosis: acute appendicitis
+수술 후 #일 호전	Post-op day #, improving
+수술 후 #일, 호전	Post-op day #, improving
+수술 후 부종	Post-operative edema
+수술 후 첫 보행 함. 통증 #점.	First ambulation after surgery. Pain #/10.
+수술·마취 동의서 서명 확인	Surgery & anesthesia consent confirmed
+수축기 혈압 #mmHg 미만 유지	Keep SBP below # mmHg
+숨참 (#년)	Dyspnea (#)
+숨참, 다리 부종 #주	Dyspnea, leg edema for # wk
+숨참·누런 가래 #일 — COPD 급성 악화	Dyspnea & yellow sputum for # days — COPD exacerbation
+식도·위·십이지장 정상 점막	Normal mucosa of esophagus, stomach and duodenum
+신생아 입원 본인부담 면제	Newborn admission copay waived
+심장 비대 (심흉곽비 #). 양측 폐문부 혈관 음영 증가, 양측 소량 흉수.	Cardiomegaly (CTR #). Increased bilateral hilar vascular markings, small bilateral effusions.
+심장 크기 경계선. 폐야 깨끗함.	Borderline heart size. Clear lung fields.
+심혈관조영실 #	Cath lab #
+십이지장 구부 앞벽 #cm 궤양, 바닥에 노출 혈관 (출혈 위험 높음)	# cm ulcer on the anterior wall of the duodenal bulb with a visible vessel (high rebleeding risk)
+아들이 보호자	Son is the caregiver

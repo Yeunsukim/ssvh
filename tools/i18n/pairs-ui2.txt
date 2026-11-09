@@ -1,0 +1,223 @@
+인계 작성	Write handoff
+인계 작성함	Handoff written
+인공호흡기 설정·관찰	Ventilator settings & monitoring
+인두 마취 — 리도카인 스프레이 (마취 후 #시간 금식 안내)	Pharyngeal anesthesia — lidocaine spray (NPO for # h afterwards)
+인수 확인함	Handoff received
+인슐린 (속효성)	Insulin (rapid-acting)
+인큐베이터	Incubator
+인큐베이터 온도 (℃)	Incubator temperature (℃)
+일반촬영 #실	General radiography room #
+일부 도움	Some assistance
+일회 호흡량	Tidal volume
+임상 정보	Clinical information
+임상 정보 (처방의가 보낸 내용)	Clinical information (from the ordering physician)
+임신 주수	Gestational age
+임신·출산	Pregnancy & delivery
+입실 확인을 먼저 하세요	Do the OR entry check first
+있음 (도관 감염 의심)	Present (suspect catheter infection)
+자궁 수축	Uterine contractions
+자궁경부 열림(cm)	Cervical dilation (cm)
+자궁경부 완전 개대 — 분만 준비	Fully dilated — prepare for delivery
+자궁저부 높이	Fundal height
+자극 반응	Response to stimulation
+자기 능력을 정확히 앎	Knows own limitations
+자동 혈액배양기 (호기·혐기병)	Automated blood culture system (aerobic/anaerobic bottles)
+자발 순환 회복 (ROSC)	Return of spontaneous circulation (ROSC)
+자주 걸음	Walks frequently
+자주 젖음	Often moist
+자주 찡그림·턱 떨림	Frequent grimace, quivering chin
+잘 느껴짐	Well felt
+잘 들림	Present (bruit)
+잠재적 문제	Potential problem
+장 가스 분포 정상. 비정상 석회화 없음. 유리 공기 없음.	Normal bowel gas pattern. No abnormal calcification. No free air.
+장 정결	Bowel preparation
+장비 문제 보고	Report equipment problem
+재태 기간	Gestational age
+저장된 영상이 없습니다	No stored images
+저혈압 — 다리 올리고 제거 속도 줄이기, 생리식염수, 의사 보고	Hypotension — elevate legs, reduce UF rate, normal saline, notify physician
+전신 뒤	Whole body posterior
+전신 앞	Whole body anterior
+전적 의존	Totally dependent
+전적으로 도움 필요	Needs total assistance
+전처치를 먼저 하세요	Do the pre-procedure prep first
+전혀 못 움직임	Completely immobile
+점 — 부적절, 의사와 재검사 여부 상의	pts — inadequate; discuss repeat test with the physician
+점 호소	/10 reported
+점 호소하여 보고드립니다	/10 reported; reporting
+점, 혈압	/10, BP
+점적 약물 속도 계산	Drip rate calculation
+점적 약물 조절	Drip titration
+접근 부위	Access site
+접수하면 병리번호가 자동으로 붙습니다.	A pathology number is assigned automatically on receipt.
+정맥 주사 경로 제거 또는 병동 인계	Remove IV line or hand off to the ward
+정맥 주사로 제거 (출혈 확인)	IV removed (check for bleeding)
+정맥 주사로 확보	IV access secured
+정맥로 확보	IV access
+정상 — 손바닥 색이 #초 안에 돌아옴	Normal — palm color returns within # s
+정상 갑상선 스캔	Normal thyroid scan
+정상 관상동맥	Normal coronary arteries
+정상 뇌파	Normal EEG
+정상 뇌혈관 조영	Normal cerebral angiogram
+정상 수축 기능	Normal systolic function
+정상 신경전도·근전도	Normal NCS/EMG
+정상 심전도	Normal ECG
+정상 위장 조영	Normal upper GI series
+정상 폐기능	Normal pulmonary function
+정상·침상 안정·휠체어	Normal / bed rest / wheelchair
+정중신경 운동 원위 잠시	Median motor distal latency
+제대 관리 교육 (말려 두기)	Cord care education (keep dry)
+제세동 #J	Defibrillation # J
+제한 없음	No limitation
+제한성 환기 장애 의심 — 폐용적 검사 권고	Suspected restrictive defect — lung volume testing recommended
+조금 (#)	Small (#)
+조영 소견 (협착 %)	Angiographic findings (stenosis %)
+조영제 검사 확인 사항	Contrast study checklist
+조영제 검사는 #~#시간 금식, 정맥 주사 경로(#~#게이지) 확보	Contrast studies: #–# h fast, IV access (#–# gauge)
+조영제 배출을 위해 물 충분히 (신기능 정상일 때)	Drink plenty of water to clear contrast (if renal function is normal)
+조영제 사용 동의서 받음	Contrast consent obtained
+조영제 신독성 위험 (# 미만)	Contrast nephrotoxicity risk (< #)
+조영제 알레르기를 의무기록 알레르기 목록에 꼭 등록합니다.	Always record contrast allergy in the allergy list of the medical record.
+조용히 누워 있음	Lying quietly
+조직검사 결과는 약 #주 뒤 외래에서 설명	Biopsy results explained at clinic in about # wk
+조치선 (경계선 + #시간)	Action line (alert line + # h)
+졸림 (부르면 반응)	Drowsy (responds to voice)
+종료 개수	Final count
+좌관상동맥	Left coronary artery
+좌심실 수축 기능 저하 (박출률 감소 심부전)	Reduced LV systolic function (HFrEF)
+좌전하행지	Left anterior descending (LAD)
+좌주간지	Left main
+좌회선지	Left circumflex (LCx)
+주사실에서 주사 맞기	Get injections at the injection room
+주입 시간 (분)	Infusion time (min)
+준비할 조영제 검사가 없습니다	No contrast studies to prepare
+중간 — 바로 의사에게 알림	Moderate — notify physician promptly
+중등도 (구토 반복·얼굴 부종·쌕쌕거림)	Moderate (repeated vomiting, facial swelling, wheezing)
+중심정맥압	Central venous pressure
+중요 소견 — 의사에게 바로 알렸습니다	Significant finding — physician notified immediately
+중증 (기도 확보 고려)	Severe (consider airway)
+중증 (아나필락시스 — 혈압 저하·호흡곤란)	Severe (anaphylaxis — hypotension, dyspnea)
+중환자이거나 심한 질병	Critically ill or severe disease
+증상 호전, 활력징후 안정	Symptoms improved, vital signs stable
+증폭 구역으로 옮김	Moved to the amplification area
+지금 할 일이 없습니다	Nothing to do now
+지난 투석 후 체중	Post-dialysis weight last session
+지난 투약 있음	Previous dose given
+지난번보다 __ 좋아졌다고 함.	Says __ is better than last time.
+지난주 식사량 줄어듦	Reduced intake last week
+지남력 있음	Oriented
+지시에 따름	Obeys commands
+직접 보시고 처방 부탁드립니다.	Please assess and give orders.
+진료기록 작성	Write medical record
+진료를 마칠까요?	Finish the visit?
+진정 (RASS)	Sedation (RASS)
+진정 (수면)	Sedation (sleep)
+진정 — RASS 목표 확인	Sedation — check RASS goal
+진정 감시 (#분마다)	Sedation monitoring (every # min)
+진통 — 마약류 이중 확인	Analgesia — double-check controlled drugs
+채혈 (채혈실·병동)	Blood draw (phlebotomy/ward)
+처방 안전 점검 (DUR) 경고	Prescription safety check (DUR) warning
+처방 안전 점검(DUR): 문제 없음	Prescription safety check (DUR): no issues
+처방 화면·병동에서 결과 조회	View results in the orders screen or ward
+처방된 해열제 투여, 미온수 마사지, 수분 섭취 격려	Gave ordered antipyretic, tepid sponging, encouraged fluids
+처치 목적·방법 설명, 동의 받음	Explained purpose & method, consent obtained
+처치 후 통증·출혈·불편감 관찰	Observe pain, bleeding and discomfort after the procedure
+처치실 안내	Guide to the treatment room
+천자 부위	Puncture site
+천자 부위 출혈·부종·통증 생기면 바로 알리기	Report bleeding, swelling or pain at the puncture site at once
+청각 선별 검사 (양쪽 귀)	Hearing screening (both ears)
+체온 __℃, 맥박 __회, 산소포화도 __%. 검사: __	Temp __℃, HR __, SpO2 __%. Tests: __
+체온 측정 (과열·저체온)	Temperature check (hyper/hypothermia)
+체중 변화	Weight change
+체질량지수 # 미만	BMI < #
+초, 심방세동	s, atrial fibrillation
+초음파 #실	Ultrasound room #
+촬영 가능	Ready to scan
+최근 #개월 체중 감소	Weight loss in the last # months
+최근 동맥혈가스	Latest ABG
+최근 신장 기능(크레아티닌) 확인	Check recent renal function (creatinine)
+최근 크레아티닌	Latest creatinine
+최대강도투사	Maximum intensity projection
+축상 #	Axial #
+출생 체중	Birth weight
+출혈 #mL 이상 위험 시 혈액 준비 확인	If blood loss ≥ # mL is possible, confirm blood availability
+측정 안 됨	Not measured
+측정·기록함	Measured & recorded
+측정값 저장	Save measurements
+침대↔의자 이동	Bed ↔ chair transfer
+침상 난간 올림, 호출벨 손 닿는 곳에 둠, 낙상 예방 교육	Side rails up, call bell within reach, fall-prevention education
+침상 안정	Bed rest
+침상 안정 중, 화장실 이동 시 어지러움 호소	On bed rest; dizzy when going to the bathroom
+캥거루 케어 (분)	Kangaroo care (min)
+커프 압력	Cuff pressure
+코드블루 시작	Start code blue
+코드블루 종료	End code blue
+크게 울음	Loud cry
+타임아웃·절개	Time-out & incision
+태변 착색 양수	Meconium-stained fluid
+태아 심박 감시 (최근 #분)	Fetal heart monitoring (last # min)
+통증 사정, 처방된 진통제 투여, 편한 자세 도움	Pain assessed, gave ordered analgesic, helped into a comfortable position
+통증 위치 앎	Localizes pain
+통증 자극에	To pain
+통증·복부 팽만	Pain/abdominal distension
+퇴실 가능	Ready for discharge from unit
+퇴실 전 귀가 교육과 원무 수납이 필요합니다.	Discharge teaching and payment are needed before leaving.
+퇴원 교육 (목욕·수유·황달 관찰)	Discharge teaching (bathing, feeding, jaundice watch)
+퇴원약 받아서 복용법·부작용 교육	Collect discharge meds; teach dosing & side effects
+투석 시작	Start dialysis
+투석 전 사정을 먼저 하세요	Do the pre-dialysis assessment first
+투석 중	On dialysis
+투석 후 체중	Post-dialysis weight
+투석을 시작한 뒤에 씁니다	Written after dialysis starts
+투석이 잘 되었는지 (투석 적절도)	Dialysis adequacy
+투시촬영실	Fluoroscopy room
+투약할 것	Due medications
+트로포닌	Troponin
+트리메토프림·설파	Trimethoprim-sulfa
+판독 전	Not yet read
+팔다리 약간 굽힘	Some flexion of limbs
+평균동맥압	Mean arterial pressure
+평균동맥압 # 이상 목표. 중심정맥관으로 주입	Target MAP ≥ #. Infuse via central line
+폐 보호 환기 확인	Check lung-protective ventilation
+폐렴구균 (S. pneumoniae)	Pneumococcus (S. pneumoniae)
+폐쇄성 수면무호흡	Obstructive sleep apnea
+폐쇄성 환기 장애 — GOLD	Obstructive defect — GOLD
+피부 발진·묽은 변 관찰	Watch for rash and loose stools
+피부를 옆으로 당겨 놓고 주사 (Z자 주사법) — 약이 새지 않게	Pull the skin aside and inject (Z-track) — prevents leakage
+피페라실린·타조박탐	Piperacillin-tazobactam
+필요한 영상 화면에 띄움	Needed images displayed
+하루 체중당	per kg per day
+한 시술	procedure performed
+항상 젖어 있음	Constantly moist
+항암 주입	Chemotherapy infusion
+핵의학 감마카메라실	Nuclear medicine gamma camera room
+허벅지 바깥 (외측광근)	Outer thigh (vastus lateralis)
+현미경 (적혈구·백혈구·세균)	Microscopy (RBC, WBC, bacteria)
+현미경 백혈구 /HPF	Microscopic WBC /HPF
+현미경 적혈구 /HPF	Microscopic RBC /HPF
+혈관 밖 누출 (부종·통증) — 팔 올리고 냉찜질, 의사 보고	Extravasation (swelling, pain) — elevate arm, cold pack, notify physician
+혈관 통로	Vascular access
+혈관조영실	Angiography room
+혈관조영실 (인터벤션)	Angiography suite (intervention)
+혈액배양은 보통 #~#일 걸립니다. 기계가 균 자람을 알리면(양성 신호) 그람 염색합니다.	Blood cultures usually take #–# days. When the instrument flags growth (positive signal), do a Gram stain.
+혈액형·교차시험 결과 확인	Check blood type & crossmatch
+혼자 안정적으로 걸음 (#)	Walks steadily alone (#)
+혼자 함	Independent
+화장실 이용	Toileting
+확산강조영상에서 확산 제한 병변 없음. 백질 변화 경미.	No diffusion-restricting lesion on DWI. Mild white matter changes.
+환자 확인 (이름·생년월일 두 가지)	Patient identification (name & DOB)
+환자·수술명·부위·좌우를 소리 내어 다시 확인	Read aloud patient, procedure, site and side again
+환자는 원무과(원무 수납·정산)에서 수납한 뒤, 원외처방전을 받아 약국으로 갑니다.	The patient pays at patient accounts, then takes the outside prescription to a pharmacy.
+활력징후 (시술 전 대비)	Vital signs (vs. pre-procedure)
+활발히 움직임	Active
+활성화 응고 시간 (ACT)·활력징후	Activated clotting time (ACT) & vital signs
+회 (목표	/min (target
+회 (최저	/min (lowest
+회 임신	gravida
+회 출산	para
+회/시간	/h
+회/시간, 최저 산소포화도	/h, lowest SpO2
+회복실 관찰 — 알드레테 점수 (#분마다)	PACU monitoring — Aldrete score (every # min)
+회복실 퇴실	PACU discharge
+회복실 퇴실 완료 →	PACU discharge done →
+회복실에서 주의할 점 공유	Share PACU precautions
+흉부 압박 시작	Start chest compressions

@@ -1,0 +1,333 @@
+patients.reaction	전신 두드러기 (#년)
+patients.f	우하엽에 경화(consolidation) 소견, 공기기관지조영상 동반. 소량의 우측 흉수.
+patients.hx	특이 과거력 없음. 하루 반 갑 흡연 #년.
+patients.f	담낭벽이 #mm로 두꺼워져 있고, 담낭 경부에 #cm 담석이 끼어 있음. 담낭 주위 액체 고임. 초음파 머피 징후 양성.
+patients.f	심장 비대 (심흉곽비 #). 양측 폐문부 혈관 음영 증가, 양측 소량 흉수.
+patients.UWBC	많음 (#+)
+patients.UNit	양성
+patients.URBC	약간 (#+)
+patients.UCx	대장균 (E. coli) #⁵ 이상 — 세프트리악손 감수성
+patients.best	저녁
+patients.hx	구불결장암 진단 (#주 전), #일 전 복강경 구불결장 절제술
+patients.hx	특이 과거력 없음. 어머니 고혈압.
+patients.reaction	숨참 (#년)
+patients.hx	이모 유방암
+patients.f	왼쪽 유방 위쪽 바깥 부위에 #cm 크기의 침상(가시 모양) 경계를 가진 고음영 종괴. 미세석회화 동반.
+patients.i	BI-RADS #C (악성 가능성 높음) — 조직검사 권고
+patients.f	왼쪽 유방 #시 방향, 유두에서 #cm 거리에 #×#cm 크기의 불규칙한 저에코 종괴, 후방 음영 동반.
+patients.i	BI-RADS #C — 초음파 유도 조직검사 권고
+patients.gross	초음파 유도 중심부 바늘 생검으로 얻은 회백색 원통형 조직 #조각 (각 #~#cm). 모두 포매함.
+patients.micro	불규칙한 관 구조와 세포 덩어리로 기질을 파고드는 이형성 상피세포. 핵 다형성 중등도, 유사분열 증가.
+patients.dx	왼쪽 유방, 바늘 생검: 침윤성 유관암 (Invasive ductal carcinoma), 조직학적 등급 #
+patients.add	호르몬 수용체·HER# 면역조직화학 염색 진행 예정
+patients.reaction	구토, 두드러기 (#년 CT 검사 때)
+patients.hx	고혈압, 고지혈증
+patients.f	심장 크기 경계선. 폐야 깨끗함.
+patients.i	급성 흉부 이상 없음
+patients.stent	좌전하행지 근위부 #×#mm 약물방출 스텐트
+patients.hx	고혈압, 심방세동 (약 끊음)
+patients.f	두개 내 출혈 없음. 왼쪽 중대뇌동맥 영역에 초기 허혈 변화(회백질 경계 소실) 의심.
+patients.i	급성 출혈 없음 — 혈전용해제 금기 소견 없음. 왼쪽 중대뇌동맥 경색 의심
+patients.side	영상의 오른쪽 = 환자의 왼쪽
+patients.f	왼쪽 중대뇌동맥 영역(기저핵·방사관)에 확산 제한 병변.
+patients.i	급성 뇌경색 (왼쪽 중대뇌동맥)
+patients.hx	없음 (공사 현장에서 일하다 다침)
+patients.f	오른쪽 발목 바깥쪽 연부조직 부종. 골절 소견 없음.
+patients.i	골절 없음 — 발목 염좌 의심
+patients.hx	고혈압, 만성폐쇄성폐질환. 사흘 전 폐렴으로 응급실 내원 후 패혈성 쇼크로 기관 삽관
+patients.SGram	그람 양성 알균
+patients.memo	보호자(아내)에게 먼저 연락 — 격리 관련 불만 처리 중
+patients.hx	고혈압 (약 불규칙 복용)
+patients.hx	#회 임신 #회 출산 (#년 자연분만). 임신 #주 #일. 임신성 당뇨 없음
+patients.ga	#주 #일
+patients.hx	첫 임신. 임신 #주 #일. 예정일 지나 유도분만
+patients.hx	재태 기간 #주, 자연분만. 엄마 혈액형 O+
+patients.hx	재태 기간 #주 #일 조산, 제왕절개. 출생 직후 호흡곤란으로 비침습 양압 환기 #시간
+patients.hx	당뇨병성 콩팥병으로 #년부터 혈액투석
+patients.days	월·수·금
+patients.access	왼팔 동정맥루
+patients.hx	고혈압성 콩팥병, #년 투석 시작. 동정맥루 수술 후 성숙 기다리는 중
+patients.days	화·목·토
+patients.access	오른쪽 속목정맥 투석 도관
+patients.hx	첫 임신, 역아(거꾸로 선 아기)
+patients.hx	뇌경색 후유증으로 누워 지냄 (#년), 천골부 욕창 #단계, 유치도뇨관·콧줄 영양
+patients.orders	욕창 드레싱 주 #회
+patients.orders	유치도뇨관 #주마다 교체
+patients.orders	비위관 #주마다 교체
+patients.orders	보호자 체위 변경·영양 교육
+patients.hx	만성폐쇄성폐질환 — 집에서 산소 #L, #형 당뇨 (인슐린)
+patients.orders	재택 산소 관리 교육
+patients.orders	혈당·인슐린 자가 주사 점검
+patients.orders	호흡 재활 교육
+patients.hx	#주 전 왼쪽 뇌경색 → 오른쪽 편마비, 말 어눌함
+patients.hx	왼쪽 유방암 — #주 전 유방 부분절제술
+patients.site	왼쪽 유방 전체 + 종양 자리 추가
+patients.hx	B형간염에 의한 간경변, 복수
+patients.hx	이틀 전 오토바이 사고 — 중증 외상성 뇌손상, 인공호흡기
+patients.hx	검진 수검자
+patients.pkg	기본 + 위내시경 + 복부초음파
+patients.pkg	기본 + 자궁경부 세포검사
+patients.pkg	기본 + 위내시경 + 대장내시경
+patients.find	식도·위·십이지장 정상 점막
+patients.find	구불결장 #cm 줄기 있는 용종 #개 — 올가미로 절제
+patients.impr	대장 용종 — 절제 후 조직검사
+patients.gross	용종 #개 (#cm)
+patients.micro	관상 선종, 저등급 이형성, 절제 경계 깨끗함
+patients.dx	구불결장 용종: 관상 선종 (저등급), 완전 절제
+patients.hx	고혈압·고지혈증, 계단 오를 때 가슴 조임 #개월 (운동부하검사 양성)
+patients.stent	좌전하행지 중간부 #×#mm 약물방출 스텐트
+patients.hx	관절염으로 소염진통제 오래 복용, 어제부터 검은 변·어지러움
+patients.find	십이지장 구부 앞벽 #cm 궤양, 바닥에 노출 혈관 (출혈 위험 높음)
+patients.impr	출혈성 십이지장 궤양 — 에피네프린 주입 + 클립 지혈
+patients.hx	명치 통증 #개월, 아스피린 복용 중 (심혈관 예방)
+patients.find	위 각부 작은굽이에 #cm 궤양, 깨끗한 흰 바닥. 헬리코박터 검사(CLO) 양성
+patients.impr	위궤양 (활동기) — 조직검사 #조각, 헬리코박터 제균 치료 필요
+patients.gross	위 생검 #조각 (각 #cm)
+patients.micro	만성 활동성 위염, 궤양 가장자리, 헬리코박터균 관찰. 이형성·악성 없음
+patients.dx	위, 생검: 만성 활동성 위염과 궤양, 헬리코박터 양성, 악성 소견 없음
+patients.hx	왼쪽 유방암 #기, 수술 후 보조 항암 (AC 요법 #회 중 #회째). 왼팔 쪽은 림프절 절제 — 왼팔 주사·혈압 금지
+patients.hx	월경 과다, 철결핍 빈혈 (혈색소 #)
+patients.hx	COPD (만성 폐쇄성 폐질환) #년, 흡연 #갑년, 당뇨 (메트포르민 복용). #일 전부터 숨참·누런 가래, 기침
+patients.FLU	인플루엔자 A 양성
+patients.hx	고혈압, 협심증 의심 — 빨리 걸으면 가슴 조임 #개월
+patients.hx	지난주 처음 경련 #회 (#분, 의식 잃음), 밤샘 공부 뒤
+patients.memo	대학생 — 수업 시간 피해 오후 연락
+encounters.cc	#일 전부터 기침, 가래, 열 (#℃)
+encounters.cc	어제 저녁부터 오른쪽 윗배 통증, 구토 #회
+encounters.cc	숨참, 다리 부종 #주
+encounters.cc	이틀 전부터 열, 오른쪽 옆구리 통증, 소변 볼 때 따가움
+encounters.cc	대장암 수술 위해 입원
+encounters.cc	고열, 숨참, 혈압 저하
+encounters.cc	갑자기 심한 두통 후 의식 저하
+encounters.room	진통실
+encounters.cc	규칙적인 진통 (#분 간격)
+encounters.cc	예정일 지남 — 유도분만
+encounters.cc	정상 신생아
+encounters.cc	미숙아
+encounters.dc1By	이전 근무자 (의무기록사)
+encounters.room	산후회복
+encounters.cc	역아 — 예정 제왕절개
+encounters.cc	교통사고 후 오른쪽 발목 통증
+encounters.cc	뇌경색 후 재활
+encounters.cc	교통사고 후 의식 없음
+encounters.cc	운동할 때 가슴 조임 — 예정 관상동맥 조영술
+encounters.cc	검은 변, 어지러움
+encounters.cc	명치 통증 — 위내시경
+encounters.cc	종합검진 내시경
+encounters.cc	항암 #차 — 주사실
+encounters.cc	철분 주사
+encounters.cc	숨참·누런 가래 #일 — COPD 급성 악화
+encounters.cc	운동할 때 가슴 조임
+encounters.cc	처음 생긴 경련
+orders.note	통증 점수 #점 이상
+orders.note	통증 #점 이상
+orders.note	평균동맥압 #mmHg 이상 유지되도록 조절
+orders.note	진정 목표 RASS -# ~ -#
+orders.note	통증 조절
+orders.v	폐렴구균 (Streptococcus pneumoniae) 자람 — 피페라실린 감수성
+orders.note	수축기 혈압 #mmHg 미만 유지
+orders.note	#mU/분으로 시작, #분마다 #mU씩 올림 (최대 #). 과다 수축이면 중단
+orders.findings	충수가 #mm로 부어 있고 주위 지방 침윤
+orders.checks	수술·마취 동의서 서명 확인
+orders.note	수술 후 부종
+orders.findings	골절 없음, 연부조직 부종
+orders.note	정규 조영술, 협착 있으면 중재술 진행
+orders.room	심혈관조영실 #
+orders.access	오른쪽 요골동맥
+orders.note	혈색소 # — #시간 안 응급 내시경
+orders.note	수면 내시경, 조직검사 가능
+orders.room	내시경실 #
+orders.note	항암제 #분 전
+orders.note	생리식염수 #mL에 섞어 #분 이상 정맥 주입
+orders.note	인플루엔자 의심 — 비말 격리 여부 결정
+orders.note	폐 결절 확인 — 조영 증강
+orders.note	퇴원 전 기관지 확장제 반응 확인 (안정 후 시행)
+orders.note	브루스 방법, 목표 심박 #%
+orders.note	운동부하 후 심근 관류 확인
+orders.room	핵의학 감마카메라실 #
+orders.note	수면 박탈 뇌파 — 과호흡·광자극 포함
+orders.note	첫 경련 — 구조적 원인 확인
+orders.note	폐경 후 골다공증 선별
+orders.note	골밀도 검사와 함께
+orders.note	혈소판 수치 확인 — 응집 여부
+orders.gross	받은 검체는 회백색의 작은 조직 조각들로, 모두 포매함.
+orders.micro	염증 세포 침윤이 약간 있는 정상 조직 구조. 악성 세포 없음.
+orders.findings	양측 폐야에 활동성 병변 없음. 심장 크기 정상 범위 (심흉곽비 #). 늑골횡격막각 예리함.
+orders.findings	간 실질 에코 정상. 담낭벽 두께 정상, 담석 없음. 총담관 확장 없음.
+orders.findings	폐실질에 결절이나 경화 없음. 종격동 림프절 비대 없음. 흉수 없음.
+orders.checks	금식 확인
+orders.checks	수술 부위 표시
+notes.cc	오른쪽 아랫배 통증 하루
+notes.hpi	어제 저녁부터 배꼽 주위 통증이 오른쪽 아랫배로 옮겨 감
+notes.pe	맥버니 압통·반발통
+notes.assess	## 급성 충수염
+notes.assess	수술 전·후: 급성 충수염
+notes.plan	복강경으로 부은 충수를 절제함. 천공 없음.
+notes.result	합병증 없음, 출혈 #mL
+notes.S	통증 줄었음
+notes.O	체온 #, 상처 깨끗
+notes.A	수술 후 #일, 호전
+notes.P	죽 시작
+notes.cc	역아
+notes.hpi	임신 #주 #일, 역아로 예정 제왕절개
+notes.assess	## 역아 ## 임신 #주
+notes.plan	척추마취 제왕절개
+notes.plan	하부 자궁 횡절개로 여아 분만 (#g)
+notes.result	출혈 #mL, 합병증 없음
+notes.S	상처 통증 #점
+notes.O	자궁 단단함, 오로 중간
+notes.A	수술 후 #일 호전
+notes.P	보행·모유 수유 교육
+notes.S	불편감 적음
+notes.O	활력징후 안정
+notes.P	퇴원 준비
+notes.course	역아로 제왕절개 후 회복 순조
+notes.result	상처 깨끗, 수유 중
+notes.meds	진통제 #일분
+notes.fu	#주 뒤 외래
+notes.assess	## 폐렴, 상세불명
+notes.assess	## 급성 담낭염
+notes.assess	## 뇌경색증, 상세불명 ## 본태성(원발성) 고혈압
+notes.assess	## 대퇴골 경부 골절
+notes.assess	## 울혈성 심부전
+notes.assess	## 급성 신우신염
+notes.assess	## 위의 악성 신생물
+notes.assess	## 무릎 관절증
+notes.assess	## 만성 폐쇄성 폐질환의 급성 악화
+notes.assess	## 위장관 출혈 ## 위궤양
+mar.prnReason	체온 #℃
+nnotes.D	오른쪽 윗배 통증 #점, 쥐어짜는 양상
+nnotes.A	모르핀 #mg 정맥주사 (의사 처방). 무릎 굽힌 편한 자세 도움.
+nnotes.R	#분 후 통증 #점으로 감소, 호흡수 #회 안정.
+nnotes.iv	섭취·배설량 측정
+nnotes.iv	매일 체중 측정
+nnotes.iv	수분 제한 교육
+nnotes.text	수술 부위 드레싱 깨끗함, 삼출물 없음. 어지러움 호소, 혈색소 #로 의사에게 알림 → 농축적혈구 #단위 처방 받음. 수혈 동의서 받음.
+nnotes.text	수술 후 첫 보행 함. 통증 #점.
+nnotes.text	자궁저부 배꼽 높이에서 단단함, 오로 중간.
+assess.route	외래 경유
+assess.comm	의사소통 가능, 보청기 없음
+assess.habit	흡연 안 함, 음주 안 함
+assess.elim	배뇨 정상, 변비 경향
+assess.sleep	수면 장애 (기침으로)
+assess.mind	입원으로 걱정 많음
+assess.care	아들이 보호자
+assess.level	저위험
+assess.level	중등도 통증
+assess.site	오른쪽 윗배
+assess.type	쥐어짜는 듯
+assess.level	높은 위험
+assess.level	위험 없음
+handoffs.S	# @ (남/#) 급성 담낭염, 금식 중.
+handoffs.B	복강경 담낭절제술 예정 (일정 확인 중). 흡연력 #갑년.
+handoffs.A	오른쪽 윗배 통증 #~#점, 모르핀 #mg #회 투여함 (새벽 #시경). 소변량 충분.
+handoffs.R	금식 유지, 수술 전 교육 필요. 통증 재사정.
+handoffs.S	# @ (남/#) 구불결장암 수술 후 #일째.
+handoffs.B	암 산정특례. 혈색소 #로 농축적혈구 #단위 처방 (수혈 동의서 받음).
+handoffs.A	어지러움 호소, 수술 부위 깨끗함. 낙상 고위험 #점. 미음 시작.
+handoffs.R	혈액은행 출고되면 수혈 시작 — 처음 #분 이상반응 관찰. 드레싱 하루 #번.
+comms.to	@ (순환기내과)
+notifs.text	@ 새 입원 (#) — 처방 확인과 입원 초기 간호사정이 필요합니다
+notifs.text	@ 수혈 처방 (농축적혈구 #단위) — 처방 확인 필요
+notifs.text	@ KTAS # 흉통 — #분 안에 심전도
+notifs.text	@ KTAS # 뇌졸중 의심 — 뇌졸중 알림 발령
+notifs.text	오늘 아침 병동 채혈 대기 (#A)
+notifs.text	@ 새 입원 처방
+notifs.text	@ 수혈 처방 — 교차시험 필요
+notifs.text	수술 신청: @ 복강경 담낭절제술 — 수술 일정 확정 필요
+notifs.text	@ 노르에피네프린 # 진행 중 — 평균동맥압 확인
+notifs.text	@ 옥시토신 유도분만 중 — 태아 심박 감시 확인
+notifs.text	@ 생후 #시간 — 선천성 대사이상 검사·황달 측정
+notifs.text	오늘 투석: @ (오전)
+notifs.text	퇴원 분석 대상: @, @
+notifs.text	청구 대상 명세서 #건 (@, @)
+notifs.text	응급! @ ST분절 상승 심근경색 — 응급 중재술 팀 호출 (문에서 풍선까지 #분)
+notifs.text	오늘 # @ 관상동맥 조영술 — 시술 전 준비
+notifs.text	응급 내시경: @ 위장관 출혈 (혈색소 #)
+notifs.text	항암 주사 대기: @ AC #차 — 약제부 조제 확인
+notifs.text	항암제 처방 (@) — #인 확인 조제 후 외래 주사실로 불출
+notifs.text	오늘 아침 정도관리를 아직 하지 않았습니다 — 환자 검사 전에 정도관리 탭에서 측정하세요
+notifs.text	조영제 검사 준비: @ 흉부 CT — 당뇨약(메트포르민) 복용, 크레아티닌 #
+notifs.text	오늘 기능검사: @ 운동부하, @ 뇌파, @ 기관지 확장제 반응 폐기능
+notifs.text	전화 #통이 기다리고 있습니다 — 오래 기다린 전화부터 받으세요
+notifs.text	처리 중인 고객의 소리 #건 — 응급실 답변이 와서 고객에게 회신할 차례입니다
+notifs.text	퇴원 환자 #명 — 퇴원분석(I) → 진료분석(코딩) → 미비등록 순서로 처리하세요
+notifs.text	회신서 작성 대상 #명 (@·@) — 의뢰 기관에 회신하세요. @ 회송서 작성 대기
+recs.drip	노르에피 #
+recs.mode	보조 조절 환기 (AC/VC)
+recs.ett	#mm, 입술 기준 #cm
+recs.bundle	침상 머리 #~#도 올림
+recs.bundle	구강 간호 (클로르헥시딘)
+recs.bundle	위궤양 예방 약 투여
+recs.bundle	정맥 혈전 예방
+recs.cvc	오른쪽 속목정맥 중심정맥관 (#일 전 삽입)
+recs.foley	유치도뇨관 (#일 전 삽입)
+recs.aline	왼쪽 노동맥 동맥관 (#일 전 삽입)
+recs.checks	중심정맥관 드레싱 깨끗함
+recs.checks	도뇨관 유지 필요성 평가함
+recs.reason	평균동맥압 # → #에서 #로 올림
+recs.pupil	양쪽 #mm 빛 반사 있음
+recs.drip	니카르디핀 #mg/hr
+recs.intensity	중간
+recs.intensity	강함
+recs.membrane	파수 — 맑음
+recs.method	자연분만
+recs.ga	#주
+recs.item	비타민 K 근육주사
+recs.item	안연고 (에리스로마이신)
+recs.item	B형간염 #차 접종
+recs.type	모유 직접
+recs.type	분유
+recs.note	제대 깨끗함
+recs.method	제왕절개
+recs.type	위관 (유축 모유)
+recs.mode	피부 온도 조절 (#℃)
+recs.event	무호흡 #초 #회 — 가벼운 자극으로 회복
+recs.note	특이 사항 없음
+recs.wound	천골부 욕창 #단계 #×#cm, 깊이 #cm, 삼출물 중간
+recs.care	욕창 드레싱 (폼 드레싱)
+recs.care	체위 변경 교육
+recs.memo	드레싱 깨끗함, 크기 변화 없음
+recs.memo	오른쪽 팔 근력 #, 다리 #. 앉은 균형 가능, 선 균형 불안
+recs.fatigue	약간
+recs.type	손위생
+recs.moments	환자 접촉 전
+recs.moments	무균 처치 전
+recs.moments	체액 노출 후
+recs.moments	환자 접촉 후
+recs.moments	환자 주변 접촉 후
+recs.obs	간호사 A
+recs.res	통과
+recs.res	경고
+recs.why	#s (#표준편차 넘음 — 다른 규칙 확인)
+recs.an	면역분석기 (가상 I-#)
+recs.an	응고분석기 (가상 CA-#)
+recs.content	격리실에 있는데 간호사가 장갑을 끼고 와서 다른 환자 얘기를 하며 웃었습니다. 남편이 병균 취급받는 것 같다며 속상해합니다. 격리가 왜 필요한지 제대로 설명도 못 들었습니다.
+recs.memo	사실 확인·격리 설명 개선 요청
+recs.content	응급실에서 열이 #도인데 #시간 넘게 기다렸고, 왜 늦는지 아무도 알려 주지 않았습니다.
+recs.fact	당일 중증 환자(심정지 #명)가 몰려 경증 환자 대기가 평균 #시간이었고, 대기 중 재평가·안내를 하지 못했습니다.
+recs.act	대기 #시간마다 활력징후 재측정과 예상 대기 시간 안내를 하겠습니다.
+recs.ch	고객의 소리 (엽서)
+recs.content	외래 주차장이 오전 #시면 꽉 찹니다. 진료 예약 문자에 대중교통·주차 안내를 같이 보내 주면 좋겠습니다.
+recs.content	퇴원할 때 받은 영수증에 받지 않은 검사가 있는 것 같습니다. 설명해 주세요.
+recs.fact	외부 위탁 검사(비타민 D)가 포함되어 있었습니다. 처방은 맞았으나 사전 설명이 없었습니다.
+recs.act	위탁 검사는 처방 때 비용을 안내하도록 진료과에 요청했습니다.
+recs.sat	만족
+recs.content	화장실 바닥이 젖어 있었는데 미끄럼 주의 표시가 없어 어머니가 넘어질 뻔했습니다.
+recs.fact	청소 직후 표지판을 세우지 않았습니다.
+recs.act	청소 후 바닥이 마를 때까지 표지판 비치를 의무화했습니다.
+recs.content	현재: 밤 근무 마치고 아침 #시 #분에 퇴근하면 셔틀이 #시부터 있습니다. 개선: #시 #분 셔틀 #회 추가. 기대 효과: 야간 근무자 피로·안전사고 감소.
+recs.content	어르신 환자가 많은데 퇴원 안내문 글씨가 작아 다시 설명하는 일이 많습니다. 큰 글씨·그림판을 만들면 좋겠습니다.
+recs.reason	간호부 교육위원회에서 다음 달까지 제작
+recs.comment	수술 상처가 잘 아물었고 간호사들이 친절했다고 함
+recs.status	포기
+recs.status	요청
+bills.method	지불보증
+items.method	고압증기 #℃
+refs.appt	# 순환기내과 @
+refs.appt	# 신경과 @
+qi.cause	젖은 바닥
+qi.cause	야간 조명 어두움
+qi.cause	업무 과다
+qi.cause	알림 누락
+qi.action	투약 알림 확인 절차 교육

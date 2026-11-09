@@ -59,7 +59,7 @@
       if (cat === 'SET') return `<div class="grid2">${H.M.SETS.map((s) => `<button class="job" data-act="ocs.addSet" data-id="${s.id}" style="min-height:4.5rem"><b>${esc(s.name)}</b><span>${esc(s.desc)} · ${s.codes.length}개 항목</span></button>`).join('')}</div>`;
       const items = H.M.ALL.filter((x) => x.cat === cat && (!q || x.name.includes(q) || (x.ing || '').includes(q) || x.code.toLowerCase().includes(q.toLowerCase())));
       return `<div class="gap-s" style="max-height:20rem;overflow-y:auto">${items.map((x) => `<button class="btn block" style="justify-content:flex-start;text-align:left;white-space:normal" data-act="ocs.add" data-code="${x.code}">${H.icon('plus')}<span class="grow"><b>${esc(x.name)}</b> ${x.highAlert ? UI.chip('고위험', 'stat') : ''}${x.narcotic ? UI.chip(x.narcotic, 'purple') : ''}${x.contrast ? UI.chip('조영제', 'prog') : ''}
-        <span class="small muted" style="display:block">${x.cat === 'MED' || x.cat === 'INJ' ? `${esc(x.ing)} · 기본 ${x.dose}${esc(x.unit)} ${esc(H.view.freqShort(x.freq))}` : x.tube ? `용기: ${esc(x.tube)}` : x.mod ? esc(x.mod) : x.spec ? esc(x.spec) : x.cat === 'OP' ? `${esc(x.dept)} · ${esc(x.anes)} · 약 ${x.min}분 — 수술실로 신청됩니다` : x.cat === 'CV' ? `약 ${x.min}분 — 심혈관센터로 신청${x.contrast ? ' · 조영제 사용' : ''}` : x.cat === 'EN' ? `약 ${x.min}분 — 내시경실로 신청 · ${esc(x.prep)}` : esc(x.code)}</span></span></button>`).join('') || UI.empty('찾는 처방이 없습니다')}</div>`;
+        <span class="small muted" style="display:block">${x.cat === 'MED' || x.cat === 'INJ' ? `<span>${esc(x.ing)}</span> · <span>기본</span> ${x.dose}${esc(x.unit)} · <span>${esc(H.view.freqShort(x.freq))}</span>` : x.tube ? `<span>용기</span>: <span>${esc(x.tube)}</span>` : x.mod ? esc(x.mod) : x.spec ? esc(x.spec) : x.cat === 'OP' ? `<span>${esc(x.dept)}</span> · <span>${esc(x.anes)}</span> · <span>약 ${x.min}분 — 수술실로 신청됩니다</span>` : x.cat === 'CV' ? `<span>약 ${x.min}분 — 심혈관센터로 신청</span>${x.contrast ? ' · <span>조영제 사용</span>' : ''}` : x.cat === 'EN' ? `<span>약 ${x.min}분 — 내시경실로 신청</span> · <span>${esc(x.prep)}</span>` : esc(x.code)}</span></span></button>`).join('') || UI.empty('찾는 처방이 없습니다')}</div>`;
     }
     function pendTable(p) {
       const rows = pend();
@@ -189,7 +189,7 @@
     function render() {
       const p = A.pat(); const e = enc();
       if (!p || !e) return `<div class="panel"><div class="panel-b">${UI.empty('왼쪽 목록에서 환자를 고르세요', key === 'opd' ? '외래 접수된 환자가 진료 순서대로 보입니다.' : key === 'er' ? '중증도(KTAS) 순서로 보입니다. 숫자가 작을수록 위급합니다.' : '병동·병실 순서로 보입니다.')}</div></div>`;
-      const tab = ms('tab', 'order');
+      const tab0 = ms('tab', 'order'); const tab = ['order', 'emr', 'result', 'noti'].includes(tab0) ? tab0 : 'order'; // 저장된 탭 값이 이상해도 처방 탭으로
       const notiN = S.where('comms', (c) => c.patientId === p.id && c.status === '보냄').length;
       const tabs = [{ id: 'order', label: '처방', icon: 'edit' }, { id: 'emr', label: '진료기록', icon: 'doc' }, { id: 'result', label: '결과 조회', icon: 'flask' }, { id: 'noti', label: '간호사 노티·협진', icon: 'chat', cnt: notiN || '' }];
       const body = { order: tabOrder, emr: tabEmr, result: tabResult, noti: tabNoti }[tab](p, e);

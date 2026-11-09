@@ -15,3 +15,27 @@
 정퇴원	Final discharge
 내 실습 기록	My practice records
 아기	Baby
+추적 계획	Follow-up plan
+정산 완료됨	Settlement completed
+수납 완료됨	Payment completed
+의료급여 1종	Medical Aid type 1
+의료급여 2종	Medical Aid type 2
+본인 부담	Patient share
+이미 낸 돈	already paid
+영수증 번호	Receipt No.
+받은 금액	Amount received
+결제	Payment
+영수증	Receipt
+암 산정특례	Cancer copayment exemption
+영상의학과 예약 — 검사 날짜·금식 여부 안내	Radiology booking — exam date & fasting instructions
+금식 여부 안내	fasting instructions
+처방전발행	Prescription issued
+원외처방전 → 병원 밖 약국에서 약 받기 (#일 안)	Outside prescription → pick up at a community pharmacy (within # days)
+CT 진단료	CT diagnostic fee
+MRI 진단료	MRI diagnostic fee
+영상진단료	Imaging fee
+본인부담	Patient share
+원외	Outside
+채혈실 (본관 #층)에서 채혈 — 결과는 다음 외래 때 설명	Blood draw at the phlebotomy room (main building, floor #) — results explained at next visit
+메뉴 열기	Open menu
+메뉴 접기	Collapse menu

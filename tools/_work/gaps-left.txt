@@ -1,0 +1,349 @@
+1	# @ (남/#) 구불결장암 수술 후 #일째.
+2	# @ (남/#) 급성 담낭염, 금식 중.
+12	## 역아 ## 임신 #주
+17	#mU/분으로 시작, #분마다 #mU씩 올림 (최대 #). 과다 수축이면 중단
+18	#mm, 입술 기준 #cm
+19	#s (#표준편차 넘음 — 다른 규칙 확인)
+20	#교대 근무표 작성 (한 달 자동 짜기·확정)
+21	#끼
+22	#분 후 통증 #점으로 감소, 호흡수 #회 안정.
+23	#일 전부터 기침, 가래, 열 (#℃)
+24	#주
+25	#주 #일
+26	#주 뒤 외래
+27	#주 전 왼쪽 뇌경색 → 오른쪽 편마비, 말 어눌함
+28	#회 임신 #회 출산 (#년 자연분만). 임신 #주 #일. 임신성 당뇨 없음
+29	(수납 전)
+30	(최종) 구불결장의 악성 신생물 (임상적 추정) 빈혈, 상세불명
+31	(최종) 급성 담낭염 (임상적 추정) 담낭결석 (담낭염 없음)
+32	(최종) 급성 신우신염
+33	(최종) 급성 충수염
+34	(최종) 기타 미숙아 (임신 #주)
+35	(최종) 뇌경색증, 상세불명
+36	(최종) 뇌내출혈, 상세불명 (임상적 추정) 본태성(원발성) 고혈압
+37	(최종) 단일 자연분만
+38	(최종) 병원에서 출생한 단태아
+39	(최종) 울혈성 심부전 (임상적 추정) 만성 콩팥병 #기
+40	(최종) 패혈성 쇼크 (기관 부전 동반) (임상적 추정) 폐렴, 상세불명
+41	(최종) 폐렴, 상세불명 (임상적 추정) #형 당뇨병, 합병증 없음 (임상적 추정) 본태성(원발성) 고혈압
+42	(최종) 흉통, 상세불명
+43	-- SSV 병원 전산 실습 — 자료 규칙표에서 자동으로 만든 테이블 생성문 (PostgreSQL 기준) -- 실습 기록(JSON)의 각 묶음이 아래 테이블 한 개와 #로 대응합니다. CREATE TABLE doctors (id VARCHAR(#) PRIMARY KEY, name TEXT NOT NULL, dept TEXT); -- 의사 명단 (마스터) CREATE TABLE master_items (code VARCHAR(#) PRIMARY KEY, cat VARCHAR(#) NOT NULL, name TEXT NOT NULL, price NUMERIC, detail JSON); -- 처방 항목 마스터 CREATE TABLE patients ( -- 환자 "id" VARCHAR(#) PRIMARY KEY, -- PK "mrn" VARCHAR(#) NOT NULL UNIQUE, -- 등록번호(고유) "name" TEXT NOT NULL, -- 이름 "sex" TEXT NOT NULL, -- 성별 M/F "birth" TEXT NOT NULL, -- 생년월일 YYYY-MM-DD "blood" TEXT, -- 혈액형 "height" NUMERIC, -- 키 cm "weight" NUMERIC, -- 몸무게 kg "ins" NUMERIC, -- 보험 종류 "phone" TEXT, -- 휴대전화 "address" TEXT, -- 주소 "guardian" TEXT, -- 보호자 "allergies" JSON, -- JSON 알레르기 목록 "flags" JSON, -- JSON 경고(격리·DNR 등) "hx" TEXT, -- 과거력 "erp" JSON, -- JSON 원무 정보 "crm" JSON, -- JSON 고객관리 정보 "refConsent" JSON, -- JSON 진료정보 제공 동의 "scenario" JSON, -- JSON 실습 사례값 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE encounters ( -- 진료(내원·입원) "id" VARCHAR(#) PRIMARY KEY, -- PK "patientId" VARCHAR(#) NOT NULL REFERENCES patients("id"), -- FK 환자 "type" VARCHAR(#) NOT NULL, -- 외래 OPD/입원 IPD/응급 ER "dept" TEXT NOT NULL, -- 진료과 "doctorId" VARCHAR(#) NOT NULL REFERENCES doctors(id), -- FK 의사 "status" VARCHAR(#) NOT NULL, -- 상태 "at" BIGINT NOT NULL, -- 시작 시각 "endAt" BIGINT, -- 종료(퇴원) 시각 "ward" TEXT, -- 병동 "room" TEXT, -- 병실 "bed" TEXT, -- 침상 "ktas" TEXT, -- 응급 중증도 "cc" TEXT, -- 주호소 "dx" JSON, -- JSON 진단 목록(KCD) "diet" TEXT, -- 식이 "dc" JSON, -- JSON 퇴원 정보 "coding" JSON, -- JSON 코딩(의료정보) "mi" JSON, -- JSON 퇴원분석 "moves" JSON, -- JSON 전동 이력 "billed" TEXT, -- 수납 완료 여부 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE orders ( -- 처방 "id" VARCHAR(#) PRIMARY KEY, -- PK "encId" VARCHAR(#) NOT NULL REFERENCES encounters("id"), -- FK 진료 "patientId" VARCHAR(#) NOT NULL REFERENCES patients("id"), -- FK 환자 "encType" TEXT, -- 진료 구분 "cat" VARCHAR(#) NOT NULL, -- 처방 분류 "code" VARCHAR(#) NOT NULL REFERENCES master_items(code), -- FK 처방 항목(마스터) "name" TEXT NOT NULL, -- 처방명 "dose" NUMERIC, -- 용량 "unit" TEXT, -- 단위 "route" TEXT, -- 경로 "freq" TEXT, -- 횟수 "days" NUMERIC, -- 일수 "qty" NUMERIC, -- 총량 "prn" TEXT, -- 필요시 "stat" TEXT, -- 응급 "outside" TEXT, -- 원외처방 "status" VARCHAR(#) NOT NULL, -- 진행 상태 "at" BIGINT NOT NULL, -- 처방 시각 "by" TEXT, -- 처방자 "doctorId" VARCHAR(#) REFERENCES doctors(id), -- FK 의사 "ward" TEXT, -- 병동 "hist" JSON, -- JSON 단계 이력 "result" JSON, -- JSON 결과 "specimenAt" BIGINT, -- 채혈 시각 "shotAt" BIGINT, -- 촬영 시각 "arrivedAt" BIGINT, -- 병동 도착 시각 "op" JSON, -- JSON 수술 "cv" JSON, -- JSON 심혈관 시술 "en" JSON, -- JSON 내시경 "adj" JSON, -- JSON 심사 조정 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE notes ( -- 의사 기록 "id" VARCHAR(#) PRIMARY KEY, -- PK "encId" VARCHAR(#) NOT NULL REFERENCES encounters("id"), -- FK 진료 "patientId" VARCHAR(#) NOT NULL REFERENCES patients("id"), -- FK 환자 "type" VARCHAR(#) NOT NULL, -- 기록 종류 "at" BIGINT NOT NULL, -- 작성 시각 "by" TEXT, -- 작성자 "signed" TEXT, -- 전자서명 "content" JSON, -- JSON 내용 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE vitals ( -- 활력징후 "id" VARCHAR(#) PRIMARY KEY, -- PK "patientId" VARCHAR(#) NOT NULL REFERENCES patients("id"), -- FK 환자 "encId" VARCHAR(#) REFERENCES encounters("id"), -- FK 진료 "at" BIGINT NOT NULL, -- 측정 시각 "sbp" NUMERIC, -- 수축기 "dbp" NUMERIC, -- 이완기 "hr" NUMERIC, -- 맥박 "rr" NUMERIC, -- 호흡 "bt" TEXT, -- 체온 "spo#" NUMERIC, -- 산소포화도 "pain" NUMERIC, -- 통증 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE io ( -- 섭취·배설 "id" VARCHAR(#) PRIMARY KEY, -- PK "patientId" VARCHAR(#) NOT NULL REFERENCES patients("id"), -- FK 환자 "at" BIGINT NOT NULL, -- 시각 "kind" VARCHAR(#), -- 섭취/배설 "type" VARCHAR(#), -- 종류 "amount" NUMERIC, -- 양 mL "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE mar ( -- 투약 기록(MAR) "id" VARCHAR(#) PRIMARY KEY, -- PK "orderId" VARCHAR(#) NOT NULL REFERENCES orders("id"), -- FK 처방 "patientId" VARCHAR(#) NOT NULL REFERENCES patients("id"), -- FK 환자 "slot" TEXT, -- 투약 시간대 "status" VARCHAR(#) NOT NULL, -- 투약/보류/거부 "at" BIGINT NOT NULL, -- 시각 "by" TEXT, -- 간호사 "checks" JSON, -- JSON #원칙 확인 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE nnotes ( -- 간호 기록 "id" VARCHAR(#) PRIMARY KEY, -- PK "patientId" VARCHAR(#) NOT NULL REFERENCES patients("id"), -- FK 환자 "encId" VARCHAR(#) REFERENCES encounters("id"), -- FK 진료 "at" BIGINT NOT NULL, -- 시각 "format" TEXT, -- 서술/Focus "text" TEXT, -- 내용 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE assess ( -- 간호 사정(점수) "id" VARCHAR(#) PRIMARY KEY, -- PK "patientId" VARCHAR(#) NOT NULL REFERENCES patients("id"), -- FK 환자 "kind" VARCHAR(#) NOT NULL, -- 도구(Morse·Braden 등) "score" NUMERIC, -- 점수 "level" TEXT, -- 등급 "answers" JSON, -- JSON 문항 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE handoffs ( -- 인수인계 "id" VARCHAR(#) PRIMARY KEY, -- PK "patientId" VARCHAR(#) NOT NULL REFERENCES patients("id"), -- FK 환자 "ward" TEXT, -- 병동 "S" TEXT, -- 상황 "B" TEXT, -- 배경 "A" TEXT, -- 사정 "R" TEXT, -- 요청 "status" VARCHAR(#), -- 상태 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE comms ( -- SBAR 보고 "id" VARCHAR(#) PRIMARY KEY, -- PK "patientId" VARCHAR(#) NOT NULL REFERENCES patients("id"), -- FK 환자 "S" TEXT, -- 상황 "B" TEXT, -- 배경 "A" TEXT, -- 사정 "R" TEXT, -- 요청 "reply" TEXT, -- 의사 답변 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE codes ( -- 심폐소생술 기록 "id" VARCHAR(#) PRIMARY KEY, -- PK "patientId" VARCHAR(#) REFERENCES patients("id"), -- FK 환자 "events" JSON, -- JSON 경과 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE acts ( -- 간호 활동 "id" VARCHAR(#) PRIMARY KEY, -- PK "patientId" VARCHAR(#) REFERENCES patients("id"), -- FK 환자 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE notifs ( -- 알림 "id" VARCHAR(#) PRIMARY KEY, -- PK "to" TEXT NOT NULL, -- 받는 부서 통로 "text" TEXT NOT NULL, -- 내용 "patientId" VARCHAR(#) REFERENCES patients("id"), -- FK 환자 "level" TEXT, -- 응급 여부 "read" TEXT, -- 읽음 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE audit ( -- 활동 기록(감사) "id" VARCHAR(#) PRIMARY KEY, -- PK "at" BIGINT NOT NULL, -- 시각 "user" TEXT, -- 사용자 "sid" TEXT, -- 학번 "dept" TEXT, -- 부서 "action" TEXT NOT NULL, -- 행동 "detail" TEXT, -- 내용 "patientId" VARCHAR(#) REFERENCES patients("id"), -- FK 환자 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE admreq ( -- 입원 요청 "id" VARCHAR(#) PRIMARY KEY, -- PK "patientId" VARCHAR(#) NOT NULL REFERENCES patients("id"), -- FK 환자 "fromEnc" TEXT REFERENCES encounters("id"), -- FK 진료(외래·응급) "dept" TEXT, -- 진료과 "ward" TEXT, -- 희망 병동 "status" VARCHAR(#), -- 상태 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE specimens ( -- 검체 "id" VARCHAR(#) PRIMARY KEY, -- PK "patientId" VARCHAR(#) NOT NULL REFERENCES patients("id"), -- FK 환자 "orderIds" JSON, -- JSON FK 처방 목록 "at" BIGINT, -- 채혈 시각 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE recs ( -- 부서별 업무 기록 "id" VARCHAR(#) PRIMARY KEY, -- PK "kind" VARCHAR(#) NOT NULL, -- 기록 종류(qc·voc·call·happy 등) "patientId" VARCHAR(#) REFERENCES patients("id"), -- FK 환자 "encId" VARCHAR(#) REFERENCES encounters("id"), -- FK 진료 "orderId" VARCHAR(#) REFERENCES orders("id"), -- FK 처방 "at" BIGINT NOT NULL, -- 시각 "by" TEXT, -- 기록자 "data" JSON, -- JSON 나머지 칸 -- kind별 나머지 칸은 data(JSON)에 저장 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE bills ( -- 수납 영수증 "id" VARCHAR(#) PRIMARY KEY, -- PK "no" VARCHAR(#), -- 영수증 번호 "encId" VARCHAR(#) NOT NULL REFERENCES encounters("id"), -- FK 진료 "patientId" VARCHAR(#) NOT NULL REFERENCES patients("id"), -- FK 환자 "kind" VARCHAR(#), -- 구분 "total" NUMERIC, -- 총액 "ins" NUMERIC, -- 공단부담 "self" NUMERIC, -- 본인부담 "non" NUMERIC, -- 비급여 "paid" NUMERIC, -- 받은 돈 "method" TEXT, -- 결제 수단 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE claims ( -- 보험 청구 "id" VARCHAR(#) PRIMARY KEY, -- PK "no" VARCHAR(#) NOT NULL, -- 청구 번호 "encIds" JSON, -- JSON FK 진료 목록 "amount" NUMERIC, -- 청구액 "status" VARCHAR(#), -- 상태 "results" JSON, -- JSON 심사 결과 "returns" JSON, -- JSON 반송 진료 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE defs ( -- 미비 기록 "id" VARCHAR(#) PRIMARY KEY, -- PK "encId" VARCHAR(#) NOT NULL REFERENCES encounters("id"), -- FK 진료 "patientId" VARCHAR(#) NOT NULL REFERENCES patients("id"), -- FK 환자 "item" TEXT NOT NULL, -- 빠진 기록 "to" TEXT, -- 담당자 "status" VARCHAR(#) NOT NULL, -- 요청/완료 "doneAt" BIGINT, -- 완료 시각 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE certs ( -- 제증명 발급 "id" VARCHAR(#) PRIMARY KEY, -- PK "patientId" VARCHAR(#) REFERENCES patients("id"), -- FK 환자 "encId" VARCHAR(#) REFERENCES encounters("id"), -- FK 진료 "type" VARCHAR(#), -- 종류 "price" NUMERIC, -- 수수료 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE items ( -- 물품·재고·멸균 "id" VARCHAR(#) PRIMARY KEY, -- PK "kind" VARCHAR(#) NOT NULL, -- 종류 "name" TEXT, -- 물품명 "qty" NUMERIC, -- 수량 "lot" TEXT, -- 로트 "status" VARCHAR(#), -- 상태 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE refs ( -- 진료협력(의뢰·회송·회신) "id" VARCHAR(#) PRIMARY KEY, -- PK "dir" VARCHAR(#) NOT NULL, -- 받음 in/보냄 out "pid" VARCHAR(#) REFERENCES patients("id"), -- FK 환자 "pname" TEXT NOT NULL, -- 환자 이름 "from" TEXT, -- 의뢰 기관 "to" TEXT, -- 받는 기관 "dept" TEXT, -- 진료과 "reason" TEXT, -- 사유 "status" VARCHAR(#) NOT NULL, -- 상태 "reply" TEXT, -- 회신 내용 "docType" TEXT, -- 문서 종류 "ediNo" TEXT, -- 중계 번호 "form" JSON, -- JSON 서식 "forms" JSON, -- JSON 요양급여 서식 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE appts ( -- 예약 "id" VARCHAR(#) PRIMARY KEY, -- PK "pid" VARCHAR(#) NOT NULL REFERENCES patients("id"), -- FK 환자 "dept" TEXT NOT NULL, -- 진료과 "doctorId" VARCHAR(#) REFERENCES doctors(id), -- FK 의사 "date" VARCHAR(#) NOT NULL, -- 날짜 "time" VARCHAR(#) NOT NULL, -- 시각 "status" VARCHAR(#) NOT NULL, -- 상태 "kind" VARCHAR(#), -- 진료/검사 "orderId" VARCHAR(#) REFERENCES orders("id"), -- FK 처방(검사 예약) "via" TEXT, -- 예약 경로 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE qi ( -- 질향상·환자안전 "id" VARCHAR(#) PRIMARY KEY, -- PK "kind" VARCHAR(#) NOT NULL, -- 종류 "type" VARCHAR(#), -- 사건 유형 "grade" TEXT, -- 위해 정도 "what" TEXT, -- 내용 "status" VARCHAR(#), -- 상태 "extra" JSON -- 규칙표에 없는 추가 칸 ); CREATE TABLE staff ( -- 직원 "id" VARCHAR(#) PRIMARY KEY, -- PK "name" TEXT NOT NULL, -- 이름 "ward" TEXT, -- 부서 "role" TEXT, -- 직책 "career" TEXT, -- 경력(년) "sched" JSON, -- JSON 날짜별 근무 코드(D·E·N·OFF·AL·EDU·SL·FL·PL·HL·ML) "edu" JSON, -- JSON 필수 교육 "health" JSON, -- JSON 건강 관리 "extra" JSON -- 규칙표에 없는 추가 칸 ); -- 자주 찾는 열쇠에 색인 CREATE INDEX ix_enc_pat ON encounters("patientId"); CREATE INDEX ix_ord_enc ON orders("encId"); CREATE INDEX ix_ord_pat_status ON orders("patientId", "status"); CREATE INDEX ix_mar_ord ON mar("orderId"); CREATE INDEX ix_notif_to ON notifs("to", "read");
+45	@ KTAS # 뇌졸중 의심 — 뇌졸중 알림 발령
+46	@ KTAS # 흉통 — #분 안에 심전도
+47	@ 노르에피네프린 # 진행 중 — 평균동맥압 확인
+48	@ 새 입원 (#) — 처방 확인과 입원 초기 간호사정이 필요합니다
+49	@ 새 입원 처방
+50	@ 생후 #시간 — 선천성 대사이상 검사·황달 측정
+51	@ 수혈 처방 (농축적혈구 #단위) — 처방 확인 필요
+52	@ 수혈 처방 — 교차시험 필요
+53	@ 옥시토신 유도분만 중 — 태아 심박 감시 확인
+54	BI-RADS #C (악성 가능성 높음) — 조직검사 권고
+55	BI-RADS #C — 초음파 유도 조직검사 권고
+56	B형간염 #차 접종
+57	B형간염에 의한 간경변, 복수
+58	COPD (만성 폐쇄성 폐질환) #년, 흡연 #갑년, 당뇨 (메트포르민 복용). #일 전부터 숨참·누런 가래, 기침
+59	LD 진통실
+60	SSV 병원 (상급종합, 가상)
+61	SSV 병원 (상급종합병원)
+62	Tc-#m 세스타미비
+63	Virtual Internal Medicine Clinic (Director 김가상)
+64	[SSV병원] 마지막 진료 후 #개월이 지났습니다. 꾸준한 관리가 중요합니다. 예약: # (가상)
+65	※ 교육용 가상 영수증이며 금액은 근사치입니다. 실제 수가와 다릅니다.
+66	간 실질 에코 정상. 담낭벽 두께 정상, 담석 없음. 총담관 확장 없음.
+67	간호부
+68	간호부 교육위원회에서 다음 달까지 제작
+70	갑자기 심한 두통 후 의식 저하
+71	강함
+72	개선 활동 (시스템을 어떻게 바꿀지)
+73	건강보험 · # · 자격 유지
+74	검은 변, 어지러움
+75	검진 수검자
+76	검토 결과 등록
+77	검토 의견
+78	격리실에 있는데 간호사가 장갑을 끼고 와서 다른 환자 얘기를 하며 웃었습니다. 남편이 병균 취급받는 것 같다며 속상해합니다. 격리가 왜 필요한지 제대로 설명도 못 들었습니다.
+79	경고
+80	고객의 소리 (엽서)
+81	고압증기 #℃
+82	고열, 숨참, 혈압 저하
+83	고혈압 (약 불규칙 복용)
+85	고혈압, 만성폐쇄성폐질환. 사흘 전 폐렴으로 응급실 내원 후 패혈성 쇼크로 기관 삽관
+86	고혈압, 심방세동 (약 끊음)
+87	고혈압, 협심증 의심 — 빨리 걸으면 가슴 조임 #개월
+88	고혈압·고지혈증, 계단 오를 때 가슴 조임 #개월 (운동부하검사 양성)
+89	고혈압성 콩팥병, #년 투석 시작. 동정맥루 수술 후 성숙 기다리는 중
+90	골밀도 검사와 함께
+91	골절 없음 — 발목 염좌 의심
+92	골절 없음, 연부조직 부종
+93	공단(보험자) 부담금
+94	관상 선종, 저등급 이형성, 절제 경계 깨끗함
+95	관절염으로 소염진통제 오래 복용, 어제부터 검은 변·어지러움
+96	교통사고 후 오른쪽 발목 통증
+97	교통사고 후 의식 없음
+98	구강 간호 (클로르헥시딘)
+99	구불결장 #cm 줄기 있는 용종 #개 — 올가미로 절제
+100	구불결장 용종: 관상 선종 (저등급), 완전 절제
+101	구불결장암 진단 (#주 전), #일 전 복강경 구불결장 절제술
+102	구토, 두드러기 (#년 CT 검사 때)
+103	국민건강보험공단
+104	규칙적인 진통 (#분 간격)
+105	그람 양성 알균
+106	금식 유지, 수술 전 교육 필요. 통증 재사정.
+107	금식 확인
+108	급성 뇌경색 (왼쪽 중대뇌동맥)
+109	급성 출혈 없음 — 혈전용해제 금기 소견 없음. 왼쪽 중대뇌동맥 경색 의심
+110	급성 충수염 치료함.
+111	급성 흉부 이상 없음
+112	기본 + 위내시경 + 대장내시경
+113	기본 + 위내시경 + 복부초음파
+115	납부 방법
+117	노르에피 #
+118	높은 위험
+119	뇌경색 후 재활
+120	뇌경색 후유증으로 누워 지냄 (#년), 천골부 욕창 #단계, 유치도뇨관·콧줄 영양
+122	담낭벽이 #mm로 두꺼워져 있고, 담낭 경부에 #cm 담석이 끼어 있음. 담낭 주위 액체 고임. 초음파 머피 징후 양성.
+123	당뇨병성 콩팥병으로 #년부터 혈액투석
+124	당일 중증 환자(심정지 #명)가 몰려 경증 환자 대기가 평균 #시간이었고, 대기 중 재평가·안내를 하지 못했습니다.
+125	대기 #시간마다 활력징후 재측정과 예상 대기 시간 안내를 하겠습니다.
+126	대장 용종 — 절제 후 조직검사
+127	대장균 (E. coli) #⁵ 이상 — 세프트리악손 감수성
+128	대장암 수술 위해 입원
+129	대학생 — 수업 시간 피해 오후 연락
+130	도뇨관 유지 필요성 평가함
+131	두개 내 출혈 없음. 왼쪽 중대뇌동맥 영역에 초기 허혈 변화(회백질 경계 소실) 의심.
+132	드레싱 깨끗함, 크기 변화 없음
+133	만성 활동성 위염, 궤양 가장자리, 헬리코박터균 관찰. 이형성·악성 없음
+134	만성폐쇄성폐질환 — 집에서 산소 #L, #형 당뇨 (인슐린)
+135	만족
+136	많음 (#+)
+137	매일 체중 측정
+138	맥버니 압통·반발통
+139	면역분석기 (가상 I-#)
+140	명치 통증 #개월, 아스피린 복용 중 (심혈관 예방)
+141	명치 통증 — 위내시경
+142	명칭
+143	모르핀 #mg 정맥주사 (의사 처방). 무릎 굽힌 편한 자세 도움.
+144	모유 직접
+145	무균 처치 전
+146	무호흡 #초 #회 — 가벼운 자극으로 회복
+147	미숙아
+148	미전송
+149	받은 검체는 회백색의 작은 조직 조각들로, 모두 포매함.
+150	배뇨 정상, 변비 경향
+151	보류
+152	보조 조절 환기 (AC/VC)
+153	보행·모유 수유 교육
+154	보험자 청구처
+155	보호자 체위 변경·영양 교육
+156	보호자(아내)에게 먼저 연락 — 격리 관련 불만 처리 중
+157	복강경 담낭절제술 예정 (일정 확인 중). 흡연력 #갑년.
+158	복강경으로 부은 충수를 절제함. 천공 없음.
+159	분유
+160	불규칙한 관 구조와 세포 덩어리로 기질을 파고드는 이형성 상피세포. 핵 다형성 중등도, 유사분열 증가.
+161	불채택
+162	불편감 적음
+163	브루스 방법, 목표 심박 #%
+164	비위관 #주마다 교체
+165	비타민 K 근육주사
+166	사실 확인·격리 설명 개선 요청
+167	산후회복
+168	상기 환자는 위 병명으로 #부터 입원 치료 중이며, 향후 약 #주간의 안정 가료를 요할 것으로 사료됨.
+169	상기 환자는 위 병명으로 외래 치료 중이며, 향후 약 #주간의 안정 가료를 요할 것으로 사료됨.
+170	상기 환자는 위 병명으로 입원 치료 중이며, 향후 약 #주간 안정 가료가 필요할 것으로 사료됨.
+171	상처 깨끗, 수유 중
+172	상처 통증 #점
+173	생리식염수 #mL에 섞어 #분 이상 정맥 주입
+174	섭취·배설량 측정
+175	손위생
+176	수면 내시경, 조직검사 가능
+177	수면 박탈 뇌파 — 과호흡·광자극 포함
+178	수면 장애 (기침으로)
+179	수분 제한 교육
+180	수술 부위 드레싱 깨끗함, 삼출물 없음. 어지러움 호소, 혈색소 #로 의사에게 알림 → 농축적혈구 #단위 처방 받음. 수혈 동의서 받음.
+181	수술 부위 표시
+182	수술 상처가 잘 아물었고 간호사들이 친절했다고 함
+184	수술 전·후: 급성 충수염
+185	수술 후 #일 호전
+186	수술 후 #일, 호전
+187	수술 후 부종
+188	수술 후 첫 보행 함. 통증 #점.
+190	수축기 혈압 #mmHg 미만 유지
+191	숨참 (#년)
+192	숨참, 다리 부종 #주
+193	숨참·누런 가래 #일 — COPD 급성 악화
+194	식도·위·십이지장 정상 점막
+195	신생아 입원 본인부담 면제
+196	심장 비대 (심흉곽비 #). 양측 폐문부 혈관 음영 증가, 양측 소량 흉수.
+197	심장 크기 경계선. 폐야 깨끗함.
+198	심혈관조영실 #
+199	십이지장 구부 앞벽 #cm 궤양, 바닥에 노출 혈관 (출혈 위험 높음)
+200	아들이 보호자
+201	안연고 (에리스로마이신)
+202	알림 누락
+203	암 산정특례. 혈색소 #로 농축적혈구 #단위 처방 (수혈 동의서 받음).
+204	야간 조명 어두움
+205	약간
+206	약간 (#+)
+207	양성
+208	양쪽 #mm 빛 반사 있음
+209	양측 폐야에 활동성 병변 없음. 심장 크기 정상 범위 (심흉곽비 #). 늑골횡격막각 예리함.
+210	어르신 환자가 많은데 퇴원 안내문 글씨가 작아 다시 설명하는 일이 많습니다. 큰 글씨·그림판을 만들면 좋겠습니다.
+211	어제 저녁부터 배꼽 주위 통증이 오른쪽 아랫배로 옮겨 감
+212	어제 저녁부터 오른쪽 윗배 통증, 구토 #회
+213	어지러움 호소, 수술 부위 깨끗함. 낙상 고위험 #점. 미음 시작.
+214	업무 과다
+215	없음 (공사 현장에서 일하다 다침)
+216	역아
+217	역아 — 예정 제왕절개
+218	역아 하부 자궁 횡절개로 여아 분만 (#g) 출혈 #mL, 합병증 없음
+219	역아로 제왕절개 후 회복 순조
+220	염증 세포 침윤이 약간 있는 정상 조직 구조. 악성 세포 없음.
+221	영상의 오른쪽 = 환자의 왼쪽
+222	예정일 지남 — 유도분만
+223	오늘 # @ 관상동맥 조영술 — 시술 전 준비
+224	오늘 기능검사: @ 운동부하, @ 뇌파, @ 기관지 확장제 반응 폐기능
+225	오늘 아침 병동 채혈 대기 (#A)
+226	오늘 아침 정도관리를 아직 하지 않았습니다 — 환자 검사 전에 정도관리 탭에서 측정하세요
+228	오른쪽 발목 바깥쪽 연부조직 부종. 골절 소견 없음.
+229	오른쪽 속목정맥 중심정맥관 (#일 전 삽입)
+230	오른쪽 속목정맥 투석 도관
+232	오른쪽 요골동맥
+233	오른쪽 윗배
+234	오른쪽 윗배 통증 #~#점, 모르핀 #mg #회 투여함 (새벽 #시경). 소변량 충분.
+235	오른쪽 윗배 통증 #점, 쥐어짜는 양상
+236	오른쪽 팔 근력 #, 다리 #. 앉은 균형 가능, 선 균형 불안
+237	왜 그랬나 (#번 왜? — 근본 원인)
+238	외래 경유
+239	외래 주차장이 오전 #시면 꽉 찹니다. 진료 예약 문자에 대중교통·주차 안내를 같이 보내 주면 좋겠습니다.
+240	외부 위탁 검사(비타민 D)가 포함되어 있었습니다. 처방은 맞았으나 사전 설명이 없었습니다.
+241	왼쪽 노동맥 동맥관 (#일 전 삽입)
+242	왼쪽 유방 #시 방향, 유두에서 #cm 거리에 #×#cm 크기의 불규칙한 저에코 종괴, 후방 음영 동반.
+243	왼쪽 유방 위쪽 바깥 부위에 #cm 크기의 침상(가시 모양) 경계를 가진 고음영 종괴. 미세석회화 동반.
+244	왼쪽 유방 전체 + 종양 자리 추가
+245	왼쪽 유방, 바늘 생검: 침윤성 유관암 (Invasive ductal carcinoma), 조직학적 등급 #
+246	왼쪽 유방암 #기, 수술 후 보조 항암 (AC 요법 #회 중 #회째). 왼팔 쪽은 림프절 절제 — 왼팔 주사·혈압 금지
+247	왼쪽 유방암 — #주 전 유방 부분절제술
+248	왼쪽 중대뇌동맥 영역(기저핵·방사관)에 확산 제한 병변.
+249	왼팔 동정맥루
+250	요청
+251	욕창 드레싱 (폼 드레싱)
+252	욕창 드레싱 주 #회
+253	용종 #개 (#cm)
+254	우하엽에 경화(consolidation) 소견, 공기기관지조영상 동반. 소량의 우측 흉수.
+255	운동부하 후 심근 관류 확인
+256	운동할 때 가슴 조임
+257	운동할 때 가슴 조임 — 예정 관상동맥 조영술
+258	월·수·금
+259	월경 과다, 철결핍 빈혈 (혈색소 #)
+260	위 각부 작은굽이에 #cm 궤양, 깨끗한 흰 바닥. 헬리코박터 검사(CLO) 양성
+261	위 생검 #조각 (각 #cm)
+262	위, 생검: 만성 활동성 위염과 궤양, 헬리코박터 양성, 악성 소견 없음
+263	위관 (유축 모유)
+264	위궤양 (활동기) — 조직검사 #조각, 헬리코박터 제균 치료 필요
+265	위궤양 예방 약 투여
+266	위탁 검사는 처방 때 비용을 안내하도록 진료과에 요청했습니다.
+267	위험 없음
+268	유치도뇨관 #주마다 교체
+269	유치도뇨관 (#일 전 삽입)
+270	육안 소견
+271	응고분석기 (가상 CA-#)
+273	응급! @ ST분절 상승 심근경색 — 응급 중재술 팀 호출 (문에서 풍선까지 #분)
+274	응급실에서 열이 #도인데 #시간 넘게 기다렸고, 왜 늦는지 아무도 알려 주지 않았습니다.
+275	의사소통 가능, 보청기 없음
+276	이모 유방암
+277	이미 낸 금액
+278	이번에 낸 금액
+279	이전 근무자 (의무기록사)
+280	이틀 전 오토바이 사고 — 중증 외상성 뇌손상, 인공호흡기
+281	이틀 전부터 열, 오른쪽 옆구리 통증, 소변 볼 때 따가움
+282	인플루엔자 A 양성
+283	인플루엔자 의심 — 비말 격리 여부 결정
+284	임신 #주 #일, 역아로 예정 제왕절개
+285	입원 생활 안내문 전달, 보호자 #인 상주 가능, 입원 약정서 서명 받음
+286	입원으로 걱정 많음
+287	자궁 단단함, 오로 중간
+288	자궁저부 배꼽 높이에서 단단함, 오로 중간.
+289	자연분만
+290	재태 기간 #주 #일 조산, 제왕절개. 출생 직후 호흡곤란으로 비침습 양압 환기 #시간
+291	재태 기간 #주, 자연분만. 엄마 혈액형 O+
+292	재택 산소 관리 교육
+293	저녁
+294	저위험
+295	전신 두드러기 (#년)
+296	전화 #통이 기다리고 있습니다 — 오래 기다린 전화부터 받으세요
+297	정규 조영술, 협착 있으면 중재술 진행
+298	정맥 혈전 예방
+300	젖은 바닥
+301	제대 깨끗함
+302	제왕절개
+303	조영제 검사 준비: @ 흉부 CT — 당뇨약(메트포르민) 복용, 크레아티닌 #
+304	종합검진 내시경
+305	좌전하행지 근위부 #×#mm 약물방출 스텐트
+306	좌전하행지 중간부 #×#mm 약물방출 스텐트
+307	죽 시작
+308	중간
+309	중등도 통증
+310	중심정맥관 드레싱 깨끗함
+311	쥐어짜는 듯
+312	지난주 처음 경련 #회 (#분, 의식 잃음), 밤샘 공부 뒤
+313	지불보증
+314	진정 목표 RASS -# ~ -#
+315	진통실
+316	진통제 #일분
+317	처리 중인 고객의 소리 #건 — 응급실 답변이 와서 고객에게 회신할 차례입니다
+318	처음 생긴 경련
+319	척추마취 제왕절개
+320	천골부 욕창 #단계 #×#cm, 깊이 #cm, 삼출물 중간
+322	첫 경련 — 구조적 원인 확인
+323	첫 임신, 역아(거꾸로 선 아기)
+324	첫 임신. 임신 #주 #일. 예정일 지나 유도분만
+326	청소 직후 표지판을 세우지 않았습니다.
+327	청소 후 바닥이 마를 때까지 표지판 비치를 의무화했습니다.
+328	체액 노출 후
+331	체위 변경 교육
+332	초음파 유도 중심부 바늘 생검으로 얻은 회백색 원통형 조직 #조각 (각 #~#cm). 모두 포매함.
+334	출혈성 십이지장 궤양 — 에피네프린 주입 + 클립 지혈
+335	충수가 #mm로 부어 있고 주위 지방 침윤
+336	침상 머리 #~#도 올림
+337	코드
+338	통과
+339	통증 #점 이상
+340	통증 점수 #점 이상
+341	통증 조절
+342	통증 줄었음
+344	퇴원 전 기관지 확장제 반응 확인 (안정 후 시행)
+346	퇴원 환자 #명 — 퇴원분석(I) → 진료분석(코딩) → 미비등록 순서로 처리하세요
+347	퇴원할 때 받은 영수증에 받지 않은 검사가 있는 것 같습니다. 설명해 주세요.
+348	투약 알림 확인 절차 교육
+349	특이 과거력 없음. 어머니 고혈압.
+350	특이 과거력 없음. 하루 반 갑 흡연 #년.
+352	파수 — 맑음
+353	판독: 병리과 전문의 민서경 · # #
+354	평균동맥압 # → #에서 #로 올림
+355	평균동맥압 #mmHg 이상 유지되도록 조절
+356	폐 결절 확인 — 조영 증강
+357	폐경 후 골다공증 선별
+358	폐렴구균 (Streptococcus pneumoniae) 자람 — 피페라실린 감수성
+359	폐실질에 결절이나 경화 없음. 종격동 림프절 비대 없음. 흉수 없음.
+360	포기
+361	피부 온도 조절 (#℃)
+362	하부 자궁 횡절개로 여아 분만 (#g)
+363	학회 참석
+365	항암 #차 — 주사실
+366	항암 주사 대기: @ AC #차 — 약제부 조제 확인
+367	항암제 #분 전
+368	항암제 처방 (@) — #인 확인 조제 후 외래 주사실로 불출
+369	핵의학 감마카메라실 #
+370	현재: 밤 근무 마치고 아침 #시 #분에 퇴근하면 셔틀이 #시부터 있습니다. 개선: #시 #분 셔틀 #회 추가. 기대 효과: 야간 근무자 피로·안전사고 감소.
+371	혈당·인슐린 자가 주사 점검
+372	혈색소 # — #시간 안 응급 내시경
+373	혈소판 수치 확인 — 응집 여부
+374	혈액은행 출고되면 수혈 시작 — 처음 #분 이상반응 관찰. 드레싱 하루 #번.
+375	호르몬 수용체·HER# 면역조직화학 염색 진행 예정
+377	화·목·토
+378	화장실 바닥이 젖어 있었는데 미끄럼 주의 표시가 없어 어머니가 넘어질 뻔했습니다.
+379	환자 부담 총액
+380	환자 접촉 전
+381	환자 접촉 후
+382	환자 주변 접촉 후
+383	활력징후 안정
+384	회신서 작성 대상 #명 (@·@) — 의뢰 기관에 회신하세요. @ 회송서 작성 대기

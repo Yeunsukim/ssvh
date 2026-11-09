@@ -1,0 +1,192 @@
+안연고 (에리스로마이신)	Eye ointment (erythromycin)
+알림 누락	Missed notification
+암 산정특례. 혈색소 #로 농축적혈구 #단위 처방 (수혈 동의서 받음).	Cancer copay exemption. Hb # → PRBC # units ordered (transfusion consent obtained).
+야간 조명 어두움	Dim night lighting
+약간	Slight
+약간 (#+)	Slight (#+)
+양성	Positive
+양쪽 #mm 빛 반사 있음	Both # mm, reactive to light
+양측 폐야에 활동성 병변 없음. 심장 크기 정상 범위 (심흉곽비 #). 늑골횡격막각 예리함.	No active lesion in both lung fields. Normal heart size (CTR #). Sharp costophrenic angles.
+어르신 환자가 많은데 퇴원 안내문 글씨가 작아 다시 설명하는 일이 많습니다. 큰 글씨·그림판을 만들면 좋겠습니다.	Many patients are elderly and the discharge handout print is small, so we often re-explain. A large-print, illustrated version would help.
+어제 저녁부터 배꼽 주위 통증이 오른쪽 아랫배로 옮겨 감	Periumbilical pain since last evening migrating to the right lower quadrant
+어제 저녁부터 오른쪽 윗배 통증, 구토 #회	RUQ pain since last evening, vomiting x#
+어지러움 호소, 수술 부위 깨끗함. 낙상 고위험 #점. 미음 시작.	Complains of dizziness, surgical site clean. High fall risk (# pts). Started clear liquids.
+업무 과다	Work overload
+없음 (공사 현장에서 일하다 다침)	None (injured while working at a construction site)
+역아	Breech presentation
+역아 — 예정 제왕절개	Breech — scheduled cesarean section
+역아 하부 자궁 횡절개로 여아 분만 (#g) 출혈 #mL, 합병증 없음	Breech; female infant delivered via low transverse uterine incision (# g), EBL # mL, no complications
+역아로 제왕절개 후 회복 순조	Uneventful recovery after cesarean for breech
+염증 세포 침윤이 약간 있는 정상 조직 구조. 악성 세포 없음.	Normal tissue architecture with mild inflammatory infiltrate. No malignant cells.
+영상의 오른쪽 = 환자의 왼쪽	Image right = patient left
+예정일 지남 — 유도분만	Post-dates — induction of labor
+오늘 # @ 관상동맥 조영술 — 시술 전 준비	Today # @ coronary angiography — pre-procedure preparation
+오늘 기능검사: @ 운동부하, @ 뇌파, @ 기관지 확장제 반응 폐기능	Today function tests: @ stress test, @ EEG, @ bronchodilator-response PFT
+오늘 아침 병동 채혈 대기 (#A)	Ward blood draws pending this morning (#A)
+오늘 아침 정도관리를 아직 하지 않았습니다 — 환자 검사 전에 정도관리 탭에서 측정하세요	This morning QC has not been run — measure it in the QC tab before patient testing
+오늘 투석: @ (오전)	Dialysis today: @ (morning)
+오른쪽 발목 바깥쪽 연부조직 부종. 골절 소견 없음.	Soft-tissue swelling of the lateral right ankle. No fracture.
+오른쪽 속목정맥 중심정맥관 (#일 전 삽입)	Right internal jugular CVC (inserted # days ago)
+오른쪽 속목정맥 투석 도관	Right internal jugular dialysis catheter
+오른쪽 아랫배 통증 하루	Right lower quadrant pain for one day
+오른쪽 요골동맥	Right radial artery
+오른쪽 윗배	Right upper quadrant
+오른쪽 윗배 통증 #~#점, 모르핀 #mg #회 투여함 (새벽 #시경). 소변량 충분.	RUQ pain #–#/10, morphine # mg given x# (around # AM). Adequate urine output.
+오른쪽 윗배 통증 #점, 쥐어짜는 양상	RUQ pain #/10, cramping
+오른쪽 팔 근력 #, 다리 #. 앉은 균형 가능, 선 균형 불안	Right arm strength #, leg #. Sitting balance OK, standing balance unstable
+왜 그랬나 (#번 왜? — 근본 원인)	Why did it happen (# Whys — root cause)
+외래 경유	Via outpatient clinic
+외래 주차장이 오전 #시면 꽉 찹니다. 진료 예약 문자에 대중교통·주차 안내를 같이 보내 주면 좋겠습니다.	The outpatient parking lot is full by # AM. Please include public transit and parking info in appointment texts.
+외부 위탁 검사(비타민 D)가 포함되어 있었습니다. 처방은 맞았으나 사전 설명이 없었습니다.	A send-out test (vitamin D) was included. The order was correct but was not explained beforehand.
+왼쪽 노동맥 동맥관 (#일 전 삽입)	Left radial arterial line (inserted # days ago)
+왼쪽 유방 #시 방향, 유두에서 #cm 거리에 #×#cm 크기의 불규칙한 저에코 종괴, 후방 음영 동반.	Left breast # o-clock, # cm from the nipple: #×# cm irregular hypoechoic mass with posterior shadowing.
+왼쪽 유방 위쪽 바깥 부위에 #cm 크기의 침상(가시 모양) 경계를 가진 고음영 종괴. 미세석회화 동반.	# cm high-density spiculated mass in the left upper outer breast with microcalcifications.
+왼쪽 유방 전체 + 종양 자리 추가	Whole left breast + tumor bed boost
+왼쪽 유방, 바늘 생검: 침윤성 유관암 (Invasive ductal carcinoma), 조직학적 등급 #	Left breast, needle biopsy: invasive ductal carcinoma, histologic grade #
+왼쪽 유방암 #기, 수술 후 보조 항암 (AC 요법 #회 중 #회째). 왼팔 쪽은 림프절 절제 — 왼팔 주사·혈압 금지	Left breast cancer stage #, adjuvant chemo after surgery (AC cycle # of #). Left axillary node dissection — no injections or BP on the left arm
+왼쪽 유방암 — #주 전 유방 부분절제술	Left breast cancer — partial mastectomy # wk ago
+왼쪽 중대뇌동맥 영역(기저핵·방사관)에 확산 제한 병변.	Diffusion-restricting lesion in the left MCA territory (basal ganglia, corona radiata).
+왼팔 동정맥루	Left arm AV fistula
+요청	Request
+욕창 드레싱 (폼 드레싱)	Pressure injury dressing (foam)
+욕창 드레싱 주 #회	Pressure injury dressing # times a week
+용종 #개 (#cm)	Polyp x# (# cm)
+우하엽에 경화(consolidation) 소견, 공기기관지조영상 동반. 소량의 우측 흉수.	Consolidation in the right lower lobe with air bronchograms. Small right pleural effusion.
+운동부하 후 심근 관류 확인	Check myocardial perfusion after stress
+운동할 때 가슴 조임	Chest tightness on exertion
+운동할 때 가슴 조임 — 예정 관상동맥 조영술	Exertional chest tightness — scheduled coronary angiography
+월·수·금	Mon·Wed·Fri
+월경 과다, 철결핍 빈혈 (혈색소 #)	Menorrhagia, iron-deficiency anemia (Hb #)
+위 각부 작은굽이에 #cm 궤양, 깨끗한 흰 바닥. 헬리코박터 검사(CLO) 양성	# cm ulcer on the lesser curvature of the gastric angle, clean white base. CLO test positive
+위 생검 #조각 (각 #cm)	Gastric biopsy # pieces (# cm each)
+위, 생검: 만성 활동성 위염과 궤양, 헬리코박터 양성, 악성 소견 없음	Stomach, biopsy: chronic active gastritis with ulcer, H. pylori positive, no malignancy
+위관 (유축 모유)	Gavage (expressed breast milk)
+위궤양 (활동기) — 조직검사 #조각, 헬리코박터 제균 치료 필요	Gastric ulcer (active stage) — biopsy x#, H. pylori eradication needed
+위궤양 예방 약 투여	Stress-ulcer prophylaxis given
+위탁 검사는 처방 때 비용을 안내하도록 진료과에 요청했습니다.	Asked departments to explain costs of send-out tests when ordering.
+위험 없음	No risk
+유치도뇨관 #주마다 교체	Change Foley catheter every # wk
+유치도뇨관 (#일 전 삽입)	Foley catheter (inserted # days ago)
+육안 소견	Gross findings
+응고분석기 (가상 CA-#)	Coagulation analyzer (virtual CA-#)
+응급 내시경: @ 위장관 출혈 (혈색소 #)	Emergency endoscopy: @ GI bleeding (Hb #)
+응급! @ ST분절 상승 심근경색 — 응급 중재술 팀 호출 (문에서 풍선까지 #분)	Emergency! @ STEMI — cath team activated (door-to-balloon # min)
+응급실에서 열이 #도인데 #시간 넘게 기다렸고, 왜 늦는지 아무도 알려 주지 않았습니다.	With a fever of # degrees we waited over # h in the ER, and nobody told us why it was delayed.
+의사소통 가능, 보청기 없음	Communicates well, no hearing aid
+이모 유방암	Maternal aunt: breast cancer
+이미 낸 금액	Amount already paid
+이번에 낸 금액	Amount paid now
+이전 근무자 (의무기록사)	Previous shift (health information manager)
+이틀 전 오토바이 사고 — 중증 외상성 뇌손상, 인공호흡기	Motorcycle accident 2 days ago — severe TBI, on ventilator
+이틀 전부터 열, 오른쪽 옆구리 통증, 소변 볼 때 따가움	Fever, right flank pain and dysuria for 2 days
+인플루엔자 A 양성	Influenza A positive
+인플루엔자 의심 — 비말 격리 여부 결정	Suspected influenza — decide on droplet precautions
+임신 #주 #일, 역아로 예정 제왕절개	Gestation # wk # d, scheduled cesarean for breech
+입원 생활 안내문 전달, 보호자 #인 상주 가능, 입원 약정서 서명 받음	Gave inpatient guide; # caregiver may stay; admission agreement signed
+입원으로 걱정 많음	Very worried about the admission
+자궁 단단함, 오로 중간	Uterus firm, moderate lochia
+자궁저부 배꼽 높이에서 단단함, 오로 중간.	Fundus firm at the umbilicus, moderate lochia.
+자연분만	Vaginal delivery
+재태 기간 #주 #일 조산, 제왕절개. 출생 직후 호흡곤란으로 비침습 양압 환기 #시간	Preterm at # wk # d, cesarean. Respiratory distress after birth, noninvasive CPAP for # h
+재태 기간 #주, 자연분만. 엄마 혈액형 O+	Gestation # wk, vaginal delivery. Mother blood type O+
+재택 산소 관리 교육	Home oxygen education
+저녁	Evening
+저위험	Low risk
+전신 두드러기 (#년)	Generalized hives (#)
+전화 #통이 기다리고 있습니다 — 오래 기다린 전화부터 받으세요	# calls waiting — answer the longest-waiting first
+정규 조영술, 협착 있으면 중재술 진행	Elective angiography, proceed to PCI if stenosis
+정맥 혈전 예방	VTE prophylaxis
+정상 신생아	Healthy newborn
+젖은 바닥	Wet floor
+제대 깨끗함	Umbilical cord clean
+제왕절개	Cesarean section
+조영제 검사 준비: @ 흉부 CT — 당뇨약(메트포르민) 복용, 크레아티닌 #	Contrast study prep: @ chest CT — on metformin, creatinine #
+종합검진 내시경	Health check-up endoscopy
+좌전하행지 근위부 #×#mm 약물방출 스텐트	Proximal LAD #×# mm drug-eluting stent
+좌전하행지 중간부 #×#mm 약물방출 스텐트	Mid LAD #×# mm drug-eluting stent
+죽 시작	Started soft diet
+중간	Moderate
+중등도 통증	Moderate pain
+중심정맥관 드레싱 깨끗함	CVC dressing clean
+쥐어짜는 듯	Cramping
+지난주 처음 경련 #회 (#분, 의식 잃음), 밤샘 공부 뒤	First seizure last week x# (# min, lost consciousness), after an all-night study session
+지불보증	Payment guarantee
+진정 목표 RASS -# ~ -#	Sedation goal RASS -# to -#
+진통실	Labor room
+진통제 #일분	Analgesics for # days
+처리 중인 고객의 소리 #건 — 응급실 답변이 와서 고객에게 회신할 차례입니다	# VOC cases in progress — ER has answered; time to reply to the customer
+처음 생긴 경련	New-onset seizure
+척추마취 제왕절개	Cesarean under spinal anesthesia
+천골부 욕창 #단계 #×#cm, 깊이 #cm, 삼출물 중간	Sacral pressure injury stage #, #×# cm, depth # cm, moderate exudate
+철분 주사	IV iron
+첫 경련 — 구조적 원인 확인	First seizure — rule out structural cause
+첫 임신, 역아(거꾸로 선 아기)	First pregnancy, breech presentation
+첫 임신. 임신 #주 #일. 예정일 지나 유도분만	First pregnancy. Gestation # wk # d. Induction for post-dates
+청구 대상 명세서 #건 (@, @)	# claim statements to file (@, @)
+청소 직후 표지판을 세우지 않았습니다.	No warning sign was placed right after cleaning.
+청소 후 바닥이 마를 때까지 표지판 비치를 의무화했습니다.	Made it mandatory to keep a sign out until the floor dries after cleaning.
+체액 노출 후	After body fluid exposure
+체온 #, 상처 깨끗	Temp #, wound clean
+체온 #℃	Temp #℃
+체위 변경 교육	Repositioning education
+초음파 유도 중심부 바늘 생검으로 얻은 회백색 원통형 조직 #조각 (각 #~#cm). 모두 포매함.	# gray-white cylindrical cores from US-guided core needle biopsy (#–# cm each). Entirely embedded.
+출혈 #mL, 합병증 없음	EBL # mL, no complications
+출혈성 십이지장 궤양 — 에피네프린 주입 + 클립 지혈	Bleeding duodenal ulcer — epinephrine injection + clip hemostasis
+충수가 #mm로 부어 있고 주위 지방 침윤	Appendix swollen to # mm with periappendiceal fat stranding
+침상 머리 #~#도 올림	Head of bed elevated #–#°
+코드	Code
+통과	Pass
+통증 #점 이상	Pain ≥ #/10
+통증 점수 #점 이상	Pain score ≥ #
+통증 조절	Pain control
+통증 줄었음	Pain decreased
+퇴원 분석 대상: @, @	Discharge analysis targets: @, @
+퇴원 전 기관지 확장제 반응 확인 (안정 후 시행)	Check bronchodilator response before discharge (when stable)
+퇴원 준비	Discharge preparation
+퇴원 환자 #명 — 퇴원분석(I) → 진료분석(코딩) → 미비등록 순서로 처리하세요	# discharged patients — process in order: discharge analysis (I) → coding → deficiency registration
+퇴원할 때 받은 영수증에 받지 않은 검사가 있는 것 같습니다. 설명해 주세요.	The discharge receipt seems to include a test I did not have. Please explain.
+투약 알림 확인 절차 교육	Education on medication alert confirmation steps
+특이 과거력 없음. 어머니 고혈압.	No significant history. Mother has hypertension.
+특이 과거력 없음. 하루 반 갑 흡연 #년.	No significant history. Half a pack a day for # yr.
+특이 사항 없음	Nothing remarkable
+파수 — 맑음	Rupture of membranes — clear fluid
+판독: 병리과 전문의 민서경 · # #	Read by: pathologist 민서경 · # #
+평균동맥압 # → #에서 #로 올림	MAP # → increased from # to #
+평균동맥압 #mmHg 이상 유지되도록 조절	Titrate to keep MAP ≥ # mmHg
+폐 결절 확인 — 조영 증강	Evaluate lung nodule — contrast-enhanced
+폐경 후 골다공증 선별	Postmenopausal osteoporosis screening
+폐렴구균 (Streptococcus pneumoniae) 자람 — 피페라실린 감수성	Streptococcus pneumoniae grew — piperacillin-sensitive
+폐실질에 결절이나 경화 없음. 종격동 림프절 비대 없음. 흉수 없음.	No nodule or consolidation in the lung parenchyma. No mediastinal lymphadenopathy. No pleural effusion.
+포기	Abandoned
+피부 온도 조절 (#℃)	Skin temperature control (#℃)
+하부 자궁 횡절개로 여아 분만 (#g)	Female infant delivered via low transverse uterine incision (# g)
+학회 참석	Conference attendance
+합병증 없음, 출혈 #mL	No complications, EBL # mL
+항암 #차 — 주사실	Chemo cycle # — injection room
+항암 주사 대기: @ AC #차 — 약제부 조제 확인	Chemo pending: @ AC cycle # — confirm pharmacy preparation
+항암제 #분 전	# min before chemo
+항암제 처방 (@) — #인 확인 조제 후 외래 주사실로 불출	Chemo order (@) — #-person check, prepare, then dispense to the outpatient injection room
+핵의학 감마카메라실 #	Nuclear medicine gamma camera room #
+현재: 밤 근무 마치고 아침 #시 #분에 퇴근하면 셔틀이 #시부터 있습니다. 개선: #시 #분 셔틀 #회 추가. 기대 효과: 야간 근무자 피로·안전사고 감소.	Now: leaving at #:# after night shift, the shuttle starts at #. Improvement: add #:# shuttle x#. Expected effect: less fatigue and fewer accidents for night staff.
+혈당·인슐린 자가 주사 점검	Check glucose monitoring and insulin self-injection
+혈색소 # — #시간 안 응급 내시경	Hb # — emergency endoscopy within # h
+혈소판 수치 확인 — 응집 여부	Check platelet count — rule out clumping
+혈액은행 출고되면 수혈 시작 — 처음 #분 이상반응 관찰. 드레싱 하루 #번.	Start transfusion when blood bank releases — watch for reactions in the first # min. Dressing # time a day.
+호르몬 수용체·HER# 면역조직화학 염색 진행 예정	Hormone receptor and HER# IHC staining planned
+호흡 재활 교육	Pulmonary rehabilitation education
+화·목·토	Tue·Thu·Sat
+화장실 바닥이 젖어 있었는데 미끄럼 주의 표시가 없어 어머니가 넘어질 뻔했습니다.	The bathroom floor was wet with no slip warning sign, and my mother almost fell.
+환자 부담 총액	Total patient share
+환자 접촉 전	Before patient contact
+환자 접촉 후	After patient contact
+환자 주변 접촉 후	After touching patient surroundings
+활력징후 안정	Vital signs stable
+회신서 작성 대상 #명 (@·@) — 의뢰 기관에 회신하세요. @ 회송서 작성 대기	# reply letters due (@·@) — reply to referring institutions. @ back-referral letter pending
+흡연 안 함, 음주 안 함	Non-smoker, no alcohol
+2형 당뇨병	Type 2 diabetes mellitus
+가상내과의원	Virtual Internal Medicine Clinic
+원장	Director
+가상내과의원 (@ 원장)	Virtual Internal Medicine Clinic (Director @)
+판독: 병리과 전문의 @ · # #	Read by: pathologist @ · # #
+@ (환자 딸)	@ (patient daughter)
+@ (환자 아내)	@ (patient wife)

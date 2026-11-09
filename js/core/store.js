@@ -38,6 +38,8 @@
       if (!this.db.p6 && H.seed.phase6) { H.seed.phase6(this.db); this.db.p6 = true; this.save(); }
       if (!this.db.p7 && H.seed.phase7) { H.seed.phase7(this.db); this.db.p7 = true; this.save(); }
       if (!this.db.p8 && H.seed.phase8) { H.seed.phase8(this.db); this.db.p8 = true; this.save(); }
+      if (!this.db.p9 && H.seed.phase9) { H.seed.phase9(this.db); this.db.p9 = true; this.save(); }
+      if (!this.db.p10 && H.seed.phase10) { H.seed.phase10(this.db); this.db.p10 = true; this.save(); }
     },
     fix() { COLS.forEach((c) => { if (!Array.isArray(this.db[c])) this.db[c] = []; }); if (!this.db.seq) this.db.seq = { mrn: 1000 }; },
     valid(d) { return !!(d && typeof d === 'object' && Array.isArray(d.patients) && Array.isArray(d.orders) && d.version); },
@@ -77,7 +79,7 @@
     reset() {
       this.backup(true); // 처음 상태로 되돌리기 전 지금 자료를 예비 사본으로
       this.db = H.seed.build(); this.fix();
-      ['phase2', 'phase3', 'phase4', 'phase5', 'phase6', 'phase7', 'phase8'].forEach((k, i) => { if (H.seed[k]) { H.seed[k](this.db); this.db['p' + (i + 2)] = true; } });
+      ['phase2', 'phase3', 'phase4', 'phase5', 'phase6', 'phase7', 'phase8', 'phase9', 'phase10'].forEach((k, i) => { if (H.seed[k]) { H.seed[k](this.db); this.db['p' + (i + 2)] = true; } });
       this.save();
     },
     exportJSON() { return JSON.stringify(this.db); },
